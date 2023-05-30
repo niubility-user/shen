@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/security_total_symbol_keyboard_pay_0" android:paddingLeft="@dimen/wf" android:paddingTop="@dimen/wh" android:paddingRight="@dimen/wg" android:paddingBottom="@dimen/we" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" android:windowEnableSplitTouch="false" android:canRetrieveWindowContent="true">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/wc" android:weightSum="12">
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_1" android:focusable="true" app:security_enlargePopType="left_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_2" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_3" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_4" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_5" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_6" android:focusable="true" app:security_enlargePopType="right_giant" style="@style/vt"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/wc" android:weightSum="12">
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_7" android:focusable="true" app:security_enlargePopType="left_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_8" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_9" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_10" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_11" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_12" android:focusable="true" app:security_enlargePopType="right_giant" style="@style/vt"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/wc" android:weightSum="12">
+        <FrameLayout style="@style/vv">
+            <Button android:id="@+id/r1" android:tag="binding_13" android:padding="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.5dp" android:text="@string/ag1"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_14" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_15" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_16" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <com.jdjr.generalKeyboard.views.TotalKeyView android:tag="binding_17" android:focusable="true" app:security_enlargePopType="middle_giant" style="@style/vt"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vv">
+            <ImageButton android:id="@+id/b8t" android:tag="binding_18" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.5dp" android:contentDescription="@string/a88"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/wc" android:weightSum="3">
+        <FrameLayout android:layout_weight="1" style="@style/vv">
+            <Button android:textSize="@dimen/vz" android:gravity="center" android:id="@+id/b8u" android:tag="binding_19" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.5dp" android:text="@string/oo" android:contentDescription="@string/a8f"/>
+        </FrameLayout>
+        <FrameLayout android:layout_weight="1" style="@style/vv">
+            <Button android:textSize="@dimen/vz" android:gravity="center" android:id="@+id/b8v" android:tag="binding_20" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.5dp" android:text="@string/ob" android:contentDescription="@string/a8c"/>
+        </FrameLayout>
+        <FrameLayout android:layout_weight="1" style="@style/vv">
+            <Button android:textSize="@dimen/vz" android:textColor="@color/q0" android:gravity="center" android:id="@+id/b8w" android:background="@drawable/b16" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.5dp" android:text="@string/om"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

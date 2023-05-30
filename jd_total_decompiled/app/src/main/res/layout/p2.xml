@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="@null" android:layout_width="match_parent" android:layout_height="44dp" android:baselineAligned="false">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="10dp">
+        <ImageView android:id="@+id/aqr" android:paddingLeft="15dp" android:paddingRight="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/azd"/>
+        <ImageView android:id="@+id/am_" android:paddingLeft="15dp" android:paddingRight="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/aw7"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/aqs" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/aqt" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <ProgressBar android:id="@+id/aqu" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_toRightOf="@+id/aqt" android:layout_alignTop="@+id/aqt" android:layout_alignBottom="@+id/aqt" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <include layout="@layout/yf"/>
+    <include layout="@layout/i2"/>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/b2g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp">
+        <ImageView android:id="@+id/aqv" android:background="@drawable/b0a" android:clickable="true" android:layout_width="40dp" android:layout_height="28dp"/>
+        <ImageView android:id="@+id/aqw" android:background="@drawable/b09" android:clickable="true" android:layout_width="40dp" android:layout_height="28dp" android:layout_toRightOf="@+id/aqv"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="127dp">
+    <FrameLayout android:layout_width="87dp" android:layout_height="87dp" android:layout_marginLeft="20dp">
+        <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/bx3" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/bx1" android:background="#ccffffff" android:layout_width="match_parent" android:layout_height="24dp" android:singleLine="true"/>
+    </FrameLayout>
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@+id/bx2" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="测试demo测试demo测试demo测试demo测试demo测试demo"/>
+</LinearLayout>

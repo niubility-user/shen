@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/d0r" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jd.lib.productdetail.mainimage.utils.PdMImagePullToSeekMoreViewPage2 android:id="@+id/d11" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintDimensionRatio="1:1" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/d11" app:layout_constraintLeft_toLeftOf="@+id/d11" app:layout_constraintRight_toRightOf="@+id/d11" app:layout_constraintTop_toTopOf="@+id/d11">
+        <com.jd.lib.productdetail.mainimage.view.PdMainImageTopTagView android:id="@+id/d0z" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/dah" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="52dp" android:fillViewport="true" app:layout_constraintBottom_toBottomOf="@+id/d11" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0">
+        <com.jd.lib.productdetail.mainimage.old.PdMainImageAnchorView android:id="@+id/d0q" android:layout_width="wrap_content" android:layout_height="@dimen/nf" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

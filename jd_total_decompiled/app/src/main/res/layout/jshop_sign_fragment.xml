@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f0f2f5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/jshop_sign_scroll_view" android:background="@color/lx" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.jingdong.common.sample.jshop.ui.JshopSignScratchCard android:id="@+id/jshop_sign_scratchcard_fm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <com.jingdong.common.sample.jshop.ui.JshopSignCircleProgress android:id="@+id/jshop_sign_circleprogressbar_fm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/jshop_sign_lottery_scroll_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.jingdong.common.sample.jshop.ui.VerticalMarqueeTextView android:textSize="12dp" android:textColor="#ffffff" android:id="@+id/jshop_sign_scroll_textview" android:layout_width="match_parent" android:layout_height="45dp" android:singleLine="true"/>
+                    <com.facebook.drawee.view.SimpleDraweeView style="@style/cr"/>
+                    <View android:background="@color/jshop_main_bgcolor" android:layout_width="match_parent" android:layout_height="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/jshop_signup_product_floor" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/jshop_sign_lottery_scroll_layout">
+                <TextView android:textSize="15sp" android:textColor="#252525" android:gravity="center" android:layout_gravity="center" android:clickable="true" android:layout_width="wrap_content" android:layout_height="44dp" android:text="店长钦点商品" android:drawableLeft="@drawable/jshop_sign_icon_shop" android:drawablePadding="5dp"/>
+                <com.facebook.drawee.view.SimpleDraweeView style="@style/cr"/>
+                <com.jingdong.common.ui.JDGridView android:id="@+id/jshop_sign_gridview" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:horizontalSpacing="10dp" android:verticalSpacing="15dp" android:numColumns="2"/>
+                <com.facebook.drawee.view.SimpleDraweeView style="@style/cr"/>
+                <TextView android:textSize="16sp" android:textColor="#666666" android:gravity="center" android:layout_gravity="center" android:id="@+id/jshop_signup_more" android:background="@drawable/jshop_m_all_selector" android:paddingRight="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="44dp" android:text="查看更多" android:drawableRight="@drawable/jshop_more_goods_arrow_normal" android:drawablePadding="5dp"/>
+                <com.facebook.drawee.view.SimpleDraweeView style="@style/cr"/>
+                <View android:background="@color/jshop_main_bgcolor" android:layout_width="match_parent" android:layout_height="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/jshop_sign_failed_layout" android:background="@color/lx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/y_03"/>
+        <TextView android:textSize="17sp" android:textColor="#bfbfbf" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="网络请求失败"/>
+        <TextView android:textSize="13sp" android:textColor="#bfbfbf" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="9dp" android:text="过一会儿再来吧~"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="27dp">
+            <Button android:textSize="14sp" android:textColor="#666666" android:id="@+id/btn_gotoshop" android:text="店铺首页" style="@style/ty"/>
+            <Button android:textSize="14sp" android:textColor="#666666" android:id="@+id/btn_resign" android:layout_marginLeft="20dp" android:text="再试一次" style="@style/ty"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

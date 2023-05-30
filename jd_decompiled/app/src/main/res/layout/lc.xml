@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com     /tools" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b7c" android:layout_width="match_parent" android:layout_height="match_parent" tools:background="@color/p">
+    <FrameLayout android:id="@+id/asa" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/asb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <LinearLayout android:layout_gravity="bottom|center_horizontal" android:orientation="vertical" android:id="@+id/asd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="129dp">
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_horizontal" android:id="@+id/bf4" android:layout_width="83dp" android:layout_height="83dp" android:layout_marginBottom="18dp" android:scaleType="centerCrop" app:roundAsCircle="true"/>
+            <TextView android:textSize="16sp" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="直播结束"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/b46" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/asc" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_horizontal" android:id="@+id/bf5" android:layout_width="41.5dp" android:layout_height="41.5dp" android:layout_marginBottom="18dp" android:scaleType="centerCrop" app:roundAsCircle="true"/>
+            <TextView android:textSize="8sp" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="直播结束"/>
+        </LinearLayout>
+    </FrameLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/as3" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/as4" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b79" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b7_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <FrameLayout android:id="@+id/b6z" android:background="@drawable/aln" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:visibility="visible">
+            <ProgressBar android:layout_gravity="center_vertical" android:layout_width="14dp" android:layout_height="14dp" android:layout_marginRight="9dp" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/all" android:indeterminateBehavior="repeat"/>
+            <TextView android:textSize="16sp" android:textColor="#ffffff" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载中"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/b70" android:background="@drawable/aln" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:visibility="visible">
+            <ProgressBar android:layout_gravity="center_vertical" android:layout_width="7dp" android:layout_height="7dp" android:layout_marginRight="4.5dp" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/alm" android:indeterminateBehavior="repeat"/>
+            <TextView android:textSize="8sp" android:textColor="#ffffff" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载中"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/b7n" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/a3e" android:background="@drawable/alp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/b73" android:background="@drawable/aln" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_gravity="bottom" android:id="@+id/b6y" android:background="@drawable/ali" android:layout_width="match_parent" android:layout_height="229dp"/>
+        <LinearLayout android:layout_gravity="bottom|center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="57dp">
+            <com.jingdong.common.widget.custom.liveplayer.LivePlayerFondAnimView android:layout_gravity="center_horizontal" android:id="@+id/as7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="21dp"/>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/b72" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:layout_gravity="center_vertical" android:id="@+id/b75" android:background="#ffffffff" android:layout_width="79dp" android:layout_height="1dp"/>
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:src="@drawable/avm"/>
+                <TextView android:textSize="16sp" android:textColor="#ffffff" android:id="@+id/b74" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:layout_marginRight="12dp" android:text="观看直播"/>
+                <View android:layout_gravity="center_vertical" android:id="@+id/b76" android:background="#ffffffff" android:layout_width="79dp" android:layout_height="1dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/as5" android:background="@drawable/aln" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="bottom|center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="147dp">
+            <TextView android:textSize="16sp" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载失败，请刷新重试"/>
+            <TextView android:textSize="12sp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/b77" android:background="@drawable/alo" android:layout_width="72dp" android:layout_height="30dp" android:layout_marginTop="15dp" android:text="刷新"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/as6" android:background="@drawable/aln" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/ce2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="8sp" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载失败，\10请刷新重试"/>
+            <TextView android:textSize="8sp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/b78" android:background="@drawable/alo" android:layout_width="43dp" android:layout_height="18dp" android:layout_marginTop="12dp" android:text="刷新"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/bj2" android:background="#33000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@+id/bj3" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="start|bottom" android:id="@+id/as9" android:layout_width="47dp" android:layout_height="match_parent"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="end|bottom" android:id="@+id/as_" android:layout_width="47dp" android:layout_height="match_parent"/>
+    <com.jingdong.common.widget.custom.liveplayer.LivePlayerFondAnimView android:layout_gravity="end|bottom" android:id="@+id/as8" android:layout_width="47dp" android:layout_height="85dp" android:layout_marginBottom="94dp"/>
+    <ImageView android:layout_gravity="end|bottom" android:id="@+id/b71" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:layout_marginBottom="50dp" android:src="@drawable/avn"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/b7b" android:background="@drawable/alq" android:layout_width="wrap_content" android:layout_height="16dp" android:layout_marginLeft="18dp" android:layout_marginBottom="20dp">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:src="@drawable/avp"/>
+        <TextView android:textSize="11sp" android:textColor="#ffffff" android:layout_gravity="center_vertical" android:id="@+id/b7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="6dp" tools:text="8888人观看"/>
+    </LinearLayout>
+</FrameLayout>

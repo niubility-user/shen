@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/ivJoy" android:layout_width="140dp" android:layout_height="140dp" android:layout_marginTop="80dp" android:src="@drawable/safe_mode_joy_cry"/>
+        <TextView android:textSize="16sp" android:textColor="#232326" android:layout_gravity="center_horizontal" android:id="@+id/tvState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/safemode_state_fix"/>
+        <TextView android:textSize="13sp" android:textColor="#232326" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/b5n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:maxWidth="240dp" android:text="@string/safemode_info"/>
+        <Button android:textSize="16sp" android:textColor="@color/safe_mode_btn_textcolor" android:layout_gravity="center_horizontal" android:id="@+id/btnFix" android:background="@drawable/am" android:layout_width="220dp" android:layout_height="40dp" android:layout_marginTop="20dp" android:text="@string/safemode_btn_fix"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14sp" android:textColor="@color/safe_mode_exit_textcolor" android:id="@+id/tvExit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/safemode_exit_app"/>
+        <ImageView android:id="@+id/ivExitArrow" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginLeft="5dp" android:src="@drawable/safe_mode_exit_arrow_selector"/>
+    </LinearLayout>
+</RelativeLayout>

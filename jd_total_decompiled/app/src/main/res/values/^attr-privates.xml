@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <^attr-private name="actionViewId">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="atg_backgroundColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_borderColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_borderStrokeWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="atg_checkedBackgroundColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_checkedBorderColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_checkedMarkerColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_checkedTextColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_dashBorderColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_horizontalPadding">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="atg_horizontalSpacing">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="atg_inputHint">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="atg_inputHintColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_inputTextColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_isAppendMode">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="atg_pressedBackgroundColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_tagHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="atg_tagWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="atg_textColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="atg_textSize">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="atg_verticalPadding">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="atg_verticalSpacing">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="banner_title">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="barColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="barWeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="behindText">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="a0">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="bhs_direction">
+        <item>65536</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="circleFillColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="a3">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="a4">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="a5">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="a6">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="a7">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="completionHighlightColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="completionIgnoreCase">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="completionTextColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="completionTextSize">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="connectingLineColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="connectingLineWeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="cpbBackgroundColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="cpbForegroundColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="cpbMaxAngle">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="cpbNeedAnim">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="cpbNeedShowText">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="cpbProgressTextColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="cpbStartAngle">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="cpbStrokeWidth">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="cpbWholeBackgroundColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="dividWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="an">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="empty_icon">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="empty_message">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="empty_message_text_color">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="empty_message_text_size">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="empty_submessage">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="empty_submessage_text_color">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="empty_submessage_text_size">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="endColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="aw">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="footerStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="frontText">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="headerStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="b0">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="b1">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="b2">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="b3">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="b4">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="isEllipsize">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="isEnable">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="itemHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="itemNumber">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="itemPaddingRight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="itemWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="jshopDropSize">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="jshopLines">
+        <item>65540</item>
+        <item>-1</item>
+    </^attr-private>
+    <^attr-private name="jshop_drawableLeft">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="jshop_drawableRight">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="jshop_drawableTitle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="jshop_textRight">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="jshop_textTitle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="cg">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="do">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="lineColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="listDividerStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="listType">
+        <item>65540</item>
+        <item>2</item>
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="bk">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="bl">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="bm">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="bn">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="bo">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="bp">
+        <item>131072</item>
+        <item>0x3</item>
+        <item>0x1</item>
+        <item>0x2</item>
+        <item>0x0</item>
+    </^attr-private>
+    <^attr-private name="bq">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="maskHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="maxCollapsedLines">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="maxLinesNum">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="max_visible">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="middleColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="middleText">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="bx">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="min_adapter_stack">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="da">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </^attr-private>
+    <^attr-private name="dc">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="dd">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="de">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="df">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="dg">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="dh">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="di">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="dj">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="dk">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="dl">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="dm">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="dn">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="noEmpty">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="normalTextColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="normalTextSize">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="c2">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="offset_step">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="order_icon">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="order_message">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="order_name">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="personalArrowVisible">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="personalBottomVisible">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="personalMessage">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="personalMessageTextColor">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="personalNewIcon">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="personalTitle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="personalTitleIcon">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="personalTopLineVisible">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="pocket_name">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pocket_value">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="recoderTextColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="recoderTextSize">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="dp">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="dq">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="rippleOneColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="rippleThreeColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="rippleTwoColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="rotation_degrees">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="samPriceTextSize">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="scale_step">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="cp">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="selectedTextColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="selectedTextSize">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="cs">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="ct">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="cu">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="show_other_in_bottom">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="show_other_with_alpha">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="cx">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="spaceExtra">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="startColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="tagGroupStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="thumbColorNormal">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="thumbColorPressed">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="thumbImageNormal">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="thumbImagePressed">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="d5">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="tickCount">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="tickHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="toolViewId">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="ui_mode">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </^attr-private>
+    <^attr-private name="unitHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="d_">
+        <item>1</item>
+    </^attr-private>
+</resources>

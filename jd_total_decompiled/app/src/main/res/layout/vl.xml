@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bxl" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/bxk" android:layout_width="match_parent" android:layout_height="66dp">
+        <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/bxn" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:textSize="10sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/bxo" android:background="@drawable/aj4" android:paddingLeft="4dp" android:paddingTop="2dp" android:paddingRight="4dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="平台补贴"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bxq" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/bxo">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#f61800" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥"/>
+                <TextView android:textSize="22sp" android:textStyle="bold" android:textColor="#f61800" android:id="@+id/bxr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0"/>
+            </LinearLayout>
+            <TextView android:textColor="#f67100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="限时专享福利"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/bxp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/bxq">
+            <TextView android:textSize="12sp" android:textColor="#f61800" android:background="@drawable/aj5" android:paddingLeft="6dp" android:paddingTop="2dp" android:paddingRight="6dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无门槛红包"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="100dp" android:layout_height="match_parent" android:layout_marginRight="4dp" android:layout_alignParentRight="true">
+            <TextView android:textSize="14sp" android:textColor="#ffe494" android:id="@+id/bxs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已到账"/>
+            <TextView android:textSize="12sp" android:textColor="#ffffff" android:id="@+id/bxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00后失效"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/bxm" android:background="@drawable/aj3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="66dp"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:id="@+id/bup" android:background="@drawable/bhr" android:paddingBottom="26dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/bv3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp">
+        <TextView android:textSize="15sp" android:textColor="#1a1a1a" android:id="@+id/bvc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="快捷入口"/>
+        <RelativeLayout android:id="@+id/bui" android:paddingTop="3dp" android:paddingRight="21dp" android:paddingBottom="3dp" android:layout_width="50dp" android:layout_height="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/ap_">
+            <ImageView android:background="@drawable/bhk" android:layout_width="10dp" android:layout_height="10dp" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="6dp" android:layout_marginRight="12dp" android:layout_marginBottom="12dp" android:layout_below="@+id/bv3">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/buq" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never"/>
+    </LinearLayout>
+</RelativeLayout>

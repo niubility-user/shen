@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tt">45dp</dimen>
+    <dimen name="tu">90dp</dimen>
+    <dimen name="tv">60dp</dimen>
+    <dimen name="l">30dp</dimen>
+    <dimen name="m">0.5dp</dimen>
+    <dimen name="v4">10dp</dimen>
+    <dimen name="cart_coupon_left_width">125dp</dimen>
+    <dimen name="cart_coupon_right_padding">10dp</dimen>
+</resources>

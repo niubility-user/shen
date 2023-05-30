@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bs9" android:background="@drawable/sm" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/v1" android:gravity="center" android:id="@+id/a70" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <TextView android:textSize="14sp" android:textColor="@color/v1" android:gravity="center" android:id="@+id/aqx" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="14dp" android:layout_marginRight="16dp" android:layout_marginBottom="14dp" android:maxLines="20"/>
+        <EditText android:textSize="14sp" android:textColor="@color/v1" android:gravity="center" android:id="@+id/cek" android:background="@drawable/bml" android:padding="5dp" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="14dp" android:layout_marginRight="16dp" android:layout_marginBottom="14dp" android:minHeight="40dp" android:maxLines="3"/>
+        <View android:background="@color/ug" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+            <TextView android:textSize="16sp" android:textColor="@color/v2" android:gravity="center" android:id="@+id/aqy" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.5"/>
+            <View android:id="@+id/aqz" android:background="@color/ug" android:visibility="gone" android:layout_width="1dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="16sp" android:textColor="@color/uu" android:gravity="center" android:id="@+id/ar0" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

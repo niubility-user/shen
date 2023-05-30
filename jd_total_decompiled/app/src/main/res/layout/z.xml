@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/pc" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="?android:attr/textColorPrimary" android:gravity="center_vertical" android:id="@+id/pd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="2dp" android:drawablePadding="0dp"/>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/pe" android:focusable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:contentDescription="@string/n" style="?attr/c6"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/pf" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_weight="1">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/pg" android:visibility="gone" android:layout_width="@dimen/bh" android:layout_height="wrap_content" android:scaleType="centerInside" style="@style/ao"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ph" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+            <view android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/pi" android:background="@null" android:paddingLeft="@dimen/bi" android:paddingRight="@dimen/bj" android:layout_width="0dp" android:layout_height="36dp" android:singleLine="true" android:layout_weight="1" android:inputType="textNoSuggestions" android:dropDownAnchor="@+id/pf" android:imeOptions="actionSearch" android:dropDownHeight="wrap_content" android:dropDownHorizontalOffset="0dp" android:dropDownVerticalOffset="0dp" class="androidx.appcompat.widget.SearchView$SearchAutoComplete"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/pj" android:background="?attr/c_" android:paddingLeft="8dp" android:paddingRight="8dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:contentDescription="@string/l"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/pk" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/pl" android:background="?attr/c_" android:paddingLeft="16dp" android:paddingRight="16dp" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:contentDescription="@string/o"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/pm" android:background="?attr/c_" android:paddingLeft="16dp" android:paddingRight="16dp" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:contentDescription="@string/p"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

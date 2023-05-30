@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jd.lib.productdetail.mainimage.holder.cf.PdMCfRecommendView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bro" android:padding="@dimen/kv" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/d65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/d60" android:layout_alignRight="@+id/d60">
+        <TextView android:textSize="@dimen/xl" android:textStyle="bold" android:textColor="@color/adr" android:id="@+id/d64" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/xl" android:textColor="@color/ae3" android:id="@+id/d66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lu" android:layout_alignParentRight="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:background="@drawable/c88" android:layout_width="2.4dp" android:layout_height="@dimen/lt" android:layout_marginLeft="4dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/d60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/kx" android:layout_below="@+id/d65">
+        <include android:id="@+id/d61" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/a4g"/>
+        <include android:id="@+id/d62" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kx" layout="@layout/a4g"/>
+        <include android:id="@+id/d63" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kx" layout="@layout/a4g"/>
+    </LinearLayout>
+</com.jd.lib.productdetail.mainimage.holder.cf.PdMCfRecommendView>

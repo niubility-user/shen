@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="about_logo_paddingtop">30dp</dimen>
+    <dimen name="voice_search_keyword_size">20sp</dimen>
+    <dimen name="voice_search_text_size">23sp</dimen>
+    <dimen name="voice_search_tip_size">20sp</dimen>
+</resources>

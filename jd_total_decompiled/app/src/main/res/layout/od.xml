@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.messagepop.JDShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bhm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" app:sl_cornerRadius="8dp" app:sl_shadowRadius="10dp" app:sl_shadowColor="#1a000000">
+    <FrameLayout android:id="@+id/bh0" android:background="@drawable/b4v" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/bh1" android:background="@drawable/b4w" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="11sp" android:textColor="#f2270c" android:gravity="center" android:id="@+id/bh5" android:background="@drawable/b51" android:layout_width="55dp" android:layout_height="25dp" android:layout_marginLeft="8dp" android:text="去看看" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <TextView android:textSize="15sp" android:textColor="#262626" android:ellipsize="end" android:id="@+id/auc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19dp" android:layout_marginBottom="19dp" android:maxLines="2" android:layout_toLeftOf="@+id/bh5" android:layout_below="@+id/aub" android:layout_alignLeft="@+id/aub" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+</com.jingdong.common.messagepop.JDShadowLayout>

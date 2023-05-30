@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RatingBar android:id="@+id/member_score" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginLeft="10dp" android:progressDrawable="@drawable/jshop_member_ratingbar" android:numStars="5" android:stepSize="1" android:isIndicator="true"/>
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/member_level_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="会员"/>
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/member_level" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="会员"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/mem_discout" android:paddingRight="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="9折优惠" android:layout_weight="1"/>
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/mem_tq" android:layout_width="0dp" android:layout_height="wrap_content" android:text="1.5倍积分" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

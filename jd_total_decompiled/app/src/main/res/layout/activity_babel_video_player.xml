@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/babel_video_player_parent" android:background="@color/p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="right" android:id="@+id/babel_video_close_btn" android:clickable="true" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginTop="18dp" android:src="@drawable/aaw" android:scaleType="centerInside" android:onClick="onClickEvent"/>
+</FrameLayout>

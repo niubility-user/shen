@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b0n" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignParentTop="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b0o" android:background="@drawable/ai2" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+        <TextView android:textSize="11sp" android:textColor="@color/lx" android:gravity="center" android:id="@+id/b0p" android:paddingLeft="5.5dp" android:paddingTop="2dp" android:paddingRight="5.5dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginTop="-12dp" android:layout_marginRight="13dp" android:maxLines="1" android:layout_below="@+id/b0n"/>
+        <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/nk" android:id="@+id/b0q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginTop="5dp" android:layout_marginRight="13dp" android:lines="1" android:layout_below="@+id/b0p"/>
+        <TextView android:textSize="13sp" android:textColor="@color/ck" android:id="@+id/b0r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginTop="4dp" android:layout_marginRight="13dp" android:lines="1" android:layout_below="@+id/b0q"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b0s" android:background="@drawable/ai3" android:layout_width="60dp" android:layout_height="22dp" android:layout_marginLeft="13dp" android:layout_marginTop="6dp" android:layout_marginBottom="8dp" android:layout_below="@+id/b0r"/>
+        <include layout="@layout/ji"/>
+        <include layout="@layout/ir"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

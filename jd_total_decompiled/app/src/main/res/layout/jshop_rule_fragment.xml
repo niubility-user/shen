@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/jshop_dynamic_shop_info_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/normal_view" android:background="@color/jshop_dynamic_shop_info_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:background="@color/jshop_dynamic_shop_info_bg" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/jshop_rule_time" android:textStyle="bold" android:textColor="@color/jshop_rule_time" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="44dp" android:text="@string/jshop_rule_time"/>
+            <View style="@style/tz"/>
+            <TextView android:textSize="@dimen/jshop_rule_content" android:textColor="@color/jshop_rule_content" android:id="@+id/rule_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jshop_rule_margin_top" android:text=""/>
+            <TextView android:textSize="@dimen/jshop_rule_time" android:textStyle="bold" android:textColor="@color/jshop_rule_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jshop_rule_margin_top_50" android:text="@string/jshop_rule_award_description"/>
+            <View android:layout_marginTop="10dp" style="@style/tz"/>
+            <TextView android:textSize="@dimen/jshop_rule_content" android:textColor="@color/jshop_rule_content" android:id="@+id/award_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jshop_rule_margin_top" android:text=""/>
+            <TextView android:textSize="@dimen/jshop_rule_time" android:textStyle="bold" android:textColor="@color/jshop_rule_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jshop_rule_margin_top_50" android:text="@string/jshop_rule_activity_description"/>
+            <View android:layout_marginTop="10dp" style="@style/tz"/>
+            <TextView android:textSize="@dimen/jshop_rule_content" android:textColor="@color/jshop_rule_content" android:id="@+id/activity_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jshop_rule_margin_top" android:text=""/>
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@+id/fail_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/jshop_network_fail_layout"/>
+</LinearLayout>

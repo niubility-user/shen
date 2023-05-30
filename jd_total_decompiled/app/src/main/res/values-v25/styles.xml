@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a2" parent="@style/v0">
+    </style>
+    <style name="a3" parent="@style/v1">
+    </style>
+    <style name="v0" parent="@android:style/Theme.Material.NoActionBar">
+    </style>
+    <style name="v1" parent="@android:style/Theme.Material.Light.NoActionBar">
+    </style>
+</resources>

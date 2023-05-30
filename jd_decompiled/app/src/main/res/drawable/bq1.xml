@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/bmf">
+    <target android:name="circle01" android:animation="@drawable/bmg"/>
+    <target android:name="circle02" android:animation="@drawable/bmh"/>
+    <target android:name="circle03" android:animation="@drawable/bmi"/>
+</animated-vector>

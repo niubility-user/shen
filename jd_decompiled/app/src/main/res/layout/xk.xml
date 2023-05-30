@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:id="@+id/bbr" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jd.lib.cashier.sdk.core.ui.CashierItemView android:id="@+id/c_6" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a6q" android:id="@+id/cdw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a03" android:layout_marginBottom="@dimen/a03" android:layout_below="@+id/c_6" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

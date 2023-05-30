@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/dc" android:background="#fff3f5f7" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="?android:attr/listPreferredItemHeight">
+    <RelativeLayout android:id="@+id/ar" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@+id/em" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l" android:src="@drawable/wo"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@+id/d1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/io" android:src="@drawable/wk" android:layout_toRightOf="@+id/em" android:layout_alignTop="@+id/em" android:layout_alignBottom="@+id/em"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@+id/ao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/in" android:src="@drawable/wj" android:layout_toRightOf="@+id/d1" android:layout_alignTop="@+id/d1" android:layout_alignBottom="@+id/d1"/>
+        <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@+id/te" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m" android:layout_alignTop="@+id/ao" android:layout_alignBottom="@+id/ao">
+            <TextView android:textSize="15sp" android:textColor="#ff878787" android:id="@+id/dd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/k6" android:layout_centerInParent="true"/>
+            <TextView android:textSize="12sp" android:textColor="#ff9e9e9e" android:id="@+id/do" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_below="@+id/dd" android:layout_alignLeft="@+id/dd" android:layout_alignRight="@+id/dd"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

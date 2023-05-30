@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/d70" android:background="@color/a74" android:paddingLeft="@dimen/a0j" android:paddingRight="@dimen/zy" android:paddingBottom="@dimen/a03" android:layout_width="match_parent" android:layout_height="@dimen/a29" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <LinearLayout android:gravity="bottom|right" android:layout_gravity="bottom|right" android:id="@+id/d71" android:layout_width="match_parent" android:layout_height="@dimen/a28">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/d72" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/beb" android:layout_width="match_parent" android:layout_height="@dimen/a28">
+                <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/aft" android:id="@+id/d7e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a06" android:text="@string/asy" android:includeFontPadding="false"/>
+                <ImageView android:id="@+id/d7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bm7"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

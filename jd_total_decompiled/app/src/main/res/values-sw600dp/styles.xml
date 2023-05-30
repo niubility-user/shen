@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="b" parent="@style/ev">
+        <item name="me">lq</item>
+        <item name="mf">l5</item>
+    </style>
+</resources>

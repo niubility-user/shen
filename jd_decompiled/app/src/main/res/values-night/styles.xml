@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f" parent="@style/gz">
+    </style>
+    <style name="g" parent="@style/gz">
+    </style>
+    <style name="h" parent="@style/h1">
+    </style>
+    <style name="i" parent="@style/h2">
+    </style>
+    <style name="j" parent="@style/h3">
+    </style>
+    <style name="k" parent="@style/h4">
+    </style>
+    <style name="l" parent="@style/hb">
+    </style>
+    <style name="zx" parent="@style/hk">
+    </style>
+</resources>

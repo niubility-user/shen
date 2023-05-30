@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/apt" android:background="@android:color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="275dp">
+        <ImageView android:layout_gravity="right" android:id="@+id/apu" android:padding="9dp" android:layout_width="31dp" android:layout_height="31dp" android:src="@drawable/a7v"/>
+        <ImageView android:layout_width="81.5dp" android:layout_height="80dp" android:layout_marginTop="19dp" android:src="@drawable/a7y"/>
+        <TextView android:textSize="17sp" android:textColor="#848689" android:id="@+id/apv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:text="@string/gm"/>
+        <TextView android:textSize="14sp" android:textColor="#bfbfbf" android:id="@+id/apw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/gn"/>
+        <TextView android:textSize="14sp" android:textColor="#686868" android:gravity="center" android:id="@+id/apx" android:layout_width="127dp" android:layout_height="34dp" android:layout_marginTop="30dp" android:text="@string/go"/>
+    </LinearLayout>
+</merge>

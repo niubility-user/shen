@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cardBackgroundColor="@color/lx" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <RelativeLayout android:id="@+id/b3w" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/cer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="80dp" android:layout_alignParentBottom="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b3x" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/blx" android:background="@drawable/lu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginBottom="-4dp" android:layout_alignBottom="@+id/b3x">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/blw" android:layout_width="12dp" android:layout_height="12dp"/>
+            <TextView android:textSize="9sp" android:textColor="#8a2ee6" android:id="@+id/bly" android:paddingLeft="3dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        </LinearLayout>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/ame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.5dp" android:layout_marginLeft="6dp" android:layout_marginTop="6dp"/>
+        <View android:id="@+id/bfd" android:layout_width="match_parent" android:layout_height="28dp" android:layout_alignBottom="@+id/b3x"/>
+        <TextView android:textSize="11sp" android:textColor="@color/lx" android:ellipsize="end" android:gravity="center" android:id="@+id/b40" android:background="#7ff0250f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="22dp" android:singleLine="true" android:layout_alignBottom="@+id/b3x"/>
+        <ViewStub android:id="@+id/blf" android:layout="@layout/rp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-1dp" android:layout_alignBottom="@+id/b3x"/>
+        <ViewStub android:id="@+id/bau" android:layout="@layout/j5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignBottom="@+id/b3x"/>
+        <ImageView android:id="@+id/b41" android:visibility="gone" android:layout_width="30dp" android:layout_height="30dp" android:layout_alignBottom="@+id/b3x" android:layout_alignParentRight="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bwo" android:visibility="gone" android:layout_width="30dp" android:layout_height="30dp" android:layout_alignTop="@+id/b3x" android:layout_alignParentRight="true"/>
+        <include android:layout_width="match_parent" android:layout_height="100dp" android:layout_alignBottom="@+id/b3x" layout="@layout/ep"/>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/a0u"/>
+        <ImageView android:id="@+id/b42" android:paddingLeft="16dp" android:paddingTop="4dp" android:paddingRight="4dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a9g" android:layout_alignParentRight="true" android:contentDescription="不感兴趣"/>
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@+id/b3x" android:layout_alignParentRight="true" layout="@layout/ly"/>
+        <com.jingdong.common.recommend.ui.AutoWarpTextView android:textSize="14sp" android:textColor="@color/cc" android:id="@+id/axj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="4dp" android:layout_marginRight="10dp" android:maxLines="2" android:minLines="2" android:layout_below="@+id/b3x" android:lineSpacingExtra="2dp"/>
+        <com.jingdong.common.recommend.forlist.RecomLayoutMaxLines android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b0c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="4dp" android:layout_marginRight="5dp" android:layout_below="@+id/axj"/>
+        <RelativeLayout android:id="@+id/ceo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/b0c">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/cem" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+            <RelativeLayout android:id="@+id/b44" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="1dp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/qa" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="24dp">
+                    <LinearLayout android:gravity="bottom" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="12sp" android:textColor="#fa2c19" android:ellipsize="end" android:id="@+id/axk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+                        <TextView android:id="@+id/ceu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:singleLine="true" android:includeFontPadding="false"/>
+                        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/cel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="12dp" android:layout_marginRight="10dp" android:layout_marginBottom="2dp"/>
+                        <TextView android:textSize="12dp" android:id="@+id/daw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp"/>
+                        <include android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="3dp" layout="@layout/fw"/>
+                    </LinearLayout>
+                    <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/axl" android:focusable="false" android:visibility="gone" android:layout_width="39dp" android:layout_height="21dp" android:layout_marginBottom="1dp"/>
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b47" android:focusable="false" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="12dp"/>
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bp3" android:visibility="gone" android:layout_width="56dp" android:layout_height="25dp" android:scaleType="fitEnd"/>
+                </LinearLayout>
+                <TextView android:textSize="10sp" android:textColor="#666766" android:id="@+id/qb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_below="@+id/qa"/>
+            </RelativeLayout>
+            <TextView android:textSize="11sp" android:textColor="@color/cd" android:ellipsize="end" android:id="@+id/b48" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="5dp" android:singleLine="true" android:includeFontPadding="false" android:drawablePadding="1dp" android:layout_below="@+id/b44"/>
+            <TextView android:textSize="7sp" android:ellipsize="end" android:id="@+id/b49" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_marginRight="12dp" android:lines="1" android:includeFontPadding="false" android:layout_toRightOf="@+id/b48" android:layout_alignBaseline="@+id/b48"/>
+        </RelativeLayout>
+        <android.widget.Space android:id="@+id/d_e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="3dp" android:layout_below="@+id/ceo"/>
+        <com.jingdong.common.recommend.forlist.RecomLayoutMaxLines android:orientation="horizontal" android:id="@+id/b4_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="5dp" android:layout_marginBottom="3dp" android:layout_below="@+id/d_e"/>
+        <View android:layout_width="match_parent" android:layout_height="6dp" android:layout_below="@+id/b4_"/>
+        <RelativeLayout android:gravity="center_vertical" android:id="@+id/c5e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginLeft="10dp" android:layout_marginTop="3dp" android:layout_marginRight="10dp" android:layout_marginBottom="12dp" android:layout_below="@+id/b4_">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/c5d" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_centerHorizontal="true" app:roundedCornerRadius="4dp"/>
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="#c25900" android:gravity="center_vertical" android:id="@+id/c5c" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:lines="1" android:includeFontPadding="false" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a2k" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:layout_marginRight="10dp" android:layout_marginBottom="12dp" android:layout_below="@+id/c5e">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="12sp" android:textColor="@color/qm" android:ellipsize="end" android:id="@+id/a2l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:maxLines="1" android:maxLength="9" android:layout_weight="1"/>
+                <TextView android:textSize="12sp" android:textColor="@color/qm" android:id="@+id/a2i" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/a2m" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.5dp" android:src="@drawable/uo"/>
+        </LinearLayout>
+        <include android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginLeft="10dp" android:layout_marginTop="5.5dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:layout_below="@+id/b4_" layout="@layout/dx"/>
+        <ViewStub android:id="@+id/d6e" android:layout="@layout/a5q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="2.5dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:layout_below="@+id/b4_"/>
+        <RelativeLayout android:id="@+id/b4e" android:background="#1a000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="15sp" android:textColor="@color/lx" android:gravity="center" android:id="@+id/b4f" android:background="@drawable/h6" android:layout_width="87dp" android:layout_height="30dp" android:layout_marginTop="43dp" android:text="@string/kf" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/b4g" android:background="@color/hu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include layout="@layout/ji"/>
+        <include layout="@layout/ir"/>
+        <include layout="@layout/du"/>
+    </RelativeLayout>
+    <include layout="@layout/oh"/>
+</androidx.cardview.widget.CardView>

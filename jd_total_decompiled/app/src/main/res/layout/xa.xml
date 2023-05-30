@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/c74" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-10dp" android:minHeight="170dp">
+    <View android:id="@+id/c78" android:layout_width="match_parent" android:layout_height="@dimen/zy"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/c73" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14sp" android:gravity="center" android:id="@+id/c7p" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:includeFontPadding="false"/>
+        <TextView android:textSize="20sp" android:gravity="center" android:id="@+id/c75" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:includeFontPadding="false"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/c52" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a05" android:layout_marginBottom="@dimen/a05">
+            <TextView android:textSize="@dimen/a0y" android:gravity="center" android:id="@+id/c53" android:paddingRight="@dimen/a0v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ajc" android:includeFontPadding="false"/>
+            <com.jd.lib.cashier.sdk.core.ui.widget.SecondCountDownView android:gravity="center" android:id="@+id/c51" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

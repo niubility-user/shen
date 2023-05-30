@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.rvc.view.RvcDialog4View xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/a8z" android:layout_width="260dp" android:layout_height="75dp" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/a8z" android:layout_centerHorizontal="true">
+        <EditText android:textSize="@dimen/jj" android:textColor="@color/dk" android:textColorHint="@color/fu" android:gravity="center_vertical" android:id="@+id/a90" android:background="@drawable/fi" android:paddingLeft="@dimen/jf" android:focusable="true" android:layout_width="@dimen/iw" android:layout_height="@dimen/is" android:layout_marginTop="@dimen/it" android:hint="@string/li" android:imeOptions="actionDone"/>
+        <TextView android:textSize="@dimen/ji" android:textColor="@color/a" android:gravity="center_vertical" android:id="@+id/a91" android:paddingLeft="1dp" android:layout_width="@dimen/iw" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jl" android:text="sgdgfdg"/>
+    </LinearLayout>
+</com.jingdong.common.rvc.view.RvcDialog4View>

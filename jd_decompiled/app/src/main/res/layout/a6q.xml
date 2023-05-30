@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/zn" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.unification.title.theme.JdThemeTitle android:id="@+id/jy" android:layout_width="match_parent" android:layout_height="wrap_content" app:left1_drawable_id="back" app:status_bar_hint="true" app:custom_open="false" app:title_gray_bg="true"/>
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="16dp" android:src="@drawable/a32"/>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/a06" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="定位授权"/>
+    <TextView android:textColor="@color/a06" android:layout_gravity="center_horizontal" android:id="@+id/d9s" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="12dp" android:layout_marginRight="32dp" android:text="获取当前位置，提供与位置相关的功能/服务与搜索/ 推荐结果，您可以单独设置是否允许以下功能使用该 权限，也可以前往系统设置更改对京东的整体授权"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/a0k" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="36dp"/>
+</LinearLayout>

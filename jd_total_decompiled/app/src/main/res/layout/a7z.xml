@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/dct" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/dcs" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="26dp" fresco:placeholderImage="@drawable/bz9"/>
+    <TextView android:textSize="13sp" android:textColor="#ff1c2229" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/dcy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="表情" android:shadowRadius="3"/>
+    <TextView android:textSize="13sp" android:textColor="#ff1c2229" android:layout_gravity="center" android:id="@+id/dcr" android:background="@drawable/byb" android:paddingLeft="17dp" android:paddingTop="@dimen/a2s" android:paddingRight="17dp" android:paddingBottom="@dimen/a2r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="下载" android:shadowRadius="3"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/dcx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <ProgressBar android:id="@+id/dcw" android:layout_width="60dp" android:layout_height="7dp" android:max="100" android:progressDrawable="@drawable/bye" style="?android:attr/progressBarStyleHorizontal"/>
+        <TextView android:textSize="13sp" android:textColor="#ff000000" android:layout_gravity="center" android:id="@+id/dcv" android:paddingLeft="17dp" android:paddingTop="@dimen/a2s" android:paddingRight="17dp" android:paddingBottom="@dimen/a2r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:shadowRadius="3"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:orientation="vertical" android:id="@+id/dcu" android:visibility="gone" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginTop="10dp" android:src="@drawable/c9p"/>
+</LinearLayout>

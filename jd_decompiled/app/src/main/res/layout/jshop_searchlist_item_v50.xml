@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/jshop_split_line" style="@style/tz"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/jshop_search_item_head" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="61dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="10dp">
+            <TextView android:textSize="10dp" android:textColor="@drawable/jshop_white" android:gravity="center_horizontal" android:layout_gravity="top|center_horizontal" android:id="@+id/jshop_list_item_jdshop" android:background="@drawable/asq" android:paddingTop="1dp" android:visibility="gone" android:layout_width="51dp" android:layout_height="17dp" android:text="@string/jshop_jd_self"/>
+            <com.jingdong.common.sample.jshop.ui.UiModeLinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/jshop_search_item_icon" android:background="@drawable/jshop_icon_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/jshop_list_item_logo" android:padding="1px" android:layout_width="90dp" android:layout_height="30dp"/>
+            </com.jingdong.common.sample.jshop.ui.UiModeLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_weight="1">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp">
+                <TextView android:textSize="14dp" android:textColor="#232326" android:ellipsize="end" android:id="@+id/jshop_list_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="蓝莓儿外贸服装店" android:lines="1"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/jshop_list_icons" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="10dp" android:textColor="@drawable/jshop_white" android:gravity="center" android:id="@+id/jshop_list_item_new" android:background="@drawable/g1" android:paddingLeft="1dp" android:paddingRight="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="上新" android:includeFontPadding="false"/>
+                    <TextView android:textSize="10dp" android:textColor="@drawable/jshop_white" android:gravity="center" android:id="@+id/jshop_list_item_quan" android:background="@drawable/g0" android:paddingLeft="1dp" android:paddingRight="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="券" android:includeFontPadding="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/jshop_list_rating_lay" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.jingdong.common.ui.ShopRatingBar android:id="@+id/jshop_head_srb" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="12dp" android:textColor="@color/jshop_search_shop_list_item_favo" android:ellipsize="end" android:id="@+id/jshop_list_item_favorite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="7dp" android:text="2.5万人关注" android:lines="1"/>
+                <TextView android:textSize="12dp" android:textColor="@color/jshop_search_shop_list_item_favo" android:ellipsize="end" android:id="@+id/jshop_list_item_score" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="综合评分9.8" android:lines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <com.jingdong.common.sample.jshop.ui.UiModeLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/jshop_search_item_to_shop" android:background="@drawable/jshop_button_a_01" android:layout_width="45dp" android:layout_height="17dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+            <TextView android:textSize="11dp" android:textColor="@color/x" android:gravity="center" android:id="@+id/goto_shop_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="进店"/>
+        </com.jingdong.common.sample.jshop.ui.UiModeLinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/jshop_split_line_1" style="@style/tz"/>
+    <include android:id="@+id/item_product_lay" android:visibility="visible" layout="@layout/jshop_searchlist_item_product"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/item_product_padding" android:background="#f0f2f5" android:layout_width="match_parent" android:layout_height="10dp">
+        <View android:id="@+id/jshop_split_line_2" style="@style/tz"/>
+    </LinearLayout>
+</LinearLayout>

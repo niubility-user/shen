@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/hu" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/azw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/azx" android:visibility="visible" android:layout_width="40dp" android:layout_height="40dp" android:minHeight="40dp"/>
+        <TextView android:textSize="15sp" android:textColor="#232326" android:layout_gravity="center_vertical" android:id="@+id/azy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:lines="1"/>
+    </LinearLayout>
+    <View android:id="@+id/azz" android:background="@color/hu" android:layout_width="match_parent" android:layout_height="3dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <ViewStub android:id="@+id/b00" android:layout="@layout/ev" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        <View android:background="@color/hu" android:layout_width="3dp" android:layout_height="match_parent"/>
+        <ViewStub android:id="@+id/b01" android:layout="@layout/ev" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View android:background="@color/hu" android:layout_width="match_parent" android:layout_height="3dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/b02" android:layout="@layout/ev" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        <View android:background="@color/hu" android:layout_width="3dp" android:layout_height="match_parent"/>
+        <ViewStub android:id="@+id/b03" android:layout="@layout/ev" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <include android:id="@+id/b04" layout="@layout/f0"/>
+</LinearLayout>

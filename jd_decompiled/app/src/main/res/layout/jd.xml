@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ff" android:background="@drawable/ea" android:layout_width="match_parent" android:layout_height="@dimen/js">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/js" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/ep" android:paddingLeft="15dp" android:paddingRight="15dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/eq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:layout_marginRight="11dp" android:src="@drawable/a5r" android:scaleType="centerInside" android:layout_alignTop="@+id/ep" android:layout_alignRight="@+id/ep"/>
+        <RelativeLayout android:id="@+id/er" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/eu" android:visibility="gone" android:layout_width="@dimen/js" android:layout_height="@dimen/js" android:scaleType="centerInside"/>
+                    <ImageView android:id="@+id/ew" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:layout_marginRight="11dp" android:src="@drawable/a5r" android:scaleType="centerInside" android:layout_alignTop="@+id/eu" android:layout_alignRight="@+id/eu"/>
+                    <TextView android:textSize="9sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/ex" android:background="@drawable/a8w" android:paddingLeft="3.5dp" android:paddingTop="0dp" android:paddingRight="3.5dp" android:paddingBottom="0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:singleLine="true" android:layout_alignTop="@+id/eu" android:layout_alignRight="@+id/eu"/>
+                </RelativeLayout>
+                <ImageView android:id="@+id/ev" android:visibility="gone" android:layout_width="@dimen/js" android:layout_height="@dimen/js" android:scaleType="centerInside"/>
+            </LinearLayout>
+            <TextView android:textSize="16sp" android:textColor="@color/my" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/es" android:paddingLeft="5dp" android:paddingRight="7dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="34dp" android:layout_marginTop="1dp" android:layout_marginRight="8dp" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <TextView android:ellipsize="marquee" android:gravity="center" android:id="@+id/ez" android:singleLine="true" android:shadowColor="@android:color/transparent" android:layout_centerInParent="true" android:layout_centerVertical="true" style="@style/k4"/>
+        <ImageView android:id="@+id/ey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

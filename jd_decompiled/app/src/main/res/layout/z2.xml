@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="14sp" android:id="@+id/cqa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="外观检测" android:includeFontPadding="false"/>
+    <TextView android:textSize="14sp" android:id="@+id/cqe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:includeFontPadding="false"/>
+    <TextView android:textSize="14sp" android:id="@+id/cqd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+</LinearLayout>

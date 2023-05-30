@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/m1" android:paddingTop="@dimen/m2" android:paddingRight="@dimen/m1" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/lv" android:textColor="@color/xu" android:id="@+id/a43" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/a44" android:layout_alignBottom="@+id/a44"/>
+    <TextView android:textSize="@dimen/lx" android:textColor="@color/xw" android:id="@+id/a44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m1" android:includeFontPadding="false" android:layout_toRightOf="@+id/a43"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/boo" android:visibility="invisible" android:layout_width="31dp" android:layout_height="16dp" android:layout_marginLeft="@dimen/m1" android:layout_toRightOf="@+id/a43"/>
+    <TextView android:textSize="@dimen/lv" android:textColor="@color/xv" android:id="@+id/a45" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ly" android:layout_toRightOf="@+id/a44" android:layout_alignBaseline="@+id/a44" android:layout_alignBottom="@+id/a43"/>
+    <TextView android:textSize="@dimen/lv" android:textColor="@color/xu" android:id="@+id/a46" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ly" android:layout_toRightOf="@+id/a44" android:layout_alignBottom="@+id/a43"/>
+    <TextView android:textSize="@dimen/lv" android:textColor="@color/xv" android:id="@+id/a47" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m0" android:layout_marginTop="5dp" android:layout_toRightOf="@+id/a43" android:layout_below="@+id/a44"/>
+</RelativeLayout>

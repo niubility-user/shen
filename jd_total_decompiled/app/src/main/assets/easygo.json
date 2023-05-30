@@ -1,0 +1,28 @@
+{
+  "easyGoVersion": "1.0",
+  "client": "com.jingdong.app.mall",
+  "logicEntities": [
+    {
+      "head": {
+        "function": "magicwindow",
+        "required": "true"
+      },
+      "body": {
+        "mode":"0",
+        "activityPairs":[
+          {"mainPage":"com.jingdong.app.mall.MainFrameActivity",
+            "relatedPage":"com.jingdong.app.mall.home.activity.MainRightWebActivity"}
+        ],
+        "transActivities":[
+        ],
+        "Activities": [
+          {
+            "name": "com.jd.lib.mylive.view.activity.VideoLiveRoomActivity",
+            "lockSide":"primary"
+          }],
+        "isRelaunchwhenResize":"false",
+        "defSwitch": "full"
+      }
+    }
+  ]
+}

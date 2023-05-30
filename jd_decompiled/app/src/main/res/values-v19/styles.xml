@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="vc" parent="@style/gz">
+        <item name="android:windowBackground">@color/jdpay_pc_primary</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="av">true</item>
+    </style>
+    <style name="m9" parent="@style/gz">
+        <item name="android:windowBackground">@color/wk</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="av">true</item>
+    </style>
+    <style name="zm" parent="@style/zl">
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+    <style name="zn" parent="@style/h1">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="d4">@android:color/transparent</item>
+    </style>
+    <style name="zp" parent="@style/zm">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="d4">@android:color/transparent</item>
+    </style>
+</resources>

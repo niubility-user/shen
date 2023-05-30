@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jd.dynamic.lib.views.skeleton.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cuj" android:layout_width="match_parent" android:layout_height="wrap_content" app:shimmer_duration="1000">
+    <LinearLayout android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:background="#16000000" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <View android:background="#16000000" android:layout_width="match_parent" android:layout_height="14dp" android:layout_marginTop="10dp"/>
+        <View android:background="#16000000" android:layout_width="match_parent" android:layout_height="14dp" android:layout_marginTop="5dp"/>
+        <View android:background="#16000000" android:layout_width="match_parent" android:layout_height="14dp" android:layout_marginTop="5dp"/>
+        <View android:background="#16000000" android:layout_width="match_parent" android:layout_height="14dp" android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</com.jd.dynamic.lib.views.skeleton.shimmer.ShimmerFrameLayout>

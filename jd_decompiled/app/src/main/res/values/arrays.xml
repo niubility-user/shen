@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="o">
+        <item>.</item>
+        <item>,</item>
+        <item>?</item>
+        <item>!</item>
+        <item>\'</item>
+    </array>
+    <array name="p">
+        <item>q w e r t y u i o p</item>
+        <item>a s d f g h j k l</item>
+        <item>none z x c v b n m none</item>
+        <item>123 符 确定</item>
+    </array>
+    <array name="q">
+        <item>1 2 3 4 5 6 7 8 9 0</item>
+        <item>- / : ; ( ) $ &amp; @ \"</item>
+        <item>. , ? ! \' none</item>
+        <item>ABC 符 确定</item>
+    </array>
+    <array name="r">
+        <item>[ ] { } # % ^ * + =</item>
+        <item>_ \\ | ~ &lt; &gt; € £ ¥ ·</item>
+        <item>. , ? ! \' none</item>
+        <item>ABC 123 确定</item>
+    </array>
+    <array name="s">
+        <item>[ ] { } # %</item>
+        <item>^ * + = _ \\</item>
+        <item>none | ~ &lt; &gt; none</item>
+        <item>ABC 123 确定</item>
+    </array>
+    <array name="t">
+        <item>€ £ ¥ • ± x</item>
+        <item>÷ · ° ` ´ ¡</item>
+        <item>none ¢ ¿ © ® none</item>
+        <item>ABC 123 确定</item>
+    </array>
+    <array name="f">
+        <item>layerId</item>
+        <item>logicKey</item>
+        <item>businessID</item>
+    </array>
+    <array name="u">
+        <item>#E-s01</item>
+        <item>#E-s02</item>
+        <item>#E-s03</item>
+        <item>#E-s04</item>
+        <item>#E-s05</item>
+        <item>#E-s06</item>
+        <item>#E-s07</item>
+        <item>#E-s08</item>
+        <item>#E-s09</item>
+        <item>#E-s10</item>
+        <item>#E-s11</item>
+        <item>#E-s12</item>
+        <item>#E-s13</item>
+        <item>#E-s14</item>
+        <item>#E-s15</item>
+        <item>#E-s16</item>
+        <item>#E-s17</item>
+        <item>#E-s18</item>
+        <item>#E-s19</item>
+        <item>#E-s20</item>
+        <item>#E-s21</item>
+        <item>#E-s22</item>
+        <item>#E-s23</item>
+        <item>#E-s24</item>
+        <item>#E-s25</item>
+        <item>#E-s26</item>
+        <item>#E-s27</item>
+        <item>#E-s28</item>
+        <item>#E-s29</item>
+        <item>#E-s30</item>
+        <item>#E-s31</item>
+        <item>#E-s32</item>
+        <item>#E-s33</item>
+        <item>#E-s34</item>
+        <item>#E-s35</item>
+        <item>#E-s36</item>
+        <item>#E-s37</item>
+        <item>#E-s38</item>
+        <item>#E-s39</item>
+        <item>#E-s40</item>
+        <item>#E-s41</item>
+        <item>#E-s42</item>
+        <item>#E-s43</item>
+        <item>#E-s44</item>
+        <item>#E-s45</item>
+        <item>#E-s46</item>
+        <item>#E-s47</item>
+        <item>#E-s48</item>
+        <item>#E-s49</item>
+        <item>#E-s50</item>
+        <item>#E-s51</item>
+        <item>#E-s52</item>
+        <item>#E-s53</item>
+        <item>#E-s54</item>
+        <item>#E-s55</item>
+        <item>#E-s56</item>
+        <item>#E-s57</item>
+        <item>#E-s58</item>
+        <item>#E-s59</item>
+        <item>#E-s60</item>
+        <item>#E-s61</item>
+        <item>#E-s62</item>
+        <item>#E-s63</item>
+        <item>#E-s64</item>
+        <item>#E-s65</item>
+        <item>#E-s66</item>
+        <item>#E-s67</item>
+        <item>#E-s68</item>
+        <item>#E-s69</item>
+        <item>#E-s70</item>
+        <item>#E-s71</item>
+        <item>#E-s72</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_01.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_02.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_03.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_04.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_05.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_06.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_07.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_08.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_09.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_10.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_11.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_12.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_13.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_14.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_15.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_16.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_17.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_18.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_19.png</item>
+        <item>file:///android_asset/joy_smile/ics_sdk_jd_joy_big_20.png</item>
+    </array>
+    <array name="v">
+        <item>爱心</item>
+        <item>安慰</item>
+        <item>鄙视</item>
+        <item>大哭</item>
+        <item>得意</item>
+        <item>蛋糕</item>
+        <item>飞吻</item>
+        <item>愤怒</item>
+        <item>鼓掌</item>
+        <item>鬼脸</item>
+        <item>害羞</item>
+        <item>流汗</item>
+        <item>黑线</item>
+        <item>傲慢</item>
+        <item>奸笑</item>
+        <item>惊讶</item>
+        <item>可怜</item>
+        <item>酷酷</item>
+        <item>礼物</item>
+        <item>憨笑</item>
+        <item>花朵</item>
+        <item>香吻</item>
+        <item>色色</item>
+        <item>生病</item>
+        <item>衰样</item>
+        <item>瞌睡</item>
+        <item>叹气</item>
+        <item>偷笑</item>
+        <item>呕吐</item>
+        <item>调皮</item>
+        <item>微笑</item>
+        <item>悲伤</item>
+        <item>握手</item>
+        <item>问号</item>
+        <item>阴险</item>
+        <item>拥抱</item>
+        <item>眩晕</item>
+        <item>拜拜</item>
+        <item>很棒</item>
+        <item>抓狂</item>
+        <item>白眼</item>
+        <item>闭嘴</item>
+        <item>大兵</item>
+        <item>灯泡</item>
+        <item>电话</item>
+        <item>发呆</item>
+        <item>犯困</item>
+        <item>飞鸟</item>
+        <item>奋斗</item>
+        <item>疯狂</item>
+        <item>尴尬</item>
+        <item>高兴</item>
+        <item>击打</item>
+        <item>饥饿</item>
+        <item>惊恐</item>
+        <item>咖啡</item>
+        <item>可爱</item>
+        <item>可乐</item>
+        <item>口罩</item>
+        <item>骷髅</item>
+        <item>流泪</item>
+        <item>米饭</item>
+        <item>柠檬</item>
+        <item>怒火</item>
+        <item>撇嘴</item>
+        <item>胜利</item>
+        <item>时间</item>
+        <item>太阳</item>
+        <item>咒骂</item>
+        <item>猪猪</item>
+        <item>足球</item>
+        <item>震惊</item>
+        <item>微笑</item>
+        <item>比心</item>
+        <item>委屈</item>
+        <item>疑问</item>
+        <item>擦汗</item>
+        <item>表白</item>
+        <item>亲亲</item>
+        <item>大哭</item>
+        <item>OK</item>
+        <item>干杯</item>
+        <item>生气</item>
+        <item>点赞</item>
+        <item>难受</item>
+        <item>送花</item>
+        <item>叹气</item>
+        <item>沮丧</item>
+        <item>欢迎光临</item>
+        <item>沉思</item>
+        <item>坏笑</item>
+        <item>欢迎再来</item>
+    </array>
+</resources>

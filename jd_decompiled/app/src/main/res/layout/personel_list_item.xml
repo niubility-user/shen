@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/tm" android:padding="10dp" android:layout_width="match_parent" android:layout_height="49dp">
+    <com.facebook.drawee.view.SimpleDraweeView android:textColor="@color/p" android:id="@+id/personel_item_icon" android:visibility="gone" android:layout_width="25dp" android:layout_height="25dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/ia"/>
+    <TextView android:id="@+id/personel_item_text" style="@style/u9"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/personel_item_arrow" style="@style/u7"/>
+    <TextView android:textSize="13sp" android:textColor="#9a9a9a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_toLeftOf="@+id/personel_item_arrow" android:layout_centerVertical="true"/>
+    <TextView android:textSize="13sp" android:textColor="#f0b4b4" android:gravity="center" android:background="@drawable/personel_msg_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_toLeftOf="@+id/personel_item_arrow" android:layout_centerVertical="true"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="3dp" android:layout_marginRight="7dp" android:src="@drawable/android_new_icon" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_toLeftOf="@+id/personel_item_arrow" android:layout_centerVertical="true" android:contentDescription="@string/ia"/>
+</RelativeLayout>

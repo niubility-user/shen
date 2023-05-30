@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/avl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/c9" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+        <ImageView android:id="@+id/b7" android:visibility="gone" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginRight="6dp" android:layout_centerVertical="true"/>
+        <TextView android:textSize="12sp" android:textColor="@color/ck" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/fo" android:paddingRight="20dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_toRightOf="@+id/b7" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/cf" android:paddingLeft="17dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/b7" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginRight="11dp" android:src="@drawable/a5b" android:layout_centerVertical="true"/>
+        <TextView android:textSize="16sp" android:textColor="@color/ck" android:id="@+id/fo" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="京东集团总部" android:shadowRadius="3" android:layout_toRightOf="@+id/b7"/>
+        <TextView android:textSize="12sp" android:textColor="@color/ck" android:id="@+id/fp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="北京市大兴区亦庄经济开发区" android:shadowRadius="3" android:layout_toRightOf="@+id/b7" android:layout_below="@+id/fo"/>
+    </RelativeLayout>
+    <View android:id="@+id/ard" android:background="#26262626" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="16dp" android:layout_marginTop="5dp" android:layout_marginRight="16dp" android:layout_marginBottom="5dp"/>
+</LinearLayout>

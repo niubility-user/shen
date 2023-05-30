@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="@dimen/a2i" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="176">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/d_q" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="88">
+            <com.jingdong.common.recommend.ui.homerecommend.HomeCardMainTitleLayout android:id="@+id/dal" android:layout_width="56dp" android:layout_height="20dp" android:layout_marginLeft="7dp" android:layout_marginTop="3dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <com.jingdong.common.recommend.ui.homerecommend.HomeCardSkuLayout android:id="@+id/db5" android:layout_width="66dp" android:layout_height="66dp" android:layout_marginLeft="13dp" android:layout_marginTop="24dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/d_r" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="88">
+            <com.jingdong.common.recommend.ui.homerecommend.HomeCardMainTitleLayout android:id="@+id/dam" android:layout_width="59dp" android:layout_height="20dp" android:layout_marginLeft="6dp" android:layout_marginTop="3dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <com.jingdong.common.recommend.ui.homerecommend.HomeCardSkuLayout android:id="@+id/db6" android:layout_width="66dp" android:layout_height="66dp" android:layout_marginLeft="9dp" android:layout_marginTop="24dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

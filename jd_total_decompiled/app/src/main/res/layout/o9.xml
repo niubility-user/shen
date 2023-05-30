@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bhl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/bgg" android:layout_width="160dp" android:layout_height="160dp" android:src="@drawable/ac1"/>
+    <TextView android:textSize="@dimen/ex" android:textStyle="bold" android:textColor="@color/aou" android:id="@+id/bgh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    <TextView android:textSize="@dimen/ey" android:textColor="@color/aou" android:gravity="center" android:id="@+id/bgi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:singleLine="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a2t">
+        <com.jingdong.common.widget.button.UnButton android:textSize="12sp" android:gravity="center" android:id="@+id/bge" android:visibility="gone" android:layout_width="72dp" android:layout_height="28dp" android:text="1111" app:unButtonStyleType="22"/>
+        <View android:id="@+id/ddl" android:visibility="gone" android:layout_width="16dp" android:layout_height="28dp"/>
+        <com.jingdong.common.widget.button.UnButton android:textSize="12sp" android:gravity="center" android:id="@+id/bgf" android:visibility="gone" android:layout_width="72dp" android:layout_height="28dp" android:text="1111" app:unButtonStyleType="23"/>
+    </LinearLayout>
+</LinearLayout>

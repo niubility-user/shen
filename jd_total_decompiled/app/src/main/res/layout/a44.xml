@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/wz" android:paddingBottom="@dimen/wz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/d54" android:layout_width="88dp" android:layout_height="88dp"/>
+    <com.jd.lib.productdetail.core.views.PdAutoChangeTextSize android:textSize="@dimen/xn" android:ellipsize="end" android:id="@+id/d56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/te" android:maxLines="2" android:layout_toRightOf="@+id/d54"/>
+    <com.jd.lib.productdetail.core.views.PdAutoChangeTextSize android:textSize="@dimen/xl" android:id="@+id/d57" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/te" android:layout_marginBottom="@dimen/wz" android:text="x" android:layout_toRightOf="@+id/d54" android:layout_alignBaseline="@+id/d55" android:layout_alignBottom="@+id/d54"/>
+    <com.jd.lib.productdetail.core.views.PdAutoChangeTextSize android:textSize="@dimen/xl" android:id="@+id/d55" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/wz" android:text="2" android:layout_toRightOf="@+id/d57" android:layout_alignBottom="@+id/d54"/>
+</RelativeLayout>

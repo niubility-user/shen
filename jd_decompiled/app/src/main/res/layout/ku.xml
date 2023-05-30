@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b7p" android:background="@drawable/uq" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jingdong.discovertask.widget.TaskListTitle android:id="@+id/bnc" android:layout_width="match_parent" android:layout_height="46dp" app:layout_constraintTop_toTopOf="0"/>
+    <com.jingdong.discovertask.widget.MaxHeightRV android:id="@+id/beq" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/bnc"/>
+    <View android:layout_width="match_parent" android:layout_height="20dp" app:layout_constraintTop_toBottomOf="@+id/beq"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

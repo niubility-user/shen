@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/adc" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/d3r" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:textColor="@color/adc" android:id="@+id/cws" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击重新加载" style="@style/fd"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/d3q" android:background="@color/afa" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.jd.lib.productdetail.mainimage.utils.PdMCooTouchImageView android:id="@+id/d3t" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/d3s" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:layout_gravity="center_vertical" android:id="@+id/cwp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/a3v"/>
+    <include android:layout_gravity="center_vertical" android:id="@+id/d3f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/a4m"/>
+    <include android:layout_gravity="center_vertical" android:id="@+id/d26" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/a4r"/>
+    <include android:layout_gravity="center_vertical" android:id="@+id/cxb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/a3z"/>
+    <include android:layout_gravity="center_vertical" android:id="@+id/d1z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/a4h"/>
+    <include android:layout_gravity="center_vertical" android:id="@+id/d20" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/a4j"/>
+    <include android:layout_gravity="center_vertical" android:id="@+id/cxj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/a47"/>
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/cxf" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/d3u" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.jingdong.common.ui.JDProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/d6d" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/cwh" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/c7t" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</FrameLayout>

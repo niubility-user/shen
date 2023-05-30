@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/b7j" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:scrollbarThumbVertical="@drawable/ii" android:scrollbarStyle="insideOverlay" android:id="@+id/amf" android:visibility="gone" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="199.5dp" android:layout_height="match_parent" android:layout_marginTop="44.5dp" android:layout_marginBottom="245dp" android:fillViewport="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fadeScrollbars="false" android:overScrollMode="never">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b7l" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/amg" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14dp" android:textColor="#ff262626" android:gravity="center" android:id="@+id/amh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="@string/n0"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/ami" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp"/>
+        <TextView android:textSize="16dp" android:textColor="#ff262626" android:gravity="center" android:id="@+id/amj" android:layout_width="match_parent" android:layout_height="51dp" android:layout_marginTop="18dp" android:text="@string/a83"/>
+    </LinearLayout>
+</RelativeLayout>

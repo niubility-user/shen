@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bio" android:layout_width="match_parent" android:layout_height="82dp">
+    <com.jingdong.common.ui.AlphaSimpleDraweeView android:layout_gravity="center_vertical" android:id="@+id/biv" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginLeft="18dp" android:layout_marginTop="7dp" android:layout_marginBottom="5dp" app:roundedCornerRadius="6dp"/>
+    <ImageView android:id="@+id/kd" android:visibility="gone" android:layout_width="37dp" android:layout_height="13dp" android:src="@drawable/ama_beta_icon" android:layout_alignRight="@+id/biv" android:layout_alignBottom="@+id/biv"/>
+    <RelativeLayout android:paddingLeft="12dp" android:paddingTop="10dp" android:paddingRight="18dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/biv">
+        <TextView android:textSize="15sp" android:textColor="#262626" android:ellipsize="end" android:id="@+id/bjy" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="12sp" android:textColor="#8c8c8c" android:ellipsize="end" android:id="@+id/bjw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:lines="2" android:layout_below="@+id/bjy"/>
+    </RelativeLayout>
+</RelativeLayout>

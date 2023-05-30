@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/d7h" android:background="@color/a74" android:paddingBottom="@dimen/a03" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/a0u" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d7i" android:paddingLeft="@dimen/a0u" android:paddingRight="@dimen/a0u" android:layout_width="match_parent" android:layout_height="@dimen/a28">
+                <ImageView android:id="@+id/d7n" android:layout_width="@dimen/a03" android:layout_height="@dimen/a03"/>
+                <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/aft" android:ellipsize="end" android:id="@+id/d7o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a0j" android:maxLines="1" android:includeFontPadding="false" android:importantForAccessibility="no"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_gravity="top|right" android:orientation="vertical" android:id="@+id/d7m" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/a0w" android:textColor="@color/a74" android:ellipsize="end" android:id="@+id/d7k" android:background="@drawable/av3" android:paddingLeft="@dimen/a0j" android:paddingTop="@dimen/a06" android:paddingRight="@dimen/a0j" android:paddingBottom="@dimen/a06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:importantForAccessibility="no"/>
+            <ImageView android:id="@+id/d7l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bm_"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

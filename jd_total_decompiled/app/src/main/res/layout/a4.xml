@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bhk" android:tag="layout/security_compoment_verify_code_edittext_0" android:layout_width="match_parent" android:layout_height="60dp">
+    <Button android:textSize="14dp" android:id="@+id/bdp" android:tag="binding_1" android:padding="1px" android:layout_width="104.5dp" android:layout_height="match_parent" android:text="@string/rw" android:layout_toLeftOf="@+id/bdo" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <EditText android:textSize="18dp" android:id="@+id/bdq" android:tag="binding_2" android:background="@null" android:paddingLeft="23dp" android:paddingTop="3dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="请输入验证码" android:layout_toLeftOf="@+id/bdp" android:layout_centerVertical="true" android:textCursorDrawable="@drawable/sb"/>
+</RelativeLayout>

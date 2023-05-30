@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/bbs" android:background="@drawable/yg" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/a03" android:minHeight="@dimen/a03">
+    <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="10sp" android:textStyle="bold" android:textColor="@color/ps" android:gravity="center" android:layout_gravity="center" android:id="@+id/caa" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="    " android:includeFontPadding="false" android:shadowRadius="3"/>
+</LinearLayout>

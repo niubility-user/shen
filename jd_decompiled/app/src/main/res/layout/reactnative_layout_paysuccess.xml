@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/ab8" style="@style/kh">
+        <FrameLayout android:background="@drawable/ea" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="49dp">
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/fe" android:paddingLeft="15dp" android:paddingRight="15dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/e9"/>
+            <TextView android:layout_gravity="center" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单支付成功" android:singleLine="true" style="@style/k4"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <View android:layout_gravity="center" android:background="#c93641" android:visibility="gone" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_marginRight="15dp" android:layout_marginBottom="8dp"/>
+                <TextView android:textSize="@dimen/f4" android:textColor="@color/my" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/activity_paysuccess_title_right_text" android:paddingLeft="15dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="6dp" android:text="完成"/>
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/reactRootViewPaySuccess" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/ab8"/>
+</RelativeLayout>

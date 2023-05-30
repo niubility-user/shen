@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.app.mall.bundle.styleinfoview.views.PDStyleCountView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/ov" android:paddingTop="@dimen/kw" android:paddingBottom="@dimen/wz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jingdong.app.mall.bundle.styleinfoview.views.PdAutoChangeTextSize android:textSize="@dimen/ky" android:textStyle="bold" android:textColor="@color/a3g" android:gravity="center" android:id="@+id/bnn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/acd" android:includeFontPadding="false"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bnl" android:paddingRight="@dimen/kv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bom" android:layout_width="28dp" android:layout_height="24dp" android:contentDescription="@string/abj"/>
+        <EditText android:textSize="@dimen/tf" android:textColor="@color/a3d" android:gravity="center" android:id="@+id/bol" android:background="@color/a3u" android:layout_width="45dp" android:layout_height="24dp" android:inputType="number"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bok" android:layout_width="28dp" android:layout_height="24dp" android:contentDescription="@string/abi"/>
+    </LinearLayout>
+    <com.jingdong.app.mall.bundle.styleinfoview.views.PdAutoChangeTextSize android:textSize="@dimen/kz" android:textColor="@color/a3l" android:gravity="center_vertical" android:id="@+id/bnm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26dp" android:layout_toLeftOf="@+id/bnl"/>
+</com.jingdong.app.mall.bundle.styleinfoview.views.PDStyleCountView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/amx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="200dp" android:src="@drawable/ad7"/>
+        <TextView android:textSize="13dp" android:textColor="#898989" android:id="@+id/amy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/amz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50dp">
+        <com.jingdong.common.ui.JDProgressBar android:gravity="center" android:id="@+id/an0" style="@style/m4"/>
+        <TextView android:textColor="@color/e0" android:gravity="center_vertical" android:id="@+id/an1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/an2" android:paddingTop="10dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+        <TextView android:textSize="12dp" android:textColor="#252525" android:id="@+id/an3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60dp" android:layout_marginRight="3dp" android:text="@string/s3" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/an4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/af6" android:layout_toRightOf="@+id/an3" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/an5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/e0" android:layout_gravity="center" android:id="@+id/an6" android:paddingTop="20dp" android:paddingBottom="17dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="0dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="50dp">
+            <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Debug调试开关" android:layout_centerVertical="true"/>
+            <CheckBox android:id="@+id/ctl" android:background="@drawable/bq3" android:layout_marginRight="10dp" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/zr"/>
+            <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="50dp">
+            <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="使用RN自带调试（摇一摇）" android:layout_centerVertical="true"/>
+            <CheckBox android:id="@+id/ctm" android:background="@drawable/bq3" android:layout_marginRight="10dp" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/zr"/>
+            <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="50dp">
+            <TextView android:textColor="@android:color/black" android:id="@+id/dbl" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="创建模块目录" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <EditText android:textSize="14dp" android:textColor="@android:color/black" android:id="@+id/dbk" android:background="@color/h4" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="JDReactAPIDemos" android:hint="输入模块名称" android:layout_toLeftOf="@+id/dbl" android:layout_centerVertical="true"/>
+            <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/ctv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+                <TextView android:textSize="14dp" android:textColor="@android:color/black" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="打开测试包\10针对三方应用使用jenkins打包，且无扫码功能使用" android:lineSpacingExtra="2dp"/>
+                <EditText android:textSize="14dp" android:textColor="@android:color/black" android:id="@+id/ctr" android:background="@color/h4" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:hint="输入地址"/>
+            </LinearLayout>
+            <TextView android:textSize="14dp" android:textColor="@android:color/holo_blue_dark" android:id="@+id/ctx" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="打开测试包" android:layout_below="@+id/ctv" android:layout_alignParentRight="true"/>
+            <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1px" android:layout_below="@+id/ctx"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/ctu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+                <TextView android:textSize="14dp" android:textColor="@android:color/black" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="本地调试\10需保证手机和电脑处于同一网络\10首次连接先执行 adb reverse tcp:8081 tcp:8081" android:lineSpacingExtra="2dp"/>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="50dp">
+                    <TextView android:textSize="14dp" android:textColor="@android:color/holo_blue_dark" android:id="@+id/cu0" android:padding="10dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:text="更新" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <TextView android:textSize="14dp" android:textColor="@android:color/black" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:text="Host:"/>
+                        <EditText android:textSize="14dp" android:textColor="@android:color/black" android:id="@+id/ctn" android:background="@color/h4" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="30dp" android:layout_marginRight="10dp" android:hint="localhost"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_toLeftOf="@+id/cu0" android:layout_centerVertical="true">
+                        <TextView android:textSize="14dp" android:textColor="@android:color/black" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="Port:"/>
+                        <EditText android:textSize="14dp" android:textColor="@android:color/black" android:id="@+id/ctq" android:background="@color/h4" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="30dp" android:layout_marginRight="10dp" android:hint="8081" android:maxLength="5" android:inputType="number"/>
+                    </LinearLayout>
+                </RelativeLayout>
+                <EditText android:textSize="14dp" android:textColor="@android:color/black" android:id="@+id/cto" android:background="@color/h4" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:hint="输入模块名称" android:singleLine="true" android:inputType="textEmailAddress"/>
+                <EditText android:textSize="14dp" android:textColor="@android:color/black" android:id="@+id/ctp" android:background="@color/h4" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:hint="输入参数" android:imeOptions="actionDone"/>
+            </LinearLayout>
+            <TextView android:textSize="14dp" android:textColor="@android:color/holo_blue_dark" android:id="@+id/cty" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="本地调试" android:layout_below="@+id/ctu" android:layout_alignParentRight="true"/>
+            <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1px" android:layout_below="@+id/cty"/>
+        </RelativeLayout>
+        <TextView android:textSize="14dp" android:textColor="@android:color/holo_blue_dark" android:gravity="center" android:id="@+id/cu5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp" android:text="测试解析"/>
+    </LinearLayout>
+</ScrollView>

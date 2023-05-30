@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="b">16dp</dimen>
+    <dimen name="c">4dp</dimen>
+    <dimen name="d">7dp</dimen>
+    <dimen name="e">5dp</dimen>
+    <dimen name="f">9sp</dimen>
+    <dimen name="personal_user_img_view_height">65dp</dimen>
+    <dimen name="personal_user_img_view_width">65dp</dimen>
+</resources>

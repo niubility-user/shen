@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/bq_" android:background="@drawable/bc4" android:layout_width="match_parent" android:layout_height="88dp" android:layout_marginLeft="@dimen/n4" android:layout_marginRight="@dimen/n4">
+    <RelativeLayout android:id="@+id/bq4" android:background="@drawable/bc5" android:layout_width="86dp" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/xj" android:textColor="@color/lx" android:ellipsize="end" android:id="@+id/bq2" android:paddingLeft="@dimen/i_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/kx" android:lines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/r9" android:textStyle="bold" android:textColor="@color/lx" android:gravity="center" android:id="@+id/bq6" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:layout_above="@+id/bq2" android:layout_centerHorizontal="true" app:autoSizeTextType="uniform" app:autoSizeStepGranularity="1sp" app:autoSizeMinTextSize="@dimen/y1" app:autoSizeMaxTextSize="@dimen/r9"/>
+    </RelativeLayout>
+    <RelativeLayout android:paddingLeft="@dimen/lu" android:paddingTop="@dimen/kv" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/y2" android:textColor="@color/lx" android:gravity="center" android:id="@+id/bq7" android:background="@drawable/bb1" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="wrap_content" android:layout_height="@dimen/n1" android:includeFontPadding="false"/>
+        <TextView android:textSize="@dimen/xl" android:textColor="@color/a46" android:ellipsize="end" android:id="@+id/bq3" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false"/>
+        <TextView android:textSize="@dimen/xj" android:id="@+id/bq1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/mo" android:layout_alignParentBottom="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bpg" android:layout_width="@dimen/x0" android:layout_height="@dimen/x0" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

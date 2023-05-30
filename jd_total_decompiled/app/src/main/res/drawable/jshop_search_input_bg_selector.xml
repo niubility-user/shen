@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/jshop_search_input_bg" app:ui_mode="0"/>
+    <item app:ui_mode="1">
+        <shape android:shape="rectangle">
+            <stroke android:width="1px" android:color="#1d1b1b"/>
+            <corners android:radius="37dp"/>
+            <solid android:color="#302e2e"/>
+        </shape>
+    </item>
+</selector>

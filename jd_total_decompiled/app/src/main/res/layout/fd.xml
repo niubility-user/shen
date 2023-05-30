@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bfe" android:layout_width="@dimen/og" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/ck" android:gravity="center" android:id="@+id/bv" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:includeFontPadding="false"/>
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="130dp" android:layout_height="100dp" android:layout_marginTop="14dp">
+        <com.jingdong.common.widget.UnLottieAnimationView android:id="@+id/boi" android:layout_width="130dp" android:layout_height="100dp"/>
+        <TextView android:textSize="40sp" android:textColor="@color/iy" android:gravity="center" android:id="@+id/bp" android:layout_width="wrap_content" android:layout_height="53dp" android:layout_marginBottom="11dp" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <Button android:layout_gravity="bottom|center_horizontal" android:id="@+id/br" android:layout_width="128dp" android:layout_height="30dp" android:layout_marginTop="14dp" android:layout_marginBottom="16dp" style="@style/x3"/>
+</LinearLayout>

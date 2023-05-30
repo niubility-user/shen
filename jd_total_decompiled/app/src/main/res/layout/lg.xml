@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bc8" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignParentBottom="true"/>
+        <FrameLayout android:id="@+id/bhe" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bca" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop"/>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/bhd" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/bi0" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5"/>
+                <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/bgm" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5"/>
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bhg" android:layout_width="0dp" android:layout_height="0dp" android:scaleType="centerCrop" app:layout_constraintBottom_toTopOf="@+id/bgm" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="@+id/bi0" app:layout_constraintTop_toTopOf="0"/>
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bhi" android:layout_width="0dp" android:layout_height="0dp" android:scaleType="centerCrop" app:layout_constraintBottom_toTopOf="@+id/bgm" app:layout_constraintLeft_toRightOf="@+id/bi0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bhf" android:layout_width="0dp" android:layout_height="0dp" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="@+id/bi0" app:layout_constraintTop_toBottomOf="@+id/bgm"/>
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bhh" android:layout_width="0dp" android:layout_height="0dp" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toRightOf="@+id/bi0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/bgm"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageView android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/arc" android:scaleType="centerCrop" android:layout_alignBottom="@+id/bca"/>
+        </FrameLayout>
+        <TextView android:textSize="12dp" android:textStyle="bold" android:gravity="center" android:id="@+id/bcc" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="@dimen/m9" android:layout_marginTop="6dp" android:layout_marginRight="@dimen/m9" android:lines="1" android:includeFontPadding="false" android:layout_below="@+id/bhe"/>
+        <TextView android:textSize="15dp" android:textStyle="bold" android:id="@+id/bem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m8" android:layout_marginTop="3dp" android:layout_marginRight="@dimen/m8" android:lines="1" android:layout_below="@+id/bcc"/>
+        <TextView android:textSize="14dp" android:id="@+id/bek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m8" android:layout_marginTop="2dp" android:layout_marginRight="@dimen/m8" android:lines="1" android:layout_below="@+id/bem"/>
+        <LinearLayout android:textSize="10dp" android:orientation="horizontal" android:id="@+id/bcb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m9" android:layout_marginTop="4dp" android:layout_below="@+id/bek"/>
+        <include layout="@layout/a5r"/>
+        <include layout="@layout/ld"/>
+    </RelativeLayout>
+    <include layout="@layout/uz"/>
+    <include layout="@layout/oh"/>
+</androidx.cardview.widget.CardView>

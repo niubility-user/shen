@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="#f0f2f5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/recommend_loading_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50dp">
+        <com.jingdong.common.ui.JDProgressBar android:gravity="center" android:layout_width="34dp" android:layout_height="34dp"/>
+        <TextView android:textColor="@color/e0" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/kr"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/recommend_error_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50dp">
+        <TextView android:textColor="@color/e0" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/ks"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/recommend_end_layout" android:paddingTop="15dp" android:paddingBottom="15dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a9j"/>
+        <TextView android:textSize="11dp" android:textColor="@color/f7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ki"/>
+        <TextView android:id="@+id/end_bottom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50dp"/>
+    </LinearLayout>
+</LinearLayout>

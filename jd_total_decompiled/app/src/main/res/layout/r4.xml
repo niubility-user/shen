@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/bk1" android:background="@drawable/b1w" android:layout_width="3dp" android:layout_height="8dp" android:layout_marginLeft="18dp" android:layout_marginTop="28dp"/>
+    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#262626" android:id="@+id/bjz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_marginTop="24dp" android:layout_marginBottom="5dp" android:text="搜索历史" android:includeFontPadding="false" android:layout_toRightOf="@+id/bk1"/>
+    <ImageView android:id="@+id/biw" android:paddingLeft="10dp" android:paddingRight="18dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:src="@drawable/b9j" android:layout_alignParentRight="true" android:contentDescription="删除"/>
+    <com.jd.manto.center.widget.BetterCloudTagView android:id="@+id/biu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="7dp" android:layout_marginRight="18dp" android:layout_below="@+id/bjz" app:lineSpacing="12dp" app:tagSpacing="12dp"/>
+</merge>

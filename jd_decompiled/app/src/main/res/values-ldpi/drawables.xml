@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="bz0">r/ai/bz0.png</drawable>
+    <drawable name="bz1">r/ai/bz1.png</drawable>
+    <drawable name="bz2">r/ai/bz2.png</drawable>
+</resources>

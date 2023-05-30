@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/v0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/p9" android:layout_width="match_parent" android:layout_height="44dp" layout="@layout/pu"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/v5" android:paddingLeft="35dp" android:paddingTop="20dp" android:paddingRight="35dp" android:paddingBottom="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.jingdong.manto.widget.CircleImageView android:id="@+id/ate" android:layout_width="70dp" android:layout_height="70dp" android:src="@drawable/b3b"/>
+        <TextView android:textSize="@dimen/ta" android:textColor="@color/v1" android:id="@+id/atf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="京东小程序"/>
+        <TextView android:textSize="@dimen/t_" android:textColor="@color/v2" android:gravity="center" android:id="@+id/atg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="20dp" android:layout_marginRight="16dp" android:text="京东小程序官方服务，官网mp.jd.com，如有合作意向，可发送至邮箱jd_mp@jd.com" android:lines="3"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/v5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+        <RelativeLayout android:gravity="center_vertical" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="55dp">
+            <TextView android:textSize="@dimen/ta" android:textColor="@color/v1" android:id="@+id/ath" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="服务类目" android:layout_alignParentLeft="true"/>
+            <TextView android:textSize="@dimen/t_" android:textColor="@color/v2" android:ellipsize="end" android:gravity="right" android:id="@+id/ati" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="16dp" android:text="官方服务" android:lines="1" android:layout_toRightOf="@+id/ath" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

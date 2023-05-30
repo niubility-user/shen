@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/y_" android:layout_width="match_parent" android:layout_height="50dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/z7" android:paddingLeft="15dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:layout_width="10.5dp" android:layout_height="18.5dp" android:layout_marginRight="10dp" android:src="@drawable/a0b"/>
+            <TextView android:textSize="16sp" android:textColor="#000000" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="位置信息"/>
+        </LinearLayout>
+        <TextView android:textSize="12sp" android:textColor="#f0250f" android:gravity="center" android:id="@+id/a0y" android:paddingLeft="10dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="确定" android:layout_alignParentRight="true"/>
+        <ImageView android:id="@+id/a0x" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:src="@drawable/af4" android:layout_toLeftOf="@+id/a0y" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/a0w" android:layout_width="match_parent" android:layout_height="280dp">
+        <com.tencent.tencentmap.mapsdk.maps.TextureMapView android:id="@+id/ary" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/a11" android:layout_width="21dp" android:layout_height="33dp" android:src="@drawable/aci" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/a0z" android:paddingRight="15dp" android:paddingBottom="15dp" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/af1" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/z5" android:background="@android:color/white" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#b0b0b0" android:dividerHeight="0.1dp" android:choiceMode="singleChoice"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/a0v" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:progressDrawable="@drawable/ah5" style="@android:style/Widget.Holo.ProgressBar.Large"/>
+    </FrameLayout>
+</LinearLayout>

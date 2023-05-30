@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/c5u" android:paddingLeft="9dp" android:paddingRight="9dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/tf" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.jingdong.app.mall.bundle.dolphinlib.common.view.DolphinPageIndicatorView android:id="@+id/c9p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp"/>
+    </RelativeLayout>
+</LinearLayout>

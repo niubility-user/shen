@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jd.lib.productdetail.mainimage.holder.ask.PdMAskView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/d5p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/d5_" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+    <RelativeLayout android:id="@+id/d2b" android:background="@drawable/bs0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginTop="44dp" android:layout_marginRight="10dp" android:layout_marginBottom="20dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/k0" android:textStyle="bold" android:textColor="@color/adr" android:id="@+id/cxn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="16dp"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/cwn" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ow" android:scaleType="fitCenter" android:maxHeight="170dp" android:layout_below="@+id/cxn" android:layout_centerHorizontal="true"/>
+        <include android:id="@+id/cxo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l2" android:layout_below="@+id/cxn" layout="@layout/a3u"/>
+        <include android:id="@+id/cxp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l2" android:layout_below="@+id/cxo" layout="@layout/a3u"/>
+        <View android:id="@+id/cxm" android:background="@drawable/bsn" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/n8" android:layout_marginRight="@dimen/n8" android:layout_above="@+id/cxl"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/cxl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textColor="@color/ae3" android:ellipsize="end" android:id="@+id/d2x" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:maxLines="1" android:drawableRight="@drawable/c80" android:drawablePadding="4dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.jd.lib.productdetail.mainimage.holder.ask.PdMAskView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.unification.navigationbar.newbar.NavigationIconView android:id="@+id/aun" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.jingdong.common.unification.navigationbar.newbar.RedPointView android:id="@+id/auo" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_gravity="bottom" android:id="@+id/aup" android:background="@color/lu" android:layout_width="match_parent" android:layout_height="@dimen/ho"/>
+    <TextView android:textSize="@dimen/jt" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/xk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/m6" android:importantForAccessibility="no"/>
+</merge>

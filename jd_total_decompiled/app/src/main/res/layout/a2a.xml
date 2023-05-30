@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jd.lib.productdetail.tradein.widget.TradeInOldItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textColor="#1a1a1a" android:ellipsize="end" android:id="@+id/clu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textColor="#808080" android:id="@+id/clv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:includeFontPadding="false" app:layout_constraintLeft_toLeftOf="@+id/clu" app:layout_constraintTop_toBottomOf="@+id/clu"/>
+</com.jd.lib.productdetail.tradein.widget.TradeInOldItem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/new_dialog_bg" android:paddingLeft="13.5dp" android:paddingRight="13.5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="168dp">
+    <TextView android:textSize="15sp" android:textColor="@color/d6" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/cart_dialog_text" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <TextView android:background="#dcdcdc" android:layout_width="match_parent" android:layout_height="1px" android:shadowColor="@color/lx" android:shadowDy="2"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <Button android:textSize="15sp" android:textColor="@color/d6" android:layout_gravity="center_vertical" android:id="@+id/cart_dialog_left" android:background="@drawable/new_dialog_cancle_selector" android:layout_width="wrap_content" android:layout_height="43dp" android:layout_marginRight="8dp" android:maxHeight="43dp" android:text="left" android:layout_weight="1"/>
+        <Button android:textSize="15sp" android:textColor="@color/lx" android:layout_gravity="center_vertical" android:id="@+id/cart_dialog_right" android:background="@drawable/new_dialog_confirm_selector" android:layout_width="wrap_content" android:layout_height="43dp" android:layout_marginLeft="8dp" android:maxHeight="43dp" android:text="right" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

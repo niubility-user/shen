@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/co" android:paddingRight="@dimen/co" android:layout_width="@dimen/i" android:layout_height="match_parent" android:layout_marginLeft="@dimen/cm" android:layout_marginRight="@dimen/cm">
+    <TextView android:textSize="@dimen/dc" android:textColor="@color/dk" android:gravity="center" android:id="@+id/bv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e2" android:text="日期选择"/>
+    <View android:background="@drawable/fh" android:layout_width="match_parent" android:layout_height="2px" android:layout_marginTop="10dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/lx" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.jingdong.common.model.datetime.dateview.WheelView android:id="@+id/a7f" android:background="@color/lx" android:layout_width="100dp" android:layout_height="wrap_content"/>
+        <com.jingdong.common.model.datetime.dateview.WheelView android:id="@+id/a7g" android:background="@color/lx" android:layout_width="80dp" android:layout_height="wrap_content"/>
+        <com.jingdong.common.model.datetime.dateview.WheelView android:id="@+id/a7h" android:background="@color/lx" android:layout_width="80dp" android:layout_height="wrap_content"/>
+        <com.jingdong.common.model.datetime.dateview.WheelView android:id="@+id/a7i" android:background="@color/lx" android:visibility="gone" android:layout_width="80dp" android:layout_height="wrap_content"/>
+        <com.jingdong.common.model.datetime.dateview.WheelView android:id="@+id/mins" android:background="@color/lx" android:visibility="gone" android:layout_width="80dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View android:background="@drawable/fh" android:layout_width="match_parent" android:layout_height="2px" android:layout_marginTop="10dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cj" android:layout_marginBottom="@dimen/ci">
+        <Button android:textSize="16dp" android:textColor="@color/dk" android:id="@+id/br" android:background="@drawable/ay" android:layout_width="@dimen/cg" android:layout_height="@dimen/ce" android:text="完成" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

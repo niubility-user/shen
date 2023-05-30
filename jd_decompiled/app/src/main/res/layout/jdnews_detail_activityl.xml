@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/q0" layout="@layout/fi"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/q0">
+        <RelativeLayout android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/jdnews_detail_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp"/>
+            <TextView android:textColor="#999999" android:id="@+id/jdnews_detail_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_below="@+id/jdnews_detail_title" android:layout_alignLeft="@+id/jdnews_detail_title" android:layout_alignRight="@+id/jdnews_detail_title"/>
+            <View android:id="@+id/divide_line" android:layout_below="@+id/jdnews_detail_time" android:layout_alignLeft="@+id/jdnews_detail_title" android:layout_alignRight="@+id/jdnews_detail_title" style="@style/ls"/>
+            <TextView android:textSize="16dp" android:textColor="#000000" android:autoLink="all" android:id="@+id/jdnews_detail_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_below="@+id/divide_line" android:layout_alignLeft="@+id/jdnews_detail_title" android:layout_alignRight="@+id/jdnews_detail_title"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

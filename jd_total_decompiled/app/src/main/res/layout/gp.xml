@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:id="@+id/b5d" android:paddingLeft="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.jingdong.common.messagecenter.view.AutoScrollTextView android:id="@+id/b5e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+    <com.jingdong.common.messagecenter.view.AutoScrollTextView android:id="@+id/b5f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1px" android:layout_toRightOf="@+id/b5e" android:layout_centerVertical="true"/>
+    <com.jingdong.app.mall.utils.ui.view.JDMultiTextView android:textSize="9sp" android:textColor="#ffffff" android:id="@+id/b5g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" android:layout_toRightOf="@+id/b5f" android:layout_centerVertical="true"/>
+</RelativeLayout>

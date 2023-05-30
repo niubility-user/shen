@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ffffff" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="40dp">
+        <ImageView android:id="@+id/img_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:src="@drawable/article_close" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我要吐槽" android:layout_centerInParent="true"/>
+        <TextView android:enabled="false" android:textSize="16sp" android:textColor="#cccccc" android:id="@+id/txt_publish" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:text="发布" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View android:background="#dfdfdf" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <EditText android:textSize="14sp" android:gravity="top" android:id="@+id/edit_feedback" android:background="#ffffff" android:padding="15dp" android:layout_width="match_parent" android:layout_height="110dp" android:hint="输入对所推内容的反馈意见" android:maxLength="100"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/aa0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/aa1" android:visibility="gone" android:clickable="true" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="35dp" android:layout_marginBottom="30dp" android:src="@drawable/a61" android:onClick="recordOnClickEvent"/>
+    <ImageView android:layout_gravity="bottom|right" android:id="@+id/aa2" android:visibility="gone" android:clickable="true" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginRight="35dp" android:layout_marginBottom="30dp" android:src="@drawable/a63" android:onClick="recordOnClickEvent"/>
+    <com.jingdong.common.jdreactFramework.utils.video.TapRecordView android:layout_gravity="bottom|center_horizontal" android:id="@+id/aa3" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginBottom="28dp"/>
+    <FrameLayout android:id="@+id/aa4" android:background="#e5232326" android:clickable="true" android:layout_width="match_parent" android:layout_height="60dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/fe" android:padding="15dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a67" android:onClick="recordOnClickEvent"/>
+        <TextView android:textSize="17sp" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@+id/aa5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fs"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/aa6" android:padding="15dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a62" android:onClick="recordOnClickEvent"/>
+    </FrameLayout>
+    <com.jingdong.common.jdreactFramework.utils.video.RecordProgressView android:id="@+id/aa7" android:layout_width="match_parent" android:layout_height="12dp" android:layout_marginTop="55dp"/>
+</FrameLayout>

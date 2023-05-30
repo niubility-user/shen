@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/item_pd_1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/item_img_1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="15dp" android:textColor="@color/jshop_dynamic_item_shop_not_recommend" android:gravity="center" android:id="@+id/item_mask_1" android:background="@drawable/jshop_dynamic_circle_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="13dp" android:textColor="#252525" android:ellipsize="end" android:id="@+id/item_des_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginBottom="10dp" android:text="宝宝们不要错过哦，一定要记住哦！！！6月6日上午准时开抢！！！" android:lines="2"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/item_price_view_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+            <TextView android:textSize="15dp" android:textColor="#252525" android:ellipsize="end" android:id="@+id/jd_price_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥79" android:singleLine="true"/>
+            <TextView android:textSize="10dp" android:textColor="#999999" android:ellipsize="end" android:id="@+id/market_price_1" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="￥99" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/item_pd_2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_weight="1">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/item_img_2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="15dp" android:textColor="@color/jshop_dynamic_item_shop_not_recommend" android:gravity="center" android:id="@+id/item_mask_2" android:background="@drawable/jshop_dynamic_circle_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="13dp" android:textColor="#252525" android:ellipsize="end" android:id="@+id/item_des_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginBottom="10dp" android:text="宝宝们不要错过哦，一定要记住哦！！！6月6日上午准时开抢！！！" android:lines="2"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/item_price_view_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+            <TextView android:textSize="15dp" android:textColor="#252525" android:ellipsize="end" android:id="@+id/jd_price_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥79" android:singleLine="true"/>
+            <TextView android:textSize="10dp" android:textColor="#999999" android:ellipsize="end" android:id="@+id/market_price_2" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="￥99" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

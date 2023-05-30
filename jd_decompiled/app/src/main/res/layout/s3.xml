@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bhj" android:background="@drawable/sc" android:layout_width="match_parent" android:layout_height="60dp">
+    <ImageView android:id="@+id/bdj" android:layout_width="15dp" android:layout_height="32.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="3dp" android:layout_centerVertical="true"/>
+    <EditText android:textStyle="bold" android:textColor="@color/a2a" android:textColorHint="@color/w_" android:id="@+id/bdk" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="还款金额" android:layout_toLeftOf="@+id/bdl" android:layout_toRightOf="@+id/bdj" android:layout_centerVertical="true" android:textCursorDrawable="@drawable/sb"/>
+    <View android:id="@+id/bdm" android:background="@android:color/transparent" android:layout_width="1px" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+    <Button android:id="@+id/bdn" android:tag="false" android:background="@drawable/b12" android:layout_width="44dp" android:layout_height="44dp" android:layout_toLeftOf="@+id/bdm" android:layout_centerVertical="true"/>
+    <View android:id="@+id/bdo" android:background="@color/w5" android:visibility="invisible" android:layout_width="1px" android:layout_height="16dp" android:layout_toLeftOf="@+id/bdn" android:layout_centerVertical="true"/>
+    <Button android:id="@+id/bdl" android:background="@drawable/b7n" android:visibility="invisible" android:layout_width="44dp" android:layout_height="44dp" android:layout_toLeftOf="@+id/bdo" android:layout_centerVertical="true" android:contentDescription="@string/a89"/>
+</RelativeLayout>

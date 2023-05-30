@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bd7" android:background="@drawable/b1n" android:layout_width="match_parent" android:layout_height="80dp">
+    <RelativeLayout android:layout_width="40dp" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="10dp">
+        <com.jingdong.manto.widget.CircleImageView android:id="@+id/bd8" android:layout_width="44dp" android:layout_height="44dp"/>
+        <TextView android:textSize="9sp" android:textColor="@color/v5" android:gravity="bottom|center_horizontal" android:id="@+id/bd9" android:background="@color/ui" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="体验版" android:layout_alignBottom="@+id/bd8" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="80dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="16sp" android:textColor="#2e2d2d" android:id="@+id/bd_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1"/>
+            <TextView android:textSize="12sp" android:textColor="#848484" android:ellipsize="end" android:id="@+id/bda" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginRight="36dp" android:lines="1"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/bdb" android:visibility="invisible" android:layout_width="20dp" android:layout_height="18dp" android:layout_marginRight="14dp" android:src="@drawable/b3d" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <View android:id="@+id/ard" android:background="#edeef1" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+        <View android:id="@+id/bdc" android:layout_width="1dp" android:layout_height="1dp" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

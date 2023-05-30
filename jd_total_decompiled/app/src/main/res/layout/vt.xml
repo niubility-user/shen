@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/c05" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="right" android:id="@+id/a0k" android:background="@drawable/bkh" android:paddingTop="22dp" android:paddingBottom="20dp" android:layout_width="100dp" android:layout_height="match_parent"/>
+</FrameLayout>

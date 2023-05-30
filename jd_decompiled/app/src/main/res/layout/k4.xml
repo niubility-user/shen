@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/me" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:layout_centerInParent="true">
+        <TextView android:textSize="18sp" android:textColor="#333333" android:id="@+id/x6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="提示" android:layout_centerHorizontal="true"/>
+        <View android:id="@+id/x7" android:background="#ededed" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="20dp" android:layout_below="@+id/x6"/>
+        <LinearLayout android:id="@+id/x8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/x7">
+            <TextView android:textSize="18sp" android:textColor="#666666" android:gravity="center" android:id="@+id/x9" android:layout_width="0dp" android:layout_height="match_parent" android:text="退出" android:layout_weight="1"/>
+            <View android:id="@+id/x_" android:background="#ededed" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_below="@+id/x7" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="18sp" android:textColor="#4d7bfe" android:gravity="center" android:id="@+id/xa" android:layout_width="0dp" android:layout_height="match_parent" android:text="再试一次" android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView android:textSize="18sp" android:textColor="#4d7bfe" android:gravity="center" android:id="@+id/xb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="确定" android:layout_below="@+id/x7"/>
+    </RelativeLayout>
+</RelativeLayout>

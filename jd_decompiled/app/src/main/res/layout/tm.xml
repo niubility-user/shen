@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/ml">
+    <ViewStub android:id="@+id/bqw" android:layout="@layout/to" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/mm" android:layout_marginRight="@dimen/mm" android:layout_weight="1"/>
+    <ViewStub android:id="@+id/bqx" android:visibility="invisible" android:layout="@layout/to" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/mm" android:layout_marginRight="@dimen/mm" android:layout_weight="1"/>
+</LinearLayout>

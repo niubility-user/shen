@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tf">验证失败，请重试</string>
+    <string name="tg">加载失败，请退出重试！</string>
+    <string name="th">否</string>
+    <string name="ti">ssl证书无效，是否继续访问？</string>
+    <string name="tj">是</string>
+    <string name="vr">安装更新</string>
+    <string name="vt">正在连接</string>
+    <string name="vu">下载失败,请点击重试</string>
+    <string name="vv">下载失败</string>
+    <string name="vw">更新下载完成</string>
+    <string name="vx">更新下载完成,点击安装</string>
+    <string name="vy">开始下载更新</string>
+    <string name="vz">正在下载，请稍后…</string>
+    <string name="w0">V%1$s版本 已下载%2$d%3$s</string>
+    <string name="w1">正在下载中，请打开通知权限，在通知栏内查看下载进程</string>
+    <string name="w5">残忍拒绝</string>
+    <string name="a5n">点击勾选后，当前版本不再提示升级。</string>
+    <string name="a5o">更新说明:\n1.支持最新功能\n2.修复已有问题</string>
+    <string name="a5p">亲爱的用户:\n恭喜您获得内测资格，我们真诚的邀请您体验新版本。</string>
+    <string name="a5q">发现新版本</string>
+    <string name="r2">请输入验证码</string>
+    <string name="r3">您的账号存在风险</string>
+    <string name="r4">取消</string>
+    <string name="r5">延保不能超过主商品的数量</string>
+    <string name="a_m">库存紧张，最多只能买%1$d套哦！</string>
+    <string name="a_n">库存紧张，最多只能买%1$d件哦！</string>
+    <string name="a_o">最少购买%1$d件哦！</string>
+    <string name="a_p">买过的人觉得「%1$s」</string>
+    <string name="a_q">复制</string>
+    <string name="a_r">修改购买数量</string>
+    <string name="a_s">确定</string>
+    <string name="a_t">¥%1$s</string>
+    <string name="ab4">暂无评价</string>
+    <string name="ab5">您正在使用非wifi网络，播放会耗费流量，继续观看吗?</string>
+    <string name="ab6">以后直接播放，不再提醒</string>
+    <string name="rn">下载更新</string>
+    <string name="ro">正在下载，建议您停留在当前应用等待升级完成 …</string>
+    <string name="rq">正在重试，请检查您的网络…</string>
+    <string name="ap4">天</string>
+    <string name="ap5">小时</string>
+    <string name="ap6">分钟</string>
+    <string name="ap7">秒钟</string>
+</resources>

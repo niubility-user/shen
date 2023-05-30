@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/jshop_dynamic_shop_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/jshop_sign_activity_title" layout="@layout/fi"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/jshop_sign_tab_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View style="@style/tz"/>
+        <LinearLayout android:orientation="horizontal" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="@dimen/jshop_sign_tab_h">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/activity_rule" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/jshop_sign_tab_size" android:textColor="@color/jshop_dynamic_tab_text_color_selector" android:id="@+id/activity_rule_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableTop="@drawable/jshop_activity_rule_selector"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/shop_sign" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/jshop_sign_tab_size" android:textColor="@color/jshop_dynamic_tab_text_color_selector" android:id="@+id/shop_sign_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableTop="@drawable/jshop_sign_selector"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/my_award" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/jshop_sign_tab_size" android:textColor="@color/jshop_dynamic_tab_text_color_selector" android:id="@+id/my_award_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableTop="@drawable/jshop_my_award_selector"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:id="@+id/sign_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/jshop_sign_tab_group" android:layout_below="@+id/jshop_sign_activity_title"/>
+</RelativeLayout>

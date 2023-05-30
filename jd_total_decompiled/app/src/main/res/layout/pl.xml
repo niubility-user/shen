@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bt5" android:background="#f6f6f6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bt7" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="50dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/asj" android:paddingLeft="15dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@+id/bt6" android:layout_width="10.5dp" android:layout_height="18.5dp" android:src="@drawable/azd"/>
+            <TextView android:textColor="#2e2d2d" android:id="@+id/ask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/asl" android:layout_width="110dp" android:layout_height="110dp" android:layout_marginTop="100dp" android:src="@drawable/azx"/>
+    <TextView android:textSize="16sp" android:textColor="#2e2d2d" android:layout_gravity="center_horizontal" android:id="@+id/asm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="25dp" android:layout_marginRight="30dp"/>
+    <TextView android:textSize="12sp" android:textColor="@color/v2" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/asn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:layout_marginRight="30dp"/>
+    <TextView android:textSize="12sp" android:textColor="@color/y9" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/de4" android:background="@drawable/bmx" android:visibility="gone" android:layout_width="130dp" android:layout_height="40dp" android:layout_marginLeft="15dp" android:layout_marginTop="35dp" android:layout_marginRight="15dp" android:text="@string/akh"/>
+</LinearLayout>

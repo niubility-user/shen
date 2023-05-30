@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:background="@drawable/sn" android:layout_width="match_parent" android:layout_height="30dp">
+        <Button android:id="@+id/are" android:background="@drawable/azm" android:layout_width="14dp" android:layout_height="4dp" android:layout_marginRight="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp" android:weightSum="3">
+        <Button android:id="@+id/arf" android:text="1" style="@style/u6"/>
+        <Button android:id="@+id/arg" android:text="2" style="@style/u6"/>
+        <Button android:id="@+id/arh" android:text="3" style="@style/u6"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp" android:weightSum="3">
+        <Button android:id="@+id/ari" android:text="4" style="@style/u6"/>
+        <Button android:id="@+id/arj" android:text="5" style="@style/u6"/>
+        <Button android:id="@+id/ark" android:text="6" style="@style/u6"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp" android:weightSum="3">
+        <Button android:id="@+id/arl" android:text="7" style="@style/u6"/>
+        <Button android:id="@+id/arm" android:text="8" style="@style/u6"/>
+        <Button android:id="@+id/arn" android:text="9" style="@style/u6"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp" android:weightSum="3">
+        <Button android:id="@+id/aro" android:text="X" style="@style/u6"/>
+        <Button android:id="@+id/arp" android:text="0" style="@style/u6"/>
+        <LinearLayout android:gravity="center" android:id="@+id/arq" style="@style/u6">
+            <ImageView android:id="@+id/bt4" android:layout_width="40dp" android:layout_height="20dp" android:src="@drawable/azl"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/personal_bg_color_silver" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/q0" android:layout_width="match_parent" android:layout_height="49.5dp">
+        <ImageView android:id="@+id/fb" android:background="@drawable/ea" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/fe" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/e9" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@+id/fd" android:layout_width="wrap_content" android:maxWidth="180dp" android:text="页面加载监控" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/k4"/>
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/personal_view_normal" android:layout_width="match_parent" android:layout_height="50dp">
+        <TextView android:textSize="@dimen/personal_title_text_size" android:textColor="@color/personal_color_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/personal_root_margin" android:text="开启监控" android:layout_centerVertical="true"/>
+        <CheckBox android:id="@+id/personal_item_checkbox" android:background="@drawable/bs" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/personal_root_margin" android:button="@null" android:layout_alignParentRight="true" style="@style/u8"/>
+        <View android:id="@+id/personal_item_bottom_line" android:layout_alignParentBottom="true" style="@style/lx"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/relativeLayout_clear_all" android:background="@drawable/tm" android:layout_width="match_parent" android:layout_height="50dp">
+        <TextView android:textSize="@dimen/personal_title_text_size" android:textColor="@color/personal_color_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/personal_root_margin" android:text="清空监控数据" android:layout_centerVertical="true"/>
+        <View android:layout_alignParentBottom="true" style="@style/lx"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="40dp">
+        <TextView android:textSize="@dimen/personal_title_text_size" android:textColor="@color/personal_color_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="页面" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/personal_title_text_size" android:textColor="@color/personal_color_title" android:id="@+id/call_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载耗时" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+        <View android:background="@color/personal_color_title" android:layout_width="1dp" android:layout_height="25dp" android:layout_marginRight="8dp" android:layout_toLeftOf="@+id/call_time" android:layout_centerVertical="true"/>
+        <View android:background="@color/personal_color_title" android:layout_width="1dp" android:layout_height="25dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/call_time" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/personal_title_text_size" android:textColor="@color/personal_color_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="加载开始时间" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <View android:background="@color/personal_color_title" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <ListView android:id="@+id/call_activitytime_listview" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null"/>
+</LinearLayout>

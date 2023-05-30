@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.ui.PDStyleBubbleItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="110dp" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:padding="1dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="108dp">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bm4" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+            <ImageView android:layout_gravity="right" android:id="@+id/bm5" android:layout_width="@dimen/ov" android:layout_height="@dimen/ov" android:layout_marginTop="@dimen/lt" android:layout_marginRight="@dimen/lt" android:src="@drawable/aug"/>
+            <TextView android:textSize="@dimen/xn" android:textColor="@color/xt" android:gravity="center" android:layout_gravity="center" android:id="@+id/d8i" android:background="@drawable/bu7" android:layout_width="@dimen/a6z" android:layout_height="@dimen/a6z" android:text="无货"/>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/kz" android:textColor="@color/nd" android:ellipsize="end" android:gravity="center" android:id="@+id/bm2" android:background="@drawable/aty" android:paddingLeft="@dimen/kv" android:paddingRight="@dimen/kv" android:layout_width="match_parent" android:layout_height="@dimen/nk" android:maxLines="2"/>
+    </LinearLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/d_0" android:layout_width="wrap_content" android:layout_height="@dimen/n_"/>
+    <View android:id="@+id/d8o" android:background="@drawable/atx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.jingdong.common.ui.PDStyleBubbleItemView>

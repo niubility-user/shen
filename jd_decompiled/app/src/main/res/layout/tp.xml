@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bqh" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+                <include android:id="@+id/bqi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" layout="@layout/tj"/>
+                <include android:id="@+id/bqr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="6dp" android:layout_below="@+id/bqi" layout="@layout/tj"/>
+                <include android:id="@+id/bqs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="6dp" android:layout_marginBottom="10dp" android:layout_below="@+id/bqr" layout="@layout/tj"/>
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bqo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="6dp" android:layout_marginRight="10dp" android:layout_below="@+id/bqs"/>
+                <TextView android:textSize="14sp" android:textStyle="bold" android:id="@+id/bqq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_below="@+id/bqo"/>
+                <TextView android:textSize="12sp" android:id="@+id/bqp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:layout_marginRight="10dp" android:layout_marginBottom="8dp" android:layout_below="@+id/bqq"/>
+                <include layout="@layout/ld"/>
+            </RelativeLayout>
+            <include layout="@layout/uz"/>
+            <include layout="@layout/oh"/>
+        </androidx.cardview.widget.CardView>
+        <ImageView android:background="@drawable/bc0" android:layout_width="match_parent" android:layout_height="10dp" android:layout_marginLeft="2.5dp" android:layout_marginRight="2.5dp"/>
+    </LinearLayout>
+</FrameLayout>

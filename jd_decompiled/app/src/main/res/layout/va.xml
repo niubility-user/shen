@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/a74" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/a10" android:textColor="@color/wa" android:id="@+id/cb7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="膨胀金使用说明" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/a0y" android:id="@+id/cb4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a0m" android:text="" android:layout_below="@+id/cb7" android:layout_alignParentLeft="true"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/ca1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a0m" android:layout_below="@+id/cb4"/>
+    <TextView android:textSize="@dimen/a0y" android:id="@+id/cb6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rf" android:text="" android:layout_below="@+id/ca1" android:layout_alignParentLeft="true"/>
+    <TextView android:textSize="@dimen/a10" android:textColor="@color/a6w" android:id="@+id/cb5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="" android:layout_toRightOf="@+id/cb6" android:layout_below="@+id/ca1" android:layout_alignBaseline="@+id/cb6"/>
+    <TextView android:textSize="@dimen/a0y" android:textColor="@color/a6q" android:id="@+id/cb3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a0p" android:text="" android:layout_below="@+id/cb6"/>
+    <View android:id="@+id/c_9" android:background="@color/a7a" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/a02" android:layout_below="@+id/cb3"/>
+    <TextView android:textColor="@color/a6w" android:gravity="center" android:id="@+id/cb2" android:layout_width="match_parent" android:layout_height="38dp" android:text="我知道了" android:layout_below="@+id/c_9"/>
+</RelativeLayout>

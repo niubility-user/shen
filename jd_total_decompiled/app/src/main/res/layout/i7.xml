@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/bhl" android:background="@drawable/pb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a6c" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/c9" android:visibility="visible" android:layout_width="match_parent" android:layout_height="60dp">
+            <com.jingdong.common.widget.image.UnNetImageView android:id="@+id/ff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:nImageViewScaleType="6"/>
+            <TextView android:textSize="18sp" android:textColor="@color/a06" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/a6d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240dp" android:text="@string/ak" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/mj" android:paddingLeft="15dp" android:paddingRight="18dp" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/a4b" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/a6e" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.jingdong.common.ui.LocationStateView android:id="@+id/a6f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:customViewStyle="1"/>
+            <View android:id="@+id/a6g" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="18dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/xu" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/a1b" android:layout_below="@+id/a6c"/>
+    <Button android:textSize="15sp" android:textStyle="bold" android:textColor="@color/mh" android:ellipsize="end" android:gravity="center" android:id="@+id/a1b" android:background="@drawable/al" android:layout_width="match_parent" android:layout_height="38dp" android:layout_marginLeft="18dp" android:layout_marginTop="6dp" android:layout_marginRight="18dp" android:layout_marginBottom="6dp" android:text="选择其他地址" android:singleLine="true" android:layout_alignParentBottom="true"/>
+    <LinearLayout android:gravity="center" android:id="@+id/a6o" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/a6c">
+        <com.jingdong.common.ui.JDProgressBar android:gravity="center" android:layout_gravity="center" android:layout_width="34dp" android:layout_height="34dp"/>
+    </LinearLayout>
+</RelativeLayout>

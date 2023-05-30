@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="140dp">
+    <ImageView android:id="@+id/a56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:src="@drawable/zs" android:layout_centerVertical="true"/>
+    <TextView android:textSize="12dp" android:textColor="#686868" android:gravity="center" android:id="@+id/a57" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="查看更多" android:ems="1" android:layout_toRightOf="@+id/a56" android:layout_centerVertical="true"/>
+    <TextView android:textSize="1dp" android:id="@+id/a58" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toRightOf="@+id/a57"/>
+</RelativeLayout>

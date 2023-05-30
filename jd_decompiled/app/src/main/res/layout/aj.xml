@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="49dp">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/fb" android:background="@drawable/ea" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/fe" android:background="@null" android:paddingLeft="15dp" android:paddingTop="5dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:contentDescription="@string/d5"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/fg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_toRightOf="@+id/fe" android:layout_centerVertical="true"/>
+    <TextView android:ellipsize="end" android:id="@+id/fd" android:maxWidth="225dp" android:singleLine="true" android:layout_centerInParent="true" style="@style/k4"/>
+    <FrameLayout android:id="@+id/vr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/vs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="right" android:id="@+id/vt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hg" android:adjustViewBounds="true"/>
+    </FrameLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/a1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:src="@drawable/da" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/d6"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="right" android:id="@+id/a0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:src="@drawable/e3" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_toLeftOf="@+id/a1" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:contentDescription="@string/d7"/>
+    <Button android:id="@+id/fc" android:visibility="gone" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/k5"/>
+    <TextView android:id="@+id/a2" android:visibility="gone" android:layout_toLeftOf="@+id/fc" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" style="@style/k6"/>
+</RelativeLayout>

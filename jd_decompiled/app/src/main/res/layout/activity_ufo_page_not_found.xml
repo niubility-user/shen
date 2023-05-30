@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:orientation="vertical" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.widget.TempTitle android:id="@+id/titlebar" android:layout_width="match_parent" android:layout_height="wrap_content" stuan:drawableLeft="@drawable/e9" stuan:textTitle="@string/ufo_page_text_mars"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="30dp" android:layout_weight="1">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/ufo_image" android:background="@drawable/ufo_page_not_found" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="17sp" android:textColor="@color/f7" android:layout_gravity="center" android:id="@+id/ufo_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/ufo_page_text1" android:singleLine="true"/>
+        <TextView android:textSize="14sp" android:textColor="@color/f7" android:layout_gravity="center" android:id="@+id/ufo_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:text="@string/ufo_page_text2" android:singleLine="true"/>
+        <TextView android:textSize="14sp" android:textColor="@color/f7" android:layout_gravity="center" android:id="@+id/ufo_text3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ufo_page_text_error2" android:singleLine="true"/>
+        <Button android:textSize="16sp" android:textColor="@color/dk" android:id="@+id/ufo_refresh" android:background="@drawable/ay" android:visibility="gone" android:layout_width="127dp" android:layout_height="35dp" android:layout_marginTop="25dp" android:text="@string/ufo_page_text_reload"/>
+    </LinearLayout>
+</LinearLayout>

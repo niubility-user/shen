@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.app.mall.bundle.styleinfoview.LibPdStyleInfoView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bon" android:background="@drawable/b_e" android:clickable="true" android:layout_width="match_parent" android:layout_height="450dp">
+    <FrameLayout android:id="@+id/bof" android:layout_width="match_parent" android:layout_height="125dp" android:layout_alignParentTop="true">
+        <ViewStub android:id="@+id/boe" android:layout="@layout/tf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.jingdong.app.mall.bundle.styleinfoview.views.PDScrollView android:id="@+id/a8j" android:background="@drawable/b_n" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/bof">
+        <LinearLayout android:orientation="vertical" android:id="@+id/a86" android:paddingBottom="@dimen/x6" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@+id/bnx" android:visibility="gone" android:layout="@layout/te" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:id="@+id/bo_" android:visibility="gone" android:layout="@layout/tb" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:id="@+id/bsk" android:visibility="gone" android:layout="@layout/u2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:id="@+id/bs7" android:visibility="gone" android:layout="@layout/u5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </com.jingdong.app.mall.bundle.styleinfoview.views.PDScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/boa" android:background="@color/a43" android:paddingLeft="@dimen/mp" android:paddingTop="@dimen/lt" android:paddingRight="@dimen/mp" android:paddingBottom="@dimen/lt" android:clickable="true" android:layout_width="match_parent" android:layout_height="50dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/mu" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/boc" android:background="@drawable/b_g" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/lt" android:layout_marginRight="@dimen/lt" android:text="@string/abg" android:includeFontPadding="false" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/mu" android:textStyle="bold" android:textColor="@color/a43" android:gravity="center" android:id="@+id/bod" android:background="@drawable/b_s" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/lt" android:layout_marginRight="@dimen/lt" android:text="@string/aby" android:includeFontPadding="false" android:layout_weight="1"/>
+    </LinearLayout>
+    <FrameLayout android:gravity="center" android:id="@+id/bog" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.jingdong.common.ui.JDProgressBar android:gravity="center" android:layout_gravity="center" android:layout_width="34dp" android:layout_height="34dp"/>
+    </FrameLayout>
+    <View android:id="@+id/bo9" android:layout_above="@+id/boa" style="@style/th"/>
+    <include android:id="@+id/bsy" android:visibility="gone" layout="@layout/u1"/>
+</com.jingdong.app.mall.bundle.styleinfoview.LibPdStyleInfoView>

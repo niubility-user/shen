@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/y_" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="50dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a17" android:paddingLeft="15dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:layout_width="10.5dp" android:layout_height="18.5dp" android:src="@drawable/a0b"/>
+        </LinearLayout>
+        <com.jd.manto.lbs.MantoSearchEditText android:textSize="14sp" android:textColor="#2e2d2d" android:id="@+id/a19" android:background="@drawable/iy" android:focusable="true" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:hint="搜索地点" android:maxLines="1" android:lines="1" android:layout_weight="1" android:inputType="text" android:imeOptions="actionSearch"/>
+        <TextView android:textSize="12sp" android:textColor="#848484" android:id="@+id/a18" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:layout_marginRight="9dp" android:text="搜索"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/a1_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/a1a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_centerInParent="true">
+            <ProgressBar android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="6dp" android:progressDrawable="@drawable/ah5" style="@android:style/Widget.Holo.ProgressBar.Large"/>
+            <TextView android:textSize="12sp" android:textColor="#848484" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在加载..."/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/sh" android:background="@drawable/as6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+    <FrameLayout android:id="@+id/bzs" android:layout_width="match_parent" android:layout_height="190dp" android:layout_weight="1">
+        <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c0c" android:layout_width="match_parent" android:layout_height="match_parent" app:roundedCornerRadius="8dp" app:scaleType="centerCrop"/>
+        <FrameLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="9dp">
+            <TextView android:textSize="11sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/c0l" android:background="@drawable/bkc" android:paddingLeft="25dp" android:paddingTop="3dp" android:paddingRight="10dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="6666观看" android:includeFontPadding="false"/>
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c0a" android:layout_width="20dp" android:layout_height="20dp" app:scaleType="fitCenter"/>
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="bottom|right" android:orientation="vertical" android:id="@+id/bzt" android:layout_width="40dp" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c07" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="73dp" app:scaleType="fitCenter"/>
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:layout_gravity="bottom|right" android:id="@+id/c0d" android:layout_width="29dp" android:layout_height="29dp" app:scaleType="fitCenter"/>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bzu" android:paddingLeft="12dp" android:paddingTop="20dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#808080" android:ellipsize="end" android:id="@+id/c0k" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="美食生鲜日，直播间大狂欢现场看，好好看看哈" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="2dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="30dp">
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c0_" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="6dp" app:roundAsCircle="true" app:scaleType="fitCenter"/>
+            <TextView android:textSize="12sp" android:textColor="#808080" android:ellipsize="end" android:id="@+id/c0j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="进口超市" android:singleLine="true" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c0b" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="5dp" android:layout_weight="1" app:roundedCornerRadius="8dp" app:scaleType="fitCenter"/>
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c0e" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_weight="1" app:roundedCornerRadius="8dp" app:scaleType="centerCrop"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

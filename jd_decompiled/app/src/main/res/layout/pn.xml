@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/v5" android:paddingLeft="15dp" android:paddingTop="16dp" android:paddingRight="15dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Switch android:id="@+id/asr" android:layout_width="@dimen/sd" android:layout_height="24dp" android:checked="true" android:textOn="    " android:textOff="    " android:thumb="@drawable/sz" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:track="@drawable/t2" android:switchMinWidth="@dimen/sd" android:thumbTextPadding="5dp"/>
+    <TextView android:textSize="16sp" android:id="@+id/ass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/asr" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

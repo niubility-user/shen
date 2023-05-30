@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/aah" style="@style/kh">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/aai" style="@style/kg"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/aah" android:layout_centerInParent="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bz" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/lo" android:textColor="@color/ox" android:gravity="center" android:id="@+id/c0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lq" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/lp" android:textColor="@color/ox" android:gravity="center" android:id="@+id/c1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lq" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/lp" android:textColor="@color/ox" android:gravity="center" android:id="@+id/c2" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <Button android:textSize="@dimen/ln" android:textColor="@color/ov" android:id="@+id/bw" android:background="@drawable/lw" android:paddingLeft="@dimen/lk" android:paddingTop="@dimen/lm" android:paddingRight="@dimen/ll" android:paddingBottom="@dimen/lj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/li"/>
+    </LinearLayout>
+</RelativeLayout>

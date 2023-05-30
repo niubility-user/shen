@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <RelativeLayout android:id="@+id/brq" android:layout_width="match_parent" android:layout_height="261dp">
+        <include layout="@layout/a0u"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/brp" android:background="@drawable/bav" android:layout_width="wrap_content" android:layout_height="16dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/bbp" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="4dp" android:scaleType="centerCrop"/>
+            <TextView android:textSize="10sp" android:textColor="@color/lx" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/bro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginRight="6dp"/>
+        </LinearLayout>
+        <FrameLayout android:background="@drawable/bbd" android:layout_width="match_parent" android:layout_height="98dp" android:layout_alignParentBottom="true">
+            <TextView android:textSize="14sp" android:textColor="@color/lx" android:ellipsize="end" android:layout_gravity="bottom" android:id="@+id/brn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="34dp" android:maxLines="2" android:lineSpacingExtra="2dp"/>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+                <com.jingdong.common.ui.JDCircleImageView android:layout_gravity="center_vertical" android:id="@+id/brm" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="centerCrop" app:borderWidth="0.5dp" app:borderColor="#33ffffff"/>
+                <TextView android:textSize="12sp" android:textColor="#ffffff" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/brl" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:maxLines="1" android:layout_weight="1"/>
+                <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@+id/buc" android:layout_width="16dp" android:layout_height="16dp"/>
+                <TextView android:textSize="9sp" android:textStyle="bold" android:textColor="@color/lx" android:layout_gravity="center_vertical" android:id="@+id/bud" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:maxLines="1"/>
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/ld"/>
+    </RelativeLayout>
+    <include layout="@layout/uz"/>
+    <include layout="@layout/oh"/>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:res-auto="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/a74" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="50dp">
+        <TextView android:textSize="@dimen/a12" android:textColor="@color/a1_" android:id="@+id/bbt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="选择分期信用卡" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/axw" android:padding="@dimen/a0m" android:layout_width="@dimen/a07" android:layout_height="@dimen/a07" android:src="@drawable/bk7" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/a24"/>
+    </RelativeLayout>
+    <com.jd.lib.cashier.sdk.core.ui.widget.CashierNoticeView android:id="@+id/c_g" android:layout_width="match_parent" android:layout_height="wrap_content" res-auto:noticeViewMessage="@string/ahr"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/c_y" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

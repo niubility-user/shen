@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/b26" android:paddingBottom="36dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/ai7" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="聊天" android:layout_centerInParent="true"/>
+            <ImageView android:id="@+id/cfv" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="10dp" android:src="@mipmap/x" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/cg4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/cg0" android:background="@drawable/b24" android:visibility="gone" android:layout_width="match_parent" android:layout_height="42dp" android:layout_marginLeft="35dp" android:layout_marginTop="15dp" android:layout_marginRight="35dp">
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginRight="10dp" android:src="@mipmap/w"/>
+            <TextView android:textSize="16sp" android:textColor="#ffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="邀请家人聊天"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/cfw" android:background="@drawable/b24" android:visibility="gone" android:layout_width="match_parent" android:layout_height="42dp" android:layout_marginLeft="35dp" android:layout_marginTop="15dp" android:layout_marginRight="35dp">
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/cgg" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginRight="10dp"/>
+            <TextView android:textSize="16sp" android:textColor="#ffff" android:layout_gravity="center" android:id="@+id/cgh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="专属客服"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

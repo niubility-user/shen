@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jingdong.sdk.platform.business.views.PdAutoChangeTextSize android:textSize="@dimen/kr" android:textColor="@color/n6" android:id="@+id/aoi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_toLeftOf="@+id/aoj" android:layout_alignParentLeft="true"/>
+    <com.jingdong.sdk.platform.business.views.PdAutoChangeTextSize android:textSize="@dimen/ks" android:textColor="@color/n7" android:id="@+id/aok" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/kn" android:layout_below="@+id/aoi" android:layout_alignLeft="@+id/aoi"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/aoj" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kn" android:layout_marginTop="@dimen/km" android:src="@drawable/aca" android:layout_alignParentRight="true"/>
+</RelativeLayout>

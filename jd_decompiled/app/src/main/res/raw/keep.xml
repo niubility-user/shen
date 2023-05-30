@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/plus_a_1,@drawable/y_07,@drawable/corner_label_bg_5_rank_last,@drawable/corner_label_bg_5_rank_top,@drawable/ama_*"
+    tools:discard="@raw/keep" />

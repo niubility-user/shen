@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jshop="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/more_product_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/more_product_item_iv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="12dp" android:textColor="@color/lx" android:gravity="center" android:id="@+id/more_product_item_iv_mask" android:background="@drawable/jshop_black_circle_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="50dp" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="16sp" android:textColor="@color/jshop_detail_text_color" android:ellipsize="end" android:id="@+id/more_product_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jshop_concern_list_item_margin_left_right" android:text="" android:lines="2"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/jshop_price_size" android:textColor="@color/jshop_prmotion_kit_price_red" android:id="@+id/more_product_item_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        <TextView android:id="@+id/more_product_item_icon" android:layout_width="@dimen/jshop_icon_w" android:layout_height="@dimen/jshop_icon_h" android:layout_marginLeft="10dp" style="@style/cq"/>
+    </LinearLayout>
+</LinearLayout>

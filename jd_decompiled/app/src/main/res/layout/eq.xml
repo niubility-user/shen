@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/a3u" android:tag="layout/security_functional_six_square_0" android:layout_width="match_parent" android:layout_height="156dp">
+    <TextView android:textSize="14dp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/bdr" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3dp" android:text="短信验证码已发送至 167****2277"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/bds" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="19.5dp">
+        <com.jdjr.generalKeyboard.views.SixInputLayout android:layout_gravity="center" android:id="@+id/a48" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:security_sixInputLayoutItemStyle="0"/>
+    </FrameLayout>
+    <include layout="@layout/rq"/>
+</LinearLayout>

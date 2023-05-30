@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70dp" android:src="@drawable/y_03"/>
+    <TextView android:textSize="17sp" android:textColor="#848689" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="网络请求失败"/>
+    <TextView android:textSize="13sp" android:textColor="#bfbfbf" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="9dp" android:text="过一会儿再来吧~"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27dp">
+        <Button android:textSize="14sp" android:textColor="#666666" android:gravity="center" android:id="@+id/btn_main_shop" android:layout_marginRight="20dp" android:text="店铺首页" style="@style/ty"/>
+        <Button android:textSize="14sp" android:textColor="#666666" android:gravity="center" android:id="@+id/btn_retry" android:text="再试一次" style="@style/ty"/>
+    </LinearLayout>
+</LinearLayout>

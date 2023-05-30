@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "data": {
+    "preload": {
+      // 目前预加载配置项，是以h5活动为基础，1:1进行配置的(1对多？)
+      "modules": [
+        {
+          "functionId": "getUserInfo",
+          "url": "https//api.m/", // 主站app优先使用functionId标志请求
+          "method": "get",
+          "cacheStrategy": "memory",
+          "isUrlParam": 1, // 是否拼接在url请求后面，还是按照json格式放到body中
+          "paramTemplate": {
+            "area": "${area}", // 默认键值对
+            "latitude": "${lat}", // 按需修改后的键值对
+            "longitude": "${lng}",
+            "custom1": {
+              "a": 123
+            }
+          },
+          "dependencies": [
+          ]
+        },
+        {
+          "functionId": "get618MainActivity",
+          "url": "",
+          "cacheStrategy": "memory",
+          // 参数可以是编码后的扁平的json字符串，也可以保持原始的json数据结构，无论如何native测需要转换为json对象
+          // 以便进行数据寻址等操作
+          "paramTemplate": {
+            "geo": "{lat: ${lat}, lng: ${lng}",
+            // raw为接口返回的原始数据，这个宿主app的网络请求基础组件可能会根据http status再包一层
+            "isNew": "${getUserInfo.raw.data.isNew}"
+          },
+          //"paramTemplate": "geo={ lat: ${lat}; isNew: ${getUserInfo.raw.data.isNew} }",
+          "dependencies": [
+            // 参数模板已隐式指明了接口依赖，可以不用声明
+            "getUserInfo"
+          ]
+        },
+        {
+          "functionId": "getRecommendList",
+          "url": "",
+          "cacheStrategy": "storage",
+          "paramTemplate": "geo={{lat: ${lat}; activityId: ${get618MainActivity.raw.data.id}}",
+          "dependencies": [
+            // 显式声明加载该接口的依赖条件，下面的条件确定了两点，getRecommendList加载的前提条件为：
+            // 1. getUserInfo加载前置
+            // 2. 根据getUserInfo的返回结果，isNew = false
+            // 上面两点，任意一点不满足
+            "${getUserInfo.raw.data.isNew === false}"
+          ]
+        },
+        // 配置了相同的接口，相同的入参
+        {
+          "functionId": "getRecommendList",
+          "url": "",
+          "cacheStrategy": "storage",
+          "paramTemplate": "geo={{lat: ${lat}; activityId: ${get618MainActivity.raw.data.id}}",
+          "dependencies": [
+            "${getUserInfo.raw.data.isNew === true}"
+          ]
+        },
+        // 配置相同的接口，不同的入参
+        {
+          "functionId": "getRecommendList",
+          "url": "",
+          "cacheStrategy": "storage",
+          "paramTemplate": "geo={{lat: ${lat}; activityId: ${get1111MainActivity.raw.data.id}}",
+          "dependencies": [
+            "${getUserInfo.raw.data.isNew === false}"
+          ]
+        },
+        {
+          "functionId": "getCoupon",
+          "url": "",
+          "cacheStrategy": "memory",
+          "paramTemplate": "",
+          "dependencies": [
+            // 显式声明需要依赖的接口。属于h5业务逻辑，与接口预加载无关，比如618主会场活动入参并不依赖于领券接口
+            // 但是h5页面中，需要主会场加载完成后，才会进行领券相关的请求，这种业务逻辑上的串行请求关系，在这里通过
+            // 接口依赖做简单的支持，已减少接口请求数量
+            "get618MainActivity"
+          ]
+        }
+      ]
+    }
+  },
+  "message": "成功"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jshop="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#f8f8f8" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.sample.jshop.ui.JshopTitle android:id="@+id/rule_title" android:layout_width="match_parent" android:layout_height="wrap_content" jshop:jshop_drawableLeft="@drawable/e9" jshop:jshop_textTitle="@string/jshop_promotion_rule"/>
+    <LinearLayout android:orientation="vertical" android:background="#f8f8f8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/rule_title">&quot; 
+        <TextView android:textSize="17sp" android:textColor="#252525" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/jshop_rule_title_text" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="45dp" android:singleLine="true"/>&quot; 
+        <com.facebook.drawee.view.SimpleDraweeView android:background="@drawable/jshop_splitline" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="15sp" android:textColor="#252525" android:id="@+id/jshop_rule_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp"/>&quot; 
+        <com.facebook.drawee.view.SimpleDraweeView android:background="@drawable/jshop_splitline" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/rule_title" android:layout_centerInParent="true" layout="@layout/jshop_loading_error"/>
+</RelativeLayout>

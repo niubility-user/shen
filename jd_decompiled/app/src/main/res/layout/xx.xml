@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:res-auto="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/c93" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/c81" android:layout_width="match_parent" android:layout_height="match_parent">
+                <include android:id="@+id/c9_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/y4"/>
+                <com.jd.lib.cashier.sdk.pay.recyclerview.CustomDrawOrderRecyclerView android:id="@+id/c8v" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/c9h" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/c9g" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.jd.lib.cashier.sdk.core.ui.widget.CashierNoticeView android:id="@+id/c88" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" res-auto:noticeViewMessage=""/>
+                        <com.jd.lib.cashier.sdk.core.ui.widget.PaymentTriggerView android:id="@+id/c9j" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ViewStub android:id="@+id/c9f" android:layout="@layout/vf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:id="@+id/d_c" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

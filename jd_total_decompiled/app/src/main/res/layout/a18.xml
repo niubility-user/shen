@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.paipai.library.inspect.view.PpInspectScribingTextview xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/kz" android:ellipsize="end" android:gravity="center" android:id="@+id/ch1" android:paddingLeft="@dimen/ov" android:paddingRight="@dimen/ov" android:layout_width="wrap_content" android:layout_height="@dimen/ow" android:singleLine="true"/>

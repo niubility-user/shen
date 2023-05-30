@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/b1g" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b1h" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b1i" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+    <LinearLayout android:id="@+id/b1j" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.jingdong.common.recommend.RecommendAutoFitTextView android:textSize="11sp" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@+id/b1k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/b1l" android:visibility="gone" android:layout_width="51dp" android:layout_height="match_parent" android:layout_marginRight="2dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b1m" android:layout_width="51dp" android:layout_height="54dp" android:layout_marginRight="2dp" android:layout_alignParentBottom="true"/>
+        <TextView android:textSize="6dp" android:textColor="#ccdf3478" android:id="@+id/b1n" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <com.jingdong.common.recommend.RecommendAutoFitTextView android:textSize="13sp" android:textStyle="bold" android:textColor="#df3478" android:id="@+id/b1o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:lines="1" android:includeFontPadding="false" android:layout_above="@+id/b1n" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="8sp" android:textColor="#ccdf3478" android:id="@+id/b1p" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:layout_above="@+id/b1o" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

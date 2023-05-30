@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/uy" android:layout_width="82dp" android:layout_height="match_parent">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:src="@drawable/comment_photo_more_arrow"/>
+    <TextView android:textSize="12sp" android:textColor="#bfbfbf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="继\10续\10滑\10动\10查\10看\10更\10多\10晒\10图"/>
+</LinearLayout>

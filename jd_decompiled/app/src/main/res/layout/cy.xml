@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/z4" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.jdreactFramework.views.webview.JDReactVideoView android:id="@+id/aat" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/aau" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerInParent="true"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/mq" android:background="@drawable/fm" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:alpha="0.7">
+        <ImageView android:background="@drawable/a5x" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="11dp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/aav" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:minWidth="40dp"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/aaw" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@android:color/white" android:id="@+id/jy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_centerVertical="true"/>
+        <RelativeLayout android:id="@+id/mj" android:paddingTop="15dp" android:paddingRight="15dp" android:layout_width="80dp" android:layout_height="60dp" android:layout_alignParentRight="true" android:layout_centerInParent="true">
+            <ImageButton android:background="@drawable/aex" android:focusable="false" android:clickable="false" android:layout_width="30dp" android:layout_height="30dp" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/aax" android:background="#80161616" android:paddingLeft="14dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="48dp" android:layout_alignParentBottom="true">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@+id/aay" android:background="@drawable/aew" android:layout_width="18dp" android:layout_height="18dp"/>
+        <TextView android:textSize="10sp" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@+id/aaz" android:paddingLeft="11dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_toRightOf="@+id/aay"/>
+        <SeekBar android:layout_gravity="center_vertical" android:id="@+id/ab1" android:padding="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="5dp" android:progressDrawable="@drawable/fn" android:minHeight="5dp" android:thumb="@drawable/a60" android:layout_weight="1" android:layout_toLeftOf="@+id/ab0" android:layout_toRightOf="@+id/aaz"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/ab0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <TextView android:textSize="10sp" android:textColor="@android:color/white" android:id="@+id/ab2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="00:00"/>
+            <ImageButton android:id="@+id/ab3" android:background="@drawable/a5y" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="11dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar android:id="@+id/ab4" android:background="@drawable/aev" android:layout_width="50dp" android:layout_height="50dp" android:indeterminateDrawable="@drawable/m0" android:layout_centerInParent="true"/>
+    <include layout="@layout/cz"/>
+</RelativeLayout>

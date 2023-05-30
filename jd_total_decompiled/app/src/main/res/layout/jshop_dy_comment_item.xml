@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textColor="#b9b9b9" android:gravity="center" android:id="@+id/top_comment_num" android:background="#f7f7f7" android:paddingLeft="27dp" android:layout_width="match_parent" android:layout_height="50dp" android:text="评论"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/notice_container" android:background="#fffcf2" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="8dp" android:paddingBottom="11dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/jshop_notice_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13dp"/>
+        <TextView android:textSize="12dp" android:textColor="#ff9054" android:id="@+id/notice_content" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="60dp">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:background="@drawable/jshop_user_icon" android:layout_width="41dp" android:layout_height="41dp" android:layout_marginLeft="26dp">
+                <com.facebook.drawee.view.SimpleDraweeView android:gravity="center" android:id="@+id/jshop_comment_icon" android:layout_width="40dp" android:layout_height="40dp" fresco:roundedCornerRadius="20dp" fresco:roundTopLeft="true" fresco:roundTopRight="true" fresco:roundBottomRight="true" fresco:roundBottomLeft="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15dp" android:textColor="#828282" android:id="@+id/user_name" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+                    <TextView android:textSize="11dp" android:textColor="#9b9b9b" android:id="@+id/floor_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18dp" android:singleLine="true"/>
+                </LinearLayout>
+                <TextView android:textSize="11dp" android:textColor="@color/jshop_dynamic_comment_color" android:id="@+id/comment_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textColor="#4a4a4a" android:id="@+id/comment_info" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="77dp" android:layout_marginBottom="10dp"/>
+        <RelativeLayout android:orientation="vertical" android:id="@+id/p_comment_layout" android:paddingRight="10dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="78dp" android:minHeight="44dp">
+            <TextView android:id="@+id/sp_line" android:background="#ebebeb" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentTop="true"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/sp_line">
+                <TextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Toms:"/>
+                <TextView android:textColor="#4a4a4a" android:id="@+id/p_comment_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_below="@+id/sp_line"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View style="@style/tz"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/awh" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/oi" android:layout_width="@dimen/i3" android:layout_height="@dimen/i2" android:scaleType="center"/>
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/awc" android:paddingTop="@dimen/ab" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i3" android:minHeight="@dimen/i2">
+            <FrameLayout android:id="@+id/awd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aa" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_weight="1"/>
+            <FrameLayout android:id="@+id/awe" android:paddingTop="@dimen/a9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp">
+                <ViewStub android:layout_gravity="end|top" android:id="@+id/a2j" android:visibility="gone" android:layout="@layout/e6" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <ViewStub android:layout_gravity="end|top" android:id="@+id/awf" android:visibility="gone" android:layout="@layout/e5" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <LinearLayout android:layout_gravity="end|bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                    <TextView android:textAppearance="@style/cu" android:id="@+id/awg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                    <ImageView android:layout_gravity="center" android:id="@+id/agl" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="8dp" android:scaleType="centerInside" android:alpha="0.6"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/awb" android:background="?android:attr/dividerHorizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/i3"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/awi" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i3" android:divider="?android:attr/listDivider" android:showDividers="middle" android:dividerPadding="12dp"/>
+    </LinearLayout>
+</FrameLayout>

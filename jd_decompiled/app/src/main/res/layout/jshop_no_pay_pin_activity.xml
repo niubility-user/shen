@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/jshop_title"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/jshop_no_pay_pin_bg_shape" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/jshop_no_pay_pin_center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:textColor="@color/lx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:text="抱歉！您没有开启支付密码，"/>
+            <TextView android:textSize="15sp" android:textColor="@color/lx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="请先开启支付密码再领券。"/>
+            <Button android:textSize="15sp" android:textColor="#808080" android:gravity="center" android:id="@+id/jshop_no_pay_pin_btn" android:background="@drawable/jshop_no_pay_pin_btn_selector" android:layout_width="170dp" android:layout_height="45dp" android:layout_marginTop="60dp" android:layout_marginBottom="30dp" android:text="开启支付密码"/>
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3"/>
+    </LinearLayout>
+</LinearLayout>

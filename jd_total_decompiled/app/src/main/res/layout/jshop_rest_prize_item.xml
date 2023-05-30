@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/fill_order_layout_10dp">
+        <TextView android:textSize="14sp" android:textColor="#f15453" android:gravity="center" android:layout_gravity="center" android:id="@+id/jshop_rest_prize_note" android:background="@drawable/jshop_sign_coupon" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp" android:text="50减10元京券" android:singleLine="true"/>
+        <TextView android:textSize="12sp" android:textColor="#666666" android:gravity="center" android:id="@+id/jshop_rest_note" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="9dp" android:layout_marginBottom="10dp" android:text="不限量" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/cwq" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jd.lib.productdetail.mainimage.bigimage.PdMPullToRefreshViewPager android:id="@+id/cwx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/cww" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ow" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/xs" android:textColor="@color/afb" android:gravity="top|center_horizontal" android:id="@+id/cwu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/xn" android:textColor="@color/afb" android:id="@+id/cwv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/d34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/te" android:layout_marginTop="@dimen/nd" android:src="@drawable/ca0" android:contentDescription="@string/aq3"/>
+</RelativeLayout>

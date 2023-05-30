@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/rl_take_photo" android:layout_width="match_parent" android:layout_height="match_parent">
+        <SurfaceView android:id="@+id/pre_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/camera_mask" android:scaleType="fitXY"/>
+        <RelativeLayout android:background="#02070a" android:layout_width="match_parent" android:layout_height="124dp" android:layout_alignParentBottom="true">
+            <TextView android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/su" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="取消" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/btn_take_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shot_butn" android:layout_centerInParent="true"/>
+            <ImageView android:id="@+id/img_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:src="@drawable/camera_switch" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_photo_confirm" android:background="#02070a" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/img_comfirm" android:layout_width="match_parent" android:layout_height="375dp" android:scaleType="centerCrop" android:layout_centerInParent="true"/>
+        <TextView android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/tv_retake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginBottom="52dp" android:text="重拍" android:layout_alignParentBottom="true"/>
+        <TextView android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/tv_upload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:layout_marginBottom="52dp" android:text="上传照片" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

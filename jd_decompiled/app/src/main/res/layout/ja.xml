@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/aob" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/aoc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/kn" android:scaleType="fitCenter" android:contentDescription="@string/pk"/>
+        <com.jingdong.sdk.platform.business.views.PdAutoChangeTextSize android:textSize="@dimen/ks" android:textStyle="bold" android:textColor="@color/rj" android:id="@+id/aod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/oo" android:singleLine="true" android:includeFontPadding="false"/>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.jingdong.sdk.platform.business.views.PdAutoChangeTextSize android:textSize="@dimen/ks" android:textColor="@color/rj" android:ellipsize="end" android:id="@+id/aoe" android:paddingRight="13dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/aof" android:visibility="visible" android:layout_width="11dp" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_alignRight="@+id/aoe" android:contentDescription="@string/pk"/>
+        </RelativeLayout>
+        <com.jingdong.sdk.platform.business.views.PdAutoChangeTextSize android:textSize="@dimen/ks" android:textColor="@color/nj" android:id="@+id/aog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kn" android:singleLine="true"/>
+    </LinearLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/aoh" android:layout_width="wrap_content" android:layout_height="12.5dp" android:layout_marginLeft="@dimen/kn" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:contentDescription="@string/pk"/>
+</LinearLayout>

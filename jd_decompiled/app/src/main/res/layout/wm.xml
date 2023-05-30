@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c5t" android:layout_width="match_parent" android:layout_height="212dp" android:layout_marginLeft="9dp" android:layout_marginRight="9dp" app:roundedCornerRadius="12dp" app:scaleType="fitXY"/>
+    <com.jingdong.app.mall.bundle.dolphinlib.common.view.DolphinHorizontalScrollView android:id="@+id/c6_" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="132dp" android:layout_marginLeft="20dp" android:layout_marginTop="64dp" android:layout_marginRight="20dp" android:layout_below="@+id/c5s">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/c5z" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.jingdong.app.mall.bundle.dolphinlib.common.view.DolphinHorizontalScrollView>
+</FrameLayout>

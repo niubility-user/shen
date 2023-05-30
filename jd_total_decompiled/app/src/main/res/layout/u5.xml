@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.app.mall.bundle.styleinfoview.views.PDStyleJdServicePlusView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/ov" android:paddingRight="@dimen/ov" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jingdong.app.mall.bundle.styleinfoview.views.PdAutoChangeTextSize android:textSize="@dimen/ky" android:textStyle="bold" android:textColor="@color/a3f" android:id="@+id/bss" android:paddingTop="@dimen/kw" android:paddingBottom="@dimen/ov" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bso" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.jingdong.app.mall.bundle.styleinfoview.views.PDStyleJdServicePlusView>

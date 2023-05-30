@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="40dp" android:gravity="top|center_horizontal" android:tag="layout/security_keyboard_key_preview_layout_0" android:background="@drawable/b2q" android:paddingTop="3dp" android:layout_width="match_parent" android:layout_height="match_parent"/>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/a0u"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bax" android:layout_width="176dp" android:layout_height="20dp" android:layout_marginLeft="7dp" android:layout_marginTop="3dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0">
+            <com.jingdong.common.recommend.ui.homerecommend.HomeCardMainTitleLayout android:id="@+id/jy" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+            <com.jingdong.common.recommend.ui.homerecommend.HomeCardSubTitleLayout android:id="@+id/db7" android:layout_width="wrap_content" android:layout_height="14dp" android:layout_marginLeft="4dp"/>
+        </LinearLayout>
+        <com.jingdong.common.recommend.ui.video.RecommendVideoRoomInfoWidget android:id="@+id/dcl" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0"/>
+        <com.airbnb.lottie.LottieAnimationView android:id="@+id/dcm" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintRight_toRightOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

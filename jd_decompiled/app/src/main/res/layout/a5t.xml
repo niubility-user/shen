@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bfe" android:layout_width="@dimen/og" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/fg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/ase" android:layout_width="match_parent" android:layout_height="148dp" android:scaleType="fitXY"/>
+        <TextView android:textSize="@dimen/qv" android:textStyle="bold" android:textColor="@color/cc" android:id="@+id/pw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:includeFontPadding="false"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/c7q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:divider="@drawable/btx" android:showDividers="middle"/>
+        <TextView android:textSize="@dimen/qp" android:textColor="#757575" android:gravity="left" android:id="@+id/bdr" android:background="@drawable/btw" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="16dp" android:includeFontPadding="false" android:lineSpacingExtra="5dp"/>
+        <Button android:textSize="@dimen/qr" android:textStyle="bold" android:textColor="@color/jb" android:id="@+id/aac" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" style="@style/x2"/>
+        <TextView android:textSize="@dimen/qp" android:textColor="@color/dw" android:gravity="center" android:id="@+id/zd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="16dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/b61" android:background="@null" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="32dp" android:src="@drawable/bpd" android:scaleType="fitXY" android:contentDescription="@string/d6"/>
+</LinearLayout>

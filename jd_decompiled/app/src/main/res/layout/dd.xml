@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.viewpager.widget.ViewPager android:id="@+id/anj" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/ank" android:background="#d8232326" android:clickable="true" android:layout_width="match_parent" android:layout_height="49dp" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/anl" android:layout_width="50dp" android:layout_height="match_parent" android:layout_alignParentLeft="true">
+            <ImageView android:id="@+id/anm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:src="@drawable/a7o" android:contentDescription="@string/sv"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/ann" android:paddingLeft="20dp" android:layout_width="50dp" android:layout_height="match_parent" android:layout_alignParentRight="true">
+            <ImageView android:id="@+id/ano" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/a7r"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/anp" android:background="#d8232326" android:layout_width="match_parent" android:layout_height="80dp" android:layout_alignParentBottom="true">
+        <Button android:textSize="14sp" android:textColor="@color/iy" android:id="@+id/anq" android:background="@drawable/ga" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/o1" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <com.jingdong.common.ui.HorizontalListView android:id="@+id/anr" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/anq" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</RelativeLayout>

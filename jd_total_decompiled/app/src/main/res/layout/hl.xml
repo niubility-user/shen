@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/rq" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jingdong.sdk.platform.widget.RoundAngleFrameLayout android:id="@+id/zq" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.viewpager.widget.ViewPager android:id="@+id/zr" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.jingdong.sdk.platform.widget.IconPageIndicator android:layout_gravity="bottom" android:id="@+id/zs" android:layout_width="match_parent" android:layout_height="@dimen/l_" android:layout_marginBottom="@dimen/lh"/>
+    </com.jingdong.sdk.platform.widget.RoundAngleFrameLayout>
+</LinearLayout>

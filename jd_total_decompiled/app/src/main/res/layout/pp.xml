@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.jingdong.manto.widget.CircleImageView android:id="@+id/asv" android:layout_width="100dp" android:layout_height="100dp"/>
+        <com.jingdong.manto.widget.GradualChangeTv android:id="@+id/asw" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <TextView android:textSize="16sp" android:layout_gravity="center" android:id="@+id/dfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载中..." android:lines="1"/>
+        <TextView android:id="@+id/at1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text=""/>
+    </LinearLayout>
+</RelativeLayout>

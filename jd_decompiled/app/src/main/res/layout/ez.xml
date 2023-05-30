@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:circle="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="20">
+        <Button android:id="@+id/rs" android:background="@drawable/ajw" android:layout_width="19dp" android:layout_height="18dp" android:layout_marginLeft="18dp" android:layout_marginTop="16dp"/>
+        <TextView android:textSize="14sp" android:textColor="#ff000000" android:gravity="center" android:id="@+id/rt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="页面正在马不停蹄的赶来" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="15">
+        <RelativeLayout android:id="@+id/ru" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:textSize="13sp" android:textColor="#ff000000" android:gravity="center" android:id="@+id/rv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="该功能需要资源包"/>
+            <TextView android:textSize="13sp" android:textColor="#ff2d2d2e" android:gravity="center" android:id="@+id/rw" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="该功能需要资源包" android:layout_below="@+id/rv"/>
+        </RelativeLayout>
+        <com.jingdong.aura.sdk.provided.ProvidedCircleProgressBar android:id="@+id/rx" android:layout_width="95dp" android:layout_height="95dp" android:layout_marginTop="10dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" circle:circleWidth="4dp" circle:firstColor="#d3d3d3" circle:secondColor="#3b95c8"/>
+        <ImageView android:id="@+id/ry" android:layout_width="42dp" android:layout_height="45dp" android:src="@drawable/aax" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/ru">
+            <Button android:textSize="15sp" android:textColor="@color/iy" android:id="@+id/rz" android:background="@drawable/a_e" android:layout_width="200dp" android:layout_height="33dp" android:text="下载并使用" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="25">
+        <TextView android:textSize="11sp" android:textColor="#94979a" android:gravity="center" android:id="@+id/s0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="loading...0%" android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ad">5.33dp</dimen>
+    <dimen name="af">0.43dp</dimen>
+    <dimen name="ag">5.33dp</dimen>
+    <dimen name="aj">8.9sp</dimen>
+    <dimen name="al">10.7sp</dimen>
+    <dimen name="am">7.1dp</dimen>
+    <dimen name="an">5.33dp</dimen>
+    <dimen name="ap">5.33dp</dimen>
+    <dimen name="aq">5.33dp</dimen>
+</resources>

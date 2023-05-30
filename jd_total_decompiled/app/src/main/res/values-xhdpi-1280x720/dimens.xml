@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="voice_search_keyword_size">19sp</dimen>
+    <dimen name="voice_search_text_size">22sp</dimen>
+    <dimen name="voice_search_tip_size">19sp</dimen>
+</resources>

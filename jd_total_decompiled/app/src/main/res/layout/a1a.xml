@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cke" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/cho" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <tv.danmaku.ijk.media.example.widget.media.JDVideoView android:id="@+id/b9g" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/chw" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/cai"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/ckc" android:visibility="gone" android:layout_width="38dp" android:layout_height="38dp" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/as3" android:indeterminateBehavior="repeat"/>
+</FrameLayout>

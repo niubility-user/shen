@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/aty" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/atz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.jingdong.common.unification.uniwidget.JDLottieAnimationView android:id="@+id/au0" android:layout_width="20dp" android:layout_height="20dp" android:scaleType="fitCenter"/>
+        <com.jingdong.common.unification.uniwidget.JDLottieAnimationView android:id="@+id/au1" android:layout_width="20dp" android:layout_height="20dp" android:scaleType="fitCenter"/>
+        <ImageView android:id="@+id/au2" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:scaleType="fitCenter"/>
+        <TextView android:textSize="10dp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/au3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1dp" android:text="@string/hc"/>
+    </LinearLayout>
+    <com.jingdong.common.messagecenter.view.RedPointNumView android:gravity="center" android:id="@+id/au4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/au5" android:visibility="gone" android:layout_width="8dp" android:layout_height="8dp" android:src="@drawable/nw" android:scaleType="fitCenter" android:layout_alignTop="@+id/atz" android:layout_alignRight="@+id/atz"/>
+</RelativeLayout>

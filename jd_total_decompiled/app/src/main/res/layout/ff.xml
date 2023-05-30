@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/a_x"/>
+    <LinearLayout android:orientation="vertical" android:background="#f3ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="28dp" android:layout_marginTop="14dp" android:layout_marginRight="28dp" android:layout_marginBottom="7dp">
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/atg" android:layout_centerInParent="true"/>
+            <TextView android:textSize="12sp" android:textColor="#686868" android:gravity="center" android:id="@+id/b7v" android:paddingLeft="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tc" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="13sp" android:textColor="#000000" android:ellipsize="end" android:id="@+id/b7w" android:paddingLeft="28dp" android:paddingRight="28dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3"/>
+        <TextView android:background="@drawable/atf" android:layout_width="match_parent" android:layout_height="6dp" android:layout_marginLeft="28dp" android:layout_marginTop="19dp" android:layout_marginRight="28dp"/>
+        <com.jingdong.common.ui.JDGridView android:id="@+id/b7h" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@color/lu" android:horizontalSpacing="1dp" android:verticalSpacing="10dp" android:numColumns="4"/>
+        <TextView android:background="#c9c9c9" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="28dp" android:layout_marginRight="28dp"/>
+        <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/b7i" android:layout_width="match_parent" android:layout_height="48dp" android:text="@string/b6"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="13sp" android:textColor="#262626" android:ellipsize="end" android:id="@+id/c_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/c_s" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="12dp" android:layout_below="@+id/c_t"/>
+    <TextView android:textSize="13sp" android:textColor="#262626" android:ellipsize="end" android:id="@+id/c_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:maxLines="1"/>
+    <TextView android:textSize="11sp" android:textColor="#848484" android:ellipsize="end" android:id="@+id/c_u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:maxLines="2" android:layout_below="@+id/c_s"/>
+</RelativeLayout>

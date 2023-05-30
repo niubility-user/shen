@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="13sp" android:textColor="#666666" android:gravity="center" android:id="@+id/txt_feedback" android:background="@drawable/feedback_msg_gv_background" android:clickable="false" android:layout_width="0dp" android:layout_height="40dp" android:button="@null" android:lines="1" android:layout_weight="1"/>
+</LinearLayout>

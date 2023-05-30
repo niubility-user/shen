@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bh6" android:layout_width="200dp" android:layout_height="160dp">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bv9" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="12dp" android:layout_marginTop="46dp"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="46dp" android:layout_marginRight="6dp" android:layout_toRightOf="@+id/bv9">
+        <TextView android:textSize="10sp" android:textStyle="bold" android:textColor="#fff2270c" android:gravity="center" android:id="@+id/buw" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="补贴价" android:shadowRadius="3"/>
+        <com.jingdong.common.jdmiaosha.view.JDMiaoShaPriceView android:gravity="center_horizontal" android:id="@+id/bv8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/buw" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <ImageView android:background="@drawable/bh7" android:layout_width="46dp" android:layout_height="22dp" android:layout_marginLeft="5dp" android:layout_marginTop="40dp"/>
+</RelativeLayout>

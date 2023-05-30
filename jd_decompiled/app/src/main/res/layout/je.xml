@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/azu" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/azv" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop"/>
+    <include layout="@layout/oh"/>
+    <include layout="@layout/ji"/>
+    <include layout="@layout/ir"/>
+</androidx.cardview.widget.CardView>

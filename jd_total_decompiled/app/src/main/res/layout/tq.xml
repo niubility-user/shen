@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cardBackgroundColor="@color/lx" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/br8" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignParentTop="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/br9" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="10dp" android:layout_marginTop="6dp" android:layout_marginRight="6dp" android:foreground="@drawable/bat" android:layout_below="@+id/br8"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:id="@+id/br_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:lines="1" android:layout_toRightOf="@+id/br9" android:layout_alignTop="@+id/br9"/>
+        <TextView android:textSize="10sp" android:id="@+id/br5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/br9" android:layout_below="@+id/br_" android:layout_alignBottom="@+id/br9"/>
+        <RelativeLayout android:id="@+id/br4" android:background="@drawable/bar" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginLeft="10dp" android:layout_marginTop="6dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:layout_below="@+id/br9">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/br7" android:background="@drawable/bas" android:layout_width="20dp" android:layout_height="20dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <TextView android:textSize="@dimen/jv" android:id="@+id/br6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_toRightOf="@+id/br7" android:layout_centerVertical="true"/>
+            <ImageView android:background="@drawable/bby" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <include layout="@layout/ld"/>
+    </RelativeLayout>
+    <include layout="@layout/uz"/>
+    <include layout="@layout/oh"/>
+</androidx.cardview.widget.CardView>

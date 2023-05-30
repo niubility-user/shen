@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/cv2" android:background="@drawable/bq_" android:layout_width="match_parent" android:layout_height="370dp">
+    <RelativeLayout android:id="@+id/cus" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cv1" android:background="@drawable/bq9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/cuu" android:background="@drawable/bq8" android:paddingLeft="10dp" android:paddingTop="6dp" android:paddingRight="10dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120dp" android:maxLines="1"/>
+            <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/cut" android:paddingTop="6dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginRight="50dp" android:maxLines="1"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/cuv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/cv1">
+            <TextView android:textColor="#cccccc" android:ellipsize="end" android:id="@+id/cuz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="12dp" android:maxLines="1"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/cv0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_below="@+id/cuz">
+                <TextView android:ellipsize="end" android:id="@+id/cux" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="1"/>
+                <TextView android:ellipsize="end" android:id="@+id/cuy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:maxLines="1"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/cuo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="8dp" android:layout_below="@+id/cuv"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/cuq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12sp" android:textColor="#ffffff" android:ellipsize="end" android:id="@+id/cup" android:background="@drawable/btr" android:paddingLeft="12dp" android:paddingTop="7dp" android:paddingRight="12dp" android:paddingBottom="7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+            <TextView android:textSize="10sp" android:textColor="#808080" android:ellipsize="end" android:id="@+id/d3g" android:layout_width="115dp" android:layout_height="wrap_content" android:maxLines="2"/>
+        </LinearLayout>
+        <com.jingdong.app.mall.bundle.jd_component.pentagram.view.RadarView android:id="@+id/cuw" android:layout_width="wrap_content" android:layout_height="170dp" android:layout_marginLeft="10dp" android:layout_marginTop="12dp" android:layout_toRightOf="@+id/cuo" android:layout_alignTop="@+id/cuv"/>
+    </RelativeLayout>
+    <TextView android:textSize="12sp" android:textColor="#cc1a1a1a" android:gravity="center" android:id="@+id/cur" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="18dp" android:layout_marginRight="18dp" android:layout_marginBottom="18dp" android:maxLines="2" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

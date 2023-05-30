@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jd.lib.productdetail.mainimage.holder.comment.PdMImageZcxView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d5v" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/d5u" android:layout_width="@dimen/nb" android:layout_height="@dimen/nb" android:scaleType="fitXY"/>
+        <TextView android:textSize="@dimen/y3" android:textColor="@color/adr" android:gravity="center_vertical" android:id="@+id/d5w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lt" android:text="@string/arm"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/d5s" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/kx" android:layout_below="@+id/d5v"/>
+</com.jd.lib.productdetail.mainimage.holder.comment.PdMImageZcxView>

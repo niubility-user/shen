@@ -1,0 +1,50 @@
+package com.jingdong.common.search;
+
+/* loaded from: classes6.dex */
+public class FilterConstant {
+    public static final String BRANCH_FROM = "branch_from";
+    public static final int BRANCH_FROM_CATEGORY = 102;
+    public static final int BRANCH_FROM_SEARCH = 101;
+    public static final String CATELOGY_NAME = "catelogy_name";
+    public static final String CHILD_POSITION = "child_position";
+    public static final String CID = "cid";
+    public static final String FIELD = "field";
+    public static final String FILTER = "filter";
+    public static final String FROM = "from";
+    public static final String FROM_BOOK_CATEGORY = "from_book_category";
+    public static final String FROM_BRAND = "from_brand";
+    public static final String FROM_CATEGORY = "from_category";
+    public static final String FROM_EXPAND_NAME = "from_expandName";
+    public static final String FROM_EXPRESSION_KEY = "from_expressionKey";
+    public static final String FROM_PRICE = "from_price";
+    public static final String FROM_STOCK = "from_stock";
+    public static final String GROUP_POSITION = "group_position";
+    public static final String INDEX = "index";
+    public static final String IS_ALLWORLD_SHOPPING = "is_allworld_shopping";
+    public static final String IS_ALPHABET_BRAND = "is_alphabet_brand";
+    public static final String IS_BRAND = "is_brand";
+    public static final String IS_JD_DELIVERY = "is_jd_delivery";
+    public static final String IS_NEED_SHOW_ALLWORLD_SHOPPING = "is_need_show_allworld_shopping";
+    public static final String IS_ONLY_PHONE_EXCLUSIVE = "is_only_phone_exclusive ";
+    public static final String IS_ONLY_SEE_PROMOTION = "is_only_see_promotion";
+    public static final String IS_PAY_ON_DELIVERY = "is_pay_on_delivery";
+    public static final String KEY_STOCK_GLOBAL = "key_stock_global";
+    public static final String MAX_CUSTOM_PRICE = "max_custom_price";
+    public static final String MIN_CUSTOM_PRICE = "min_custom_price";
+    public static final String REQUEST_CODE = "request_code";
+    public static final int REQUEST_CODE_BRAND = 6;
+    public static final int REQUEST_CODE_CATEGORY = 1;
+    public static final int REQUEST_CODE_EXPAND_NAME = 4;
+    public static final int REQUEST_CODE_EXPRESSION_KEY = 3;
+    public static final int REQUEST_CODE_PRICE = 2;
+    public static final int REQUEST_CODE_STOCK = 5;
+    public static final String SELECT_KEY_DISCOUNT = "discount";
+    public static final String SELECT_KEY_EXPAND_NAME = "expandName";
+    public static final String SELECT_KEY_EXPRESSION_KEY = "expressionKey";
+    public static final String SELECT_KEY_MEDIA = "media";
+    public static final String SELECT_KEY_PACKAGE = "package";
+    public static final String SELECT_KEY_PACKSTATE = "packstate";
+    public static final String SELECT_KEY_PRICE = "price";
+    public static final String SELECT_KEY_PUBLISHERS = "publishers";
+    public static final String SELECT_KEY_STARLEVEL = "starlevel";
+}

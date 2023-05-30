@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/d1j" android:background="@drawable/bt0" android:paddingLeft="@dimen/kv" android:paddingTop="@dimen/n4" android:paddingRight="@dimen/kv" android:paddingBottom="@dimen/n4" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginBottom="@dimen/kx" android:paddingStart="@dimen/kv" android:paddingEnd="@dimen/kv">
+    <androidx.cardview.widget.CardView android:id="@+id/d1n" android:layout_width="88dp" android:layout_height="88dp" app:cardBackgroundColor="@color/aed" app:cardCornerRadius="@dimen/lt" app:cardElevation="0dp">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/d1m" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:viewAspectRatio="1" app:roundedCornerRadius="@dimen/lt"/>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/te" android:layout_marginStart="@dimen/te">
+        <TextView android:textSize="@dimen/xn" android:textColor="@color/adr" android:ellipsize="end" android:id="@+id/d1q" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"/>
+        <com.jd.lib.productdetail.core.common.PDFlowLayoutFix android:id="@+id/d1p" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nc" android:layout_alignParentBottom="true"/>
+        <LinearLayout android:gravity="end|bottom" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/xp" android:textColor="@color/aeh" android:ellipsize="end" android:id="@+id/d1o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/d1k" android:layout_width="@dimen/nb" android:layout_height="@dimen/nb" android:src="@drawable/c86" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</LinearLayout>

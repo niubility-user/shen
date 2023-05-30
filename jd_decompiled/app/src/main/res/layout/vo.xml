@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/c5v" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/c55" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3"/>
+    <RelativeLayout android:id="@+id/c58" android:background="@drawable/ben" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="7">
+        <include android:id="@+id/c5l" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/vm"/>
+    </RelativeLayout>
+</LinearLayout>

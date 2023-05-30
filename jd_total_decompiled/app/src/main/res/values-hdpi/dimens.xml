@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="f">10sp</dimen>
+    <dimen name="h">1px</dimen>
+    <dimen name="i">280dp</dimen>
+    <dimen name="j">280dp</dimen>
+    <dimen name="tt">15dp</dimen>
+    <dimen name="tu">40dp</dimen>
+    <dimen name="tv">30dp</dimen>
+    <dimen name="l">15dp</dimen>
+    <dimen name="m">25dp</dimen>
+    <dimen name="about_quick_mark_download_margintop">30dp</dimen>
+    <dimen name="cart_coupon_left_width">100dp</dimen>
+    <dimen name="cart_coupon_pic_text">11sp</dimen>
+    <dimen name="tw">280dp</dimen>
+    <dimen name="tx">150dp</dimen>
+    <dimen name="cart_coupon_right_padding">5dp</dimen>
+    <dimen name="fill_order_layout_10dp">5dp</dimen>
+    <dimen name="personal_user_img_view_height">70dp</dimen>
+    <dimen name="personal_user_img_view_width">70dp</dimen>
+    <dimen name="tz">40dp</dimen>
+    <dimen name="u0">12sp</dimen>
+    <dimen name="u1">4dp</dimen>
+    <dimen name="u2">84dp</dimen>
+    <dimen name="u3">175dp</dimen>
+    <dimen name="u4">4dp</dimen>
+    <dimen name="u5">4dp</dimen>
+</resources>

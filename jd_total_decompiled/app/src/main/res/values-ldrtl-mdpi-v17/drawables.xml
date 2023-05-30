@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="v2">r/ad/v2.png</drawable>
+    <drawable name="v3">r/ad/v3.png</drawable>
+    <drawable name="vq">r/ad/vq.9.png</drawable>
+</resources>

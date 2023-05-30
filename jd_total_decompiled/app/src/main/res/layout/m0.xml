@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/a55" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/c1"/>
+</merge>

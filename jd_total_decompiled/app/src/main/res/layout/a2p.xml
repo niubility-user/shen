@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/cs9" android:background="@drawable/bq6" android:paddingTop="@dimen/a03" android:paddingBottom="@dimen/zy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a0u" android:importantForAccessibility="no">
+    <com.jd.lib.cashier.sdk.btcombinationpay.ui.BtCombinationPayItemView android:id="@+id/cs1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rf" android:layout_marginRight="@dimen/rf"/>
+    <com.jd.lib.cashier.sdk.core.ui.widget.PayPlanView android:layout_gravity="center" android:id="@+id/crx" android:layout_width="match_parent" android:layout_height="wrap_content" app:clickAutoSelection="false"/>
+    <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a6q" android:ellipsize="end" android:id="@+id/cs2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rf" android:layout_marginTop="@dimen/a0u" android:layout_marginRight="@dimen/rf" android:maxLines="2" android:includeFontPadding="false"/>
+</LinearLayout>

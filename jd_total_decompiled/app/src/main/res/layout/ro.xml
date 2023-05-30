@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a4_" android:tag="layout/security_general_keyboard_total_0" android:paddingLeft="@dimen/w_" android:paddingRight="@dimen/wa" android:layout_width="match_parent" android:layout_height="230dp" android:splitMotionEvents="false" android:windowEnableSplitTouch="false">
+    <include android:id="@+id/a4a" layout="@layout/sa"/>
+    <include android:id="@+id/a4b" layout="@layout/ru"/>
+    <include android:id="@+id/a4c" layout="@layout/v8"/>
+</FrameLayout>

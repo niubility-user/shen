@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/az" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.viewpager.widget.ViewPager android:id="@+id/cz" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/bd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37.3dp" android:layout_marginRight="22dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/be" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextSwitcher android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/cy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/10" android:singleLine="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageButton android:id="@+id/bc" android:background="@android:color/transparent" android:layout_width="36.7dp" android:layout_height="36.7dp" android:layout_marginRight="18.7dp" android:layout_marginBottom="30.7dp" android:src="@drawable/hi" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <ImageButton android:id="@+id/ag" android:background="@android:color/transparent" android:layout_width="36.7dp" android:layout_height="36.7dp" android:layout_marginLeft="18.7dp" android:layout_marginBottom="30.7dp" android:src="@drawable/ab" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

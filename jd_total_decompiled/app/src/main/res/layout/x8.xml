@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/c7s" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/c7b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scrollingCache="false" android:layout_below="@+id/c7s" android:overScrollMode="never" android:animateLayoutChanges="false"/>
+    <ViewStub android:id="@+id/c6r" android:layout="@layout/vf" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/c7s"/>
+</RelativeLayout>

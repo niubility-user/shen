@@ -1,0 +1,137 @@
+{
+  "dslMap": {
+    "multiTabLoadingDsl": {
+      "type": "view",
+      "children": [
+        {
+          "type": "text",
+          "style": {
+            "textAlign":"center",
+            "verticalAlign":"center",
+            "bold":1,
+            "frame": "0,0,1125,168",
+            "lines": 0,
+            "fontSize": 42,
+            "color": "#666666",
+            "bgColor": "#F0F4DA"
+          },
+          "valueRefer": "$msg"
+        }
+      ],
+      "style": {
+        "frame": "0,0,1125,168",
+        "bgColor": "#F0F4DA"
+      }
+    },
+    "multiTabFailDsl": {
+      "type": "view",
+      "event": [
+        {
+          "type": "click",
+          "eventKey": "666666666",
+          "action": "",
+          "param": {
+            "valueRefer": ""
+          }
+        }
+      ],
+      "children": [
+        {
+          "type": "text",
+          "style": {
+            "textAlign":"center",
+            "verticalAlign":"center",
+            "bold":1,
+            "frame": "0,0,1125,168",
+            "lines": 0,
+            "fontSize": 42,
+            "color": "#666666",
+            "bgColor": "#F0F4DA"
+          },
+          "valueRefer": "$msg"
+        }
+      ],
+      "style": {
+        "frame": "0,0,1125,168",
+        "bgColor": "#F0F4DA"
+      }
+    },
+    "multiTabFlatView":{
+      "id": "flatId",
+      "type": "flatView",
+      "valueRefer": "$flatData",
+      "dslId":"multiTabFlatView",
+      "style": {
+        "frame": "0,0,1125,168",
+        "bgColor": "#f0f8ff"
+      }
+    }
+  },
+  "loadingFloor":{
+    "dslData": {
+      "flatData": [
+        {
+          "dslId": "multiTabLoadingDsl",
+          "msg": "正在加载..."
+        }
+      ]
+    },
+    "dslRoot": {
+      "id": "flatId",
+      "type": "flatView",
+      "valueRefer": "$flatData",
+      "dslId":"multiTabFlatView",
+      "style": {
+        "frame": "0,0,1125,168",
+        "bgColor": "#f0f8ff"
+      }
+    }
+  },
+  "noMoreFloor":{
+    "dslData": {
+      "flatData": [
+        {
+          "dslId": "multiTabLoadingDsl",
+          "msg": "无楼层"
+        }
+      ]
+    },
+    "dslRoot": {
+      "id": "flatId",
+      "type": "flatView",
+      "valueRefer": "$flatData",
+      "dslId":"multiTabFlatView",
+      "style": {
+        "frame": "0,0,1125,168",
+        "bgColor": "#f0f8ff"
+      }
+    }
+  },
+  "errorFloor":{
+    "dslData": {
+      "flatData": [
+        {
+          "jumpMap": {
+            "666666666": {
+              "eventId": "MultiTabFail_EventId"
+            }
+          },
+
+          "dslId": "multiTabFailDsl",
+          "msg": "加载失败,请重试"
+        }
+      ]
+    },
+    "dslRoot": {
+      "id": "flatId",
+      "type": "flatView",
+      "valueRefer": "$flatData",
+      "dslId":"multiTabFlatView",
+      "style": {
+        "frame": "0,0,1125,168",
+        "bgColor": "#f0f8ff"
+      }
+    }
+  }
+}
+

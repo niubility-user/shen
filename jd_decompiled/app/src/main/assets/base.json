@@ -1,0 +1,1163 @@
+{
+        "materiaList": [
+            {
+                "code": "C_Deepblue_04",
+                "bgColor": "#65bcff"
+            },
+            {
+                "code": "C_Deepblue_04Dark",
+                "bgColor": "#266099"
+            },
+            {
+                "code": "C_Deepblue_03",
+                "bgColor": "#90d3ff"
+            },
+            {
+                "code": "C_Deepblue_03Dark",
+                "bgColor": "#1f3c59"
+            },
+            {
+                "code": "C_Red_01",
+                "bgColor": "#ffeae8"
+            },
+            {
+                "code": "C_Red_01Dark",
+                "bgColor": "#261113"
+            },
+            {
+                "code": "C_Deepblue_06",
+                "bgColor": "#0d85ff"
+            },
+            {
+                "code": "C_Deepblue_06Dark",
+                "bgColor": "#248bf2"
+            },
+            {
+                "code": "C_Deepblue_05",
+                "bgColor": "#39a3ff"
+            },
+            {
+                "code": "C_Deepblue_05Dark",
+                "bgColor": "#217dd9"
+            },
+            {
+                "code": "C_Deepblue_08",
+                "bgColor": "#044aa6"
+            },
+            {
+                "code": "C_Deepblue_08Dark",
+                "bgColor": "#99ccff"
+            },
+            {
+                "code": "C_Red_04",
+                "bgColor": "#ff8385"
+            },
+            {
+                "code": "C_Red_04Dark",
+                "bgColor": "#8c2a32"
+            },
+            {
+                "code": "T6_JDzhenghHT_regular",
+                "fontSize": "20",
+                "font": "4099"
+            },
+            {
+                "code": "T6_JDzhenghHT_regularDark",
+                "fontSize": "20",
+                "font": "4099"
+            },
+            {
+                "code": "C_Deepblue_07",
+                "bgColor": "#0866d2"
+            },
+            {
+                "code": "C_Deepblue_07Dark",
+                "bgColor": "#59acff"
+            },
+            {
+                "code": "C_Red_05",
+                "bgColor": "#ff6269"
+            },
+            {
+                "code": "C_Red_05Dark",
+                "bgColor": "#bf303c"
+            },
+            {
+                "code": "C_Red_02",
+                "bgColor": "#ffc9c6"
+            },
+            {
+                "code": "C_Red_02Dark",
+                "bgColor": "#40191d"
+            },
+            {
+                "code": "T5_Text_regular",
+                "fontSize": "18"
+            },
+            {
+                "code": "T5_Text_regularDark",
+                "fontSize": "18"
+            },
+            {
+                "code": "C_Deepblue_09",
+                "bgColor": "#023179"
+            },
+            {
+                "code": "C_Deepblue_09Dark",
+                "bgColor": "#add6ff"
+            },
+            {
+                "code": "C_Red_03",
+                "bgColor": "#ffa6a5"
+            },
+            {
+                "code": "C_Red_03Dark",
+                "bgColor": "#591f24"
+            },
+            {
+                "code": "T2_JDzhenghHT_regular",
+                "fontSize": "12",
+                "font": "4099"
+            },
+            {
+                "code": "T2_JDzhenghHT_regularDark",
+                "fontSize": "12",
+                "font": "4099"
+            },
+            {
+                "code": "login_full_title"
+            },
+            {
+                "code": "login_full_titleDark"
+            },
+            {
+                "code": "T2_Text_Bold",
+                "fontSize": "12"
+            },
+            {
+                "code": "T2_Text_BoldDark",
+                "fontSize": "12"
+            },
+            {
+                "code": "C_Red_08",
+                "bgColor": "#a6152b"
+            },
+            {
+                "code": "C_Red_08Dark",
+                "bgColor": "#ff99a2"
+            },
+            {
+                "code": "C_Red_09",
+                "bgColor": "#79081c"
+            },
+            {
+                "code": "C_Red_09Dark",
+                "bgColor": "#ffbfc5"
+            },
+            {
+                "code": "C_Red_06",
+                "bgColor": "#ff404f"
+            },
+            {
+                "code": "C_Red_06Dark",
+                "bgColor": "#f24957"
+            },
+            {
+                "code": "C_Red_07",
+                "bgColor": "#d2283c"
+            },
+            {
+                "code": "C_Red_07Dark",
+                "bgColor": "#f76f7b"
+            },
+            {
+                "code": "T1_Text_regular",
+                "fontSize": "10"
+            },
+            {
+                "code": "T1_Text_regularDark",
+                "fontSize": "10"
+            },
+            {
+                "code": "C_Deepblue_10",
+                "bgColor": "#001c4d"
+            },
+            {
+                "code": "C_Deepblue_10Dark",
+                "bgColor": "#c2e0ff"
+            },
+            {
+                "code": "T1_Text_Bold",
+                "fontSize": "10"
+            },
+            {
+                "code": "T1_Text_BoldDark",
+                "fontSize": "10"
+            },
+            {
+                "code": "C_Lightgreen_01",
+                "bgColor": "#f7ffe8"
+            },
+            {
+                "code": "C_Lightgreen_01Dark",
+                "bgColor": "#1c2611"
+            },
+            {
+                "code": "C_Gray_08",
+                "bgColor": "#4d4d4d"
+            },
+            {
+                "code": "C_Gray_08Dark",
+                "bgColor": "#848383"
+            },
+            {
+                "code": "C_Red_10",
+                "bgColor": "#4d0011"
+            },
+            {
+                "code": "C_Red_10Dark",
+                "bgColor": "#ffd9dc"
+            },
+            {
+                "code": "C_Gray_09",
+                "bgColor": "#1a1a1a"
+            },
+            {
+                "code": "C_Gray_09Dark",
+                "bgColor": "#ececec"
+            },
+            {
+                "code": "C_Indigo_07",
+                "bgColor": "#4530d2"
+            },
+            {
+                "code": "C_Indigo_07Dark",
+                "bgColor": "#8a73ff"
+            },
+            {
+                "code": "C_Indigo_08",
+                "bgColor": "#2719a6"
+            },
+            {
+                "code": "C_Indigo_08Dark",
+                "bgColor": "#aa99ff"
+            },
+            {
+                "code": "C_Indigo_09",
+                "bgColor": "#110979"
+            },
+            {
+                "code": "C_Indigo_09Dark",
+                "bgColor": "#bfb3ff"
+            },
+            {
+                "code": "C_Indigo_03",
+                "bgColor": "#c1aaff"
+            },
+            {
+                "code": "C_Indigo_03Dark",
+                "bgColor": "#332966"
+            },
+            {
+                "code": "C_Lightgreen_07",
+                "bgColor": "#55b600"
+            },
+            {
+                "code": "C_Lightgreen_07Dark",
+                "bgColor": "#9df249"
+            },
+            {
+                "code": "C_Gray_02",
+                "bgColor": "#f9f9f9"
+            },
+            {
+                "code": "C_Gray_02Dark",
+                "bgColor": "#161515"
+            },
+            {
+                "code": "C_Indigo_04",
+                "bgColor": "#a68bff"
+            },
+            {
+                "code": "C_Indigo_04Dark",
+                "bgColor": "#4c3d99"
+            },
+            {
+                "code": "C_Lightgreen_06",
+                "bgColor": "#6dd900"
+            },
+            {
+                "code": "C_Lightgreen_06Dark",
+                "bgColor": "#78d916"
+            },
+            {
+                "code": "T8_Text_Bold",
+                "fontSize": "32"
+            },
+            {
+                "code": "T8_Text_BoldDark",
+                "fontSize": "32"
+            },
+            {
+                "code": "C_Gray_03",
+                "bgColor": "#f2f2f2"
+            },
+            {
+                "code": "C_Gray_03Dark",
+                "bgColor": "#0a0909"
+            },
+            {
+                "code": "C_Indigo_05",
+                "bgColor": "#896cff"
+            },
+            {
+                "code": "C_Indigo_05Dark",
+                "bgColor": "#6950e6"
+            },
+            {
+                "code": "C_Lightgreen_09",
+                "bgColor": "#2d7000"
+            },
+            {
+                "code": "C_Lightgreen_09Dark",
+                "bgColor": "#d2ffa6"
+            },
+            {
+                "code": "C_Indigo_06",
+                "bgColor": "#6a4dff"
+            },
+            {
+                "code": "C_Indigo_06Dark",
+                "bgColor": "#7559ff"
+            },
+            {
+                "code": "C_Lightgreen_08",
+                "bgColor": "#409300"
+            },
+            {
+                "code": "C_Lightgreen_08Dark",
+                "bgColor": "#b5fa70"
+            },
+            {
+                "code": "C_Gray_01",
+                "bgColor": "#ffffff"
+            },
+            {
+                "code": "C_Gray_01Dark",
+                "bgColor": "#1d1b1b"
+            },
+            {
+                "code": "C_Lightgreen_03",
+                "bgColor": "#c4f083"
+            },
+            {
+                "code": "C_Lightgreen_03Dark",
+                "bgColor": "#3c591f"
+            },
+            {
+                "code": "C_Lightgreen_02",
+                "bgColor": "#dff7b4"
+            },
+            {
+                "code": "C_Lightgreen_02Dark",
+                "bgColor": "#2d4019"
+            },
+            {
+                "code": "C_Gray_07",
+                "bgColor": "#808080"
+            },
+            {
+                "code": "C_Gray_07Dark",
+                "bgColor": "#848383"
+            },
+            {
+                "code": "C_Indigo_01",
+                "bgColor": "#f0e8ff"
+            },
+            {
+                "code": "C_Indigo_01Dark",
+                "bgColor": "#181526"
+            },
+            {
+                "code": "C_Lightgreen_05",
+                "bgColor": "#8be129"
+            },
+            {
+                "code": "C_Lightgreen_05Dark",
+                "bgColor": "#67b31b"
+            },
+            {
+                "code": "C_Gray_04",
+                "bgColor": "#cccccc"
+            },
+            {
+                "code": "C_Gray_04Dark",
+                "bgColor": "#555353"
+            },
+            {
+                "code": "C_Indigo_02",
+                "bgColor": "#d9c9ff"
+            },
+            {
+                "code": "C_Indigo_02Dark",
+                "bgColor": "#231d40"
+            },
+            {
+                "code": "C_Lightgreen_04",
+                "bgColor": "#a8e855"
+            },
+            {
+                "code": "C_Lightgreen_04Dark",
+                "bgColor": "#5b8c2a"
+            },
+            {
+                "code": "C_Lightgreen_10",
+                "bgColor": "#1c4d00"
+            },
+            {
+                "code": "C_Lightgreen_10Dark",
+                "bgColor": "#dfffbf"
+            },
+            {
+                "code": "C_Purple_10",
+                "bgColor": "#29004d"
+            },
+            {
+                "code": "C_Purple_10Dark",
+                "bgColor": "#eeccff"
+            },
+            {
+                "code": "T7_Text_Bold",
+                "fontSize": "30"
+            },
+            {
+                "code": "T7_Text_BoldDark",
+                "fontSize": "30"
+            },
+            {
+                "code": "C_Lightblue_10",
+                "bgColor": "#00364d"
+            },
+            {
+                "code": "C_Lightblue_10Dark",
+                "bgColor": "#ccf7ff"
+            },
+            {
+                "code": "C_Deepgreen_10",
+                "bgColor": "#004d17"
+            },
+            {
+                "code": "C_Deepgreen_10Dark",
+                "bgColor": "#bfffca"
+            },
+            {
+                "code": "C_Purple_07",
+                "bgColor": "#9235c9"
+            },
+            {
+                "code": "C_Purple_07Dark",
+                "bgColor": "#d073ff"
+            },
+            {
+                "code": "C_Purple_08",
+                "bgColor": "#6b1c9f"
+            },
+            {
+                "code": "C_Purple_08Dark",
+                "bgColor": "#dd99ff"
+            },
+            {
+                "code": "C_Purple_05",
+                "bgColor": "#cd71f5"
+            },
+            {
+                "code": "C_Purple_05Dark",
+                "bgColor": "#b450e6"
+            },
+            {
+                "code": "C_Purple_06",
+                "bgColor": "#be55f2"
+            },
+            {
+                "code": "C_Purple_06Dark",
+                "bgColor": "#c859ff"
+            },
+            {
+                "code": "C_Purple_03",
+                "bgColor": "#e8abfa"
+            },
+            {
+                "code": "C_Purple_03Dark",
+                "bgColor": "#522966"
+            },
+            {
+                "code": "C_Purple_04",
+                "bgColor": "#db8ef7"
+            },
+            {
+                "code": "C_Purple_04Dark",
+                "bgColor": "#7a3d99"
+            },
+            {
+                "code": "C_Purple_01",
+                "bgColor": "#fbe8ff"
+            },
+            {
+                "code": "C_Purple_01Dark",
+                "bgColor": "#201326"
+            },
+            {
+                "code": "C_Purple_02",
+                "bgColor": "#f2c9fc"
+            },
+            {
+                "code": "C_Purple_02Dark",
+                "bgColor": "#341d40"
+            },
+            {
+                "code": "C_Lightblue_02",
+                "bgColor": "#c4fbfc"
+            },
+            {
+                "code": "C_Lightblue_02Dark",
+                "bgColor": "#203a40"
+            },
+            {
+                "code": "C_Lightblue_01",
+                "bgColor": "#e8ffff"
+            },
+            {
+                "code": "C_Lightblue_01Dark",
+                "bgColor": "#172426"
+            },
+            {
+                "code": "C_Lightblue_04",
+                "bgColor": "#7febf7"
+            },
+            {
+                "code": "C_Lightblue_04Dark",
+                "bgColor": "#3e9fb3"
+            },
+            {
+                "code": "C_Lightblue_03",
+                "bgColor": "#a2f4fa"
+            },
+            {
+                "code": "C_Lightblue_03Dark",
+                "bgColor": "#245059"
+            },
+            {
+                "code": "C_Deepgreen_07",
+                "bgColor": "#0dac2d"
+            },
+            {
+                "code": "C_Deepgreen_07Dark",
+                "bgColor": "#5ce673"
+            },
+            {
+                "code": "C_Lightblue_09",
+                "bgColor": "#075876"
+            },
+            {
+                "code": "C_Lightblue_09Dark",
+                "bgColor": "#b8f3ff"
+            },
+            {
+                "code": "C_Deepgreen_06",
+                "bgColor": "#14cc33"
+            },
+            {
+                "code": "C_Deepgreen_06Dark",
+                "bgColor": "#21d93f"
+            },
+            {
+                "code": "C_Deepgreen_05",
+                "bgColor": "#38d64d"
+            },
+            {
+                "code": "C_Deepgreen_05Dark",
+                "bgColor": "#1dbf38"
+            },
+            {
+                "code": "C_Deepgreen_04",
+                "bgColor": "#5fe06c"
+            },
+            {
+                "code": "C_Deepgreen_04Dark",
+                "bgColor": "#268035"
+            },
+            {
+                "code": "C_Lightblue_06",
+                "bgColor": "#3dd4f2"
+            },
+            {
+                "code": "C_Lightblue_06Dark",
+                "bgColor": "#49d6f2"
+            },
+            {
+                "code": "C_Lightblue_05",
+                "bgColor": "#5ee0f5"
+            },
+            {
+                "code": "C_Lightblue_05Dark",
+                "bgColor": "#41bfd9"
+            },
+            {
+                "code": "C_Lightblue_08",
+                "bgColor": "#147f9f"
+            },
+            {
+                "code": "C_Lightblue_08Dark",
+                "bgColor": "#96e9fa"
+            },
+            {
+                "code": "C_Deepgreen_09",
+                "bgColor": "#036c1f"
+            },
+            {
+                "code": "C_Deepgreen_09Dark",
+                "bgColor": "#a3ffb2"
+            },
+            {
+                "code": "C_Lightblue_07",
+                "bgColor": "#26a8c9"
+            },
+            {
+                "code": "C_Lightblue_07Dark",
+                "bgColor": "#6fe1f7"
+            },
+            {
+                "code": "C_Deepgreen_08",
+                "bgColor": "#078c26"
+            },
+            {
+                "code": "C_Deepgreen_08Dark",
+                "bgColor": "#91f2a1"
+            },
+            {
+                "code": "C_Newgray_02",
+                "bgColor": "#757575"
+            },
+            {
+                "code": "C_Newgray_02Dark",
+                "bgColor": "#828282"
+            },
+            {
+                "code": "C_Newgray_03",
+                "bgColor": "#bfbfbf"
+            },
+            {
+                "code": "C_Newgray_03Dark",
+                "bgColor": "#404040"
+            },
+            {
+                "code": "C_Newgray_01",
+                "bgColor": "#1a1a1a"
+            },
+            {
+                "code": "C_Newgray_01Dark",
+                "bgColor": "#e6e6e6"
+            },
+            {
+                "code": "C_Deepgreen_03",
+                "bgColor": "#89eb90"
+            },
+            {
+                "code": "C_Deepgreen_03Dark",
+                "bgColor": "#1f5929"
+            },
+            {
+                "code": "C_Newgray_06",
+                "bgColor": "#ffffff"
+            },
+            {
+                "code": "C_Newgray_06Dark",
+                "bgColor": "#1f1f1f"
+            },
+            {
+                "code": "C_Deepgreen_02",
+                "bgColor": "#b7f5b9"
+            },
+            {
+                "code": "C_Deepgreen_02Dark",
+                "bgColor": "#194020"
+            },
+            {
+                "code": "C_Purple_09",
+                "bgColor": "#470a76"
+            },
+            {
+                "code": "C_Purple_09Dark",
+                "bgColor": "#e7b8ff"
+            },
+            {
+                "code": "C_Deepgreen_01",
+                "bgColor": "#e8ffe8"
+            },
+            {
+                "code": "C_Deepgreen_01Dark",
+                "bgColor": "#112615"
+            },
+            {
+                "code": "C_Newgray_04",
+                "bgColor": "#f4f4f4"
+            },
+            {
+                "code": "C_Newgray_04Dark",
+                "bgColor": "#0a0a0a"
+            },
+            {
+                "code": "C_Newgray_05",
+                "bgColor": "#f9f9f9"
+            },
+            {
+                "code": "C_Newgray_05Dark",
+                "bgColor": "#141414"
+            },
+            {
+                "code": "T4_JDzhenghHT_regular",
+                "fontSize": "16",
+                "font": "4099"
+            },
+            {
+                "code": "T4_JDzhenghHT_regularDark",
+                "fontSize": "16",
+                "font": "4099"
+            },
+            {
+                "code": "T7_Text_regular",
+                "fontSize": "30"
+            },
+            {
+                "code": "T7_Text_regularDark",
+                "fontSize": "30"
+            },
+            {
+                "code": "T3_Text_regular",
+                "fontSize": "14"
+            },
+            {
+                "code": "T3_Text_regularDark",
+                "fontSize": "14"
+            },
+            {
+                "code": "T5_Text_Bold",
+                "fontSize": "18"
+            },
+            {
+                "code": "T5_Text_BoldDark",
+                "fontSize": "18"
+            },
+            {
+                "code": "C_Brand_01",
+                "bgColor": "#fa2c19"
+            },
+            {
+                "code": "C_Brand_01Dark",
+                "bgColor": "#fa2c19"
+            },
+            {
+                "code": "T8_JDzhenghHT_regular",
+                "fontSize": "32",
+                "font": "4099"
+            },
+            {
+                "code": "T8_JDzhenghHT_regularDark",
+                "fontSize": "32",
+                "font": "4099"
+            },
+            {
+                "code": "T4_Text_Bold",
+                "fontSize": "16"
+            },
+            {
+                "code": "T4_Text_BoldDark",
+                "fontSize": "16"
+            },
+            {
+                "code": "T5_JDzhenghHT_regular",
+                "fontSize": "18",
+                "font": "4099"
+            },
+            {
+                "code": "T5_JDzhenghHT_regularDark",
+                "fontSize": "18",
+                "font": "4099"
+            },
+            {
+                "code": "C_Rosered_01",
+                "bgColor": "#ffe8f0"
+            },
+            {
+                "code": "C_Rosered_01Dark",
+                "bgColor": "#26111c"
+            },
+            {
+                "code": "C_Rosered_02",
+                "bgColor": "#fcc4d9"
+            },
+            {
+                "code": "C_Rosered_02Dark",
+                "bgColor": "#40162b"
+            },
+            {
+                "code": "T7_JDzhenghHT_regular",
+                "fontSize": "30",
+                "font": "4099"
+            },
+            {
+                "code": "T7_JDzhenghHT_regularDark",
+                "fontSize": "30",
+                "font": "4099"
+            },
+            {
+                "code": "T6_Text_regular",
+                "fontSize": "20"
+            },
+            {
+                "code": "T6_Text_regularDark",
+                "fontSize": "20"
+            },
+            {
+                "code": "C_Rosered_05",
+                "bgColor": "#f55ea4"
+            },
+            {
+                "code": "C_Rosered_05Dark",
+                "bgColor": "#cc3d85"
+            },
+            {
+                "code": "C_Indigo_10",
+                "bgColor": "#03004d"
+            },
+            {
+                "code": "C_Indigo_10Dark",
+                "bgColor": "#d0c7ff"
+            },
+            {
+                "code": "T3_JDzhenghHT_regular",
+                "fontSize": "14",
+                "font": "4099"
+            },
+            {
+                "code": "T3_JDzhenghHT_regularDark",
+                "fontSize": "14",
+                "font": "4099"
+            },
+            {
+                "code": "C_Rosered_06",
+                "bgColor": "#f23d97"
+            },
+            {
+                "code": "C_Rosered_06Dark",
+                "bgColor": "#f2499d"
+            },
+            {
+                "code": "T8_Text_regular",
+                "fontSize": "32"
+            },
+            {
+                "code": "T8_Text_regularDark",
+                "fontSize": "32"
+            },
+            {
+                "code": "C_Rosered_03",
+                "bgColor": "#faa2c5"
+            },
+            {
+                "code": "C_Rosered_03Dark",
+                "bgColor": "#662445"
+            },
+            {
+                "code": "T1_JDzhenghHT_regular",
+                "fontSize": "10",
+                "font": "4099"
+            },
+            {
+                "code": "T1_JDzhenghHT_regularDark",
+                "fontSize": "10",
+                "font": "4099"
+            },
+            {
+                "code": "C_Rosered_04",
+                "bgColor": "#f77fb3"
+            },
+            {
+                "code": "C_Rosered_04Dark",
+                "bgColor": "#993667"
+            },
+            {
+                "code": "C_Orange_07",
+                "bgColor": "#d26200"
+            },
+            {
+                "code": "C_Orange_07Dark",
+                "bgColor": "#ffa64d"
+            },
+            {
+                "code": "C_Orange_08",
+                "bgColor": "#a64800"
+            },
+            {
+                "code": "C_Orange_08Dark",
+                "bgColor": "#ffcc99"
+            },
+            {
+                "code": "C_Orange_09",
+                "bgColor": "#793000"
+            },
+            {
+                "code": "C_Orange_09Dark",
+                "bgColor": "#ffdfbf"
+            },
+            {
+                "code": "C_Yellow_10",
+                "bgColor": "#4d2f00"
+            },
+            {
+                "code": "C_Yellow_10Dark",
+                "bgColor": "#fff7d9"
+            },
+            {
+                "code": "C_Orange_03",
+                "bgColor": "#ffd18b"
+            },
+            {
+                "code": "C_Orange_03Dark",
+                "bgColor": "#593816"
+            },
+            {
+                "code": "C_Orange_04",
+                "bgColor": "#ffb95d"
+            },
+            {
+                "code": "C_Orange_04Dark",
+                "bgColor": "#995c1f"
+            },
+            {
+                "code": "C_Orange_05",
+                "bgColor": "#ff9e2e"
+            },
+            {
+                "code": "C_Orange_05Dark",
+                "bgColor": "#e68422"
+            },
+            {
+                "code": "C_Orange_06",
+                "bgColor": "#ff8000"
+            },
+            {
+                "code": "C_Orange_06Dark",
+                "bgColor": "#ff9326"
+            },
+            {
+                "code": "T4_Text_regular",
+                "fontSize": "16"
+            },
+            {
+                "code": "T4_Text_regularDark",
+                "fontSize": "16"
+            },
+            {
+                "code": "C_Orange_01",
+                "bgColor": "#fff7e8"
+            },
+            {
+                "code": "C_Orange_01Dark",
+                "bgColor": "#261b0f"
+            },
+            {
+                "code": "C_Orange_02",
+                "bgColor": "#ffe6ba"
+            },
+            {
+                "code": "C_Orange_02Dark",
+                "bgColor": "#402913"
+            },
+            {
+                "code": "T2_Text_regular",
+                "fontSize": "12"
+            },
+            {
+                "code": "T2_Text_regularDark",
+                "fontSize": "12"
+            },
+            {
+                "code": "C_Yellow_09",
+                "bgColor": "#794f00"
+            },
+            {
+                "code": "C_Yellow_09Dark",
+                "bgColor": "#fff2bf"
+            },
+            {
+                "code": "C_Yellow_06",
+                "bgColor": "#ffbe00"
+            },
+            {
+                "code": "C_Yellow_06Dark",
+                "bgColor": "#ffd11a"
+            },
+            {
+                "code": "C_Yellow_05",
+                "bgColor": "#ffd22e"
+            },
+            {
+                "code": "C_Yellow_05Dark",
+                "bgColor": "#f2bc18"
+            },
+            {
+                "code": "T3_Text_Bold",
+                "fontSize": "14"
+            },
+            {
+                "code": "T3_Text_BoldDark",
+                "fontSize": "14"
+            },
+            {
+                "code": "C_Rosered_10",
+                "bgColor": "#4d0030"
+            },
+            {
+                "code": "C_Rosered_10Dark",
+                "bgColor": "#ffcce6"
+            },
+            {
+                "code": "C_Yellow_08",
+                "bgColor": "#a67100"
+            },
+            {
+                "code": "C_Yellow_08Dark",
+                "bgColor": "#ffeb99"
+            },
+            {
+                "code": "C_Yellow_07",
+                "bgColor": "#d29700"
+            },
+            {
+                "code": "C_Yellow_07Dark",
+                "bgColor": "#ffdb4d"
+            },
+            {
+                "code": "C_Yellow_02",
+                "bgColor": "#fff7ba"
+            },
+            {
+                "code": "C_Yellow_02Dark",
+                "bgColor": "#40300a"
+            },
+            {
+                "code": "C_Yellow_01",
+                "bgColor": "#fffde8"
+            },
+            {
+                "code": "C_Yellow_01Dark",
+                "bgColor": "#261e0b"
+            },
+            {
+                "code": "C_Yellow_04",
+                "bgColor": "#ffe15d"
+            },
+            {
+                "code": "C_Yellow_04Dark",
+                "bgColor": "#99720f"
+            },
+            {
+                "code": "C_Yellow_03",
+                "bgColor": "#ffee8b"
+            },
+            {
+                "code": "C_Yellow_03Dark",
+                "bgColor": "#594209"
+            },
+            {
+                "code": "C_Rosered_09",
+                "bgColor": "#76074a"
+            },
+            {
+                "code": "C_Rosered_09Dark",
+                "bgColor": "#ffb8db"
+            },
+            {
+                "code": "C_Rosered_07",
+                "bgColor": "#c9267d"
+            },
+            {
+                "code": "C_Rosered_07Dark",
+                "bgColor": "#ff73b9"
+            },
+            {
+                "code": "C_Rosered_08",
+                "bgColor": "#9f1463"
+            },
+            {
+                "code": "C_Rosered_08Dark",
+                "bgColor": "#ff99cc"
+            },
+            {
+                "code": "T6_Text_Bold",
+                "fontSize": "20"
+            },
+            {
+                "code": "T6_Text_BoldDark",
+                "fontSize": "20"
+            },
+            {
+                "code": "C_Orange_10",
+                "bgColor": "#4d1c00"
+            },
+            {
+                "code": "C_Orange_10Dark",
+                "bgColor": "#ffecd9"
+            },
+            {
+                "code": "C_Deepblue_02",
+                "bgColor": "#bce7ff"
+            },
+            {
+                "code": "C_Deepblue_02Dark",
+                "bgColor": "#192d40"
+            },
+            {
+                "code": "C_Deepblue_01",
+                "bgColor": "#e8f7ff"
+            },
+            {
+                "code": "C_Deepblue_01Dark",
+                "bgColor": "#151e26"
+            },
+
+            {
+                "code": "C_Newgray_07",
+                "bgColor": "#B2000000"
+            },
+            {
+                "code": "C_Newgray_07Dark",
+                "bgColor": "#B2000000"
+            },
+            {
+                "code": "C_Newgray_08",
+                "bgColor": "#66000000"
+            },
+            {
+                "code": "C_Newgray_08Dark",
+                "bgColor": "#66000000"
+            },
+            {
+                "code": "C_Newgray_09",
+                "bgColor": "#14000000"
+            },
+            {
+                "code": "C_Newgray_09Dark",
+                "bgColor": "#14FFFFFF"
+            },
+            {
+                "code": "C_Newgray_10",
+                "bgColor": "#05000000"
+            },
+            {
+                "code": "C_Newgray_10Dark",
+                "bgColor": "#14000000"
+            }
+        ]
+}

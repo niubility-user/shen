@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/bpu" android:background="#ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="400dp" android:layout_alignParentBottom="true">
+        <TextView android:textColor="@color/p" android:id="@+id/bpx" android:layout_width="match_parent" android:layout_height="35dp"/>
+        <View android:background="#99000000" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="35dp"/>
+        <View android:background="#99000000" android:layout_width="match_parent" android:layout_height="1px"/>
+        <ScrollView android:id="@+id/bpv" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="36dp">
+            <TextView android:textColor="@color/p" android:id="@+id/bpw" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </ScrollView>
+    </RelativeLayout>
+    <Button android:textColor="@color/lx" android:gravity="center" android:id="@+id/bpt" android:background="@drawable/ph" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginRight="10dp" android:layout_marginBottom="80dp" android:text="HyLog" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

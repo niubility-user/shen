@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/a_e" android:background="@drawable/r2" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/jy" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ub" android:textColor="@color/vn" android:layout_gravity="center" android:id="@+id/a_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/u9" android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/a_g" android:paddingBottom="@dimen/u9" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/u6">
+        <TextView android:textSize="@dimen/uc" android:textColor="@color/vn" android:gravity="center" android:id="@+id/a_h" android:paddingLeft="@dimen/u9" android:paddingRight="@dimen/u9" android:layout_marginTop="@dimen/u9" style="@style/v_"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/a_i" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/vh" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/uc" android:textColor="@color/vi" android:id="@+id/a_j" android:background="@drawable/r0" android:text="@string/a4x" android:layout_weight="1" style="@style/v8"/>
+            <View android:id="@+id/a_k" android:background="@color/vh" android:layout_width="1dp" android:layout_height="@dimen/tz"/>
+            <Button android:textSize="@dimen/uc" android:textColor="@color/vi" android:layout_gravity="end" android:id="@+id/a_l" android:background="@drawable/r1" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:text="@string/a50" android:layout_weight="1" style="@style/v8"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/co" android:paddingRight="@dimen/co" android:layout_width="@dimen/i" android:layout_height="match_parent" android:layout_marginLeft="@dimen/cm" android:layout_marginRight="@dimen/cm">
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="false" android:layout_weight="1">
+        <TextView android:textSize="@dimen/e3" android:textColor="@color/dk" android:gravity="center" android:id="@+id/a8t" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/j2" android:layout_marginBottom="@dimen/j1"/>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/d1" android:textColorHint="@color/fu" android:gravity="center_vertical" android:id="@+id/a8u" android:background="@drawable/fi" android:paddingLeft="@dimen/iu" android:paddingTop="@dimen/iv" android:paddingRight="@dimen/iu" android:paddingBottom="@dimen/iv" android:layout_width="@dimen/d2" android:layout_height="@dimen/cz" android:imeOptions="actionDone"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/a8v" android:padding="@dimen/d5" android:layout_width="match_parent" android:layout_height="@dimen/is" android:layout_marginLeft="@dimen/ix" android:minWidth="@dimen/d4"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/ji" android:textColor="@color/a" android:id="@+id/a8w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jl" android:layout_marginBottom="@dimen/jk" android:text="@string/la"/>
+    <View android:background="@drawable/fh" android:layout_width="match_parent" android:layout_height="2px" android:layout_marginTop="-1dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/ch" android:layout_marginTop="@dimen/cj" android:layout_marginBottom="@dimen/ci">
+        <Button android:textSize="@dimen/cl" android:textColor="@color/dk" android:id="@+id/a8x" android:background="@drawable/b_" android:layout_width="@dimen/cg" android:layout_height="@dimen/ce" android:layout_marginRight="@dimen/cf" android:layout_weight="1"/>
+        <Button android:textSize="@dimen/cl" android:textColor="@color/mk" android:id="@+id/a8y" android:background="@drawable/b2" android:layout_width="@dimen/cg" android:layout_height="@dimen/ce" android:layout_marginLeft="@dimen/cf" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

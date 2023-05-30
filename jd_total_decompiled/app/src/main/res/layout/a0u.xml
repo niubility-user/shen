@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.recommend.ui.video.RecommendVideoWidget xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cf1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>

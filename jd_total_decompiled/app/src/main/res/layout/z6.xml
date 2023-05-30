@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/v0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="150dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.jingdong.manto.widget.CircleImageView android:id="@+id/ded" android:layout_width="70dp" android:layout_height="70dp"/>
+        <TextView android:textSize="@dimen/ta" android:textColor="@color/ue" android:gravity="center" android:id="@+id/dee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/akt"/>
+        <Button android:textSize="@dimen/t_" android:textColor="@color/v2" android:gravity="center" android:id="@+id/def" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/aks"/>
+    </LinearLayout>
+</LinearLayout>

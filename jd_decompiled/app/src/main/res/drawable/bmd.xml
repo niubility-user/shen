@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:name="vector" android:height="80dp" android:width="80dp" android:viewportWidth="20" android:viewportHeight="20">
+    <path android:name="tick" android:pathData="M 6 10 L 9 13 L 15 7" android:strokeColor="#ff00ff92" android:strokeWidth="2" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+</vector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bfe" android:background="@drawable/cb0" android:paddingLeft="@dimen/o_" android:paddingRight="@dimen/o_" android:layout_width="@dimen/og" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="88dp" android:layout_height="88dp" android:layout_marginTop="16dp" android:src="@drawable/c91"/>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/d6q" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:maxHeight="4dp" android:progress="50" android:progressDrawable="@drawable/bu0" android:minHeight="4dp" style="?android:attr/progressBarStyleHorizontal"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp">
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/a06" android:id="@+id/d6r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="预计还需等待"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#ff4a4b" android:gravity="right" android:id="@+id/a2j" android:layout_width="25dp" android:layout_height="wrap_content" android:text="60"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#ff4a4b" android:id="@+id/db3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="s"/>
+    </LinearLayout>
+    <TextView android:textSize="14sp" android:textColor="@color/a06" android:layout_gravity="center_horizontal" android:id="@+id/bn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/a75" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:layout_marginBottom="23dp">
+        <Button android:textSize="14sp" android:textStyle="bold" android:textColor="#ff4a4b" android:id="@+id/br" android:background="@drawable/bty" android:layout_width="0dp" android:layout_height="32dp" android:layout_weight="1"/>
+        <Space android:id="@+id/a6v" android:layout_width="@dimen/nw" android:layout_height="1dp"/>
+        <Button android:textSize="14sp" android:textStyle="bold" android:textColor="@color/lx" android:id="@+id/bq" android:background="@drawable/btz" android:layout_width="0dp" android:layout_height="32dp" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

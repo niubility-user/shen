@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/jshop_shop_list" android:background="#f8f8f8" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@color/lu"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/c3"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/home_to_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/jshop_concern_list_item_recommend_margin_top" android:layout_marginBottom="@dimen/jshop_concern_list_operation_height" android:src="@drawable/c_up_button"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="1">
+        <shape>
+            <gradient android:startColor="@android:color/white" android:endColor="#f0f2f5" android:angle="270" android:type="linear" android:centerColor="#f2f2f2"/>
+        </shape>
+    </item>
+    <item android:maxLevel="2">
+        <shape>
+            <gradient android:startColor="@color/ad7" android:endColor="@color/adm" android:angle="270" android:type="linear" android:centerColor="@color/adx"/>
+        </shape>
+    </item>
+</level-list>

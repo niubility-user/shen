@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/sj" android:paddingTop="25dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="18sp" android:textColor="@color/ub" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/bsg" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="服务授权"/>
+    <TextView android:textSize="16sp" android:textColor="@color/ub" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/aqh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="33dp" android:layout_marginTop="25dp" android:layout_marginRight="33dp" android:maxWidth="224dp" android:text="申请获取以下权限：" android:singleLine="false"/>
+    <View android:background="@color/ua" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="38dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="46dp">
+        <Button android:textSize="16sp" android:textColor="@color/u9" android:id="@+id/aqi" android:background="@drawable/sl" android:layout_width="0dp" android:layout_height="match_parent" android:text="拒绝" android:layout_weight="1"/>
+        <Button android:textSize="16sp" android:textColor="@color/v5" android:id="@+id/aqj" android:background="@drawable/si" android:layout_width="0dp" android:layout_height="match_parent" android:text="允许" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

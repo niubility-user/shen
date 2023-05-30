@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/ov" android:paddingRight="@dimen/ov" android:paddingBottom="@dimen/ov" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jd.lib.productdetail.core.views.PdAutoChangeTextSize android:textSize="@dimen/xn" android:textStyle="bold" android:textColor="@color/ade" android:id="@+id/d4i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true"/>
+    <ImageView android:id="@+id/bdh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lt" android:layout_marginTop="@dimen/n7" android:src="@drawable/c15" android:layout_alignParentRight="true"/>
+    <com.jd.lib.productdetail.core.views.PdAutoChangeTextSize android:textSize="@dimen/ju" android:textColor="@color/adh" android:gravity="center" android:id="@+id/d4k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_toLeftOf="@+id/bdh"/>
+    <com.jd.lib.productdetail.core.views.PdAutoChangeTextSize android:textSize="@dimen/jw" android:textColor="@color/adh" android:id="@+id/d4h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/te" android:includeFontPadding="false" android:layout_below="@+id/d4i"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/ans" layout="@layout/aj"/>
+    <RelativeLayout android:id="@+id/ant" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="80dp" android:layout_alignParentBottom="true">
+        <View android:background="@color/gb" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentTop="true"/>
+        <Button android:textSize="15sp" android:textColor="@color/iy" android:id="@+id/a3" android:background="@drawable/ga" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/o1" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <com.jingdong.common.ui.HorizontalListView android:id="@+id/anu" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/a3" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <GridView android:id="@+id/ap" android:background="#f0f2f5" android:paddingLeft="5dp" android:paddingRight="5dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="4" android:choiceMode="multipleChoice" android:layout_above="@+id/ant" android:layout_below="@+id/ans"/>
+</RelativeLayout>

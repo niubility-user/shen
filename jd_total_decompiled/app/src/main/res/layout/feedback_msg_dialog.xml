@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/feedback_msg_background_corner" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp">
+        <ImageView android:layout_gravity="right" android:id="@+id/zd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/article_close"/>
+        <TextView android:textSize="16sp" android:textColor="#252525" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:text="选择或输入对所推内容的反馈意见" android:maxLines="1"/>
+        <TextView android:textSize="14sp" android:textColor="#666666" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17dp" android:text="您的反馈意见将帮助我们做得更好" android:maxLines="1"/>
+        <GridView android:id="@+id/gv_feedback" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:listSelector="#00000000" android:horizontalSpacing="15dp" android:verticalSpacing="15dp" android:numColumns="2"/>
+        <TextView android:textSize="15sp" android:textColor="#999999" android:gravity="center_vertical" android:id="@+id/txt_edit_feedback" android:background="@drawable/feedback_msg_edit_background_corner" android:padding="12dp" android:layout_width="match_parent" android:layout_height="50dp" android:text="我要吐槽"/>
+    </LinearLayout>
+    <Button android:enabled="false" android:textSize="17sp" android:textColor="#66ffffff" android:gravity="center" android:id="@+id/btn_sure" android:background="@drawable/feedback_msg_btn_confirm_background" android:clickable="false" android:layout_width="match_parent" android:layout_height="50dp" android:button="@null" android:text="确认"/>
+</LinearLayout>

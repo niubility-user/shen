@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ui">r/v/ui.xml</drawable>
+    <drawable name="c">r/v/c.xml</drawable>
+    <drawable name="h">r/v/h.xml</drawable>
+    <drawable name="i">r/v/i.xml</drawable>
+    <drawable name="w">r/v/w.xml</drawable>
+    <drawable name="x">r/v/x.xml</drawable>
+    <drawable name="y">r/v/y.xml</drawable>
+    <drawable name="uj">r/v/uj.xml</drawable>
+    <drawable name="uk">r/v/uk.xml</drawable>
+    <drawable name="jd">r/v/jd.xml</drawable>
+    <drawable name="mw">r/v/mw.xml</drawable>
+    <drawable name="qj">r/v/qj.xml</drawable>
+    <drawable name="ql">r/v/ql.xml</drawable>
+    <drawable name="es">r/v/es.xml</drawable>
+    <drawable name="eu">r/v/eu.xml</drawable>
+    <drawable name="qm">r/v/qm.xml</drawable>
+    <drawable name="qq">r/v/qq.xml</drawable>
+    <drawable name="ul">r/v/ul.xml</drawable>
+    <drawable name="pm">r/v/pm.xml</drawable>
+</resources>

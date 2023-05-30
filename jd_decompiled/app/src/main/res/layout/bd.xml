@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/bhl" android:background="@drawable/pb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a6c" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/c9" android:visibility="visible" android:layout_width="match_parent" android:layout_height="60dp">
+            <com.jingdong.common.widget.image.UnNetImageView android:id="@+id/ff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:nImageViewScaleType="6"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@+id/b7" android:paddingLeft="18dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ain" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="返回"/>
+            <TextView android:textSize="18sp" android:textColor="@color/ck" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/a6d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240dp" android:text="@string/ak" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b8" android:padding="12dp" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a4b" android:layout_alignParentRight="true" android:contentDescription="关闭"/>
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/bt0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="5dp" android:layout_marginRight="16dp" android:layout_marginBottom="5dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/a6e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+            <com.jingdong.common.ui.LocationStateView android:id="@+id/a6f" android:layout_width="match_parent" android:layout_height="wrap_content" app:customViewStyle="1" app:needStartLocationByInit="true" app:sceneId="basicShoppingProcess"/>
+            <View android:id="@+id/a6g" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="18dp" android:layout_marginTop="6dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/arz" android:visibility="visible" android:layout_width="match_parent" android:layout_height="49dp" android:layout_below="@+id/a6c">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b7d" android:paddingLeft="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView android:textSize="14sp" android:textColor="@color/ck" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/bf2" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="132dp" android:text="@string/aa4" android:singleLine="true"/>
+            <TextView android:textSize="14sp" android:textColor="@color/ck" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/bf3" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:maxWidth="132dp" android:text="@string/aa5" android:singleLine="true"/>
+        </LinearLayout>
+        <com.jingdong.common.ui.TabIndicator android:id="@+id/arv" android:layout_width="match_parent" android:layout_height="3dp" android:layout_marginTop="5dp" android:layout_below="@+id/b7d" app:mwidth="26dp" app:mheight="3dp"/>
+        <View android:background="#f2f2f2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/cf" android:visibility="visible" android:layout_width="match_parent" android:layout_height="49dp" android:layout_below="@+id/arz">
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="49dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="49dp">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a6h" android:paddingLeft="14dp" android:layout_width="match_parent" android:layout_height="37dp">
+                    <TextView android:textSize="13sp" android:textColor="@color/ck" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/fo" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="132dp" android:text="@string/ai" android:singleLine="true"/>
+                    <TextView android:textSize="13sp" android:textColor="@color/ck" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/fp" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:maxWidth="132dp" android:singleLine="true"/>
+                    <TextView android:textSize="13sp" android:textColor="@color/ck" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/fq" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="132dp" android:singleLine="true"/>
+                    <TextView android:textSize="13sp" android:textColor="@color/ck" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/fr" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="132dp" android:singleLine="true"/>
+                </LinearLayout>
+                <com.jingdong.common.ui.TabIndicator android:layout_gravity="bottom" android:id="@+id/bd" android:layout_width="match_parent" android:layout_height="3dp" android:layout_marginBottom="9dp" android:layout_below="@+id/a6h" app:mwidth="26dp" app:mheight="3dp"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/a6i" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/mh" android:ellipsize="end" android:gravity="center" android:id="@+id/fv" android:background="@drawable/al" android:visibility="gone" android:layout_width="match_parent" android:layout_height="38dp" android:layout_marginLeft="16dp" android:layout_marginTop="6dp" android:layout_marginRight="16dp" android:layout_marginBottom="6dp" android:maxWidth="180dp" android:text="@string/aj" android:singleLine="true"/>
+        <RelativeLayout android:id="@+id/cdn" android:background="@drawable/al" android:layout_width="match_parent" android:layout_height="38dp" android:layout_marginLeft="16dp" android:layout_marginTop="6dp" android:layout_marginRight="16dp" android:layout_marginBottom="6dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@+id/cdm" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginRight="8dp" android:src="@drawable/bpl"/>
+                <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/mh" android:ellipsize="end" android:gravity="center" android:id="@+id/cdo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aj" android:singleLine="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:id="@+id/a6j" android:background="#e8d5b1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <RelativeLayout android:id="@+id/a6k" android:background="#fff3dc" android:paddingLeft="15dp" android:paddingRight="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="35dp" android:layout_below="@+id/a6j">
+            <TextView android:textSize="12sp" android:textColor="@color/ci" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/a6l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:drawableRight="@drawable/a9_" android:drawablePadding="7dp" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout android:scrollY="2px" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/a6i" android:layout_below="@+id/cf">
+        <com.jingdong.common.stickyListView.StickyHeaderListView android:id="@+id/cp" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/lu" android:cacheColorHint="@color/lu" android:divider="@null"/>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/beu" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="60dp" android:layout_above="@+id/a6i" android:layout_below="@+id/cf">
+        <com.jingdong.common.ui.JDSlideBar android:id="@+id/a6m" android:background="@drawable/hs" android:paddingTop="9dp" android:paddingBottom="9dp" android:visibility="gone" android:layout_width="15dp" android:layout_height="match_parent" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="20sp" android:textColor="@color/a08" android:gravity="center" android:id="@+id/a6n" android:background="@drawable/b69" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60dp" android:text="A" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/a6o" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/a6c">
+        <com.jingdong.common.ui.JDProgressBar android:gravity="center" android:layout_gravity="center" android:layout_width="34dp" android:layout_height="34dp"/>
+    </LinearLayout>
+</RelativeLayout>

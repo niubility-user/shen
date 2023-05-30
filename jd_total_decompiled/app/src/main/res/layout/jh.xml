@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/bb7" android:background="#ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="400dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="35dp">
+            <TextView android:textColor="@color/p" android:gravity="center" android:id="@+id/bb8" android:layout_width="0dp" android:layout_height="match_parent" android:text="ALL" android:layout_weight="1"/>
+            <View android:background="#99000000" android:layout_width="1px" android:layout_height="match_parent"/>
+            <TextView android:textColor="@color/p" android:gravity="center" android:id="@+id/bb9" android:layout_width="0dp" android:layout_height="match_parent" android:text="TIP" android:layout_weight="1"/>
+            <View android:background="#99000000" android:layout_width="1px" android:layout_height="match_parent"/>
+            <TextView android:textColor="@color/p" android:gravity="center" android:id="@+id/bb_" android:layout_width="0dp" android:layout_height="match_parent" android:text="LOG" android:layout_weight="1"/>
+            <View android:background="#99000000" android:layout_width="1px" android:layout_height="match_parent"/>
+            <TextView android:textColor="@color/p" android:gravity="center" android:id="@+id/bba" android:layout_width="0dp" android:layout_height="match_parent" android:text="DEBUG" android:layout_weight="1"/>
+            <View android:background="#99000000" android:layout_width="1px" android:layout_height="match_parent"/>
+            <TextView android:textColor="@color/p" android:gravity="center" android:id="@+id/bbb" android:layout_width="0dp" android:layout_height="match_parent" android:text="WARN" android:layout_weight="1"/>
+            <View android:background="#99000000" android:layout_width="1px" android:layout_height="match_parent"/>
+            <TextView android:textColor="@color/p" android:gravity="center" android:id="@+id/bbc" android:layout_width="0dp" android:layout_height="match_parent" android:text="ERR" android:layout_weight="1"/>
+        </LinearLayout>
+        <View android:background="#99000000" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="35dp"/>
+        <View android:background="#99000000" android:layout_width="match_parent" android:layout_height="1px"/>
+        <TextView android:textColor="@color/p" android:id="@+id/bbd" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="36dp"/>
+    </RelativeLayout>
+    <Button android:textColor="@color/lx" android:gravity="center" android:id="@+id/a9z" android:background="@drawable/ph" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp" android:text="Log" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

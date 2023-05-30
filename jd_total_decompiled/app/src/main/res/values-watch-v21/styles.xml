@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="s" parent="@style/uq">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowElevation">0dp</item>
+    </style>
+    <style name="v" parent="@style/us">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowElevation">0dp</item>
+    </style>
+    <style name="y" parent="@style/ut">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowElevation">0dp</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.sample.jshop.ui.XListView android:id="@+id/a7r" android:background="@color/lx" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/j3" android:cacheColorHint="@drawable/j3" android:divider="@null"/>
+</LinearLayout>

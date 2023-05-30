@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="#f8f8f8" android:layout_width="303dp" android:layout_height="192dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+        <SeekBar android:id="@+id/atw" android:paddingLeft="11dp" android:paddingRight="11dp" android:layout_width="218dp" android:layout_height="wrap_content" android:maxHeight="3dp" android:max="100" android:progress="10" android:progressDrawable="@drawable/night_mode_seekbar_drawable" android:minHeight="3dp" android:thumb="@drawable/night_mode_seekbar_thumb" android:layout_centerInParent="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/night_mode_seekbar_min_icon" android:layout_toLeftOf="@+id/atw" android:layout_centerInParent="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/night_mode_seekbar_max_icon" android:layout_toRightOf="@+id/atw" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <View android:background="#dedede" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="43dp"/>
+    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="63dp">
+        <Button android:textSize="16sp" android:textColor="#666666" android:id="@+id/dialog_button_cancel" android:background="@drawable/night_mode_dialog_cancel_button_selector" android:layout_width="133dp" android:layout_height="39dp" android:text="使用系统亮度" android:layout_alignParentLeft="true"/>
+        <Button android:textSize="16sp" android:textColor="#ffffff" android:id="@+id/dialog_button_ok" android:background="@drawable/night_mode_dialog_confirm_button_selector" android:layout_width="133dp" android:layout_height="39dp" android:layout_marginLeft="12dp" android:text="确定" android:layout_toRightOf="@+id/dialog_button_cancel"/>
+    </RelativeLayout>
+</LinearLayout>

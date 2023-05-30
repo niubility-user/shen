@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.messagepop.JDShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" app:sl_cornerRadius="8dp" app:sl_shadowRadius="10dp" app:sl_shadowColor="#1a000000">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:background="@drawable/n0" android:layout_width="match_parent" android:layout_height="34dp">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/au8" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="10dp" android:src="@drawable/jd_buy_icon"/>
+            <TextView android:textColor="#666666" android:id="@+id/au9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="现在" android:layout_alignParentRight="true"/>
+            <TextView android:textColor="#666666" android:ellipsize="end" android:id="@+id/au_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="频道标题" android:maxLines="1" android:layout_toLeftOf="@+id/au9" android:layout_toRightOf="@+id/au8"/>
+        </RelativeLayout>
+        <RelativeLayout android:background="@drawable/mz" android:paddingLeft="10dp" android:paddingTop="12dp" android:paddingRight="10dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/aua" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="10dp" android:layout_centerVertical="true"/>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/aua">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="#ff252525" android:ellipsize="end" android:id="@+id/aub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="消息标题" android:maxLines="1"/>
+                <TextView android:textSize="14dp" android:textColor="#ff252525" android:ellipsize="end" android:id="@+id/auc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="70dp" android:maxLines="1" android:layout_below="@+id/aub" android:layout_alignLeft="@+id/aub"/>
+                <ImageView android:id="@+id/aud" android:layout_width="60dp" android:layout_height="22dp" android:src="@drawable/af7" android:layout_alignBottom="@+id/auc" android:layout_alignParentRight="true"/>
+                <TextView android:textSize="14dp" android:textColor="#ff252525" android:ellipsize="end" android:id="@+id/aue" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</com.jingdong.common.messagepop.JDShadowLayout>

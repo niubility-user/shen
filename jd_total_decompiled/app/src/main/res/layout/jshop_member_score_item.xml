@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginLeft="10dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="14dp" android:textColor="#232326" android:id="@+id/name_lab" android:layout_width="85dp" android:layout_height="wrap_content" android:text="购买商品"/>
+            <TextView android:textSize="12dp" android:textColor="#999999" android:id="@+id/buy_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="2016-10-20"/>
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:textColor="#999999" android:gravity="right" android:id="@+id/member_score" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="+1000"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="10dp"/>
+</FrameLayout>

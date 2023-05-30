@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/c65" android:background="@drawable/bl7" android:padding="10dp" android:layout_width="match_parent" android:layout_height="107dp">
+    <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c63" android:layout_width="87dp" android:layout_height="87dp" app:roundedCornerRadius="6dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_weight="1">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="35dp">
+            <TextView android:textSize="14dp" android:textColor="#2e2d2d" android:ellipsize="end" android:id="@+id/c6l" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:lines="1" android:includeFontPadding="false" android:layout_alignParentTop="true" android:lineSpacingMultiplier="0.9"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/c6g" android:layout_width="match_parent" android:layout_height="14dp" android:layout_marginBottom="2dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="10dp" android:textColor="#8c8c8c" android:ellipsize="end" android:id="@+id/c6h" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:singleLine="true" android:includeFontPadding="false"/>
+        <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c66" android:layout_width="126dp" android:layout_height="20dp" app:scaleType="fitXY" app:src="@drawable/bpj"/>
+        <TextView android:textSize="15dp" android:textColor="#e8220e" android:ellipsize="end" android:id="@+id/c61" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+    </LinearLayout>
+</LinearLayout>

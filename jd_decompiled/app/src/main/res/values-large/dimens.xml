@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="q">440dp</dimen>
+    <dimen name="r">60%</dimen>
+    <dimen name="s">90%</dimen>
+    <dimen name="t">60%</dimen>
+    <dimen name="u">90%</dimen>
+    <dimen name="v">55%</dimen>
+    <dimen name="w">80%</dimen>
+</resources>

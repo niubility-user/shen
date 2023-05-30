@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/azo" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignParentTop="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/azp" android:background="@drawable/aie" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/azq" android:layout_width="90dp" android:layout_height="30dp" android:scaleType="centerCrop" app:roundedCornerRadius="15dp"/>
+            <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="@color/ck" android:gravity="center" android:id="@+id/azr" android:layout_width="match_parent" android:layout_height="25dp" android:layout_marginLeft="17dp" android:layout_marginTop="6dp" android:layout_marginRight="17dp" android:lines="1" app:autoSizeTextType="uniform" app:autoSizeMinTextSize="11dp" app:autoSizeMaxTextSize="13dp"/>
+            <TextView android:textSize="11sp" android:textColor="#f2270c" android:gravity="center" android:id="@+id/azs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginTop="5dp" android:layout_marginRight="17dp" android:lines="1"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/azt" android:background="@drawable/aif" android:layout_width="80dp" android:layout_height="26dp" android:layout_marginTop="5dp" android:layout_marginBottom="8dp"/>
+        </LinearLayout>
+        <include layout="@layout/ji"/>
+        <include layout="@layout/ir"/>
+    </RelativeLayout>
+    <include layout="@layout/oh"/>
+</androidx.cardview.widget.CardView>

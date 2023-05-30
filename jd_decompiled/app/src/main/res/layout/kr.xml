@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/pb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/a2d" android:layout_width="match_parent" android:layout_height="54dp">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/ck" android:id="@+id/a2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a0l" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/a2e" android:background="@drawable/a4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/a2f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/a2d">
+        <TextView android:textSize="13sp" android:textColor="@color/qm" android:id="@+id/a2p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="18dp" android:layout_marginBottom="18dp" android:text="@string/a_z"/>
+        <com.jd.lib.un.basewidget.widget.flow.TagFlowLayout android:id="@+id/a2_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginRight="20dp" android:layout_below="@+id/a2p"/>
+    </LinearLayout>
+    <TextView android:textSize="13sp" android:textColor="@color/qm" android:id="@+id/a2q" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="18dp" android:layout_marginBottom="14dp" android:text="@string/aa0" android:singleLine="true" android:layout_below="@+id/a2f"/>
+    <FrameLayout android:scrollY="2px" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/a2f">
+        <com.jingdong.common.stickyListView.StickyHeaderListView android:id="@+id/a2g" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/lu" android:scrollingCache="false" android:cacheColorHint="@color/lu" android:divider="@null"/>
+    </FrameLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="14dp" android:layout_below="@+id/a2f">
+        <com.jingdong.common.ui.JDSlideBar android:id="@+id/a2n" android:background="@drawable/hs" android:paddingTop="9dp" android:paddingBottom="9dp" android:layout_width="15dp" android:layout_height="match_parent" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="33sp" android:textColor="@color/lm" android:gravity="center" android:id="@+id/a2o" android:background="@drawable/a_z" android:paddingBottom="13dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60dp" android:text="A" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/a2h" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/a2d">
+        <com.jingdong.common.ui.JDProgressBar android:gravity="center" android:layout_gravity="center" android:layout_width="34dp" android:layout_height="34dp"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/a2b" android:background="@drawable/pb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/a2d">
+        <include android:id="@+id/a2c" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/c8"/>
+    </RelativeLayout>
+</RelativeLayout>

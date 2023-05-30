@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#f6f6f6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/v5" android:layout_width="match_parent" android:layout_height="50dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/qc" android:paddingLeft="15dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:layout_width="10.5dp" android:layout_height="18.5dp" android:src="@drawable/azd"/>
+        </LinearLayout>
+        <com.jd.manto.center.widget.MantoSearchEditText android:textSize="14sp" android:textColor="#2e2d2d" android:id="@+id/bdf" android:background="@drawable/b1o" android:focusable="true" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:maxLines="1" android:lines="1" android:maxLength="30" android:layout_weight="1" android:inputType="text" android:imeOptions="actionSearch"/>
+        <TextView android:textSize="12sp" android:textColor="#848484" android:id="@+id/a1e" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:layout_marginRight="9dp" android:text="搜索"/>
+    </LinearLayout>
+    <com.jd.manto.center.widget.MaeFrameView android:id="@+id/bd4" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" app:manto_center_fv_customLayout="@layout/sm" app:manto_center_fv_emptyInfo="没有数据">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.jd.manto.center.widget.recycler.PullUpLoadRecyclerView android:id="@+id/bd5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </com.jd.manto.center.widget.MaeFrameView>
+</LinearLayout>

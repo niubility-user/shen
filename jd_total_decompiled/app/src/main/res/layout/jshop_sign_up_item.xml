@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="165dp" android:layout_height="wrap_content">
+    <com.jingdong.common.sample.jshop.ui.JShopProductImageView android:layout_gravity="center" android:id="@+id/jshop_sign_item_image" android:layout_width="165dp" android:layout_height="165dp" android:scaleType="centerCrop"/>
+    <TextView android:textSize="15sp" android:textColor="@color/cj" android:ellipsize="end" android:id="@+id/jshop_sign_item_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:lines="2"/>
+    <TextView android:textSize="15sp" android:textColor="@color/h7" android:id="@+id/jshop_sign_item_price" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:singleLine="true"/>
+</LinearLayout>

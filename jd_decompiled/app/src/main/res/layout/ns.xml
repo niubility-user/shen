@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/c_w" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.jd.lib.un.basewidget.widget.banner.BannerView android:id="@+id/bni" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintDimensionRatio="0.777" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" app:banner_slide_interval="3000"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bp0" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" android:src="@drawable/bao" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintDimensionRatio="341:508" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.jingdong.common.recommend.ui.AnimationLinerPagerCursor android:id="@+id/c5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.5dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0"/>
+        <ImageView android:id="@+id/bng" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_marginBottom="6dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintRight_toRightOf="0"/>
+        <include layout="@layout/ld"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@+id/bp1" android:background="@drawable/bad" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/bp2" android:background="@drawable/bac" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/oh"/>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/u8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/a02" android:paddingTop="@dimen/rf" android:paddingRight="@dimen/a02" android:paddingBottom="@dimen/rf" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/a5m" android:visibility="visible" android:layout_width="@dimen/a02" android:layout_height="@dimen/a02"/>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/rf" android:paddingRight="@dimen/rf" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/a0y" android:textColor="@color/wa" android:id="@+id/caq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <TextView android:textSize="@dimen/a0w" android:textColor="@color/a6q" android:id="@+id/cap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a06" android:text=""/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/a0w" android:textColor="#f2270c" android:gravity="right" android:id="@+id/cao" android:background="@drawable/bda" android:paddingLeft="@dimen/a0j" android:paddingTop="@dimen/a06" android:paddingRight="@dimen/a0j" android:paddingBottom="@dimen/a06" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a02" android:text="" android:includeFontPadding="false"/>
+        <CheckBox android:id="@+id/u4" android:background="@drawable/bd3" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="@dimen/a05" android:layout_height="@dimen/a05" android:layout_marginLeft="@dimen/a02" android:button="@null" android:importantForAccessibility="no"/>
+    </LinearLayout>
+    <View android:id="@+id/bbu" android:background="@color/a7a" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/a0l" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/fg" android:paddingLeft="12dp" android:paddingTop="16dp" android:paddingRight="12dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14sp" android:textColor="@color/a06" android:id="@+id/jy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/d9t"/>
+            <com.jingdong.common.widget.button.UnCheckBox android:id="@+id/d9t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:unCheckBoxStyleType="6"/>
+        </RelativeLayout>
+        <TextView android:textSize="12sp" android:id="@+id/oz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp"/>
+    </LinearLayout>
+</FrameLayout>

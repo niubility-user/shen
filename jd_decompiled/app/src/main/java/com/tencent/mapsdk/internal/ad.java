@@ -1,0 +1,69 @@
+package com.tencent.mapsdk.internal;
+
+import androidx.annotation.NonNull;
+
+/* loaded from: classes9.dex */
+public class ad extends tc<bd> {
+    public ad(qi qiVar) {
+        super(qiVar);
+    }
+
+    @Override // com.tencent.mapsdk.internal.tc
+    public synchronized zc a(@NonNull bd bdVar) {
+        return (zc) super.a((ad) bdVar);
+    }
+
+    @Override // com.tencent.mapsdk.internal.tc
+    public void a(sc scVar) {
+    }
+
+    @Override // com.tencent.mapsdk.internal.tc
+    public sc<bd> b(bd bdVar) {
+        return new zc(this, bdVar);
+    }
+
+    @Override // com.tencent.mapsdk.internal.tc
+    public void f() {
+        if (this.b.m()) {
+            this.b.T();
+        }
+    }
+
+    @Override // com.tencent.mapsdk.internal.tc
+    public void g() {
+        int size = this.f17272c.size();
+        boolean O = this.b.O();
+        for (int i2 = 0; i2 < size; i2++) {
+            O |= ((zc) this.f17272c.get(this.f17272c.keyAt(i2))).f().getIsAnimate();
+        }
+        if (O) {
+            this.b.T();
+        }
+    }
+
+    @Override // com.tencent.mapsdk.internal.tc
+    public void h() {
+        int size = this.d.size();
+        for (int i2 = 0; i2 < size; i2++) {
+            zc zcVar = (zc) this.d.get(this.d.keyAt(i2));
+            zcVar.a(this.b.a(zcVar.f()));
+        }
+    }
+
+    @Override // com.tencent.mapsdk.internal.tc
+    public void i() {
+        int size = this.f17276h.size();
+        for (int i2 = 0; i2 < size; i2++) {
+            this.b.h(((sc) this.f17276h.get(this.f17276h.keyAt(i2))).x());
+        }
+    }
+
+    @Override // com.tencent.mapsdk.internal.tc
+    public void j() {
+        int size = this.f17274f.size();
+        for (int i2 = 0; i2 < size; i2++) {
+            zc zcVar = (zc) this.f17274f.get(this.f17274f.keyAt(i2));
+            this.b.a(zcVar.x(), zcVar.f());
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+        <TextView android:textSize="14dp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@+id/cu6" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:text="请求更新接口" android:layout_weight="1"/>
+        <TextView android:textSize="14dp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@+id/apy" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:text="刷新数据" android:layout_weight="1"/>
+    </LinearLayout>
+    <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1px"/>
+    <TextView android:textSize="14dp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@+id/cu1" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="50dp" android:text="一键删除本地包"/>
+    <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1px"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="50dp">
+        <EditText android:textSize="16dp" android:id="@+id/cts" android:background="@color/h4" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="输入模块名称" android:layout_weight="1" android:inputType="textEmailAddress"/>
+        <TextView android:textSize="16dp" android:id="@+id/cu3" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="搜索"/>
+        <TextView android:textSize="16dp" android:id="@+id/cu4" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清空"/>
+    </LinearLayout>
+    <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1px"/>
+    <ListView android:id="@+id/ctw" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

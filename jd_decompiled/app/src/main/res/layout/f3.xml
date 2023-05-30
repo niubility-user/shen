@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#1a1a1a" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/b56" android:layout_width="match_parent" android:layout_height="0dp" android:divider="@null" android:dividerHeight="0dp" android:layout_weight="1"/>
+    <View android:id="@+id/b57" android:background="@android:color/darker_gray" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@+id/b58" android:paddingLeft="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:indeterminateOnly="true" style="@android:style/Widget.ProgressBar.Small"/>
+        <TextView android:textSize="14sp" android:textColor="@android:color/white" android:id="@+id/b59" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4dp" android:fontFamily="monospace"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/q6" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/b5_" android:text="@string/bc" style="@style/nt"/>
+        <Button android:id="@+id/b5a" android:text="@string/bo" style="@style/nt"/>
+        <Button android:id="@+id/b5b" android:text="@string/b_" style="@style/nt"/>
+        <Button android:id="@+id/b5c" android:visibility="gone" android:text="@string/bs" style="@style/nt"/>
+    </LinearLayout>
+</LinearLayout>

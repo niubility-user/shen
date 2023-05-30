@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/cga" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintDimensionRatio="174:232" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/cg7" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <include layout="@layout/a0u"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/cg8" android:layout_width="22dp" android:layout_height="18dp" android:layout_margin="10dp" android:src="@drawable/b38" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/t3" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/t6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="8dp" android:layout_marginRight="10dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/cga">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/t5" android:layout_width="16dp" android:layout_height="16dp"/>
+            <TextView android:textSize="13sp" android:textStyle="bold" android:id="@+id/t4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:lines="1"/>
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="#1a1a1a" android:id="@+id/cg_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="3dp" android:layout_marginRight="10dp" android:lines="1" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/t6"/>
+        <TextView android:textSize="12dp" android:textColor="@color/ai8" android:id="@+id/cg9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="3dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:lines="1" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/cg_"/>
+        <include layout="@layout/ld"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/uz"/>
+    <include layout="@layout/oh"/>
+</androidx.cardview.widget.CardView>

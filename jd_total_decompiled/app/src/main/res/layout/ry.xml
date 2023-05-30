@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/a3k" android:tag="layout/security_base_number_point_no_finish_0" android:layout_width="match_parent" android:layout_height="230dp" android:splitMotionEvents="false" android:windowEnableSplitTouch="false" android:canRetrieveWindowContent="true">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/vb" android:layout_marginLeft="7.5dp" android:layout_marginTop="7.5dp" android:layout_marginRight="7.5dp" android:weightSum="3">
+        <FrameLayout style="@style/vj">
+            <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_1" android:focusable="true" style="@style/ve"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vj">
+            <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_2" android:focusable="true" style="@style/ve"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vj">
+            <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_3" android:focusable="true" style="@style/ve"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/vb" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:weightSum="3" android:layout_weight="1">
+        <FrameLayout style="@style/vj">
+            <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_4" android:focusable="true" style="@style/ve"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vj">
+            <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_5" android:focusable="true" style="@style/ve"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vj">
+            <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_6" android:focusable="true" style="@style/ve"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/vb" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:weightSum="3" android:layout_weight="1">
+        <FrameLayout style="@style/vj">
+            <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_7" android:focusable="true" style="@style/ve"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vj">
+            <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_8" android:focusable="true" style="@style/ve"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vj">
+            <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_9" android:focusable="true" style="@style/ve"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/vb" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="2.5dp" android:weightSum="3" android:layout_weight="1">
+        <FrameLayout style="@style/vj">
+            <ImageButton android:id="@+id/a3l" android:tag="binding_10" android:contentDescription="@string/a8d" style="@style/ve"/>
+        </FrameLayout>
+        <FrameLayout style="@style/vj">
+            <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_11" android:focusable="true" style="@style/ve"/>
+        </FrameLayout>
+        <ImageButton android:id="@+id/a3n" android:tag="binding_12" android:contentDescription="@string/a88" style="@style/vj"/>
+    </LinearLayout>
+</LinearLayout>

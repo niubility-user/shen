@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a7m" android:paddingTop="5dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/a7n" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="20dp" android:layout_marginTop="7dp" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/a7o" android:background="@drawable/hg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginRight="-1dp" android:layout_alignRight="@+id/a7n"/>
+    <TextView android:textSize="9sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/a7p" android:background="@drawable/a_7" android:paddingLeft="3dp" android:paddingRight="3dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="13dp" android:layout_marginLeft="31dp" android:layout_marginTop="2dp"/>
+    <TextView android:textSize="15sp" android:textColor="@color/x_" android:id="@+id/a7q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_toRightOf="@+id/a7n" android:layout_centerVertical="true"/>
+</RelativeLayout>

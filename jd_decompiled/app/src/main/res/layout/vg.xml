@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_horizontal" android:id="@+id/bz" android:layout_width="120dp" android:layout_height="120dp"/>
+    <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a10" android:textColor="@color/a76" android:gravity="center_horizontal" android:id="@+id/c0" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a0b">
+        <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a10" android:textColor="@color/a6n" android:gravity="center" android:id="@+id/bw" android:paddingTop="@dimen/rf" android:paddingBottom="@dimen/rf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/rh"/>
+        <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a10" android:textColor="@color/a6n" android:gravity="center" android:id="@+id/cro" android:paddingTop="@dimen/rf" android:paddingBottom="@dimen/rf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a01" android:minWidth="@dimen/rh"/>
+    </LinearLayout>
+</merge>

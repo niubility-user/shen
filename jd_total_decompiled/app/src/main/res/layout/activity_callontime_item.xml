@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="30dp">
+    <TextView android:textSize="14sp" android:ellipsize="end" android:id="@+id/tv_classname" android:paddingLeft="3dp" android:layout_width="170dp" android:layout_height="wrap_content" android:text="favoListFragmentActivity" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <TextView android:textSize="14sp" android:id="@+id/tv_time" android:paddingRight="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2016-7-12 12:00:00" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <TextView android:textSize="14sp" android:id="@+id/tv_startTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="500ms" android:layout_toRightOf="@+id/tv_classname" android:layout_centerVertical="true"/>
+    <View android:background="@color/personal_color_title" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

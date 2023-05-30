@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/item_product_child_lay" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="8dp" android:layout_marginRight="10dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/product_left" android:layout_width="match_parent" android:layout_height="110dp"/>
+                <TextView android:textSize="12dp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/product_left_price" android:background="#99000000" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_weight="1">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/product_center" android:layout_width="match_parent" android:layout_height="110dp"/>
+                <TextView android:textSize="12dp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/product_center_price" android:background="#99000000" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_weight="1">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/product_right" android:layout_width="match_parent" android:layout_height="110dp"/>
+                <TextView android:textSize="12dp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/product_right_price" android:background="#99000000" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="9sp" android:textColor="#c7c7c7" android:gravity="top|right" android:id="@+id/jshop_ad_tag" android:visibility="visible" android:layout_width="match_parent" android:layout_height="15dp" android:layout_marginTop="4dp" android:layout_marginRight="10dp" android:layout_marginBottom="4dp" android:text="@string/jshop_ad_tag_text"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/c6q" android:layout_width="match_parent" android:layout_height="58dp">
+        <TextView android:textSize="@dimen/a14" android:textStyle="bold" android:textColor="@color/ps" android:id="@+id/c6p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ail" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/c56" android:padding="@dimen/a06" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginRight="@dimen/a02" android:src="@drawable/bk7" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/a24"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/c5r" android:paddingBottom="@dimen/a0q" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/c6q"/>
+    <ViewStub android:id="@+id/c57" android:layout="@layout/gk" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/c6q"/>
+    <include android:id="@+id/c5w" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/x7"/>
+</RelativeLayout>

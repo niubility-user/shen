@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bjq" android:background="@drawable/ald" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="17dp" android:layout_marginLeft="6dp" android:layout_marginTop="6dp">
+    <TextView android:textSize="10dp" android:textColor="@color/lx" android:gravity="center" android:layout_width="22dp" android:layout_height="23dp" android:text="直播"/>
+</LinearLayout>

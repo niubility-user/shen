@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/af3" android:layout_width="180dp" android:layout_height="180dp">
+        <com.jingdong.sdk.jshopsdk.common.favo.JShopLottieAnimationView android:id="@+id/af4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <com.jingdong.sdk.jshopsdk.common.favo.JShopLottieAnimationView android:id="@+id/af5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</FrameLayout>

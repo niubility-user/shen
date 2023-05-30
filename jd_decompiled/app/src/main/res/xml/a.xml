@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tables>
+    <table name="com.jingdong.common.database.table.HistoryTable"/>
+    <table name="com.jingdong.common.database.table.DB_CartTable"/>
+    <table name="com.jingdong.common.database.table.DB_PacksTable"/>
+    <table name="com.jingdong.common.database.table.CommAddrTable"/>
+    <table name="com.jingdong.common.database.table.ScanCodeTable"/>
+    <table name="com.jingdong.common.database.table.PhotoBuySearchHistoryTable"/>
+    <table name="com.jingdong.jdsdk.network.db.entry.CacheFileTable"/>
+    <table name="com.jingdong.common.database.table.SearchHistoryTable"/>
+    <table name="com.jingdong.common.database.table.OrderSearchHistoryTable"/>
+    <table name="com.jingdong.jdsdk.network.db.entry.UnExcuteFunctionTable"/>
+    <table name="com.jingdong.common.database.table.PushMessageTable"/>
+    <table name="com.jingdong.common.database.table.UserNamesTable"/>
+    <table name="com.jingdong.common.database.table.MS_AlarmTable"/>
+    <table name="com.jingdong.common.database.table.MobileChannelAlarmTable"/>
+    <table name="com.jingdong.common.database.table.VersionUpdataTable"/>
+    <table name="com.jingdong.common.database.table.CommentEditTable"/>
+    <table name="com.jingdong.common.database.table.NavigationBarTable"/>
+    <table name="com.jingdong.common.database.table.StoryEditTable"/>
+    <table name="com.jingdong.common.database.table.CouponAlarmTable"/>
+    <table name="com.jingdong.common.database.table.JDReminderTable"/>
+    <table name="com.jingdong.common.apkcenter.ApkDownloadTable"/>
+    <table name="com.jingdong.jdsdk.mta.JDMtaCacheTable"/>
+    <table name="com.jingdong.common.database.table.SignUpTable"/>
+    <table name="com.jingdong.common.database.table.MessageIdTable"/>
+    <table name="com.jingdong.common.database.table.CommentAgainTable"/>
+    <table name="com.jingdong.common.unification.uniconfig.UnIconTable"/>
+    <table name="com.jingdong.common.database.table.FxContentIdTable"/>
+    <table name="com.jingdong.common.database.table.LandlineNumTable"/>
+    <table name="com.jingdong.common.database.table.MobileNumTable"/>
+    <table name="com.jingdong.common.database.table.MeSearchHistoryTable"/>
+    <table name="com.jingdong.common.database.table.CommentFloorTable"/>
+    <table name="com.jingdong.common.database.table.MiniProgramSearchHistoryTable"/>
+    <table name="com.jingdong.common.database.table.OneHourArriveSearchHistoryTable"/>
+</tables>

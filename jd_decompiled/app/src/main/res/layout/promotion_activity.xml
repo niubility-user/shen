@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/promotion_background_selector" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/promotion_title" android:layout_alignParentTop="true" layout="@layout/fi"/>
+    <ListView android:gravity="center" android:id="@+id/promotion_listview" android:background="@drawable/j3" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="@drawable/j3" android:numColumns="2" android:divider="@drawable/j3" android:dividerHeight="10dp" android:layout_below="@+id/promotion_title"/>
+    <TextView android:gravity="center_horizontal" android:id="@+id/promotion_no_data" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/i6" android:layout_below="@+id/promotion_listview"/>
+</RelativeLayout>

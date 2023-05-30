@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jd.lib.productdetail.mainimage.holder.recommend.PdMImageRecommendItemView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/bs0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/xr" android:textStyle="bold" android:textColor="@color/adr" android:ellipsize="end" android:id="@+id/d2e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kv" android:layout_marginRight="@dimen/kv" android:maxLines="1" android:includeFontPadding="false"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/d2d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kv" android:layout_marginTop="@dimen/te" android:layout_marginRight="@dimen/kv" android:layout_below="@+id/d2e"/>
+    </RelativeLayout>
+</com.jd.lib.productdetail.mainimage.holder.recommend.PdMImageRecommendItemView>

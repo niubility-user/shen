@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.app.mall.bundle.styleinfoview.views.PDStyleServiceView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/ov" android:paddingRight="@dimen/ov" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/x4" android:layout_centerVertical="true">
+        <com.jingdong.app.mall.bundle.styleinfoview.views.PdAutoChangeTextSize android:textSize="@dimen/ky" android:textStyle="bold" android:textColor="@color/a3f" android:id="@+id/bss" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.jingdong.app.mall.bundle.styleinfoview.views.PdAutoChangeTextSize android:textSize="@dimen/xj" android:textColor="@color/a4l" android:ellipsize="end" android:gravity="center" android:id="@+id/bsl" android:paddingLeft="@dimen/lt" android:paddingRight="@dimen/lt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lt" android:singleLine="true" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <com.jingdong.app.mall.bundle.styleinfoview.views.PdAutoChangeTextSize android:textSize="@dimen/kz" android:textColor="#6f81b7" android:ellipsize="end" android:id="@+id/bsj" android:paddingBottom="@dimen/kx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3dp" android:singleLine="true" android:drawableRight="@drawable/bfa" android:drawablePadding="@dimen/lt" android:layout_centerVertical="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bsn" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.jingdong.app.mall.bundle.styleinfoview.views.PDStyleServiceView>

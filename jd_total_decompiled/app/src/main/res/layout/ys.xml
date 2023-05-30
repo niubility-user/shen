@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.messagepop.JDShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bhm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" app:sl_cornerRadius="6dp" app:sl_shadowRadius="8dp" app:sl_shadowColor="#1a000000">
+    <FrameLayout android:id="@+id/bh0" android:background="@drawable/bn8" android:layout_width="wrap_content" android:layout_height="62dp">
+        <RelativeLayout android:id="@+id/bh1" android:background="@drawable/b4w" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="62dp">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/aua" android:layout_width="42dp" android:layout_height="42dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:roundedCornerRadius="4dp"/>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_toLeftOf="@+id/bh5" android:layout_toRightOf="@+id/aua" android:layout_centerVertical="true">
+                <TextView android:textSize="14sp" android:textColor="#000000" android:ellipsize="end" android:id="@+id/aub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+                <TextView android:textSize="12sp" android:textColor="#808080" android:ellipsize="end" android:id="@+id/auc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="1" android:layout_below="@+id/aub"/>
+            </RelativeLayout>
+            <TextView android:textSize="12sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/bh5" android:background="@drawable/bn9" android:paddingLeft="12dp" android:paddingTop="6dp" android:paddingRight="12dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去看看" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+</com.jingdong.common.messagepop.JDShadowLayout>

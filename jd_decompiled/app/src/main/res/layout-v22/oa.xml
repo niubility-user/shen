@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.messagepop.JDShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bhm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" app:sl_cornerRadius="8dp" app:sl_shadowRadius="10dp" app:sl_shadowColor="#1a000000">
+    <FrameLayout android:id="@+id/bh0" android:background="@drawable/b4v" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/bh1" android:background="@drawable/b4w" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="11sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@+id/bg3" android:background="@drawable/b4z" android:paddingLeft="9dp" android:paddingTop="6dp" android:paddingRight="9dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="立即领取" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <TextView android:textSize="15sp" android:textColor="#262626" android:ellipsize="end" android:id="@+id/auc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19dp" android:layout_marginBottom="19dp" android:maxLines="2" android:layout_toLeftOf="@+id/bg3" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginVertical="19dp"/>
+        </RelativeLayout>
+    </FrameLayout>
+</com.jingdong.common.messagepop.JDShadowLayout>

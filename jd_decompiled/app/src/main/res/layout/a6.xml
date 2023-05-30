@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/tl" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/o" android:background="@drawable/aa6" android:layout_width="match_parent" android:layout_height="51dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="40dp">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:src="@drawable/atj" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@drawable/ati" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <TextView android:textColor="#0a0c0f" android:id="@+id/p" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/if" android:layout_toLeftOf="@+id/m" android:layout_toRightOf="@+id/n" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

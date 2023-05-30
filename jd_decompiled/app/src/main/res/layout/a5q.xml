@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="12sp" android:textColor="#fa2c19" android:ellipsize="end" android:id="@+id/d6h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:layout_centerVertical="true"/>
+    </FrameLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/cc" android:id="@+id/d6g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="进店" android:includeFontPadding="false"/>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/d6f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.6dp" android:src="@drawable/aki" android:scaleType="centerCrop"/>
+</LinearLayout>

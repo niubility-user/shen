@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/setting_dialog_title_area"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/setting_text_size_dialog_start" android:textColor="@color/em" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/setting_push_time_start"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/setting_up_imageview" android:layout_width="@dimen/setting_dialog_up_button_width" android:layout_height="@dimen/setting_dialog_up_button_width" android:layout_marginTop="@dimen/setting_dialog_up_button_top" android:src="@drawable/setting_up_times" android:scaleType="centerInside" android:contentDescription="@string/ia"/>
+            <com.jingdong.app.mall.utils.ui.NumberPicker android:id="@+id/setting_number_picker_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginTop="2dp" android:layout_marginRight="36dp" android:layout_marginBottom="2dp"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/setting_down_imageview" android:layout_width="@dimen/setting_dialog_up_button_width" android:layout_height="@dimen/setting_dialog_up_button_width" android:layout_marginBottom="@dimen/setting_dialog_up_button_top" android:src="@drawable/setting_down_times" android:scaleType="centerInside" android:contentDescription="@string/ia"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/setting_text_size_dialog_start" android:textColor="@color/em" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/setting_push_time_end"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/setting_end_up_imageview" android:layout_width="@dimen/setting_dialog_up_button_width" android:layout_height="@dimen/setting_dialog_up_button_width" android:layout_marginTop="@dimen/setting_dialog_up_button_top" android:src="@drawable/setting_up_times" android:scaleType="centerInside" android:contentDescription="@string/ia"/>
+            <com.jingdong.app.mall.utils.ui.NumberPicker android:id="@+id/setting_number_picker_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginTop="2dp" android:layout_marginRight="36dp" android:layout_marginBottom="2dp"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/setting_end_down_imageview" android:layout_width="@dimen/setting_dialog_up_button_width" android:layout_height="@dimen/setting_dialog_up_button_width" android:layout_marginBottom="@dimen/setting_dialog_up_button_top" android:src="@drawable/setting_down_times" android:scaleType="centerInside" android:contentDescription="@string/ia"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/setting_dialog_option_area"/>
+</LinearLayout>

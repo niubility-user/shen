@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="e" parent="@android:style/Widget.Material.Spinner.Underlined">
+    </style>
+    <style name="a9" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="bl" parent="@style/uy">
+    </style>
+    <style name="bm" parent="@style/uz">
+    </style>
+    <style name="bs" parent="@android:style/Widget.Material.ActionButton.Overflow">
+    </style>
+    <style name="bv" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="d3" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="d4" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse">
+    </style>
+    <style name="uy" parent="@style/uw">
+        <item name="b7">?android:attr/actionOverflowButtonStyle</item>
+        <item name="bf">?android:attr/actionBarItemBackground</item>
+        <item name="bh">?android:attr/actionMenuTextAppearance</item>
+        <item name="bi">?android:attr/actionMenuTextColor</item>
+        <item name="da">@drawable/us</item>
+        <item name="ds">?android:attr/ratingBarStyleIndicator</item>
+        <item name="dt">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="uz" parent="@style/ux">
+        <item name="b7">?android:attr/actionOverflowButtonStyle</item>
+        <item name="bf">?android:attr/actionBarItemBackground</item>
+        <item name="bh">?android:attr/actionMenuTextAppearance</item>
+        <item name="bi">?android:attr/actionMenuTextColor</item>
+        <item name="da">@drawable/us</item>
+        <item name="ds">?android:attr/ratingBarStyleIndicator</item>
+        <item name="dt">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="d5" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/ge</item>
+    </style>
+    <style name="d6" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="d7" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="d8" parent="@style/dq">
+        <item name="e5">?android:attr/colorBackgroundFloating</item>
+    </style>
+    <style name="zm" parent="@style/zl">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="zv" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+</resources>

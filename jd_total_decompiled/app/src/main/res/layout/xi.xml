@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/a02" android:paddingRight="@dimen/a02" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/a07" android:paddingBottom="@dimen/a07" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="66dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/zy" android:layout_weight="1">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/a12" android:textStyle="bold" android:textColor="@color/wa" android:id="@+id/cb0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:includeFontPadding="false"/>
+                <TextView android:textSize="@dimen/a1g" android:textColor="@color/a74" android:ellipsize="end" android:gravity="center" android:id="@+id/cb1" android:background="@drawable/akm" android:paddingLeft="@dimen/a06" android:paddingTop="@dimen/re" android:paddingRight="@dimen/a06" android:paddingBottom="@dimen/re" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a0p" android:text="" android:singleLine="true" android:includeFontPadding="false"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/a0y" android:textColor="@color/a6r" android:ellipsize="end" android:id="@+id/caz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a0u" android:text="" android:lines="1" android:includeFontPadding="false"/>
+            <TextView android:textSize="@dimen/a0y" android:textColor="@color/a6r" android:ellipsize="end" android:id="@+id/cay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a0j" android:text="" android:maxLines="2" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <CheckBox android:enabled="true" android:id="@+id/u6" android:background="@drawable/bd3" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:clickable="false" android:layout_width="@dimen/a05" android:layout_height="@dimen/a05" android:button="@null" android:importantForAccessibility="no"/>
+    </LinearLayout>
+    <View android:id="@+id/c_8" android:background="@color/a7a" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+</LinearLayout>

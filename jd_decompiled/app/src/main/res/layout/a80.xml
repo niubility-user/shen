@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jingdong.app.mall.bundle.smile.JoyViewPager android:id="@+id/dd2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/dcz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a2o" android:layout_marginBottom="@dimen/a2o"/>
+    <include android:visibility="gone" layout="@layout/a7z"/>
+</LinearLayout>

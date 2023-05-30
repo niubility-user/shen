@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/btv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_horizontal" android:id="@+id/btx" android:background="@drawable/bid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginTop="1dp" android:layout_marginRight="7dp" android:scaleType="centerCrop" app:viewAspectRatio="1" app:roundedCornerRadius="3dp"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_horizontal" android:id="@+id/btw" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" app:viewAspectRatio="0.9"/>
+    <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="@color/z9" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@+id/bty" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:layout_marginBottom="3dp" android:lines="1"/>
+</FrameLayout>

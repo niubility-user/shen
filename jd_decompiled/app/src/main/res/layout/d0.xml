@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/aab" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textColor="#f02b2b" android:id="@+id/zd" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <Button android:textColor="#f02b2b" android:id="@+id/aac" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定"/>
+    </LinearLayout>
+    <com.jingdong.common.jdreactFramework.utils.WheelView android:id="@+id/ab7" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" app:jdreact_unitHeight="50dp" app:jdreact_itemNumber="3" app:jdreact_normalTextColor="#777" app:jdreact_normalTextSize="14sp" app:jdreact_selectedTextColor="#ff000000" app:jdreact_selectedTextSize="22sp" app:jdreact_lineColor="#f3f5f7" app:jdreact_lineHeight="1dp" app:jdreact_maskHeight="30dp" app:jdreact_noEmpty="true"/>
+</LinearLayout>

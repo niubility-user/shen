@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.app.mall.home.MonitorTouchEventRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.app.mall.home.widget.HomePullRefreshRecyclerView android:id="@+id/az7" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="none" android:fadingEdge="none" android:clipChildren="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/az8" android:layout_width="0px" android:layout_height="0px" android:layout_alignParentBottom="true"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/az9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/az8" android:layout_alignParentRight="true" android:contentDescription="@string/a8h"/>
+    <RelativeLayout android:id="@+id/a5n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/az8" android:layout_centerHorizontal="true"/>
+    <FrameLayout android:id="@+id/az_" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.jingdong.app.mall.home.floor.view.floating.FloatLayout android:id="@+id/aza" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/az7"/>
+    <SurfaceView android:layout_width="0dp" android:layout_height="0dp"/>
+</com.jingdong.app.mall.home.MonitorTouchEventRelativeLayout>

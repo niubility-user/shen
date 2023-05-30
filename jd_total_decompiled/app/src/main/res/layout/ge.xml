@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.ui.PDStyleColorSizeView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bm0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/ap2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ap3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+        <View android:id="@+id/ap4" android:visibility="gone" android:layout_marginLeft="@dimen/kv" style="@style/mh"/>
+        <ViewStub android:id="@+id/ap5" android:visibility="gone" android:layout="@layout/gg" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="36dp"/>
+    </RelativeLayout>
+</com.jingdong.common.ui.PDStyleColorSizeView>

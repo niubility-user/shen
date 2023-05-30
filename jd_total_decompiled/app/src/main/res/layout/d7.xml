@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16dp" android:textColor="#252525" android:gravity="center" android:id="@+id/amv" android:layout_width="match_parent" android:layout_height="50dp" android:text="评论"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/alp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.jingdong.common.widget.custom.CustomNetFailLayout android:layout_gravity="center" android:id="@+id/amw" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/ab4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.jingdong.common.ui.JDProgressBar android:gravity="center" android:layout_gravity="center" style="@style/m4"/>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bl" parent="@style/v5">
+    </style>
+    <style name="bm" parent="@style/v6">
+    </style>
+    <style name="v5" parent="@style/v2">
+        <item name="a1y">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="v6" parent="@style/v3">
+        <item name="a1y">?android:attr/dialogCornerRadius</item>
+    </style>
+</resources>

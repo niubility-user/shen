@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jd.lib.productdetail.mainimage.holder.ask.PdMAskItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/d5p" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cxv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="@dimen/n8">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/cwo" android:layout_width="@dimen/n4" android:layout_height="@dimen/n4" android:src="@drawable/c17"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/adr" android:ellipsize="end" android:id="@+id/cxw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:maxLines="1" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="@dimen/lt" android:layout_marginRight="@dimen/n8" android:layout_below="@+id/cxv">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/cxr" android:layout_width="@dimen/n4" android:layout_height="@dimen/n4" app:roundAsCircle="true"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textColor="@color/ae3" android:ellipsize="end" android:id="@+id/cxu" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/cxs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textColor="@color/adr" android:ellipsize="end" android:id="@+id/cxq" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/x1" android:layout_marginTop="6dp" android:layout_marginRight="20dp" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@+id/cxt"/>
+</com.jd.lib.productdetail.mainimage.holder.ask.PdMAskItemView>

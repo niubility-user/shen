@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:duration="90" android:drawable="@drawable/awp"/>
+    <item android:duration="90" android:drawable="@drawable/awq"/>
+    <item android:duration="90" android:drawable="@drawable/awr"/>
+    <item android:duration="90" android:drawable="@drawable/aws"/>
+    <item android:duration="90" android:drawable="@drawable/awt"/>
+    <item android:duration="90" android:drawable="@drawable/awu"/>
+    <item android:duration="90" android:drawable="@drawable/awv"/>
+    <item android:duration="90" android:drawable="@drawable/aww"/>
+    <item android:duration="90" android:drawable="@drawable/awx"/>
+    <item android:duration="90" android:drawable="@drawable/awy"/>
+    <item android:duration="90" android:drawable="@drawable/awz"/>
+    <item android:duration="90" android:drawable="@drawable/ax0"/>
+    <item android:duration="90" android:drawable="@drawable/ax1"/>
+    <item android:duration="90" android:drawable="@drawable/ax2"/>
+    <item android:duration="90" android:drawable="@drawable/ax3"/>
+    <item android:duration="90" android:drawable="@drawable/ax4"/>
+    <item android:duration="90" android:drawable="@drawable/ax5"/>
+    <item android:duration="90" android:drawable="@drawable/ax6"/>
+    <item android:duration="90" android:drawable="@drawable/ax7"/>
+    <item android:duration="90" android:drawable="@drawable/ax8"/>
+</animation-list>

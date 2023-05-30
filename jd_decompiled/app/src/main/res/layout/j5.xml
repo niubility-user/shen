@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b4k" android:layout_width="match_parent" android:layout_height="16dp" android:scaleType="fitXY" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+        <TextView android:textSize="10sp" android:textColor="@color/lx" android:ellipsize="end" android:id="@+id/bae" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+        <View android:id="@+id/baf" android:background="#4dffffff" android:layout_width="1dp" android:layout_height="10dp" android:layout_marginLeft="4dp"/>
+        <TextView android:textSize="10sp" android:textColor="#e6ffffff" android:ellipsize="end" android:id="@+id/bak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:maxLines="1" android:includeFontPadding="false"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

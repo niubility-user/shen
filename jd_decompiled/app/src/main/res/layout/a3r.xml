@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cx9" android:background="@drawable/bt0" android:paddingLeft="@dimen/kv" android:paddingTop="@dimen/n4" android:paddingRight="@dimen/kv" android:paddingBottom="@dimen/n4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/kx">
+    <com.jd.lib.productdetail.mainimage.holder.helper.PdMImageExpandableTextView android:textSize="@dimen/xn" android:id="@+id/cx_" android:layout_width="match_parent" android:layout_height="wrap_content" app:isSetNormalStyle="true"/>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/at8" android:background="@drawable/t3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/at9" android:paddingLeft="15dp" android:paddingTop="10dp" android:paddingRight="15dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="133dp">
+            <ProgressBar android:gravity="center_horizontal" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="34dp"/>
+            <TextView android:textSize="15sp" android:textColor="@color/uk" android:gravity="center_horizontal" android:id="@+id/at_" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:maxLines="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ata" android:paddingLeft="15dp" android:paddingTop="10dp" android:paddingRight="15dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="133dp">
+            <ImageView android:gravity="center_horizontal" android:id="@+id/atb" android:layout_width="42dp" android:layout_height="42dp" android:layout_marginTop="25dp" android:src="@drawable/b00"/>
+            <TextView android:textSize="15sp" android:textColor="@color/uk" android:gravity="center_horizontal" android:id="@+id/atc" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34dp" android:maxLines="1"/>
+        </LinearLayout>
+        <TextView android:textSize="15sp" android:textColor="@color/v5" android:gravity="center" android:layout_gravity="center" android:id="@+id/atd" android:paddingLeft="15dp" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="40dp" android:maxLines="2"/>
+    </LinearLayout>
+</LinearLayout>

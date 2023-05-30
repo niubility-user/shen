@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/a0u"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/brp" android:background="@drawable/bav" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/bbp" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="4dp" android:scaleType="centerCrop"/>
+            <TextView android:textSize="10sp" android:textColor="@color/lx" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/bro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginRight="6dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cew" android:background="@drawable/bn7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0">
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@+id/cez" android:layout_width="19dp" android:layout_height="14dp" android:layout_marginLeft="0.5dp" android:layout_marginTop="0.5dp" android:layout_marginBottom="0.5dp" android:scaleType="centerCrop"/>
+            <TextView android:textSize="@dimen/zb" android:textColor="@color/p3" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/cey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginRight="6dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cex" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/cf0" android:layout_width="16dp" android:layout_height="14dp" android:scaleType="centerCrop"/>
+        </LinearLayout>
+        <TextView android:textSize="14sp" android:textColor="@color/cc" android:id="@+id/brn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="8dp" android:layout_marginRight="10dp" android:maxLines="2" android:lineSpacingExtra="2dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/cf1"/>
+        <View android:id="@+id/cet" android:visibility="gone" android:layout_width="match_parent" android:layout_height="12dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/brn"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cev" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="8dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/brn">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/cej" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="centerCrop" app:roundedCornerRadius="12dp"/>
+            <TextView android:textSize="@dimen/jv" android:textColor="@color/a7m" android:ellipsize="end" android:id="@+id/cei" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:lines="1"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/ceh" android:background="@drawable/axu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="8dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/brn">
+            <RelativeLayout android:id="@+id/cf2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/baw" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="centerCrop" android:layout_alignParentLeft="true" app:borderWidth="0.5dp" app:roundedCornerRadius="3dp" app:borderColor="#14000000"/>
+                <TextView android:textSize="16sp" android:textColor="@color/z9" android:id="@+id/bfc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginTop="5dp" android:layout_toRightOf="@+id/baw" android:layout_alignParentTop="true"/>
+                <TextView android:textSize="10sp" android:textColor="@color/dw" android:id="@+id/bav" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/bfc" android:layout_alignLeft="@+id/bfc"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/cf3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginTop="1dp" android:layout_marginBottom="1dp">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/ceq" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:roundedCornerRadius="4dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_toRightOf="@+id/ceq" android:layout_centerVertical="true">
+                    <TextView android:textSize="@dimen/zi" android:textColor="@color/p1" android:ellipsize="end" android:id="@+id/ces" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                    <TextView android:textSize="@dimen/zb" android:textColor="@color/pd" android:id="@+id/cep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="true"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <include layout="@layout/ld"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/uz"/>
+    <include layout="@layout/oh"/>
+</androidx.cardview.widget.CardView>

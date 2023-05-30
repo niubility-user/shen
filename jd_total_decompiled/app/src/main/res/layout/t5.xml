@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/ov" android:paddingRight="@dimen/ov" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/ap6" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.jingdong.common.ui.PdAutoChangeTextSize android:textSize="@dimen/ky" android:textStyle="bold" android:textColor="@color/rp" android:id="@+id/ap7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/kx" android:includeFontPadding="false"/>
+        <com.jingdong.common.ui.PdAutoChangeTextSize android:textSize="@dimen/kz" android:textColor="@color/l0" android:id="@+id/ap8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@+id/ap7"/>
+        <com.jingdong.common.ui.PdAutoChangeTextSize android:textSize="@dimen/kz" android:textColor="@color/od" android:id="@+id/ap9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s_" android:drawablePadding="@dimen/i_" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <com.jingdong.common.widget.PDFlowLayout android:id="@+id/ap_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/kw"/>
+</LinearLayout>

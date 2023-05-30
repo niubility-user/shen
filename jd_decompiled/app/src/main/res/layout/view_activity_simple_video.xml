@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.widget.video.IjkVideoViewWithReport android:id="@+id/video_activity_player" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/video_activity_video_cover_parent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/video_activity_play" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25dp" android:src="@drawable/video_activity_simple_pause_btn" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/video_activity_loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.jingdong.common.ui.JDProgressBar android:gravity="center" android:layout_gravity="center_horizontal" style="@style/m4"/>
+        <TextView android:textSize="18dp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="加载中请稍候"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/video_activity_refresh_btn" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_activity_simple_refresh_off" android:layout_centerInParent="true"/>
+    <FrameLayout android:id="@+id/video_activity_layer_parent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/video_activity_close" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="15dp" android:src="@drawable/video_activity_simple_close_btn" android:layout_alignParentRight="true"/>
+    <ImageView android:id="@+id/video_activity_voice" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@drawable/video_activity_simple_voice_off" android:layout_below="@+id/video_activity_close" android:layout_alignParentRight="true"/>
+</RelativeLayout>

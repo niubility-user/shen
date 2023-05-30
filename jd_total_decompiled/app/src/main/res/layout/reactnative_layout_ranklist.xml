@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/ab8" style="@style/kh">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/ab9" style="@style/kg"/>
+        <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/rdoGroupTitle" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <CheckBox android:textSize="18sp" android:textColor="@color/mp" android:gravity="center" android:id="@+id/btnTodayRank" android:background="@drawable/c6" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="40dp" android:checked="true" android:button="@null" android:text="榜单"/>
+                <CheckBox android:textSize="18sp" android:textColor="@color/mp" android:gravity="center" android:id="@+id/btnMySign" android:background="@drawable/c6" android:layout_width="wrap_content" android:layout_height="match_parent" android:button="@null" android:text="我的"/>
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/rlBlow" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/ab8"/>
+</RelativeLayout>

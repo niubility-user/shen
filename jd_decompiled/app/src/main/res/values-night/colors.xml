@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wd">#848383</color>
+    <color name="yg">#232323</color>
+    <color name="yh">#717171</color>
+    <color name="yk">#642620</color>
+    <color name="ym">#848383</color>
+    <color name="yn">#646464</color>
+    <color name="yo">#646464</color>
+    <color name="default_bg_red_color">#332524</color>
+    <color name="default_bg_yellow_color">#342d22</color>
+    <color name="default_disable_red_color">#6b3733</color>
+    <color name="default_disable_yellow_color">#6f552c</color>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/a_r" android:background="@color/vu" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/a_p" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="86dp" android:layout_height="wrap_content">
+    <com.jingdong.manto.widget.CircleImageView android:id="@+id/ase" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="10dp" android:src="@drawable/azk" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="9sp" android:textColor="@color/v5" android:gravity="center" android:id="@+id/asf" android:background="@color/ui" android:layout_width="40dp" android:layout_height="11dp" android:text="体验版" android:layout_alignBottom="@+id/ase" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="12sp" android:ellipsize="end" android:gravity="left" android:id="@+id/aql" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="4dp" android:maxWidth="86dp" android:text="京东购物京东购物京东购物京东购物京东购物京东购物京东购物" android:maxLines="1" android:lines="1" android:layout_below="@+id/ase" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

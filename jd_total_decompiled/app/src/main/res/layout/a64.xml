@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/d6z" android:background="@color/a74" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no">
+    <com.jd.lib.cashier.sdk.core.ui.CashierBItemView android:id="@+id/c8h" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/c8i" android:layout="@layout/a6n" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/c8g" android:paddingLeft="@dimen/zy" android:paddingRight="@dimen/zy" android:layout_width="match_parent" android:layout_height="@dimen/a0f">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c8l" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cvw" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/ad4" android:id="@+id/cvx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+                <View android:id="@+id/cvy" android:background="@color/ad5" android:layout_width="@dimen/re" android:layout_height="@dimen/a0u" android:layout_marginRight="@dimen/a0p" android:includeFontPadding="false"/>
+            </LinearLayout>
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:ellipsize="end" android:id="@+id/c8k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

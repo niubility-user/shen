@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="196dp">
+    <ImageView android:id="@+id/oy" android:background="@drawable/pm" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp"/>
+    <LinearLayout android:id="@+id/oz" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="?attr/c3" style="@style/ag">
+        <RelativeLayout android:layout_gravity="center_vertical" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ah">
+            <TextView android:textAppearance="?attr/bw" android:ellipsize="marquee" android:id="@+id/jy" android:fadingEdge="horizontal" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" style="@style/ai"/>
+            <TextView android:textAppearance="?attr/bx" android:id="@+id/p0" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/jy" style="@style/ai"/>
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:id="@+id/p1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" style="@style/on"/>
+    </LinearLayout>
+</androidx.appcompat.view.menu.ListMenuItemView>

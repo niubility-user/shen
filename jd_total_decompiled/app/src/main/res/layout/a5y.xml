@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/d7d" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/d7f" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d7g" android:background="@drawable/beb" android:paddingLeft="@dimen/a00" android:paddingTop="@dimen/a05" android:paddingRight="@dimen/a00" android:paddingBottom="@dimen/a05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/aft" android:id="@+id/d7e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a06" android:text="@string/asy" android:includeFontPadding="false"/>
+            <ImageView android:id="@+id/d7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bm7"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d7c" android:paddingLeft="@dimen/zy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/d7g" android:layout_centerVertical="true">
+            <com.jd.lib.cashier.sdk.core.ui.CashierBNewCardItemView android:id="@+id/d7q" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/a0u" android:layout_weight="1"/>
+            <com.jd.lib.cashier.sdk.core.ui.CashierBNewCardItemView android:id="@+id/d7r" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/a0u" android:layout_weight="1"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

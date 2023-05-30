@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="bzl">r/al/bzl.png</drawable>
+    <drawable name="bd9">r/al/bd9.png</drawable>
+    <drawable name="bd_">r/al/bd_.png</drawable>
+    <drawable name="cb6">r/al/cb6.webp</drawable>
+    <drawable name="cb7">r/al/cb7.webp</drawable>
+    <drawable name="cb8">r/al/cb8.png</drawable>
+    <drawable name="cb9">r/al/cb9.webp</drawable>
+    <drawable name="cb_">r/al/cb_.png</drawable>
+</resources>

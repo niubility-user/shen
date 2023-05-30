@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <HorizontalScrollView android:id="@+id/auf" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.jd.lib.un.basewidget.widget.multi.ui.MultiTagLayout android:id="@+id/aug" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.jd.lib.un.basewidget.widget.multi.ui.MultiIndicator android:id="@+id/auh" android:layout_width="match_parent" android:layout_height="3px"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View android:id="@+id/aui" android:background="#4f4f4f" android:layout_width="match_parent" android:layout_height="1px"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/auj" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

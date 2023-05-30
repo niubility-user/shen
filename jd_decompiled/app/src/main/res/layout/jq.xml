@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.jingdong.common.unification.uniwidget.JDLottieAnimationView android:id="@+id/w2" android:visibility="gone" android:layout_width="13dp" android:layout_height="13dp" android:layout_marginRight="5dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:lottie_fileName="couponunit_countdown.json" app:lottie_autoPlay="true" app:lottie_loop="true"/>
+</merge>

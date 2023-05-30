@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/hn">
+    <com.jingdong.app.mall.navigationbar.BottomCropImage android:id="@+id/navigation_bg" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="@dimen/ho" android:src="@drawable/a8a" android:layout_alignBottom="@+id/bottomMenu"/>
+    <com.jingdong.app.mall.navigationbar.BottomCropImage android:id="@+id/navigation_imm_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/ho" android:layout_alignBottom="@+id/immBottomMenu"/>
+    <com.jingdong.common.unification.navigationbar.newbar.NavigationGroup android:orientation="horizontal" android:id="@+id/bottomMenu" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/hn"/>
+    <com.jingdong.common.unification.navigationbar.newbar.NavigationGroup android:orientation="horizontal" android:id="@+id/immBottomMenu" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/hn"/>
+</RelativeLayout>

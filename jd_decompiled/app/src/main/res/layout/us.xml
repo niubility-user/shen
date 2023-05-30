@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/ui" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bvr" android:layout_width="340dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="110dp">
+            <ImageView android:id="@+id/bw0" android:background="@drawable/bi_" android:layout_width="62dp" android:layout_height="32dp" android:layout_centerHorizontal="true"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/r8" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_below="@+id/bw0"/>
+            <TextView android:textSize="14sp" android:textColor="@color/lx" android:id="@+id/bvu" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginRight="6dp" android:text="设置" android:layout_alignParentRight="true"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bvz" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="2dp" android:src="@drawable/bib" android:layout_centerHorizontal="true" app:roundAsCircle="true" app:roundingBorderWidth="1dp" app:roundingBorderColor="@color/lx"/>
+            <ImageView android:id="@+id/bvt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bia" android:layout_alignBottom="@+id/bvz" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="16sp" android:textColor="@color/lx" android:id="@+id/bw1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="用户昵称" android:layout_below="@+id/bvz" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:background="@drawable/bic" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.jdpay.membercode.widget.CodeView android:id="@+id/bvq" android:layout_width="340dp" android:layout_height="340dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/bvs" android:layout_width="34dp" android:layout_height="34dp" android:layout_marginTop="30dp" android:src="@drawable/bi8" android:layout_below="@+id/bvr" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

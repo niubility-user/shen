@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/a74" android:paddingLeft="@dimen/rf" android:paddingRight="@dimen/rf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="bottom" android:id="@+id/ca9" android:layout_width="match_parent" android:layout_height="38dp">
+        <TextView android:textSize="@dimen/a13" android:textStyle="bold" android:textColor="@color/ps" android:id="@+id/can" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aie" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/caj" android:padding="5dp" android:layout_width="@dimen/a07" android:layout_height="@dimen/a07" android:src="@drawable/bk7" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/a24"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a0r">
+        <TextView android:textSize="@dimen/a10" android:gravity="center" android:id="@+id/cal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+        <TextView android:textSize="@dimen/a10" android:id="@+id/cam" android:paddingLeft="@dimen/a0j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/c_z" android:paddingLeft="@dimen/zy" android:paddingRight="@dimen/zy" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/a0f" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/a0y" android:textColor="@color/a6q" android:ellipsize="end" android:gravity="left" android:id="@+id/cak" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="30dp" android:maxLines="2"/>
+</LinearLayout>

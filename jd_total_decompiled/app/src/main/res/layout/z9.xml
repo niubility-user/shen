@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/c_l" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/a0o">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c_p" android:paddingRight="@dimen/rf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageView android:id="@+id/ca_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a0e" android:src="@drawable/bm7"/>
+                <CheckBox android:id="@+id/c_j" android:background="@drawable/bd3" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/a03" android:layout_height="@dimen/a03" android:button="@null" android:contentDescription="@null" android:importantForAccessibility="no"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c_m" android:paddingLeft="@dimen/rf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a0e" android:layout_toLeftOf="@+id/c_p" android:layout_centerVertical="true">
+                <ImageView android:id="@+id/c_k" android:layout_width="@dimen/a0_" android:layout_height="@dimen/a0_"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a0p">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ce1" android:layout_width="wrap_content" android:layout_height="@dimen/a08" android:layout_centerVertical="true">
+                        <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a10" android:textColor="@color/ps" android:ellipsize="end" android:id="@+id/c_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+                        <ImageView android:id="@+id/c_c" android:visibility="visible" android:layout_width="@dimen/a0_" android:layout_height="@dimen/a07" android:layout_marginLeft="@dimen/a06"/>
+                        <ImageView android:id="@+id/c_d" android:visibility="visible" android:layout_width="@dimen/a0_" android:layout_height="@dimen/a07" android:layout_marginLeft="@dimen/a06"/>
+                        <ImageView android:id="@+id/ccr" android:visibility="gone" android:layout_width="@dimen/zy" android:layout_height="@dimen/zy" android:layout_marginLeft="@dimen/a06" android:src="@drawable/bly"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cc3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/a0w" android:textColor="@color/a71" android:ellipsize="end" android:id="@+id/c_f" android:background="@drawable/bda" android:paddingLeft="@dimen/a0j" android:paddingTop="@dimen/a06" android:paddingRight="@dimen/a0j" android:paddingBottom="@dimen/a06" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a0j" android:lines="1" android:includeFontPadding="false"/>
+                        <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0w" android:textColor="@color/a6r" android:ellipsize="end" android:id="@+id/c_e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a0j" android:lines="1" android:includeFontPadding="false"/>
+                        <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0w" android:textColor="@color/a6r" android:ellipsize="end" android:id="@+id/c_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/ce5" android:paddingTop="@dimen/a0u" android:layout_width="match_parent" android:layout_height="@dimen/a1l">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/rf" android:paddingRight="@dimen/rf" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="#808080" android:ellipsize="end" android:id="@+id/ce4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a0j" android:lines="1" android:includeFontPadding="false"/>
+                <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a6q" android:ellipsize="end" android:id="@+id/ce7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+            </LinearLayout>
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a6q" android:id="@+id/ce8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rf" android:layout_marginRight="@dimen/rf" android:includeFontPadding="false"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

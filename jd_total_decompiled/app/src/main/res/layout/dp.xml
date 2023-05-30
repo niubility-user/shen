@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/q0" layout="@layout/aj"/>
+    <RelativeLayout android:id="@+id/auq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tu" android:layout_below="@+id/q0">
+        <ImageView android:id="@+id/aur" android:background="@drawable/a8r" android:layout_width="187dp" android:layout_height="187dp" android:layout_centerHorizontal="true"/>
+        <com.jingdong.lib.netdiagnosis.NetDiagnoseProgressView android:id="@+id/aus" android:visibility="invisible" android:layout_width="186dp" android:layout_height="186dp" android:layout_centerHorizontal="true" custom:textSize="23sp" custom:circleWidth="3dp" custom:roundWidth="1dp" custom:inRoundWidth="2dp" custom:inRoundRadius="168dp"/>
+    </RelativeLayout>
+    <TextView android:textSize="18sp" android:textColor="@color/ci" android:id="@+id/aut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tv" android:text="@string/hy" android:layout_below="@+id/auq" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="14sp" android:textColor="@color/e0" android:gravity="center_horizontal" android:id="@+id/auu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:text="@string/hp" android:layout_below="@+id/aut" android:layout_centerHorizontal="true" android:lineSpacingExtra="8dp"/>
+    <Button android:textSize="16sp" android:textColor="@color/mh" android:id="@+id/auv" android:background="@drawable/al" android:layout_width="match_parent" android:layout_height="38dp" android:layout_marginLeft="42dp" android:layout_marginTop="@dimen/tt" android:layout_marginRight="42dp" android:text="点击诊断" android:layout_below="@+id/auu" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

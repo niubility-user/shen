@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bwc" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.jdmiaosha.view.DragWithCloseImageView android:layout_gravity="right" android:id="@+id/bvp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5dp"/>
+    <RelativeLayout android:id="@+id/bw3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.jingdong.common.jdmiaosha.view.DarkWhiteBgImageView android:id="@+id/bw4" android:visibility="visible" android:layout_width="64dp" android:layout_height="64dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+        <com.jingdong.common.jdmiaosha.view.DarkWhiteBgImageView android:id="@+id/bvn" android:visibility="visible" android:layout_width="360dp" android:layout_height="100dp" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <Button android:id="@+id/bvo" android:background="@drawable/bi5" android:visibility="visible" android:layout_width="50dp" android:layout_height="50dp"/>
+    </RelativeLayout>
+</FrameLayout>

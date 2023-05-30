@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jd.lib.productdetail.mainimage.holder.gift.PdMImageGiftLayer xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/d53" android:layout_width="wrap_content" android:layout_height="58dp" android:layout_marginLeft="@dimen/x4" android:layout_marginRight="58dp" android:layout_centerHorizontal="true"/>
+    <View android:id="@+id/d52" android:background="@drawable/btg" android:layout_width="@dimen/kx" android:layout_height="58dp" android:layout_toLeftOf="@+id/d4t"/>
+    <FrameLayout android:id="@+id/d4t" android:layout_width="@dimen/x6" android:layout_height="58dp" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/d4u" android:background="@drawable/c7s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/te"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/d4v" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/kv" android:layout_marginTop="58dp" android:layout_marginRight="@dimen/kv"/>
+</com.jd.lib.productdetail.mainimage.holder.gift.PdMImageGiftLayer>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/cs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50dp">
+        <com.jingdong.common.listui.JDProgressBar android:gravity="center" android:id="@+id/ut" android:layout_width="34dp" android:layout_height="34dp"/>
+        <TextView android:textColor="#848689" android:gravity="center_vertical" android:id="@+id/uu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/aq4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7z"/>
+        <TextView android:textColor="#9e9e9e" android:gravity="center_horizontal" android:id="@+id/aq5" android:paddingTop="7dp" android:paddingBottom="7dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="暂无新内容可看，去别地方逛逛"/>
+    </LinearLayout>
+</RelativeLayout>

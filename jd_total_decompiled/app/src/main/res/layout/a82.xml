@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="48dp" android:layout_height="48dp">
+    <ImageView android:id="@+id/dd1" android:background="@drawable/byc" android:layout_width="@dimen/a2q" android:layout_height="@dimen/a2q" android:layout_marginRight="10dp" android:layout_centerInParent="true"/>
+</RelativeLayout>

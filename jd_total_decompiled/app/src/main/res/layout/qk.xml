@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/ayn" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@+id/ayo" android:background="@drawable/ajw" android:layout_width="19dp" android:layout_height="18dp" android:layout_marginLeft="18dp" android:layout_marginTop="16dp"/>
+        <TextView android:id="@+id/ayp" android:background="#dadada" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="51dp"/>
+        <com.jingdong.aura.sdk.provided.ProvidedBundleNotFoundView android:id="@+id/ayq" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/ayr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <include layout="@layout/ql"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/ays" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

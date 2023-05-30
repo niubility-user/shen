@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="@dimen/i" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/dc" android:textColor="@color/dk" android:gravity="center" android:id="@+id/bv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e2"/>
+    <ScrollView android:paddingLeft="@dimen/co" android:paddingRight="@dimen/co" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/db" android:textColor="@color/e0" android:id="@+id/bn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/da"/>
+            <TextView android:textSize="@dimen/db" android:textColor="@color/e0" android:id="@+id/jd_dialog_message_hint" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/db" android:textColor="@color/e0" android:id="@+id/jd_dialog_message_hint2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="积分可在店铺页会员中心查看。"/>
+            <TextView android:textSize="12dp" android:textColor="@color/e0" android:id="@+id/jd_dialog_tips" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/jshop_dialog_tips"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:id="@+id/gf" android:paddingLeft="@dimen/co" android:paddingRight="@dimen/co" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/de">
+        <ListView android:scrollbarStyle="insideInset" android:id="@+id/bm" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="12dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/ch" android:layout_marginTop="@dimen/cj">
+        <Button android:textSize="@dimen/cl" android:textColor="@color/ci" android:id="@+id/br" android:background="@drawable/bc" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <Button android:textSize="@dimen/cl" android:textColor="@color/mk" android:id="@+id/bq" android:background="@drawable/b6" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

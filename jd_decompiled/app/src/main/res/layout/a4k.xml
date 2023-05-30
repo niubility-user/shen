@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/d5p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/cxk" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/d5o" android:layout_width="60dp" android:layout_height="60dp" android:layout_centerInParent="true"/>
+</RelativeLayout>

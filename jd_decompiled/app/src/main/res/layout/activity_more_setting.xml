@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f6f6f6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/rl_more_activity_title" android:background="@drawable/tm" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginBottom="5dp">
+        <TextView android:textSize="20sp" android:gravity="center" android:id="@+id/more_activity_title" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="30dp" android:text="选择频道" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/addtional_item_arrow0" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="5dp" android:src="@drawable/a3s" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription=""/>
+    </RelativeLayout>
+    <ListView android:id="@+id/lv_moreSetting" android:background="@drawable/tm" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:paddingLeft="@dimen/a03" android:paddingRight="@dimen/a03" android:layout_width="match_parent" android:layout_height="54dp">
+        <ImageView android:id="@+id/bz3" android:layout_width="@dimen/a05" android:layout_height="@dimen/a05" android:src="@drawable/p5" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/vs"/>
+        <TextView android:textSize="@dimen/a14" android:textStyle="bold" android:textColor="@color/a1_" android:id="@+id/bzg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ahv" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/bz4" android:padding="5dp" android:layout_width="@dimen/a08" android:layout_height="@dimen/a08" android:src="@drawable/bk7" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/a24"/>
+    </RelativeLayout>
+    <com.jd.lib.cashier.sdk.core.ui.CashierItemView android:id="@+id/bz5" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp"/>
+    <com.jd.lib.cashier.sdk.core.ui.widget.PayPlanView android:id="@+id/bzf" android:layout_width="match_parent" android:layout_height="wrap_content" app:clickAutoSelection="false"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bzc" android:paddingLeft="@dimen/a03" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/a0h">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bze" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:ellipsize="end" android:id="@+id/bzd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false"/>
+            <ImageView android:id="@+id/bzb" android:layout_width="@dimen/a00" android:layout_height="@dimen/a00" android:layout_marginLeft="@dimen/a0j" android:src="@drawable/bly"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

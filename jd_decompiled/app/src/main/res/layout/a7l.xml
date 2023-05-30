@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/dce" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no">
+    <com.jd.lib.cashier.sdk.core.ui.CashierAPayItemView android:id="@+id/dbv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.jd.lib.cashier.sdk.core.ui.widget.CashierAPayPlanView android:id="@+id/dbx" android:paddingLeft="@dimen/a27" android:paddingRight="@dimen/zy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/zy" app:cashierSpace="8"/>
+    <com.jd.lib.cashier.sdk.core.ui.widget.CashierAPlanExpandView android:id="@+id/dbw" android:paddingLeft="@dimen/a27" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a03"/>
+    <View android:gravity="center" android:layout_gravity="center" android:id="@+id/dc0" android:background="@color/aom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/a2j" android:layout_marginLeft="@dimen/a27" android:layout_marginRight="@dimen/zy"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+package g.f.a.c;
+
+/* loaded from: classes12.dex */
+public enum b {
+    SPEECH_START,
+    SPEECH_BEGIN,
+    SPEECH_END,
+    SPEECH_VOLUME,
+    SPEECH_PARITAL_RESULT,
+    SPEECH_RESULT,
+    SPEECh_KWS_RESULT,
+    TTS_PLAY_START,
+    TTS_PLAY_END,
+    TTS_SYNTHESIZE_DATA,
+    TTS_PLAY_PROGRESS,
+    TTS_SYNTHESIZE_FINISH,
+    WAKEUP_START,
+    WAKEUP_SUCC,
+    WAKEUP_ERROR,
+    WAKEUP_EXIT
+}

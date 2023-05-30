@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bbi" android:paddingLeft="12dp" android:paddingRight="0dp" android:layout_width="162dp" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bbj" android:paddingLeft="10dp" android:paddingRight="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="21dp" android:layout_below="@+id/bbi">
+        <View android:background="@color/lw" android:layout_width="match_parent" android:layout_height="1px"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="21dp">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="12dp" android:layout_height="12dp" android:src="@drawable/ac0"/>
+            <TextView android:textSize="8dp" android:textColor="#595c60" android:gravity="center" android:layout_width="match_parent" android:layout_height="21dp" android:text="QQ浏览器x5内核提供技术支持"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.ui.JDSquareLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/at" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" fresco:roundedCornerRadius="3dp"/>
+    <View android:id="@+id/aj" android:background="#88ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/ani" android:layout_width="30dp" android:layout_height="30dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/z" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="3dp" android:layout_marginRight="3dp" android:src="@drawable/a7t" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</com.jingdong.common.ui.JDSquareLayout>

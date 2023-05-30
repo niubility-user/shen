@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.messagepop.JDShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sl_cornerRadius="45dp" app:sl_shadowRadius="5dp" app:sl_shadowColor="#33000000">
+    <RelativeLayout android:background="@drawable/message_center_feed_back_bg" android:layout_width="45dp" android:layout_height="45dp">
+        <TextView android:textSize="12sp" android:textColor="#ff252525" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="意见\10反馈" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</com.jingdong.common.messagepop.JDShadowLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a2n" parent="@style/h5">
+        <item name="android:windowBackground">@color/lu</item>
+        <item name="android:textColor">@color/p</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="av">true</item>
+        <item name="^attr-private.c2">@style/hs</item>
+    </style>
+    <style name="zg" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="zh" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowAnimationStyle">@style/zj</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="zi" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:textColor">@color/pr</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

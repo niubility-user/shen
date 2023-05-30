@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/b96" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/atl" android:layout_centerVertical="true"/>
+    <TextView android:textSize="13sp" android:textColor="#232326" android:id="@+id/po" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:text="没有找到有用的？戳这里求助买过的人" android:singleLine="true" android:layout_toLeftOf="@+id/b97" android:layout_toRightOf="@+id/b96" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/b97" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/atk" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</merge>

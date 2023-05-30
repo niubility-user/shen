@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/awl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/awm" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/a2m" android:scaleType="centerInside" android:layout_centerInParent="true"/>
+    <com.jingdong.app.mall.utils.ui.view.JDMultiTextView android:textSize="9dp" android:textColor="@color/lx" android:gravity="center" android:layout_gravity="center" android:id="@+id/awn" android:background="@drawable/l8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginBottom="15dp" android:singleLine="true" android:layout_alignLeft="@+id/awm" android:layout_alignBottom="@+id/awm"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/awo" android:visibility="gone" android:layout_width="7dp" android:layout_height="7dp" android:layout_marginLeft="17dp" android:layout_marginBottom="17dp" android:src="@drawable/nw" android:scaleType="centerInside" android:layout_alignLeft="@+id/awm" android:layout_alignBottom="@+id/awm"/>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/c65" android:background="@drawable/bl7" android:padding="10dp" android:layout_width="match_parent" android:layout_height="140dp">
+    <RelativeLayout android:layout_width="120dp" android:layout_height="120dp">
+        <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c63" android:background="#000000" android:layout_width="120dp" android:layout_height="120dp" app:roundedCornerRadius="6dp"/>
+        <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c60" android:background="@drawable/bl8" android:layout_width="22dp" android:layout_height="26dp"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/c6m" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c6a" android:background="#000000" android:layout_width="15dp" android:layout_height="15dp" app:roundAsCircle="true"/>
+            <TextView android:textSize="14dp" android:textColor="#2e2d2d" android:ellipsize="end" android:id="@+id/c6l" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="-2dp" android:lines="1" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="49dp" android:layout_marginLeft="8dp" android:layout_marginTop="3dp" android:layout_marginRight="18dp">
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c66" android:layout_width="match_parent" android:layout_height="match_parent" app:scaleType="fitXY" app:src="@drawable/bpk"/>
+            <TextView android:textSize="10dp" android:textColor="#8c8c8c" android:id="@+id/c68" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:singleLine="true" android:includeFontPadding="false"/>
+            <TextView android:textSize="10dp" android:textColor="#8c8c8c" android:id="@+id/c69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentRight="true"/>
+            <TextView android:textSize="9dp" android:textColor="#fee3ba" android:id="@+id/ccm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="专享补贴" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="12dp" android:textColor="#fee3ba" android:id="@+id/c6i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/ccm" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/c1m" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="2dp" android:layout_marginTop="2dp" android:layout_marginRight="4dp">
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c6d" android:layout_width="match_parent" android:layout_height="match_parent" app:scaleType="fitXY" app:src="@drawable/bpg"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="18dp" android:textColor="#fee3ba" android:gravity="center" android:id="@+id/c61" android:layout_width="0dp" android:layout_height="wrap_content" android:text="¥?" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="6" android:layout_centerVertical="true"/>
+                <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+                <TextView android:textSize="14dp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/c5y" android:layout_width="0dp" android:layout_height="wrap_content" android:text="去看看 &gt;" android:layout_weight="5" android:layout_centerVertical="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:background="@color/lx" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="106dp">
+        <com.jingdong.common.ui.JDCircleImageView android:layout_gravity="center" android:id="@+id/user_img" android:layout_width="@dimen/personal_user_img_view_width" android:layout_height="@dimen/personal_user_img_view_height" android:layout_marginLeft="10dp" android:src="@drawable/jshop_default_portrait" android:scaleType="centerCrop" android:layout_centerVertical="true" app:borderWidth="1dp" app:borderColor="#e0e0e0"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="14dp" android:textColor="#232326" android:ellipsize="end" android:gravity="center" android:id="@+id/user_customer" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="13dp" android:textColor="#686868" android:ellipsize="end" android:gravity="center" android:id="@+id/non_member" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="您还不是本店会员" android:singleLine="true"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/member_level_layout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+                <RatingBar android:id="@+id/member_score" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="22dp" android:layout_marginTop="2dp" android:progressDrawable="@drawable/jshop_member_ratingbar" android:numStars="5" android:stepSize="1" android:isIndicator="true"/>
+                <TextView android:gravity="center" android:id="@+id/user_level_icon_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="会员"/>
+                <TextView android:gravity="center" android:id="@+id/user_level_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="会员"/>
+            </LinearLayout>
+            <TextView android:textSize="12dp" android:textColor="#989898" android:ellipsize="end" android:gravity="center" android:id="@+id/member_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+        <View android:background="#e0e0e0" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="20dp" android:layout_marginBottom="20dp"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/jshop_scroe_layout" android:layout_width="85dp" android:layout_height="match_parent">
+            <TextView android:textSize="18dp" android:textStyle="bold" android:ellipsize="end" android:id="@+id/jshop_member_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="9dp" android:textColor="#686868" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="积分"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/layout_user_point" android:background="@color/lx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/jshop_split_line_point" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+        <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="match_parent" android:layout_height="65dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/layout_user_point_get" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="14sp" android:textColor="#232326" android:id="@+id/view_user_point_get" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="赚积分"/>
+                    <ImageView android:id="@+id/view_user_point_lottery_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/jshop_label_lottery"/>
+                </LinearLayout>
+                <TextView android:textSize="11sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/view_user_point_get_hint" android:background="@drawable/jshop_instruction_bg" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="赚取会员积分"/>
+            </LinearLayout>
+            <View android:layout_gravity="center_vertical" android:background="#efefef" android:layout_width="0.5dp" android:layout_height="30dp"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/layout_user_point_use" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="14sp" android:textColor="#232326" android:id="@+id/view_user_point_user" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="花积分"/>
+                <TextView android:textSize="11sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/view_user_point_user_hint" android:background="@drawable/jshop_instruction_bg" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="任性买买买"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@+id/to_rule_detail" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="10dp">
+            <TextView android:textSize="14dp" android:textColor="#232326" android:id="@+id/rule_lable_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="本店会员规则" android:layout_alignParentLeft="true"/>
+            <TextView android:textColor="#686868" android:id="@+id/agl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="详细规则" android:drawableRight="@drawable/faxian_item_arrow" android:drawablePadding="8dp" android:layout_alignParentRight="true"/>
+            <TextView android:textColor="#848689" android:ellipsize="end" android:id="@+id/privilege_single_value" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:singleLine="true" android:layout_toLeftOf="@+id/agl" android:layout_toRightOf="@+id/rule_lable_name"/>
+        </RelativeLayout>
+        <View android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="1px"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/rule_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/privilege_container" android:background="@color/lx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="86dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/p_layout1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/privilege_img1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jshop_right_icon_discount"/>
+                <TextView android:textSize="12dp" android:textColor="#232326" android:ellipsize="end" android:id="@+id/privilege_value1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:singleLine="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/p_layout2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/privilege_img2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jshop_right_icon_double"/>
+                <TextView android:textSize="12dp" android:textColor="#232326" android:ellipsize="end" android:id="@+id/privilege_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:singleLine="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/p_layout3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/privilege_img3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jshop_right_icon_add"/>
+                <TextView android:textSize="12dp" android:textColor="#232326" android:ellipsize="end" android:id="@+id/privilege_value3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:singleLine="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/p_layout4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/privilege_img4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jshop_right_icon_exchange"/>
+                <TextView android:textSize="12dp" android:textColor="#232326" android:ellipsize="end" android:id="@+id/privilege_value4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:singleLine="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/p_layout5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/privilege_img5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jshop_right_icon_price"/>
+                <TextView android:textSize="12dp" android:textColor="#232326" android:ellipsize="end" android:id="@+id/privilege_value5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/compon_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:src="@drawable/jshop_text_exchange"/>
+        <LinearLayout android:orientation="horizontal" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <include android:id="@+id/coupon_left" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1" layout="@layout/jshop_member_coupon"/>
+                <include android:id="@+id/coupon_center" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1" layout="@layout/jshop_member_coupon"/>
+                <include android:id="@+id/coupon_right" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1" layout="@layout/jshop_member_coupon"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/member_more_coupon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:layout_width="45dp" android:layout_height="wrap_content" android:src="@drawable/jshop_exchange_more"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

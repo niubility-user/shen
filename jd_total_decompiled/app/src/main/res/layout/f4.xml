@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/b5h" android:background="@drawable/a_8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageButton android:id="@+id/b5i" android:background="@null" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_9" android:layout_centerInParent="true"/>
+    <LinearLayout android:gravity="center" android:id="@+id/b5j" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:layout_width="19dp" android:layout_height="19dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/gw"/>
+    </LinearLayout>
+</RelativeLayout>

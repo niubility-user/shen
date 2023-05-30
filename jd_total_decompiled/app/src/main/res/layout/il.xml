@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="14sp" android:textColor="#999999" android:gravity="center" android:id="@+id/b9y" android:background="@drawable/ng" android:paddingLeft="15dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:adjustViewBounds="true" android:text="加载中"/>
+    <com.jd.verify.View.ClickVerifyButton android:id="@+id/b9z" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.jd.verify.View.SlideVerifyButton android:id="@+id/b_0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

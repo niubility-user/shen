@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:tag="layout/security_base_number_pure_can_finish_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="5" android:splitMotionEvents="false" android:windowEnableSplitTouch="false" android:canRetrieveWindowContent="true">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a3k" android:layout_width="0dp" android:layout_height="230dp" android:layout_marginLeft="7.5dp" android:weightSum="4" android:layout_weight="4">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="7.5dp" android:weightSum="3" android:layout_weight="1">
+            <FrameLayout style="@style/vi">
+                <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_1" android:focusable="true" style="@style/ve"/>
+            </FrameLayout>
+            <FrameLayout style="@style/vi">
+                <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_2" android:focusable="true" style="@style/ve"/>
+            </FrameLayout>
+            <FrameLayout style="@style/vi">
+                <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_3" android:focusable="true" style="@style/ve"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:weightSum="3" android:layout_weight="1">
+            <FrameLayout style="@style/vi">
+                <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_4" android:focusable="true" style="@style/ve"/>
+            </FrameLayout>
+            <FrameLayout style="@style/vi">
+                <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_5" android:focusable="true" style="@style/ve"/>
+            </FrameLayout>
+            <FrameLayout style="@style/vi">
+                <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_6" android:focusable="true" style="@style/ve"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:weightSum="3" android:layout_weight="1">
+            <FrameLayout style="@style/vi">
+                <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_7" android:focusable="true" style="@style/ve"/>
+            </FrameLayout>
+            <FrameLayout style="@style/vi">
+                <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_8" android:focusable="true" style="@style/ve"/>
+            </FrameLayout>
+            <FrameLayout style="@style/vi">
+                <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_9" android:focusable="true" style="@style/ve"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="2.5dp" android:weightSum="3" android:layout_weight="1">
+            <FrameLayout android:visibility="invisible" style="@style/vi">
+                <ImageButton android:id="@+id/a3l" android:tag="" android:src="@drawable/b2e" style="@style/ve"/>
+            </FrameLayout>
+            <FrameLayout style="@style/vi">
+                <com.jdjr.generalKeyboard.views.NumberKeyView android:tag="binding_10" android:focusable="true" style="@style/ve"/>
+            </FrameLayout>
+            <FrameLayout style="@style/vi">
+                <ImageButton android:id="@+id/a3m" android:tag="binding_11" android:contentDescription="@string/a8b" style="@style/ve"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="7.5dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="230dp" android:layout_marginLeft="2.5dp" android:layout_marginRight="7.5dp" android:weightSum="2" android:layout_weight="1">
+        <FrameLayout android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ImageButton android:id="@+id/a3n" android:tag="binding_12" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="2.5dp" android:layout_marginRight="2.5dp" android:layout_marginBottom="2.5dp" android:contentDescription="@string/a88"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/a3o" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <Button android:textSize="17sp" android:textColor="@color/q0" android:id="@+id/a3p" android:background="@drawable/azf" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="2.5dp" android:layout_marginRight="2.5dp" android:text="@string/rg"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

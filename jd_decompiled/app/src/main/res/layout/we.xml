@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/c65" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c63" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:roundedCornerRadius="6dp"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="34dp" android:layout_marginLeft="7dp" android:layout_marginRight="7dp">
+        <TextView android:textSize="12dp" android:textColor="#2e2d2d" android:ellipsize="end" android:id="@+id/c6l" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:layout_alignParentTop="true" android:lineSpacingMultiplier="1.08"/>
+        <TextView android:textSize="10dp" android:textColor="#e8220e" android:ellipsize="end" android:id="@+id/c6f" android:background="@drawable/bl5" android:paddingLeft="3dp" android:paddingTop="2dp" android:paddingRight="3dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="10dp" android:textColor="#8c8c8c" android:ellipsize="end" android:id="@+id/c6h" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginTop="4dp" android:layout_marginRight="7dp" android:singleLine="true" android:includeFontPadding="false"/>
+    <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c66" android:layout_width="104dp" android:layout_height="17dp" android:layout_marginLeft="7dp" android:layout_marginRight="7dp" app:scaleType="fitXY" app:src="@drawable/bpi"/>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="15dp" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:layout_marginRight="5dp" android:layout_marginBottom="8dp">
+        <TextView android:textSize="10dp" android:textColor="#e8220e" android:ellipsize="end" android:id="@+id/c62" android:layout_width="0dp" android:layout_height="wrap_content" android:text="预估到手 " android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1"/>
+        <TextView android:textSize="15dp" android:textColor="#e8220e" android:id="@+id/c61" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+    </LinearLayout>
+</LinearLayout>

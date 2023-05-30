@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="16sp" android:textColor="@color/p" android:gravity="center" android:id="@+id/bvx" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="45dp" android:text="刷新会员码"/>
+    <TextView android:textSize="16sp" android:textColor="@color/p" android:gravity="center" android:id="@+id/bvy" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="45dp" android:text="停用会员码"/>
+    <TextView android:textSize="16sp" android:textColor="@color/p" android:gravity="center" android:id="@+id/bvw" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="45dp" android:text="快捷支付设置"/>
+    <ImageView android:layout_width="match_parent" android:layout_height="10dp" android:src="#fff6f6f6"/>
+    <TextView android:textSize="16sp" android:textColor="@color/p" android:gravity="center" android:id="@+id/bvv" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="45dp" android:text="取消"/>
+</LinearLayout>

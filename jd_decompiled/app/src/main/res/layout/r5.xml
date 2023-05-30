@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="120dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bjs" android:layout_width="match_parent" android:layout_height="32dp" android:layout_marginTop="59dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/qc" android:paddingLeft="14dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:layout_width="10dp" android:layout_height="18dp" android:src="@drawable/b98"/>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <com.jd.manto.center.widget.MantoSearchEditText android:textSize="13sp" android:textColor="#262626" android:textColorHint="#8c8c8c" android:id="@+id/bdf" android:background="@drawable/b1u" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="" android:maxLines="1" android:lines="1" android:maxLength="30" android:inputType="text" android:imeOptions="actionSearch"/>
+            <ImageView android:id="@+id/bj0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/ama_myview_deletedbtn" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/b1d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="32dp">
+            <ImageView android:id="@+id/aqv" android:background="@drawable/b9i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11dp"/>
+            <View android:layout_gravity="center" android:background="#cccccc" android:layout_width="1dp" android:layout_height="19dp"/>
+            <ImageView android:id="@+id/aqw" android:background="@drawable/b9h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

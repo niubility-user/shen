@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/jshop_member_rule_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/level_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="13dp" android:src="@drawable/jshop_level_current_mark" android:layout_alignParentRight="true" android:layout_centerInParent="true"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/level_icon" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11dp">
+                    <RatingBar android:id="@+id/member_score" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18dp" android:progressDrawable="@drawable/jshop_member_ratingbar" android:numStars="5" android:stepSize="1" android:isIndicator="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/member_level_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="会员"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/member_level" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="会员"/>
+                </LinearLayout>
+                <RelativeLayout android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                    <TextView android:textSize="13dp" android:textColor="#232326" android:gravity="center" android:id="@+id/condition_lab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="条件：" android:layout_alignParentLeft="true"/>
+                    <TextView android:textSize="13dp" android:textColor="#868686" android:gravity="center" android:id="@+id/condition" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1.5倍积分" android:layout_toRightOf="@+id/condition_lab"/>
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="9dp">
+                    <TextView android:textSize="13dp" android:textColor="#232326" android:id="@+id/privilege_lab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="特权：" android:layout_alignParentLeft="true"/>
+                    <TextView android:textSize="13dp" android:textColor="#868686" android:ellipsize="end" android:id="@+id/privilege" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="会员折扣9.5折,1.5积分1.5倍分积,1.5积分1.5倍分积,1.5积分1.5倍分积分5倍分积,1.5积分1.5倍分积,1.5积分1.5倍分积,1.5积分1.5倍分积,1.5积分1.5倍分积,1.5积分1.5倍分积,1.5积分1.5倍分积,1.5积分1.5倍分积,1.5积分1." android:layout_toRightOf="@+id/privilege_lab" android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

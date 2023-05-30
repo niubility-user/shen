@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a4w">会员码</string>
+    <string name="a4x">取消</string>
+    <string name="a4y">关闭</string>
+    <string name="a4z">正在加载…</string>
+    <string name="a50">确定</string>
+    <string name="aei">已阅读并同意</string>
+    <string name="aej">《京东会员码用户授权协议》</string>
+    <string name="a53">开通京东会员码</string>
+    <string name="a54">开通会员码</string>
+    <string name="a55">VIP code</string>
+    <string name="a56">会员码数字仅用于展示给收银员，请勿泄露给其他人</string>
+    <string name="a57">开通会员码失败</string>
+    <string name="a58">未同意授权协议不能开通会员码</string>
+    <string name="a59">生成会员码失败</string>
+    <string name="a5_">停用会员码失败</string>
+    <string name="a5a">缺少必要的参数</string>
+    <string name="a5b">网络不稳定，请重试</string>
+    <string name="a5c">重试</string>
+    <string name="a5d">系统异常</string>
+    <string name="a5e">开通京东快速付款 ＞</string>
+    <string name="a5f">开通即享京东支付单单立减优惠</string>
+    <string name="a5g">您已经开通京东快速付款，扫码可支付</string>
+    <string name="a5h">请向营业员出示会员码进行优惠券消费及付款</string>
+</resources>

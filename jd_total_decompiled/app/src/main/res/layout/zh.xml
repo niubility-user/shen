@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ddy" android:paddingTop="@dimen/a0u" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/ui" android:paddingLeft="@dimen/zy" android:paddingRight="@dimen/a0m" android:layout_width="match_parent" android:layout_height="@dimen/a0n">
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a10" android:ellipsize="end" android:id="@+id/cad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:importantForAccessibility="no"/>
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0x" android:ellipsize="end" android:id="@+id/cac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a0e" android:lines="1" android:includeFontPadding="false" android:importantForAccessibility="no"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:layout_gravity="top|right" android:orientation="vertical" android:id="@+id/c9l" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/a0w" android:ellipsize="end" android:id="@+id/c9r" android:background="@drawable/av3" android:paddingLeft="@dimen/a0m" android:paddingTop="@dimen/a06" android:paddingRight="@dimen/a0m" android:paddingBottom="@dimen/a06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:importantForAccessibility="no"/>
+        <ImageView android:id="@+id/c9k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bm_"/>
+    </LinearLayout>
+</FrameLayout>

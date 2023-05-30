@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="@dimen/og" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/ck" android:id="@+id/b8x" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="42dp" android:text=""/>
+    <CheckBox android:textSize="13sp" android:textColor="#686868" android:id="@+id/b8y" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:checked="false" android:button="@drawable/bt" android:text="以后直接播放，不再提醒"/>
+    <LinearLayout android:gravity="bottom|center_horizontal" android:orientation="horizontal" android:paddingTop="30dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="12sp" android:textColor="@color/r6" android:id="@+id/b8z" android:background="@drawable/p1" android:layout_width="0dp" android:layout_height="31dp" android:layout_weight="1"/>
+        <View android:layout_width="18dp" android:layout_height="1dp"/>
+        <Button android:textSize="12sp" android:textColor="@color/lx" android:id="@+id/b90" android:background="@drawable/oy" android:layout_width="0dp" android:layout_height="31dp" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

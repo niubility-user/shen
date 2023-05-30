@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jd.lib.productdetail.mainimage.holder.comment.PdMImageCommentNewRootView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/d5p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/d5_" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <include android:id="@+id/cxx" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/a3w"/>
+    <include android:id="@+id/cyw" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/a40"/>
+</com.jd.lib.productdetail.mainimage.holder.comment.PdMImageCommentNewRootView>

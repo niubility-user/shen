@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.recommend.ui.RecommendLiveProductsView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#d61a1a1a" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@drawable/att" android:layout_width="match_parent" android:layout_height="70dp" android:layout_alignParentBottom="true"/>
+    <ImageView android:layout_gravity="right" android:id="@+id/bmg" android:paddingTop="4dp" android:paddingRight="4dp" android:layout_width="19dp" android:layout_height="19dp" android:src="@drawable/aue" android:scaleType="centerCrop" android:layout_alignParentRight="true"/>
+    <RelativeLayout android:id="@+id/bmi" android:paddingTop="19dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/bmk" layout="@layout/t0"/>
+        <include android:id="@+id/bmn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/bmk" layout="@layout/t0"/>
+        <include android:id="@+id/bmm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/bmn" layout="@layout/t0"/>
+        <TextView android:textSize="12dp" android:textColor="@color/jb" android:gravity="center" android:id="@+id/bme" android:background="@drawable/ats" android:layout_width="match_parent" android:layout_height="28dp" android:layout_marginLeft="14dp" android:layout_marginRight="14dp" android:layout_marginBottom="7dp" android:text="查看更多" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</com.jingdong.common.recommend.ui.RecommendLiveProductsView>

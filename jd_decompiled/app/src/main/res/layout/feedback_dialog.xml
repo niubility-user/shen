@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/feedback_arrow_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feedback_arrow_up"/>
+    <RelativeLayout android:background="@drawable/feedback_dialog_bg" android:paddingLeft="15dp" android:paddingTop="10dp" android:paddingRight="15dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14dp" android:textColor="#898989" android:gravity="center" android:id="@+id/tv_feedback_tip" android:layout_width="wrap_content" android:layout_height="27dp" android:layout_marginLeft="10dp" android:text="选择原因，优化推荐"/>
+        <TextView android:textSize="13dp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/tv_feedback_sure" android:background="@drawable/feedback_sure_btn_bg" android:layout_width="110dp" android:layout_height="27dp" android:layout_marginRight="10dp" android:text="不感兴趣" android:layout_alignParentRight="true"/>
+        <com.jingdong.common.ui.JDGridView android:id="@+id/gv_feedback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:listSelector="#00000000" android:horizontalSpacing="10dp" android:verticalSpacing="15dp" android:numColumns="2"/>
+    </RelativeLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/feedback_arrow_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feedback_arrow_down"/>
+</LinearLayout>

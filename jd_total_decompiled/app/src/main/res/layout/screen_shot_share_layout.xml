@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/ll_mainContainer" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_horizontal" android:id="@+id/iv_centerPic" android:layout_width="match_parent" android:layout_height="260dp" android:scaleType="fitXY"/>
+    <View android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="2px"/>
+    <RelativeLayout android:id="@+id/rl_bottom_container" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="260dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/iv_QRCode" android:layout_width="180px" android:layout_height="180px" android:layout_marginRight="48px" android:scaleType="fitXY"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/iv_jdSlogan" android:layout_width="407px" android:layout_height="52px" android:src="@drawable/share_pic_slogan" android:scaleType="fitXY"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

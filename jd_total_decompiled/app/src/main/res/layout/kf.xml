@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bhl" android:background="@drawable/qa" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/b9_" android:layout_width="13dp" android:layout_height="13dp" android:src="@drawable/ajd" android:layout_centerVertical="true"/>
+    <TextView android:id="@+id/b9a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vh"/>
+    <TextView android:textSize="12sp" android:textColor="@color/cc" android:ellipsize="end" android:id="@+id/b9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/vh" android:singleLine="true" android:layout_toLeftOf="@+id/bfi" android:layout_toRightOf="@+id/b9_"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/bfi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_alignParentRight="true">
+        <TextView android:textSize="12sp" android:textColor="@color/a0c" android:id="@+id/b9c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去开启" android:singleLine="true"/>
+        <ImageView android:id="@+id/bfh" android:visibility="gone" android:layout_width="6dp" android:layout_height="6dp" android:layout_marginLeft="2dp" android:src="@drawable/zx"/>
+    </LinearLayout>
+</RelativeLayout>

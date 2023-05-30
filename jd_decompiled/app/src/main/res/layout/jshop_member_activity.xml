@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#f0f2f5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/jshop_member_title_layout" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/jshop_big_promotion_img_member" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <include android:id="@+id/jshop_member_title" android:layout_width="match_parent" android:layout_height="44dp" layout="@layout/jshop_member_title"/>
+                <View android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="1px"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.jingdong.common.sample.jshopmember.ui.JshopMemberView android:id="@+id/member_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true"/>
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_above="@+id/la" android:layout_alignParentRight="true">
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/member_list_shopcart" android:visibility="gone" android:layout_width="39dp" android:layout_height="39dp" android:layout_marginRight="@dimen/jshop_concern_list_item_recommend_margin_top" android:layout_marginBottom="@dimen/jshop_concern_list_operation_height" android:src="@drawable/by"/>
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/product_list_to_top" android:visibility="invisible" android:layout_width="39dp" android:layout_height="39dp" android:layout_marginRight="@dimen/jshop_concern_list_item_recommend_margin_top" android:layout_marginBottom="@dimen/jshop_concern_list_operation_height" android:src="@drawable/c_up_button"/>
+                </LinearLayout>
+                <RelativeLayout android:id="@+id/la" android:background="#f2ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50dp" android:layout_alignParentBottom="true">
+                    <View android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentTop="true"/>
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/afi" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="3dp" android:layout_marginRight="5dp" android:src="@drawable/jshop_frist_price_img" android:layout_alignParentLeft="true" android:layout_centerInParent="true"/>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/right_close" android:layout_width="35dp" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerInParent="true">
+                        <com.facebook.drawee.view.SimpleDraweeView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jshop_list_cancel_normal"/>
+                    </LinearLayout>
+                    <TextView android:textColor="#666666" android:ellipsize="end" android:gravity="center" android:id="@+id/guide_info" android:layout_width="match_parent" android:layout_height="match_parent" android:lines="2" android:layout_toLeftOf="@+id/right_close" android:layout_toRightOf="@+id/afi" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/error_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.jingdong.common.sample.jshopmember.ui.JshopMemberCouponView android:layout_gravity="bottom" android:id="@+id/jshop_member_coupon" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/new_right_float_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shop_newer_gift"/>
+</FrameLayout>

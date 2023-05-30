@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" android:id="@+id/c65" android:paddingBottom="8dp" android:layout_width="90dp" android:layout_height="wrap_content">
+    <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c63" android:layout_width="90dp" android:layout_height="90dp" fresco:roundedCornerRadius="6dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/c6k" android:background="#ffffff" android:paddingLeft="2dp" android:paddingTop="5dp" android:paddingRight="2dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_below="@+id/c63" android:layout_centerHorizontal="true">
+        <TextView android:textSize="11dp" android:textColor="#505050" android:ellipsize="end" android:id="@+id/c6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+        <TextView android:textSize="14dp" android:textColor="#262626" android:id="@+id/c6c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:lines="1" android:includeFontPadding="false"/>
+    </LinearLayout>
+</RelativeLayout>

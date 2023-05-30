@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bfe" android:paddingLeft="@dimen/o_" android:paddingRight="@dimen/o_" android:layout_width="@dimen/og" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/nz">
+        <TextView android:textSize="@dimen/of" android:textStyle="bold" android:textColor="@color/cc" android:gravity="center" android:id="@+id/bv" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+        <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/o8" android:overScrollMode="never">
+            <TextView android:textSize="@dimen/od" android:textColor="@color/dw" android:gravity="center" android:id="@+id/bn" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/dj"/>
+        </ScrollView>
+        <EditText android:textSize="@dimen/d1" android:textColor="@color/ck" android:textColorHint="@color/np" android:gravity="center_vertical" android:id="@+id/bk" android:background="@drawable/ox" android:paddingLeft="@dimen/o9" android:paddingRight="@dimen/o9" android:layout_width="match_parent" android:layout_height="@dimen/ns" android:layout_marginTop="@dimen/nw" android:includeFontPadding="true" android:inputType="textPassword" android:isScrollContainer="true"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:id="@+id/bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/o8">
+            <ImageView android:id="@+id/f_" android:layout_width="11dp" android:layout_height="11dp" android:src="@drawable/aib"/>
+            <TextView android:textSize="@dimen/oc" android:textColor="@color/dw" android:id="@+id/bu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nx" android:layout_marginBottom="@dimen/nw">
+            <Button android:id="@+id/br" android:layout_width="0dp" android:layout_height="@dimen/np" android:layout_weight="1" style="@style/x3"/>
+            <Space android:layout_width="@dimen/nw" android:layout_height="1dp"/>
+            <Button android:enabled="false" android:id="@+id/bq" android:layout_width="0dp" android:layout_height="@dimen/np" android:layout_weight="1" style="@style/x2"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/a79" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.jingdong.common.ui.JDProgressBar android:layout_width="34dp" android:layout_height="34dp"/>
+    </LinearLayout>
+</FrameLayout>

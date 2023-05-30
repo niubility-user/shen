@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/bzj" android:layout_width="120dp" android:layout_height="120dp" android:layout_centerInParent="true"/>
+        <TextView android:textSize="@dimen/a10" android:textColor="@color/a76" android:gravity="center" android:id="@+id/bzk" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/bzj"/>
+    </RelativeLayout>
+</merge>

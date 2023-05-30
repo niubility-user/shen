@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/jshop_dyanmic_detail_header" android:paddingLeft="10dp" android:paddingRight="17dp" android:layout_width="match_parent" android:layout_height="50dp">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/jshop_shop_icon" android:background="@drawable/jshop_icon_bg" android:padding="1px" android:layout_width="@dimen/jshop_dynamic_item_icon_w" android:layout_height="@dimen/jshop_dynamic_item_icon_h"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+            <TextView android:textSize="14dp" android:textColor="@color/jshop_dynamic_item_shop_name" android:ellipsize="end" android:id="@+id/jshop_shop_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true"/>
+            <TextView android:textSize="12dp" android:textColor="@color/jshop_dynamic_item_shop_time" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/jshop_shop_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true"/>
+        </LinearLayout>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/jshop_shop_follow" android:background="@drawable/jshop_follow_gift" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="17dp" android:paddingRight="17dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="17dp" android:textColor="#000000" android:id="@+id/activity_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:text="上新"/> / 
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="10dp">
+            <TextView android:textSize="11dp" android:textColor="@color/jshop_dynamic_time" android:id="@+id/activity_time" android:layout_width="0dp" android:layout_height="wrap_content" android:text="6月2日 10:30" android:layout_weight="1"/>
+            <TextView android:textSize="11dp" android:textColor="@color/jshop_dynamic_time" android:id="@+id/activity_browser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="962人看过" android:drawableLeft="@drawable/jshop_dynamic_browse" android:drawablePadding="5dp"/>
+        </LinearLayout>
+        <TextView android:textSize="13dp" android:textColor="#4a4a4a" android:id="@+id/activity_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="20dp" android:text=""/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/activity_buyer_show_head" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12dp" android:textColor="#808080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="来自"/>
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/user_head_pic" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginLeft="10dp" android:src="@drawable/jshop_user_icon"/>
+                <TextView android:textSize="12dp" android:textColor="#4a4a4a" android:id="@+id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text=""/>
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/user_level_pic" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+            <TextView android:textSize="13dp" android:textColor="#4a4a4a" android:id="@+id/activity_buyer_show_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="20dp" android:text=""/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/activity_sign_prize_head" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="15dp">
+            <LinearLayout android:orientation="vertical" android:id="@+id/activity_time_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15dp" android:textColor="#171717" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="活动时间"/>
+                <TextView android:textSize="13dp" android:textColor="#4a4a4a" android:id="@+id/activity_sign_prize_time_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="2016.06.03 09:18-2016.07.03 23:59"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/activity_prize_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="15dp">
+                <TextView android:textSize="15dp" android:textColor="#171717" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="奖励说明"/>
+                <TextView android:textSize="13dp" android:textColor="#4a4a4a" android:id="@+id/activity_sign_prize_des_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="一等奖：连续签到31天获得满200减50东券\10二等奖：连续签到22天获得满80减20东券\10三等奖：连续签到15天获得满60减5东券\10四等奖：连续签到7天获得5元店铺京券\10鼓励奖：1元店铺京券"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

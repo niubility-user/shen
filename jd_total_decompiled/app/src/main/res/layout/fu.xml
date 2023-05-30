@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <tv.danmaku.ijk.media.example.widget.media.JDVideoView android:id="@+id/b9g" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b9h" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <ImageButton android:id="@+id/mq" android:background="@drawable/aau" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/b9j" android:background="@color/h4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/abv"/>
+        <TextView android:textSize="13dp" android:textColor="@color/e0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="网络故障，请检查您的网络"/>
+        <TextView android:textSize="13dp" android:textColor="@color/ci" android:id="@+id/a_q" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="点击重试"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/aaw" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/lx" android:id="@+id/jy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_centerVertical="true"/>
+        <ImageButton android:id="@+id/ba4" android:background="@drawable/aab" android:visibility="gone" android:layout_width="27dp" android:layout_height="27dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_toLeftOf="@+id/mj" android:layout_centerInParent="true"/>
+        <ImageButton android:id="@+id/mj" android:background="@drawable/aaw" android:layout_width="27dp" android:layout_height="27dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/la" android:background="@drawable/iu" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="50dp" android:layout_alignBottom="@+id/b9g">
+        <ImageButton android:id="@+id/le" android:background="@drawable/aas" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_centerVertical="true"/>
+        <TextView android:textSize="13sp" android:textColor="@color/lx" android:id="@+id/ba5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="00:00" android:layout_toRightOf="@+id/le" android:layout_centerVertical="true"/>
+        <SeekBar android:id="@+id/ba6" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="2dp" android:progressDrawable="@drawable/i7" android:minHeight="2dp" android:thumb="@drawable/i8" android:layout_toLeftOf="@+id/ab2" android:layout_toRightOf="@+id/ba5" android:layout_centerVertical="true"/>
+        <TextView android:textSize="13sp" android:textColor="@color/jb" android:id="@+id/ab2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="00:00" android:layout_toLeftOf="@+id/kx" android:layout_centerVertical="true"/>
+        <ImageButton android:id="@+id/kx" android:background="@drawable/aap" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ProgressBar android:id="@+id/ab4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/ic" android:layout_centerInParent="true"/>
+</RelativeLayout>

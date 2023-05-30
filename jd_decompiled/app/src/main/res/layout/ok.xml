@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/cs" android:visibility="visible" android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeight">
+        <com.jingdong.common.ui.JDProgressBar android:layout_gravity="center_vertical" android:layout_width="@dimen/ih" android:layout_height="@dimen/ih"/>
+        <TextView android:id="@+id/ct" android:paddingLeft="6dp" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:text="@string/gy"/>
+    </LinearLayout>
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/al" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/h5"/>
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/ak" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/h7"/>
+</FrameLayout>

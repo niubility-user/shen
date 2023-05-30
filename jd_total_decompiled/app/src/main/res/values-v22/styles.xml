@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bl" parent="@style/uw">
+    </style>
+    <style name="bm" parent="@style/ux">
+    </style>
+    <style name="uw" parent="@style/up">
+        <item name="bs">?android:attr/actionModeShareDrawable</item>
+        <item name="cj">?android:attr/editTextBackground</item>
+    </style>
+    <style name="ux" parent="@style/ur">
+        <item name="bs">?android:attr/actionModeShareDrawable</item>
+        <item name="cj">?android:attr/editTextBackground</item>
+    </style>
+    <style name="zc" parent="@style/tt">
+        <item name="android:windowFullscreen">true</item>
+        <item name="?0x101062c">#fa2c19</item>
+        <item name="?0x101062d">@drawable/splash_screen_animated_icon</item>
+        <item name="?0x101062e">1000</item>
+        <item name="?0x101062f">@drawable/splash_screen_branding_image</item>
+        <item name="?0x1010630">#fa2c19</item>
+    </style>
+</resources>

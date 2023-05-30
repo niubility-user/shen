@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/dag" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:id="@+id/cxk" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="@dimen/kx" app:cardCornerRadius="12dp" app:cardElevation="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintDimensionRatio="1:1" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintWidth_percent="0.632">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/dad" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/d5o" android:layout_width="56dp" android:layout_height="56dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/dae" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginRight="@dimen/kx" android:scaleType="fitCenter" app:layout_constraintDimensionRatio="1:1" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="@+id/cxk" app:layout_constraintWidth_percent="0.307"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/daf" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginRight="@dimen/kx" android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintDimensionRatio="1:1" app:layout_constraintRight_toRightOf="0" app:layout_constraintWidth_percent="0.307"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

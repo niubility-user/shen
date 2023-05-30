@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/dcg" android:paddingTop="@dimen/a03" android:paddingBottom="@dimen/zy" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a10" android:textColor="#8c8c8c" android:ellipsize="end" android:gravity="center" android:id="@+id/dc1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a0u" android:maxLines="1" android:includeFontPadding="false"/>
+</LinearLayout>

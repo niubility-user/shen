@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/y8" app:cardElevation="0dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bc8" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignParentBottom="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/bca" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/arc" android:scaleType="centerCrop" android:layout_alignBottom="@+id/bca"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ben" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m9" android:layout_marginTop="9dp" android:layout_marginRight="@dimen/m8" android:layout_below="@+id/bca">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/beo" android:layout_width="19dp" android:layout_height="19dp" android:layout_marginRight="2dp" android:scaleType="fitCenter"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:id="@+id/bem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:id="@+id/bek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m8" android:layout_marginTop="4dp" android:layout_marginRight="@dimen/m8" android:lines="1" android:layout_below="@+id/ben"/>
+        <LinearLayout android:textSize="10dp" android:orientation="horizontal" android:id="@+id/bcb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m9" android:layout_marginTop="4dp" android:layout_below="@+id/bek"/>
+        <include layout="@layout/a5r"/>
+        <include layout="@layout/ld"/>
+        <include layout="@layout/ly"/>
+        <include layout="@layout/du"/>
+    </RelativeLayout>
+    <include layout="@layout/uz"/>
+    <include layout="@layout/oh"/>
+</androidx.cardview.widget.CardView>

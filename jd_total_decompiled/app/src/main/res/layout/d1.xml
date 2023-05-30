@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/k8" android:background="@color/oy" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/ab8" style="@style/kh">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/ab9" style="@style/kg"/>
+        <TextView android:textSize="16sp" android:textColor="@color/oz" android:id="@+id/ab_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电影票首页" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/aba" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/ab8"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/but" android:background="@drawable/bgv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginRight="2dp" android:layout_alignParentRight="true">
+        <TextView android:textSize="10dp" android:layout_gravity="right" android:id="@+id/bvd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="1dp" android:layout_marginRight="5dp" android:text="业务版本号:" android:layout_alignRight="@+id/buk"/>
+        <ImageView android:id="@+id/buk" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginTop="2dp" android:layout_marginRight="5dp" android:src="@drawable/bh9" android:layout_alignParentRight="true"/>
+    </LinearLayout>
+</RelativeLayout>

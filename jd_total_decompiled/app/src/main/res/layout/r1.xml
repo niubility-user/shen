@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingBottom="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_horizontal" android:paddingTop="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b9d"/>
+    <TextView android:textSize="10sp" android:textColor="@color/nl" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="16dp" android:layout_marginTop="5dp" android:text="没有更多啦～"/>
+</LinearLayout>

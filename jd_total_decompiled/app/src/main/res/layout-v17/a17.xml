@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="@dimen/n4" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.jingdong.common.ui.PdAutoChangeTextSize android:textSize="@dimen/ky" android:textStyle="bold" android:id="@+id/ch3" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.jingdong.common.ui.PdAutoChangeTextSize android:textSize="@dimen/kz" android:textColor="@color/l0" android:id="@+id/ch2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kx" android:layout_marginStart="@dimen/kx"/>
+        </LinearLayout>
+        <com.jingdong.common.ui.PdAutoChangeTextSize android:textSize="@dimen/kz" android:textColor="@color/l0" android:gravity="center_vertical" android:layout_gravity="end|center_vertical" android:id="@+id/ch0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/i_"/>
+    </FrameLayout>
+    <com.jingdong.common.widget.PDFlowLayout android:id="@+id/b4m" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/kw"/>
+</LinearLayout>

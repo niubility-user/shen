@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vg">#ffffffff</color>
+    <color name="vh">#f6f6f6</color>
+    <color name="vi">#ffd9434b</color>
+    <color name="vj">#ff999999</color>
+    <color name="vk">#ffffffff</color>
+    <color name="vl">#ee3d3d</color>
+    <color name="vm">#ffdddddd</color>
+    <color name="vn">#ff232323</color>
+    <color name="vo">#90000000</color>
+    <color name="vp">#ffffffff</color>
+    <color name="vq">#fff23030</color>
+    <color name="vr">#fff23030</color>
+    <color name="vs">#ff333333</color>
+    <color name="vt">#08333333</color>
+    <color name="vu">#ffffffff</color>
+    <color name="vv">#ff999999</color>
+    <color name="vw">#ffffffff</color>
+    <color name="vx">#ffd8d8d8</color>
+    <color name="vy">#ffff0c30</color>
+    <color name="vz">#ffff5f0c</color>
+    <color name="w0">#ff333333</color>
+    <color name="w1">#fffff0f0</color>
+    <color name="w2">#fff23030</color>
+    <color name="w3">#ffff361d</color>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:res-auto="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ua" android:paddingLeft="@dimen/a02" android:paddingRight="@dimen/a02" android:visibility="gone" android:layout_width="match_parent" android:layout_height="500dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="54dp">
+            <ImageView android:id="@+id/ay3" android:layout_width="@dimen/a05" android:layout_height="@dimen/a05" android:src="@drawable/p5" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/vs"/>
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a14" android:textStyle="bold" android:textColor="@color/a1_" android:id="@+id/c84" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用说明" android:layout_centerInParent="true"/>
+            <ImageView android:id="@+id/ay4" android:padding="5dp" android:layout_width="@dimen/a08" android:layout_height="@dimen/a08" android:src="@drawable/bk7" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/a24"/>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/ca2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/u_" android:paddingLeft="@dimen/a02" android:paddingRight="@dimen/a02" android:paddingBottom="@dimen/a0u" android:layout_width="match_parent" android:layout_height="500dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="54dp">
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a14" android:textStyle="bold" android:textColor="@color/a1_" android:id="@+id/cba" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aj0" android:layout_centerInParent="true"/>
+            <ImageView android:id="@+id/ay0" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/bk7" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/a24"/>
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:id="@+id/cb_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a0u" android:text="@string/alk" android:layout_toLeftOf="@+id/ay0" android:layout_centerVertical="true" android:contentDescription="@string/apu"/>
+        </RelativeLayout>
+        <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a1i" android:id="@+id/c87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rf" android:text="@string/all"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a1_" android:textColor="@color/a6w" android:id="@+id/cai" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/apw"/>
+            <com.jd.lib.cashier.sdk.core.ui.widget.DecimalEditText android:textSize="@dimen/a1_" android:textColor="@color/a6w" android:textColorHint="@color/a76" android:ellipsize="end" android:id="@+id/a5p" android:background="@null" android:paddingLeft="3dp" android:paddingRight="@dimen/a0a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="" android:hint="请输入金额" android:singleLine="true" android:layout_toRightOf="@+id/cai" android:layout_centerVertical="true" android:inputType="numberDecimal" android:imeOptions="actionDone" res-auto:decimalNumber="2"/>
+            <ImageView android:id="@+id/ay2" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/bk8" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/a27"/>
+        </RelativeLayout>
+        <View android:id="@+id/c86" android:background="@color/a7a" android:layout_width="match_parent" android:layout_height="1dp" android:importantForAccessibility="no"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cvj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a1g">
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a1i" android:id="@+id/c9i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单金额" android:contentDescription="@string/apv" android:importantForAccessibility="no"/>
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a1i" android:id="@+id/cbc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no"/>
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a1i" android:id="@+id/c85" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="； 剩余付款" android:contentDescription="@string/apx" android:importantForAccessibility="no"/>
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a6w" android:id="@+id/cbb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no"/>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a11" android:textStyle="bold" android:textColor="@color/a74" android:gravity="center" android:id="@+id/cb9" android:background="@drawable/be1" android:layout_width="match_parent" android:layout_height="38dp" android:text="确定并选择付款方式" android:contentDescription="@string/apt"/>
+                <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a6o" android:gravity="center" android:id="@+id/cb8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="38dp" android:text="取消选择分次付款" android:contentDescription="@string/aps"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

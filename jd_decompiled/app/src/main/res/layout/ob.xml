@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingdong.common.messagepop.JDShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bhm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" app:sl_cornerRadius="8dp" app:sl_shadowRadius="10dp" app:sl_shadowColor="#1a000000">
+    <FrameLayout android:id="@+id/bh0" android:background="@drawable/b4v" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/bh1" android:background="@drawable/b4w" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="84dp">
+            <FrameLayout android:id="@+id/bgt" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="11dp" android:layout_alignParentLeft="true">
+                <ImageView android:layout_gravity="center" android:id="@+id/bgq" android:layout_width="55dp" android:layout_height="55dp" android:src="@drawable/b70"/>
+                <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/bh3" android:layout_width="48dp" android:layout_height="48dp" app:roundAsCircle="true"/>
+                <FrameLayout android:layout_gravity="bottom|center_horizontal" android:id="@+id/bgs" android:background="@drawable/b4x" android:layout_width="42dp" android:layout_height="16dp" android:layout_marginBottom="14dp">
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/b4y" android:layout_width="40dp" android:layout_height="14dp">
+                        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/bgr" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="5dp"/>
+                        <TextView android:textSize="10sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:text="直播"/>
+                    </LinearLayout>
+                </FrameLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/bh2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/bh6" android:layout_toRightOf="@+id/bgt" android:layout_centerVertical="true">
+                <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#262626" android:ellipsize="end" android:id="@+id/aub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+                <TextView android:textSize="15sp" android:textColor="#262626" android:ellipsize="end" android:id="@+id/auc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/bh6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="center" android:id="@+id/bh8" android:background="@drawable/b52" android:layout_width="14dp" android:layout_height="14dp"/>
+                <com.jingdong.wireless.iconfont.widget.IconImageView android:layout_gravity="center" android:id="@+id/bh7" android:layout_width="8dp" android:layout_height="8dp" app:icon_font_path="fonts/messagecenter.ttf" app:icon_font_color="#FFFFFF" app:icon_font_code=""/>
+            </FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</com.jingdong.common.messagepop.JDShadowLayout>

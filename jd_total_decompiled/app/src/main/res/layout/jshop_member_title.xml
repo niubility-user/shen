@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/jy" android:background="@color/lx" android:layout_width="match_parent" android:layout_height="44dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/qc" android:layout_width="43dp" android:layout_height="match_parent" android:src="@drawable/e9" android:scaleType="centerInside"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerInParent="true">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/jshop_mem_title_img" android:layout_width="wrap_content" android:layout_height="30dp"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/jshop_title_more_layout" android:layout_width="40dp" android:layout_height="match_parent" android:layout_alignParentRight="true">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/jshop_title_more_img" android:background="@drawable/jshop_home_header_more_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/jshop_home_message_red_point" android:visibility="gone" android:layout_width="6dp" android:layout_height="6dp" android:layout_marginTop="12dp" android:layout_marginRight="14dp" android:src="@drawable/a8e" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+            <RelativeLayout android:id="@+id/jshop_home_msg_num_rl" android:background="@drawable/message_door_red_bg3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.5dp" android:layout_marginTop="5dp" android:minWidth="8dp" android:layout_alignParentTop="true">
+                <com.jingdong.app.mall.utils.ui.view.JDMultiTextView android:textSize="9dp" android:textColor="@color/lx" android:id="@+id/jshop_home_msg_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.5dp" android:layout_marginRight="2.5dp" android:maxLines="1" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

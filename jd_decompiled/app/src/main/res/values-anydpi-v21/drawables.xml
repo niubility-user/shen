@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="w3">r/c/w3.xml</drawable>
+    <drawable name="w4">r/c/w4.xml</drawable>
+    <drawable name="bz1">r/c/bz1.xml</drawable>
+    <drawable name="bz2">r/c/bz2.xml</drawable>
+</resources>

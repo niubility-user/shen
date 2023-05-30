@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jd.lib.productdetail.mainimage.holder.iconsnew.PdMIconNewViewHolderListItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/d5p" android:layout_width="match_parent" android:layout_height="@dimen/xc">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/czt" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="10dp" android:scaleType="fitXY"/>
+        <com.jd.lib.productdetail.mainimage.holder.iconsnew.PdMIconNewTextView android:textSize="16dp" android:textStyle="bold" android:textColor="#ffe6cc" android:ellipsize="end" android:id="@+id/czu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <com.jd.lib.productdetail.mainimage.holder.iconsnew.PdMIconNewTextView android:textSize="14dp" android:textStyle="bold" android:textColor="#ffe6cc" android:ellipsize="end" android:id="@+id/czv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:maxLines="1" android:lines="1" android:includeFontPadding="false"/>
+    <com.jd.lib.productdetail.mainimage.holder.iconsnew.PdMIconNewTextView android:textSize="14dp" android:textColor="#ffe6cc" android:ellipsize="end" android:id="@+id/czs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:maxLines="2" android:includeFontPadding="false"/>
+</com.jd.lib.productdetail.mainimage.holder.iconsnew.PdMIconNewViewHolderListItem>

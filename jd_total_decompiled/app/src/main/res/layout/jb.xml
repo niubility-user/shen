@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/aom" android:paddingBottom="@dimen/om" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/aon" android:paddingTop="@dimen/or" android:paddingBottom="@dimen/op" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <View android:id="@+id/aoo" android:layout_marginLeft="@dimen/oo" android:layout_marginRight="@dimen/os" android:layout_centerVertical="true" style="@style/og"/>
+            <TextView android:textSize="@dimen/ot" android:textStyle="bold" android:textColor="@color/ri" android:ellipsize="end" android:id="@+id/aop" android:maxLines="1" android:includeFontPadding="false" android:layout_toRightOf="@+id/aoo" android:layout_centerVertical="true" style="@style/mg"/>
+            <TextView android:textSize="@dimen/ot" android:textColor="@color/ri" android:ellipsize="end" android:id="@+id/aoq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/aor" android:layout_marginLeft="@dimen/kn" android:layout_marginRight="@dimen/oq" android:scaleType="fitCenter" style="@style/mf"/>
+    </LinearLayout>
+    <com.jingdong.sdk.platform.business.views.PullToSeekMoreHorizontalRecyclerView android:id="@+id/aos" android:layout_width="match_parent" android:layout_height="@dimen/oj"/>
+</LinearLayout>

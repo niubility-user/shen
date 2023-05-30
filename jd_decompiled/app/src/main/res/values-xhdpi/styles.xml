@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="v7" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="v8" parent="">
+        <item name="android:textSize">@dimen/ub</item>
+        <item name="android:paddingLeft">@dimen/u9</item>
+        <item name="android:paddingRight">@dimen/u9</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/tz</item>
+    </style>
+    <style name="v9" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@mipmap/l</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="v_" parent="">
+        <item name="android:textSize">@dimen/uc</item>
+        <item name="android:textColor">@drawable/r4</item>
+        <item name="android:textColorHint">@color/vj</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

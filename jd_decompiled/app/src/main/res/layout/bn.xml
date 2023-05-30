@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bfe" android:paddingLeft="@dimen/o_" android:paddingRight="@dimen/o_" android:layout_width="@dimen/og" android:layout_height="match_parent">
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/o5" android:layout_weight="1" android:overScrollMode="never">
+        <TextView android:textSize="@dimen/l0" android:textStyle="bold" android:textColor="@color/cc" android:gravity="center" android:id="@+id/bn" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom|center_horizontal" android:orientation="horizontal" android:paddingTop="@dimen/o3" android:paddingBottom="@dimen/nw" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/br" android:layout_width="0dp" android:layout_height="@dimen/np" android:layout_weight="1" style="@style/x3"/>
+        <Space android:layout_width="15dp" android:layout_height="1dp"/>
+        <Button android:id="@+id/bq" android:layout_width="0dp" android:layout_height="@dimen/np" android:layout_weight="1" style="@style/x2"/>
+    </LinearLayout>
+</LinearLayout>

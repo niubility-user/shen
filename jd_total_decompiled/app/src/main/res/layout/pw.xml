@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/cs" android:background="@color/ue" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:background="@android:color/transparent" android:layout_width="36dp" android:layout_height="36dp" style="@android:style/Widget.ProgressBar.Inverse"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/z6" android:background="@color/ue" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/atr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b03" android:scaleType="fitXY" android:layout_centerInParent="true" android:contentDescription="@null"/>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/ats" android:background="@color/ui" android:layout_width="match_parent" android:layout_height="50dp" android:layout_alignParentBottom="true">
+        <ImageButton android:gravity="center" android:id="@+id/att" android:background="#00000000" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:src="@drawable/b02" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <ImageButton android:id="@+id/atu" android:background="#00000000" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:src="@drawable/b04" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/atu" android:layout_toRightOf="@+id/att">
+            <TextView android:textColor="@color/ul" android:layout_gravity="center_vertical" android:id="@+id/atv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="00:00"/>
+            <SeekBar android:layout_gravity="center" android:id="@+id/atw" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="2dp" android:indeterminateDrawable="@drawable/t5" android:progressDrawable="@drawable/t5" android:minHeight="2dp" android:thumb="@drawable/b05" android:thumbOffset="10dp" android:layout_weight="1"/>
+            <TextView android:textColor="@color/ul" android:layout_gravity="center_vertical" android:id="@+id/atx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="00:00"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

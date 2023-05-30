@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_horizontal" android:background="@drawable/jshop_loading_error_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="187dp"/>
+        <TextView android:textSize="15sp" android:textColor="#afa59d" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/jshop_loading_error_tips_1"/>
+        <TextView android:textSize="15sp" android:textColor="#afa59d" android:layout_gravity="center_horizontal" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/jshop_loading_error_tips_2" android:lineSpacingExtra="5dp"/>
+    </LinearLayout>
+</FrameLayout>

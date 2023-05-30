@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bfe" android:paddingLeft="@dimen/o_" android:paddingRight="@dimen/o_" android:layout_width="@dimen/og" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/of" android:textStyle="bold" android:textColor="@color/a06" android:gravity="center" android:id="@+id/bv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nz" android:includeFontPadding="false"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginTop="16dp">
+        <ImageView android:background="@drawable/bzq" android:layout_width="160dp" android:layout_height="120dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="64sp" android:textColor="#ff4d6a" android:gravity="center" android:id="@+id/bp" android:layout_width="120dp" android:layout_height="80dp" android:text="09" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <ImageView android:background="@drawable/bzr" android:layout_width="120dp" android:layout_height="40dp" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/ceg" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="16dp">
+        <ImageView android:id="@+id/cef" android:layout_width="40dp" android:layout_height="40dp"/>
+        <TextView android:textSize="12sp" android:textColor="@color/a08" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/al3" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <Button android:layout_gravity="center" android:id="@+id/br" android:visibility="gone" android:layout_width="@dimen/oi" android:layout_height="28dp" android:layout_marginTop="20dp" android:layout_marginBottom="24dp" style="@style/x3"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/a75" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nx" android:layout_marginBottom="@dimen/nz">
+        <Button android:id="@+id/ccy" android:layout_width="0dp" android:layout_height="@dimen/np" android:layout_weight="1" style="@style/x3"/>
+        <Space android:id="@+id/a6v" android:layout_width="@dimen/nw" android:layout_height="1dp"/>
+        <Button android:id="@+id/bq" android:layout_width="0dp" android:layout_height="@dimen/np" android:layout_weight="1" style="@style/x2"/>
+    </LinearLayout>
+</LinearLayout>

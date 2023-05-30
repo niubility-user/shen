@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/cd7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-7dp" android:importantForAccessibility="no">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/cdb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a0j">
+        <RelativeLayout android:id="@+id/cd_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:id="@+id/cd9" android:paddingRight="@dimen/a0i" android:layout_width="@dimen/a05" android:layout_height="@dimen/a0p" android:src="@drawable/c08" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/cdd" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/cdc" android:paddingLeft="@dimen/a0i" android:layout_width="@dimen/a05" android:layout_height="@dimen/a0p" android:src="@drawable/c08" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cd6" android:paddingBottom="@dimen/a0u" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/b38" android:background="@color/a7e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/zy"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cd2" android:paddingLeft="@dimen/rf" android:paddingRight="@dimen/rf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a11" android:textStyle="bold" android:textColor="@color/ps" android:id="@+id/cd1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a0j" android:maxLines="1" android:includeFontPadding="false"/>
+            <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="@dimen/a0y" android:textColor="@color/a6r" android:ellipsize="end" android:gravity="bottom" android:layout_gravity="bottom" android:id="@+id/cd3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <View android:id="@+id/cqu" android:background="@color/a7e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/zy"/>
+        <ViewStub android:id="@+id/c8i" android:layout="@layout/zi" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/c8g" android:paddingLeft="@dimen/rf" android:paddingRight="@dimen/rf" android:layout_width="match_parent" android:layout_height="@dimen/a0f">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c8l" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.jd.lib.cashier.sdk.core.ui.fontsize.FontTextView android:textSize="12sp" android:ellipsize="end" android:id="@+id/c8k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

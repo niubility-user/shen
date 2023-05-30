@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jshop="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/fans_price_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="10dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <RelativeLayout android:orientation="vertical" android:id="@+id/left_item" android:background="@color/lx" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <com.jingdong.common.sample.jshop.ui.JShopProductImageView android:id="@+id/p_item_image" android:layout_width="match_parent" android:layout_height="170dp" android:scaleType="fitCenter" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="@dimen/jshop_product_grid_name_size" android:textColor="@color/cj" android:ellipsize="end" android:id="@+id/p_item_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:text="商品信息你好阿商品信息你好阿商品信息你好阿" android:maxLines="2" android:lines="2" android:layout_below="@+id/p_item_image"/>
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="1dp" android:layout_below="@+id/p_item_name">
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                        <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="10sp" android:textColor="@color/lx" android:gravity="center" android:id="@+id/p_icon" android:background="@drawable/g1" android:paddingLeft="2dp" android:paddingTop="1dp" android:paddingRight="2dp" android:paddingBottom="1dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jshop_member_first_sale_price_hint"/>
+                            <TextView android:textSize="@dimen/jshop_product_grid_price_00_size" android:textColor="#ff901a" android:id="@+id/p_item_jdPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_centerVertical="true"/>
+                        </LinearLayout>
+                        <TextView android:textSize="14dp" android:textColor="#848689" android:id="@+id/product_item_martPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:layout_centerVertical="true"/>
+                    </LinearLayout>
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/add_shopcart1" android:background="@drawable/jshop_memberber_addcart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="5dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="@android:color/transparent" android:layout_width="5dp" android:layout_height="match_parent"/>
+            <RelativeLayout android:orientation="vertical" android:id="@+id/right_item" android:background="@color/lx" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_weight="1">
+                <com.jingdong.common.sample.jshop.ui.JShopProductImageView android:id="@+id/two_p_item_image" android:layout_width="match_parent" android:layout_height="170dp" android:scaleType="fitCenter" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="@dimen/jshop_product_grid_name_size" android:textColor="@color/cj" android:ellipsize="end" android:id="@+id/two_p_item_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:text="商品信息你好阿商品信息你好阿，在在在在" android:maxLines="2" android:lines="2" android:layout_below="@+id/two_p_item_image"/>
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="1dp" android:layout_below="@+id/two_p_item_name">
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="10sp" android:textColor="@color/lx" android:gravity="center" android:id="@+id/tp_icon" android:background="@drawable/g1" android:paddingLeft="2dp" android:paddingTop="1dp" android:paddingRight="2dp" android:paddingBottom="1dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jshop_member_only_sale_price_hint"/>
+                            <TextView android:textSize="@dimen/jshop_product_grid_price_00_size" android:textColor="#ff901a" android:id="@+id/two_p_item_jdPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_centerVertical="true"/>
+                        </LinearLayout>
+                        <TextView android:textSize="14dp" android:textColor="#848689" android:id="@+id/two_product_item_martPrice" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:layout_toRightOf="@+id/two_p_item_jdPrice" android:layout_centerVertical="true"/>
+                    </LinearLayout>
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/add_shopcart2" android:background="@drawable/jshop_memberber_addcart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="5dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="right" android:id="@+id/jshop_tips_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="202dp" android:layout_marginRight="60dp"/>
+</FrameLayout>

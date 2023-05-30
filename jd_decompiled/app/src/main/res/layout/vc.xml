@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ub" android:layout_width="match_parent" android:layout_height="32dp">
+        <RelativeLayout android:id="@+id/uc" android:padding="@dimen/re" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2">
+            <TextView android:textSize="@dimen/a0y" android:ellipsize="end" android:id="@+id/cbd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <View android:id="@+id/c_a" android:background="@color/a74" android:layout_width="1dp" android:layout_height="match_parent"/>
+        <RelativeLayout android:id="@+id/ud" android:padding="@dimen/re" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2">
+            <TextView android:textSize="@dimen/a0y" android:ellipsize="end" android:id="@+id/cbe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <View android:id="@+id/c_b" android:background="@color/a74" android:layout_width="1dp" android:layout_height="match_parent"/>
+        <RelativeLayout android:id="@+id/ue" android:padding="@dimen/re" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3">
+            <TextView android:textSize="@dimen/a0y" android:ellipsize="end" android:id="@+id/cbf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@+id/c__" android:background="@color/a74" android:layout_width="match_parent" android:layout_height="@dimen/re"/>
+</LinearLayout>

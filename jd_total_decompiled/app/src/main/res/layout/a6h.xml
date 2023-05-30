@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.unification.StatusBarHintTitle android:id="@+id/jy" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="请输入标签，多个标签用逗号分隔，可变标签用这种形式 tab_var_071@文案。\10示例：tab_222,tab_333,tab_var_111@200-100"/>
+    <EditText android:id="@+id/d88" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:hint="请输入id" android:minLines="2"/>
+    <com.jingdong.common.widget.button.UnButton android:id="@+id/d8a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="显示标签" app:unButtonAutoSize="true" app:unButtonStyleType="3"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="老年版"/>
+        <com.jingdong.common.widget.button.UnCheckBox android:id="@+id/d87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" app:unCheckBoxStyleType="6"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="小图标"/>
+        <com.jingdong.common.widget.button.UnCheckBox android:id="@+id/d8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" app:unCheckBoxStyleType="6"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="bs版"/>
+        <com.jingdong.common.widget.button.UnCheckBox android:id="@+id/d86" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" app:unCheckBoxStyleType="6"/>
+    </LinearLayout>
+    <TextView android:textSize="13sp" android:textStyle="bold" android:id="@+id/d8c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp"/>
+    <TextView android:id="@+id/d8d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/beq" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp"/>
+</LinearLayout>

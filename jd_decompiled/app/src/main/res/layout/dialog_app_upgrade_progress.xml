@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="@dimen/i" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/e6" android:textStyle="bold" android:textColor="@color/nk" android:gravity="center" android:id="@+id/bv" android:paddingLeft="@dimen/co" android:paddingRight="@dimen/co" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="35dp" android:text="@string/upgrade_download_progress" android:includeFontPadding="false"/>
+    <FrameLayout android:paddingLeft="@dimen/co" android:paddingRight="@dimen/co" android:layout_width="match_parent" android:layout_height="95dp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ll_progress" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.jingdong.app.mall.utils.ui.seekbar.UpgradeSeekBar android:id="@+id/upsb_progress" android:layout_width="match_parent" android:layout_height="24dp" android:layout_marginBottom="20dp"/>
+            <TextView android:textSize="16sp" android:textColor="#2e2d2d" android:id="@+id/tv_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_tryagain" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/icon_upgrade_tryagain"/>
+    </FrameLayout>
+</LinearLayout>

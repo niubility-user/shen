@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/d1j" android:background="@drawable/bt0" android:paddingLeft="@dimen/kv" android:paddingTop="@dimen/n4" android:paddingRight="@dimen/kv" android:paddingBottom="@dimen/n4" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginBottom="@dimen/kx">
+    <androidx.cardview.widget.CardView android:id="@+id/d1n" android:layout_width="88dp" android:layout_height="88dp" app:cardBackgroundColor="@color/aed" app:cardCornerRadius="@dimen/lt" app:cardElevation="0dp">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/d1m" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:viewAspectRatio="1" app:roundedCornerRadius="@dimen/lt"/>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/te">
+        <com.jd.lib.productdetail.core.views.PdAutoChangeTextSize android:textSize="@dimen/xn" android:textColor="@color/adr" android:ellipsize="end" android:id="@+id/d1q" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"/>
+        <TextView android:textSize="@dimen/xl" android:textColor="@color/ae3" android:ellipsize="end" android:id="@+id/d1i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lt" android:maxLines="1" android:includeFontPadding="false" android:layout_below="@+id/d1q"/>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/d1q" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/xr" android:textColor="@color/aeh" android:ellipsize="end" android:id="@+id/d1l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <ImageView android:id="@+id/dcp" android:layout_width="@dimen/nj" android:layout_height="@dimen/te" android:layout_marginLeft="@dimen/n7" android:layout_marginRight="@dimen/kx" android:layout_marginBottom="@dimen/ls" android:src="@drawable/c9o"/>
+            <TextView android:textSize="@dimen/xl" android:textColor="@color/ad8" android:ellipsize="end" android:id="@+id/d1o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/d1k" android:layout_width="@dimen/nb" android:layout_height="@dimen/nb" android:src="@drawable/c86" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

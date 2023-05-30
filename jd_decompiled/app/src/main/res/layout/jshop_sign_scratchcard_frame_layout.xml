@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/jshop_scratch_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/jshop_scratch_scratch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jshop_scratch_text" android:layout_centerHorizontal="true"/>
+    <FrameLayout android:id="@+id/jshop_scratch_frame_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_below="@+id/jshop_scratch_scratch" android:layout_centerHorizontal="true">
+        <com.jingdong.common.sample.jshop.ui.JshopSignScratchCardView android:id="@+id/jshop_sign_scratchcard_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <TextView android:textSize="16dp" android:textColor="#ffffffff" android:id="@+id/jshop_sign_scratchcard_share_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="每天抽奖后首次分享加次抽奖机会" android:layout_below="@+id/jshop_scratch_frame_layout" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

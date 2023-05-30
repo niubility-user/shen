@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f6f6f6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/v5" android:layout_width="match_parent" android:layout_height="44dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/qc" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="10dp">
+            <ImageView android:id="@+id/aqr" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/azd"/>
+            <TextView android:textSize="16sp" android:textColor="#2e2d2d" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="小程序"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/a1e" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:src="@drawable/b3i" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <com.jd.manto.center.widget.MaeFrameView android:id="@+id/bd4" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.jd.manto.center.widget.recycler.PullUpLoadRecyclerView android:id="@+id/bd5" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp"/>
+            <include android:visibility="invisible" layout="@layout/sm"/>
+        </FrameLayout>
+    </com.jd.manto.center.widget.MaeFrameView>
+</LinearLayout>

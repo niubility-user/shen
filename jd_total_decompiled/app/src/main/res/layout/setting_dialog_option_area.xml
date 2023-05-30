@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView style="@style/u2"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/setting_dialog_option_area_height">
+        <TextView android:id="@+id/setting_dialog_ok" android:text="@string/ig" style="@style/tq"/>
+        <com.facebook.drawee.view.SimpleDraweeView style="@style/u5"/>
+        <TextView android:id="@+id/setting_dialog_cancle" android:text="@string/b6" style="@style/tq"/>
+    </LinearLayout>
+</merge>

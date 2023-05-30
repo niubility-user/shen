@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bxw" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c2t" android:layout_width="match_parent" android:layout_height="0dp" app:scaleType="fitXY"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/c2u" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="120dp">
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c63" android:layout_width="match_parent" android:layout_height="match_parent" app:roundedCornerRadius="5dp" app:scaleType="fitXY"/>
+            <TextView android:textSize="14dp" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/c6j" android:background="@drawable/bph" android:paddingLeft="20dp" android:paddingTop="1dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="25dp" android:singleLine="true" android:includeFontPadding="false"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/c64" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="12dp" android:layout_weight="1">
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="13dp" android:textColor="#a4551d" android:ellipsize="end" android:id="@+id/c6l" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/c6e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:layout_below="@+id/c6l">
+                    <TextView android:textSize="11dp" android:textColor="#ff145a" android:ellipsize="end" android:gravity="bottom" android:id="@+id/c62" android:layout_width="0dp" android:layout_height="24dp" android:text="预估到手价 " android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1"/>
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="23dp" android:textColor="#ff145a" android:id="@+id/c61" android:layout_width="wrap_content" android:layout_height="24dp" android:singleLine="true" android:includeFontPadding="false"/>
+                        <TextView android:textSize="14dp" android:textColor="#a4551d" android:ellipsize="end" android:id="@+id/c67" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@+id/c61"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:layout_gravity="center_vertical" android:id="@+id/bxx" android:layout_width="50dp" android:layout_height="50dp" app:scaleType="fitXY" app:src="@drawable/bpf"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

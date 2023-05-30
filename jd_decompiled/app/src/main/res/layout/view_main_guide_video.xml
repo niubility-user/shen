@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/video_content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="right" android:id="@+id/guide_video_sound" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="0dp" android:layout_marginRight="13dp" android:src="@drawable/ic_main_video_sound_off" android:scaleType="centerInside"/>
+    <LinearLayout android:layout_gravity="bottom|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13dp" android:layout_marginBottom="17dp">
+        <ImageView android:id="@+id/guide_video_replay" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_main_video_replay" android:scaleType="centerInside"/>
+        <FrameLayout android:id="@+id/guide_video_skip" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginLeft="3dp">
+            <TextView android:textSize="15dp" android:textColor="#ccffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/main_shape_video_skip_bg" android:paddingLeft="33dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="28dp" android:text="跳过 " android:drawableRight="@drawable/ic_main_video_skip"/>
+            <TextView android:textSize="18dp" android:textColor="#e5ffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/guide_video_progress" android:background="@drawable/main_shape_video_skip_bg" android:layout_width="28dp" android:layout_height="28dp" android:text="-"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

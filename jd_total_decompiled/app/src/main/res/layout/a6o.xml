@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/buj" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/bfg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/a06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="配送说明" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/mj" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/cb2" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp" android:layout_above="@+id/d9f" android:layout_below="@+id/bfg">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="6dp" android:layout_height="match_parent">
+                    <View android:layout_width="1px" android:layout_height="wrap_content" android:layout_above="@+id/d9g" android:layout_centerHorizontal="true"/>
+                    <ImageView android:id="@+id/d9g" android:layout_width="6dp" android:layout_height="6dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:src="@drawable/bui" android:layout_centerInParent="true"/>
+                    <View android:background="#bfbfbf" android:layout_width="1px" android:layout_height="wrap_content" android:layout_below="@+id/d9g" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/a06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/atb" android:includeFontPadding="false"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:background="#bfbfbf" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginLeft="2.75dp"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/d9p" android:background="@drawable/buk" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp">
+                    <TextView android:textSize="14sp" android:textColor="@color/a06" android:id="@+id/d9q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="服务商：" android:includeFontPadding="false"/>
+                    <TextView android:textSize="14sp" android:textColor="@color/a06" android:id="@+id/d9n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="电话：" android:includeFontPadding="false"/>
+                    <RelativeLayout android:id="@+id/d9l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                        <TextView android:textSize="14sp" android:textColor="@color/a06" android:id="@+id/d9k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="网址：" android:includeFontPadding="false" android:layout_centerVertical="true"/>
+                        <TextView android:textSize="12sp" android:textColor="@color/a06" android:gravity="center" android:id="@+id/d9j" android:background="@drawable/buh" android:paddingLeft="8dp" android:paddingTop="3dp" android:paddingRight="8dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="复制" android:includeFontPadding="false" android:layout_toRightOf="@+id/d9k" android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+                    <TextView android:textSize="14sp" android:textColor="@color/a06" android:id="@+id/d9m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="公众号：" android:includeFontPadding="false" android:layout_centerVertical="true"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/a6p"/>
+                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/a06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/atc" android:includeFontPadding="false"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/a6p"/>
+                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/a06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/atj" android:includeFontPadding="false"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:background="#bfbfbf" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginLeft="2.75dp"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/d9o" android:background="@drawable/buk" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp">
+                    <TextView android:textSize="14sp" android:textColor="@color/a06" android:id="@+id/d9e" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="浙江省杭州市萧山区空港经济区保税路西侧杭州保税物流中心9号库二楼" android:includeFontPadding="false"/>
+                    <TextView android:textSize="14sp" android:textColor="#757575" android:id="@+id/d9r" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="京小东 186****2733" android:includeFontPadding="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/a6p"/>
+                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/a06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/atk" android:includeFontPadding="false"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/a6p"/>
+                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/a06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/atl" android:includeFontPadding="false"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="6dp" android:layout_height="match_parent">
+                    <View android:background="#bfbfbf" android:layout_width="1px" android:layout_height="wrap_content" android:layout_above="@+id/d9i" android:layout_centerHorizontal="true"/>
+                    <ImageView android:id="@+id/d9i" android:layout_width="6dp" android:layout_height="6dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:src="@drawable/bui" android:layout_centerInParent="true"/>
+                    <View android:layout_width="1px" android:layout_height="wrap_content" android:layout_below="@+id/d9i" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/a06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/atm" android:includeFontPadding="false"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:id="@+id/d9f" android:paddingTop="4dp" android:paddingBottom="32dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.jingdong.common.widget.button.UnButton android:textSize="14sp" android:textStyle="bold" android:gravity="center" android:id="@+id/l3" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="3.5dp" android:layout_marginRight="3.5dp" android:text="查看详细说明" android:layout_weight="1" app:unButtonStyleType="21"/>
+        <com.jingdong.common.widget.button.UnButton android:textSize="14sp" android:textStyle="bold" android:gravity="center" android:id="@+id/l4" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="3.5dp" android:text="我知道了" android:layout_weight="1" app:unButtonStyleType="3"/>
+    </LinearLayout>
+</RelativeLayout>

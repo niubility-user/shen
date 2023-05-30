@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/hu" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/azz" android:layout_width="match_parent" android:layout_height="@dimen/ml" android:layout_below="@+id/b1q"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/b1q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+        <ViewStub android:id="@+id/b1r" android:layout="@layout/to" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1"/>
+        <View android:layout_width="10dp" android:layout_height="match_parent"/>
+        <ViewStub android:id="@+id/b37" android:layout="@layout/to" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/aoz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="175dp" android:layout_marginTop="20dp"/>
+    <ImageView android:id="@+id/aw2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="50dp" android:src="@drawable/a_5" android:layout_alignParentRight="true"/>
+</RelativeLayout>

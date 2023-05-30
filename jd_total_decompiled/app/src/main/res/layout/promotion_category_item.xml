@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:image="http://schemas.android.com/apk/res-auto" android:background="@drawable/promotion_category_grid_item_background" android:paddingLeft="22dp" android:paddingTop="5dp" android:paddingRight="22dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jingdong.app.mall.utils.ui.JDImageView android:id="@+id/promotion_category_item_img" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" image:ratio="3.04"/>
+</RelativeLayout>

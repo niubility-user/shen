@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a" parent="@style/em">
+        <item name="fq">24dp</item>
+        <item name="fr">3.33dp</item>
+        <item name="fu">18.66dp</item>
+    </style>
+</resources>

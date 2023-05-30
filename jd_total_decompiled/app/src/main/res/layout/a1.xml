@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cardBackgroundColor="@color/lx" app:cardCornerRadius="12dp" app:cardElevation="0dp">
+    <RelativeLayout android:id="@+id/b3w" android:paddingRight="9dp" android:layout_width="match_parent" android:layout_height="@dimen/md">
+        <FrameLayout android:id="@+id/qx" android:layout_width="@dimen/md" android:layout_height="@dimen/md" android:layout_alignParentLeft="true">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b3x" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+                <TextView android:textSize="12sp" android:textColor="@color/lx" android:ellipsize="end" android:gravity="center" android:id="@+id/b40" android:background="#b3fa2c19" android:visibility="gone" android:layout_width="@dimen/md" android:layout_height="22dp" android:singleLine="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_toRightOf="@+id/qx">
+            <com.jingdong.common.recommend.ui.AutoWarpTextView android:textSize="15dp" android:textColor="@color/cc" android:id="@+id/axj" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_alignParentTop="true" android:lineSpacingExtra="2dp"/>
+            <com.jingdong.common.recommend.forlist.RecomLayoutMaxLines android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b0c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_below="@+id/axj" android:layout_alignLeft="@+id/axj"/>
+            <android.widget.Space android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <com.jingdong.common.recommend.ui.RecommendDoublePriceView android:id="@+id/dau" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp"/>
+            <TextView android:textSize="12dp" android:textColor="#757575" android:id="@+id/d6o" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <com.jingdong.common.widget.button.UnButton android:textSize="12dp" android:textColor="@color/lx" android:gravity="center" android:id="@+id/ddo" android:background="@drawable/byz" android:layout_width="64dp" android:layout_height="26dp" android:layout_marginRight="3dp" android:layout_marginBottom="12dp" android:text="立即购买" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:unButtonAutoDarkMode="true" app:unButtonStyleType="4"/>
+        <include layout="@layout/ji"/>
+        <include layout="@layout/ir"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bmm" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+        <com.jingdong.manto.widget.CircleImageView android:layout_gravity="center_horizontal" android:id="@+id/aqk" android:layout_width="32dp" android:layout_height="32dp"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#1a1a1a" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/aql" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1"/>
+        <ImageButton android:layout_gravity="center" android:id="@+id/be8" android:background="@drawable/c_f" android:layout_width="16dp" android:layout_height="16dp"/>
+    </LinearLayout>
+    <TextView android:textColor="@color/ue" android:layout_gravity="left" android:id="@+id/df9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:text="发送一次以下消息"/>
+    <com.jingdong.manto.ui.base.AuthorizeItemListView android:id="@+id/aqm" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+        <CheckBox android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/ccs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/bmn"/>
+        <TextView android:textColor="@color/ue" android:id="@+id/df_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="保存以上选择不再询问"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="20dp">
+        <Button android:textSize="16sp" android:textColor="@color/a66" android:id="@+id/aqi" android:background="@drawable/mi" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginRight="10dp" android:text="拒绝" android:layout_weight="1"/>
+        <Button android:textSize="16sp" android:textColor="@color/sn" android:id="@+id/aqj" android:background="@drawable/lm" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:text="同意" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

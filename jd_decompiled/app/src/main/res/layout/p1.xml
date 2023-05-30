@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView android:id="@+id/aqp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.jingdong.manto.sdk.impl.scan.zxing.ViewfinderView android:id="@+id/aqq" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

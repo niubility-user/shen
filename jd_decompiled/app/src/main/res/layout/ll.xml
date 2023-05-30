@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/lu" android:layout_width="321dp" android:layout_height="186dp">
+    <RelativeLayout android:background="@drawable/fg" android:layout_width="match_parent" android:layout_height="147dp" android:layout_marginTop="36dp">
+        <TextView android:textSize="13sp" android:layout_width="wrap_content" android:layout_height="147dp" android:layout_marginTop="62dp" android:text="前往京东app才能购买此商品" android:layout_centerHorizontal="true"/>
+        <Button android:textSize="@dimen/od" android:textColor="#f1260a" android:id="@+id/br" android:background="@drawable/p1" android:layout_width="107dp" android:layout_height="28dp" android:layout_marginLeft="45dp" android:layout_marginBottom="17dp" android:text="先不用了" android:layout_alignParentBottom="true"/>
+        <Button android:textSize="@dimen/od" android:textColor="@color/lx" android:id="@+id/bq" android:background="@drawable/oy" android:layout_width="107dp" android:layout_height="28dp" android:layout_marginRight="45dp" android:layout_marginBottom="17dp" android:text="前往京东app" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/oi" android:layout_width="77dp" android:layout_height="78dp" android:src="@drawable/avq" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

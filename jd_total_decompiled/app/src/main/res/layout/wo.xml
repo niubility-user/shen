@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/c5u" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c3s" android:layout_width="match_parent" android:layout_height="wrap_content" app:scaleType="fitXY"/>
+    <RelativeLayout android:id="@+id/tf" android:paddingLeft="9dp" android:paddingTop="9dp" android:paddingRight="9dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/tf">
+        <com.jingdong.app.mall.bundle.dolphinlib.common.view.DolphinPageIndicatorView android:id="@+id/c9p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp"/>
+    </RelativeLayout>
+</RelativeLayout>

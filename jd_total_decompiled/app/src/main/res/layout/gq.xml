@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.widget.ListView android:gravity="center" android:id="@+id/mn" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <View android:background="#ff605f5f" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+        <TextView android:textSize="20sp" android:textColor="#2196f3" android:gravity="center" android:id="@+id/zy" android:layout_width="0dp" android:layout_height="match_parent" android:text="加载" android:layout_weight="1" android:onClick="onLoadClick"/>
+        <View android:background="#bcb8b8" android:layout_width="0.5dp" android:layout_height="match_parent"/>
+        <TextView android:textSize="20sp" android:textColor="#555555" android:gravity="center" android:id="@+id/zz" android:layout_width="0dp" android:layout_height="match_parent" android:text="下载" android:layout_weight="1" android:onClick="onDownLoadClick"/>
+    </LinearLayout>
+</LinearLayout>

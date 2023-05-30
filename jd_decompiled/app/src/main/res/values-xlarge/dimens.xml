@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="t">50%</dimen>
+    <dimen name="u">70%</dimen>
+    <dimen name="v">45%</dimen>
+    <dimen name="w">72%</dimen>
+</resources>

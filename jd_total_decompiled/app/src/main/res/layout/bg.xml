@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/a6r" android:background="#a6000000" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.widget.shadow.widget.JDShadowViewGroup android:id="@+id/a6s" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:shadowEnable="false" app:shadowClipCanvas="true" app:shadowRectRoundRadiusTopLeft="12dp" app:shadowRectRoundRadiusTopRight="12dp" app:shadowRectRoundRadiusBottomLeft="0dp" app:shadowRectRoundRadiusBottomRight="0dp" app:shadowModel="1" app:shadowShape="0"/>
+    <RelativeLayout android:id="@+id/bs4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/a6t" android:background="@color/lx" android:paddingLeft="18dp" android:paddingRight="18dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50dp">
+        <TextView android:textSize="13sp" android:textColor="@color/ro" android:gravity="center" android:id="@+id/a6u" android:background="@drawable/h3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="38dp" android:layout_weight="1"/>
+        <Space android:id="@+id/a6v" android:layout_width="12dp" android:layout_height="1dp"/>
+        <TextView android:textSize="13sp" android:textColor="@color/rn" android:gravity="center" android:id="@+id/a6w" android:background="@drawable/p8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="38dp" android:layout_weight="1"/>
+    </LinearLayout>
+</FrameLayout>

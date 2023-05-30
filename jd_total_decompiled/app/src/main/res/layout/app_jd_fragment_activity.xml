@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/tf" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/unreal_navigation"/>
+    <RelativeLayout android:id="@+id/navigation_bubble" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-4dp" android:layout_above="@+id/navigation_fragment">
+        <ImageView android:id="@+id/navigation_bubble_disappear" android:visibility="gone" android:layout_width="15dp" android:layout_height="15dp" android:src="@drawable/navigation_bubble_disappear" android:layout_alignRight="@+id/navigation_bubble_iv"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/navigation_bubble_iv" android:layout_width="115dp" android:layout_height="36dp" android:layout_below="@+id/navigation_bubble_disappear"/>
+    </RelativeLayout>
+    <View android:background="@drawable/main_navi_shadow" android:layout_width="match_parent" android:layout_height="20dp" android:layout_alignBottom="@+id/tf"/>
+    <FrameLayout android:id="@+id/unreal_navigation" android:background="@color/lu" android:layout_width="match_parent" android:layout_height="@dimen/ho" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:id="@+id/navigation_fragment" android:background="@color/lu" android:layout_width="match_parent" android:layout_height="@dimen/hn" android:layout_alignParentBottom="true"/>
+    <com.jingdong.common.unification.uniwidget.JDLottieAnimationView android:id="@+id/navigation_effect" android:background="@color/lu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="58dp" android:layout_alignParentBottom="true"/>
+    <RelativeLayout android:id="@+id/navigation_bubble_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ll_text_content" android:layout_width="wrap_content" android:layout_height="26dp" android:layout_alignParentBottom="true">
+            <View android:id="@+id/spaceing" android:layout_width="32dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="12sp" android:textColor="@color/lx" android:ellipsize="end" android:id="@+id/tv_bubble_content" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="1"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/navigation_bubble_new_sub" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/navigation_bubble_iv_new_subscript" android:layout_width="12dp" android:layout_height="5dp"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/navigation_bubble_changeVersion" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-15dp" android:layout_above="@+id/navigation_fragment" android:layout_alignParentRight="true">
+        <TextView android:textSize="12sp" android:textColor="@color/lx" android:gravity="center" android:background="@drawable/navigation_bubble_change_version_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="返回原版本"/>
+        <ImageView android:layout_gravity="right" android:id="@+id/changeVersionButtonTr" android:layout_width="18dp" android:layout_height="6dp" android:layout_marginRight="27dp" android:src="@drawable/navigation_button_change_version_tr"/>
+    </LinearLayout>
+    <ViewStub android:id="@+id/splash_view_stub" android:layout="@layout/app_jd_splash_stub" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

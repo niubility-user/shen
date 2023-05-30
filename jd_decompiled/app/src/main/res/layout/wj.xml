@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/c5u" android:paddingLeft="9dp" android:paddingRight="9dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="35dp">
+        <com.jd.lib.babel.servicekit.imagekit.ImageWraper android:id="@+id/c3x" android:layout_width="match_parent" android:layout_height="match_parent" app:scaleType="fitXY"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c5s" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.jingdong.app.mall.bundle.dolphinlib.common.view.DolphinCountDownView android:id="@+id/c3z" android:layout_width="wrap_content" android:layout_height="15dp"/>
+            <TextView android:textSize="13dp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/c3y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/tf" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.jingdong.app.mall.bundle.dolphinlib.common.view.DolphinPageIndicatorView android:id="@+id/c9p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp"/>
+    </RelativeLayout>
+</LinearLayout>

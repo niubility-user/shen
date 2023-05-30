@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="68dp">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/d6k" android:background="@drawable/bqx" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="@dimen/nj" android:layout_marginTop="@dimen/n4" android:layout_marginRight="@dimen/te">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/adr" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aq_" android:maxLines="1"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="@dimen/lt" android:src="@drawable/c7z"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/d6m" android:background="@drawable/bqx" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="@dimen/nj" android:layout_marginTop="@dimen/n4">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/adr" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ari" android:maxLines="1" android:drawablePadding="4dp"/>
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="@dimen/lt" android:src="@drawable/c7z"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

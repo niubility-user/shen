@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="24dp" android:paddingTop="6dp" android:paddingRight="24dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="12sp" android:textColor="@color/qm" android:id="@+id/y2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp"/>
+    <RelativeLayout android:id="@+id/a7t" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/y2">
+        <ImageView android:id="@+id/a28" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginRight="6dp" android:src="@drawable/a5b" android:layout_centerVertical="true"/>
+        <TextView android:textSize="14sp" android:textColor="@color/cc" android:id="@+id/yy" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="京东集团总部" android:layout_toRightOf="@+id/a28"/>
+        <TextView android:textSize="11sp" android:textColor="@color/qm" android:id="@+id/a23" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="北京市大兴区亦庄经济开发区" android:layout_toRightOf="@+id/a28" android:layout_below="@+id/yy"/>
+    </RelativeLayout>
+</RelativeLayout>

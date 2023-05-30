@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.jd.viewkit.templates.view.JDViewKitTextView android:gravity="center" android:id="@+id/a3a" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.jd.viewkit.templates.view.JDViewKitTextView android:gravity="center" android:id="@+id/a35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center"/>
+        <com.jd.viewkit.templates.view.JDViewKitTextView android:id="@+id/a33" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.jd.viewkit.templates.view.JDViewKitTextView android:gravity="center" android:id="@+id/a36" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.jd.viewkit.templates.view.JDViewKitTextView android:id="@+id/a3b" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.jd.viewkit.templates.view.JDViewKitTextView android:id="@+id/a34" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.jd.viewkit.templates.view.JDViewKitTextView android:id="@+id/a3c" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.jd.viewkit.templates.view.JDViewKitTextView android:id="@+id/a38" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.jd.viewkit.templates.view.JDViewKitTextView android:id="@+id/a32" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

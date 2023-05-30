@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/me" android:layout_width="280dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+    <TextView android:textSize="17dp" android:textStyle="bold" android:textColor="#333333" android:id="@+id/b23" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="20dp" android:layout_marginRight="24dp" android:text="@string/apr"/>
+    <View android:id="@+id/b38" android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="20dp" android:layout_below="@+id/b23"/>
+    <TextView android:textSize="17dp" android:textStyle="bold" android:textColor="#0072f7" android:gravity="center" android:id="@+id/csu" android:layout_width="match_parent" android:layout_height="50dp" android:text="我知道了" android:layout_below="@+id/b38"/>
+</RelativeLayout>

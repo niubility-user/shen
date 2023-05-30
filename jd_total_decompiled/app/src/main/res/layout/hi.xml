@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/z4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jingdong.common.listui.TitleView android:id="@+id/aq0" android:layout_width="match_parent" android:layout_height="49dp"/>
+    <ViewStub android:id="@+id/aq1" android:inflatedId="@+id/aq1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/aq0"/>
+    <FrameLayout android:id="@+id/aq2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/aq3" android:layout_below="@+id/aq1"/>
+    <ViewStub android:id="@+id/aq3" android:inflatedId="@+id/aq3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>
