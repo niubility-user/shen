@@ -28,9 +28,11 @@ public class ParamBoxingInterceptor implements Interceptor {
     public static final String TAG = "Statistic";
     private static ConcurrentHashMap<String, String> additionalHeaders;
 
+    // TODO 增加请求参数用的, 加密方法
     private void addQueryParams(Request request, String str, HttpUrl.Builder builder, boolean z) {
         Map<String, String> urlParams;
         Map<String, String> urlParams2;
+        /** 三方APP, 不必关注
         if (JDHttpTookit.getEngine().isThirdApp()) {
             String secretKey = JDHttpTookit.getEngine().getSecretKey();
             builder.addQueryParameter("appid", JDHttpTookit.getEngine().getAppId()).addQueryParameter("t", String.valueOf(System.currentTimeMillis()));
@@ -82,7 +84,7 @@ public class ParamBoxingInterceptor implements Interceptor {
             }
             builder.addQueryParameter("sign", signature3);
             return;
-        }
+        }*/
         String statisticReportString = JDHttpTookit.getEngine().getStatInfoConfigImpl().getStatisticReportString("", true, true, z, null, null);
         if (!TextUtils.isEmpty(statisticReportString) && (urlParams2 = getUrlParams(statisticReportString)) != null && !urlParams2.isEmpty()) {
             for (String str7 : urlParams2.keySet()) {
