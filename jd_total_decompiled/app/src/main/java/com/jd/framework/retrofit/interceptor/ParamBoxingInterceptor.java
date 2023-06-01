@@ -28,7 +28,7 @@ public class ParamBoxingInterceptor implements Interceptor {
     public static final String TAG = "Statistic";
     private static ConcurrentHashMap<String, String> additionalHeaders;
 
-    // TODO 增加请求参数用的, 加密方法
+    // shen 增加请求参数用的
     private void addQueryParams(Request request, String str, HttpUrl.Builder builder, boolean z) {
         Map<String, String> urlParams;
         Map<String, String> urlParams2;

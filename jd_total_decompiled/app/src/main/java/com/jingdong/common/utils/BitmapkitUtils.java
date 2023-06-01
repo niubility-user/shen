@@ -18,6 +18,7 @@ public class BitmapkitUtils {
 
     public static native byte[] encodeJni(byte[] bArr, boolean z);
 
+    // shen 真正的计算Sign的函数
     public static native String getSignFromJni(Context context, String str, String str2, String str3, String str4, String str5);
 
     public static native String getstring(String str);

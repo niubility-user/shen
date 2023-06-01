@@ -167,7 +167,7 @@ public class e {
                 jSONObject2.put("hdid", str);
                 jSONObject2.put("ts", currentTimeMillis);
                 jSONObject2.put("ridx", i2);
-                jSONObject2.put("cipher", jSONObject);
+                jSONObject2.put("cipher", jSONObject); // 加密函数
                 jSONObject2.put("ciphertype", bVar.value());
                 jSONObject2.put("version", com.jd.phc.c.a());
                 jSONObject2.put("appname", this.b);
