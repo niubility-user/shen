@@ -39,7 +39,9 @@ public final class RetrofitServiceManager {
             if (this.cachedRetrofitMap.containsKey(format)) {
                 return this.cachedRetrofitMap.get(format);
             }
-            Retrofit build = new Retrofit.Builder().client(this.okHttpClient).baseUrl(format).addConverterFactory(JdJsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).build();
+            Retrofit build = new Retrofit.Builder().client(this.okHttpClient).baseUrl(format)
+                    .addConverterFactory(JdJsonConverterFactory.create())
+                    .addCallAdapterFactory(RxJavaCallAdapterFactory.create()).build();
             this.cachedRetrofitMap.put(format, build);
             return build;
         }

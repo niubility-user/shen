@@ -41,7 +41,15 @@ public class BitmapkitZip {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public static byte[] unZip(String str, String str2, String str3) {
+
+    /**
+     * 对特定文件进行解压,并拿到byte数据.
+     * <br>反编译的代码缺失了对RsaFileSuffix的使用, 猜测是以后缀进行匹配
+     * @param apkPath base.apk的地址,如"/data/app/com.jingdong.app.mall-BrX6yKhr86jyzYPsue-8fQ==/bask.apk"
+     * @param dir 目录地址,如"META-INF/"
+     * @param fileSuffix 文件后缀, 如".RSA"
+     */
+    public static byte[] unZip(String apkPath, String dir, String fileSuffix) {
         ZipFile zipFile;
         ZipFile zipFile2;
         ZipFile zipFile3 = null;
@@ -51,7 +59,7 @@ public class BitmapkitZip {
         }
         try {
             try {
-                zipFile = new ZipFile(new File(str));
+                zipFile = new ZipFile(new File(apkPath));
             } catch (Exception e3) {
                 e = e3;
                 zipFile = null;
@@ -65,7 +73,7 @@ public class BitmapkitZip {
                 Enumeration<? extends ZipEntry> entries = zipFile.entries();
                 while (entries.hasMoreElements()) {
                     ZipEntry nextElement = entries.nextElement();
-                    if (!nextElement.isDirectory() && (str2 == null || str2.length() <= 0 || nextElement.getName().startsWith(str2))) {
+                    if (!nextElement.isDirectory() && (dir == null || dir.length() <= 0 || nextElement.getName().startsWith(dir))) {
                         InputStream inputStream = zipFile.getInputStream(nextElement);
                         int size = (int) nextElement.getSize();
                         byte[] bArr = new byte[size];

@@ -29,7 +29,7 @@ public class ParamBoxingInterceptor implements Interceptor {
     private static ConcurrentHashMap<String, String> additionalHeaders;
 
     // shen 增加请求参数用的
-    private void addQueryParams(Request request, String str, HttpUrl.Builder builder, boolean z) {
+    private void addQueryParams(Request request, String body, HttpUrl.Builder builder, boolean z) {
         Map<String, String> urlParams;
         Map<String, String> urlParams2;
         /** 三方APP, 不必关注
@@ -95,19 +95,21 @@ public class ParamBoxingInterceptor implements Interceptor {
                 }
             }
         }
-        String queryParameter = request.url().queryParameter("functionId");
-        String property = InternalConfiguration.getProperty("client", "");
+        String functionId = request.url().queryParameter("functionId");
+        String platform = InternalConfiguration.getProperty("client", "");
         String versionName = JDHttpTookit.getEngine().getStatInfoConfigImpl().getVersionName();
         String deviceUUID = JDHttpTookit.getEngine().getStatInfoConfigImpl().getDeviceUUID(z);
         if (OKLog.D) {
-            OKLog.d(TAG, "- ..functionId -->> " + queryParameter);
-            OKLog.d(TAG, "- ..body -->> " + str);
+            OKLog.d(TAG, "- ..functionId -->> " + functionId);
+            OKLog.d(TAG, "- ..body -->> " + body);
             OKLog.d(TAG, "- ..uuid -->> " + deviceUUID);
-            OKLog.d(TAG, "- ..client -->> " + property);
+            OKLog.d(TAG, "- ..client -->> " + platform);
             OKLog.d(TAG, "- ..clientVersion -->> " + versionName);
         }
         try {
-            String signature = JDHttpTookit.getEngine().getSignatureHandlerImpl().signature(JDHttpTookit.getEngine().getApplicationContext(), queryParameter, str, deviceUUID, property, versionName);
+            String signature = JDHttpTookit.getEngine().getSignatureHandlerImpl().signature(
+                    JDHttpTookit.getEngine().getApplicationContext(),
+                    functionId, body, deviceUUID, platform, versionName);
             if (OKLog.D) {
                 OKLog.d("Signature", "native signature sucess " + signature);
             }

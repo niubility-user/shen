@@ -856,8 +856,8 @@ public final class JDNetworkDependencyFactory {
             }
 
             @Override // com.jingdong.jdsdk.network.dependency.ISignatureHandler
-            public String signature(Context context, String str, String str2, String str3, String str4, String str5) {
-                return BitmapkitUtils.getSignFromJni(context, str, str2, str3, str4, str5);
+            public String signature(Context context, String functionId, String body, String deviceUUID, String platform, String versionName) {
+                return BitmapkitUtils.getSignFromJni(context, functionId, body, deviceUUID, platform, versionName);
             }
         };
     }
