@@ -1,35 +1,44 @@
 # -*- coding: utf-8 -*-
 import logging
-import frida
 import sys
+
+import frida
 
 logging.basicConfig(level=logging.DEBUG)
 
 
 def on_message(message, data):
-    if message['type'] == 'send':
-        print("[*] {0}".format(message['payload']))
+    if "payload" in message:
+        print("Message from script: ", message["payload"])
     else:
-        print(message)
+        print("Message: ", message)
 
 
-with open('test.js', 'r', encoding='utf-8') as f:
+with open('js/Bridge.main.js', 'r', encoding='utf-8') as f:
     sta = ''.join(f.readlines())
 
-rdev = frida.get_remote_device()
-print(frida.get_usb_device().enumerate_processes())
-# session = rdev.attach(8885)  # app包名
-# print(session)
-# script = session.create_script(sta)
-# print(script)
-#
-#
-# def show(message, data):
-#     print(message)
-#
-#
-# script.on("message", show)
-#
-# # 加载脚本
-# script.load()
-# sys.stdin.read()
+device = frida.get_usb_device()
+pid = device.spawn("com.jingdong.app.mall")
+session = device.attach(pid)  # app包名
+print(session)
+device.resume(pid)
+
+script = session.create_script(sta)
+print(script)
+
+script.on("message", on_message)
+
+# 加载并执行 Frida 脚本
+script.load()
+
+# 命令行保持活动，以便接收消息
+try:
+    sys.stdin.read()
+except KeyboardInterrupt:
+    pass
+
+print("Interrupted by user. clear...")
+# 删除 Frida 脚本
+script.unload()
+session.detach()
+print("Exiting...")
