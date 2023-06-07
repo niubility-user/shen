@@ -1,4 +1,6 @@
 Java.perform(function () {
+    hookAntiFridaByStringContains();
+
     var HttpSetting = Java.use("com.jingdong.jdsdk.network.toolbox.HttpSetting")
     var HttpSettingTool = Java.use("com.jingdong.jdsdk.network.toolbox.HttpSettingTool");
     // 替换HttpSettingTool的doSignUsingJdGuard方法的实现

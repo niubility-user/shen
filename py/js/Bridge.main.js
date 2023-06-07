@@ -1,4 +1,6 @@
 Java.perform(function () {
+    hookAntiFridaByStringContains();
+
     // 获取目标类
     var TargetClass = Java.use('com.jd.security.jdguard.core.Bridge');
 

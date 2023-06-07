@@ -14,16 +14,18 @@ def on_message(message, data):
         print("Message: ", message)
 
 
-with open('js/BitmapkitUtils.getSignFromJni.js', 'r', encoding='utf-8') as f:
-    sta = ''.join(f.readlines())
-
 device = frida.get_usb_device()
 pid = device.spawn("com.jingdong.app.mall")
 session = device.attach(pid)  # app包名
 print(session)
 device.resume(pid)
 
-script = session.create_script(sta)
+with open('js/Base.js', 'r', encoding='utf-8') as f:
+    baseJs = ''.join(f.readlines())
+with open('js/BitmapkitUtils.getSignFromJni.js', 'r', encoding='utf-8') as f:
+    businessJs = ''.join(f.readlines())
+
+script = session.create_script(baseJs + businessJs)
 print(script)
 
 script.on("message", on_message)

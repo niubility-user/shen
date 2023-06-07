@@ -1,4 +1,5 @@
 Java.perform(function () {
+    hookAntiFridaByStringContains();
     var BitmapkitUtils = Java.use("com.jingdong.common.utils.BitmapkitUtils")
     BitmapkitUtils.getSignFromJni.implementation = function (context, functionId, body, deviceUUID, platform, versionName) {
         var originalResult = this.getSignFromJni(context, functionId, body, deviceUUID, platform, versionName); // 先调用原来的方法
