@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = 'jd'
+rootProject.name = 'jd_total_decompiled'
