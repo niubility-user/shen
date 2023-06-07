@@ -188,9 +188,9 @@ private final String apkPath = "/data/app/com.jingdong.app.mall-F6JA7LM558fdAVVC
         AndroidEmulator emulator = ins.emulator;
 
         DvmObject<?> context = vm.resolveClass("android/content/Context").newObject(null);
-        String functionID = "personinfoBusiness";
-        String body = "{\"locationArea\":\"0_0_0_0\",\"menuStaticSource\":\"1\",\"menuTimeStamp\":\"0\"}";
-        String deviceUUID = "211292b5b617aab8";
+        String functionID = "wareBusiness";
+        String body = "{\"abTest800\":true,\"acceptPrivacy\":true,\"avoidLive\":false,\"bbtf\":\"\",\"brand\":\"Xiaomi\",\"bybt\":\"\",\"cityCode\":72,\"cityId\":0,\"cpsNoTuan\":null,\"darkModelEnum\":3,\"districtId\":0,\"euaf\":false,\"eventId\":\"MyHistory_Product\",\"fromType\":0,\"isDesCbc\":true,\"isFromOpenApp\":false,\"latitude\":\"0.0\",\"lego\":true,\"longitude\":\"0.0\",\"model\":\"MI 9\",\"ocrFlag\":false,\"oneboxChannel\":false,\"oneboxKeyword\":\"\",\"oneboxSource\":\"\",\"overseas\":0,\"pdVersion\":\"1\",\"personas\":null,\"pluginVersion\":101050,\"plusClickCount\":0,\"plusLandedFatigue\":0,\"productJdv\":\"0|kong|t_1000023384_502517|zssc|46964044-308f-48e9-a475-189e0fa25997-p_1999-pr_100310-at_502517-tg_ext_0-00-0-tgx-5016199-2126-20230606|1686051354740|1686051388\",\"provinceId\":\"0\",\"prstate\":\"0\",\"searchWareflag\":\"\",\"selfDelivery\":\"0\",\"skuId\":\"1579242407\",\"source_type\":\"history\",\"source_value\":\"\",\"townId\":0,\"uAddrId\":\"0\",\"utmMedium\":null,\"wareInnerSource\":\"extra.inner.source.init\",\"yrqNew\":\"1\"}";
+        String deviceUUID = "c67bdae88aac5d42";
         String platform = "android";
         String versionName = "12.0.1";
 

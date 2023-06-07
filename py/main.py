@@ -14,7 +14,7 @@ def on_message(message, data):
         print("Message: ", message)
 
 
-with open('js/Bridge.main.js', 'r', encoding='utf-8') as f:
+with open('js/BitmapkitUtils.getSignFromJni.js', 'r', encoding='utf-8') as f:
     sta = ''.join(f.readlines())
 
 device = frida.get_usb_device()
