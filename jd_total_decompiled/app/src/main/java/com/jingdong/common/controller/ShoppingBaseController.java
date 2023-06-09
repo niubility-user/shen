@@ -1136,7 +1136,7 @@ public class ShoppingBaseController {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public static JSONObject getCartRequestParam(CartRequest cartRequest, String str) {
+    public static JSONObject getCartRequestParam(CartRequest cartRequest, String functionID) {
         String str2;
         String str3;
         String str4;
@@ -1332,7 +1332,7 @@ public class ShoppingBaseController {
                     jSONObject3.put(PdLVBody.LATITUDE, addressGlobal.getLatitude());
                     jSONObject3.put("coord_type", addressGlobal.getCoordType());
                 }
-                if (isKeplerFunctionId(str)) {
+                if (isKeplerFunctionId(functionID)) {
                     jSONObject3.put("businessId", AdvertUtils.getBusinessId());
                 }
                 valueOf = String.valueOf(CartCommonUtil.getCartBundleVersionCode());
@@ -1358,7 +1358,7 @@ public class ShoppingBaseController {
                 }
                 str19 = 0;
                 CartCommonUtil.getDcUrlData().updateTag = false;
-                if (isResponseCartFid(str)) {
+                if (isResponseCartFid(functionID)) {
                     CartCommonUtil.getDcUrlData().updateTag = CartCommonUtil.genUpdateTag();
                     jSONObject3.put("updateTag", CartCommonUtil.getDcUrlData().updateTag);
                     str19 = 0;
@@ -1372,7 +1372,7 @@ public class ShoppingBaseController {
                 if (CartCommonUtil.isSearchCart) {
                     jSONObject3.put("searchCart", true);
                 }
-                str18 = str;
+                str18 = functionID;
                 if ("cartAdd".equals(str18)) {
                     str18 = JDMtaUtils.getUnpl();
                     jSONObject3.put("unpl", str18);
@@ -1497,7 +1497,7 @@ public class ShoppingBaseController {
         addressGlobal = AddressUtil.getAddressGlobal();
         if (addressGlobal != null) {
         }
-        if (isKeplerFunctionId(str)) {
+        if (isKeplerFunctionId(functionID)) {
         }
         valueOf = String.valueOf(CartCommonUtil.getCartBundleVersionCode());
         if (!TextUtils.isEmpty(valueOf)) {
@@ -1515,14 +1515,14 @@ public class ShoppingBaseController {
         }
         str19 = 0;
         CartCommonUtil.getDcUrlData().updateTag = false;
-        if (isResponseCartFid(str)) {
+        if (isResponseCartFid(functionID)) {
         }
         if (!TextUtils.isEmpty(str6)) {
         }
         jSONObject3.put("appleCare", i2);
         if (CartCommonUtil.isSearchCart) {
         }
-        str18 = str;
+        str18 = functionID;
         if ("cartAdd".equals(str18)) {
         }
         if (hashMap4 != null) {
@@ -2137,8 +2137,8 @@ public class ShoppingBaseController {
         editProductOrPackList(cartHttpCacheUtil, iMyActivity, arrayList, arrayList2, shoppingListener, z, z2, null, viewGroup, onQueueCancelListener);
     }
 
-    public static void syncCart(IMyActivity iMyActivity, String str, CartRequest cartRequest, HttpGroup.OnCommonListener onCommonListener) {
-        syncCart(iMyActivity, str, cartRequest, onCommonListener, null);
+    public static void syncCart(IMyActivity iMyActivity, String functionID, CartRequest cartRequest, HttpGroup.OnCommonListener onCommonListener) {
+        syncCart(iMyActivity, functionID, cartRequest, onCommonListener, null);
     }
 
     public static void syncCartAdd(IMyActivity iMyActivity, CartRequest cartRequest, ShoppingHttpListener shoppingHttpListener) {
@@ -2272,7 +2272,7 @@ public class ShoppingBaseController {
         syncCartChange(iMyActivity, cartRequest, new ShoppingHttpListener(shoppingListener), onQueueCancelListener);
     }
 
-    public static void syncCart(IMyActivity iMyActivity, String str, CartRequest cartRequest, HttpGroup.OnCommonListener onCommonListener, JDGetWayQueueTools.OnQueueCancelListener onQueueCancelListener) {
+    public static void syncCart(IMyActivity iMyActivity, String functionID, CartRequest cartRequest, HttpGroup.OnCommonListener onCommonListener, JDGetWayQueueTools.OnQueueCancelListener onQueueCancelListener) {
         HttpGroup httpGroupaAsynPool;
         if (cartRequest == null) {
             cartRequest = new CartRequest();
@@ -2293,7 +2293,7 @@ public class ShoppingBaseController {
         modelGroupUtil.isProduct = cartRequest.isEffect;
         modelGroupUtil.cancelListener = onQueueCancelListener;
         modelGroupUtil.setLoadingContainer(cartRequest.getLoadingViewRoot());
-        modelGroupUtil.addUseCache(iMyActivity, httpGroup, str, getCartRequestParam(cartRequest, str).toString(), onCommonListener);
+        modelGroupUtil.addUseCache(iMyActivity, httpGroup, functionID, getCartRequestParam(cartRequest, functionID).toString(), onCommonListener);
     }
 
     public static void syncCartAdd(IMyActivity iMyActivity, CartRequest cartRequest, ShoppingListener shoppingListener) {

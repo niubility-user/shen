@@ -204,8 +204,8 @@ public class CartHttpCacheUtil implements HttpGroup.OnCommonListener {
         }
     }
 
-    public HttpSetting addUseCache(IMyActivity iMyActivity, HttpGroup httpGroup, String str, String str2, HttpGroup.OnCommonListener onCommonListener) {
-        return addUseCache(iMyActivity, httpGroup, str, str2, true, onCommonListener);
+    public HttpSetting addUseCache(IMyActivity iMyActivity, HttpGroup httpGroup, String functionID, String str2, HttpGroup.OnCommonListener onCommonListener) {
+        return addUseCache(iMyActivity, httpGroup, functionID, str2, true, onCommonListener);
     }
 
     @Override // com.jingdong.jdsdk.network.toolbox.HttpGroup.OnEndListener
@@ -253,9 +253,9 @@ public class CartHttpCacheUtil implements HttpGroup.OnCommonListener {
         this.loadingContainer = viewGroup;
     }
 
-    public HttpSetting addUseCache(IMyActivity iMyActivity, HttpGroup httpGroup, String str, String str2, boolean z, HttpGroup.OnCommonListener onCommonListener) {
+    public HttpSetting addUseCache(IMyActivity iMyActivity, HttpGroup httpGroup, String functionID, String str2, boolean z, HttpGroup.OnCommonListener onCommonListener) {
         this.group = httpGroup;
-        this.functionID = str;
+        this.functionID = functionID;
         this.onAllListener = onCommonListener;
         this.isPost = z;
         this.activity = iMyActivity;
@@ -268,7 +268,7 @@ public class CartHttpCacheUtil implements HttpGroup.OnCommonListener {
             httpSetting.setOnQueueCancelListener(onQueueCancelListener);
         }
         httpSetting.setModeId(JDGetWayQueueTools.QueueMode.MODE_CART);
-        httpSetting.setListener(new OnDiskCacheListener(str, str2) { // from class: com.jingdong.common.utils.CartHttpCacheUtil.1
+        httpSetting.setListener(new OnDiskCacheListener(functionID, str2) { // from class: com.jingdong.common.utils.CartHttpCacheUtil.1
             @Override // com.jingdong.common.cart.clean.OnDiskCacheListener
             public void endOperation(HttpResponse httpResponse) {
                 CartHttpCacheUtil.this.saveRequestId(httpResponse);
