@@ -50,8 +50,8 @@ class b implements d {
         /* renamed from: c  reason: collision with root package name */
         public String f12883c;
 
-        public a(b bVar, int i2, String str, long j2, String str2) {
-            this.a = str;
+        public a(b bVar, int i2, String libName, long j2, String str2) {
+            this.a = libName;
             this.b = j2;
             this.f12883c = str2;
         }
@@ -155,11 +155,11 @@ class b implements d {
     }
 
     /* JADX INFO: Access modifiers changed from: package-private */
-    public void k(int i2, String str, long j2, String str2) {
-        a aVar = new a(this, i2, str, j2, str2);
+    public void k(int i2, String libName, long j2, String str2) {
+        a aVar = new a(this, i2, libName, j2, str2);
         this.a.add(aVar);
         this.f12878c.put(Integer.valueOf(i2), aVar);
-        this.d.put(str, aVar);
+        this.d.put(libName, aVar);
         this.f12879e.put(str2, aVar);
         this.f12880f.put(Long.valueOf(j2), aVar);
     }

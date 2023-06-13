@@ -287,18 +287,18 @@ class c implements d {
     }
 
     @Override // com.jingdong.jdsdk.auraSetting.d
-    public String getBundleNameFromBundleId(int i2) {
-        return this.a.getBundleNameFromBundleId(i2);
+    public String getBundleNameFromBundleId(int id) {
+        return this.a.getBundleNameFromBundleId(id);
     }
 
     @Override // com.jingdong.jdsdk.auraSetting.d
-    public String getBundleNameFromUpdateID(String str) {
-        return this.a.getBundleNameFromUpdateID(str);
+    public String getBundleNameFromUpdateID(String UpdateID) {
+        return this.a.getBundleNameFromUpdateID(UpdateID);
     }
 
     @Override // com.jingdong.jdsdk.auraSetting.d
-    public String getUpdateIdFromBundleName(String str) {
-        return this.a.getUpdateIdFromBundleName(str);
+    public String getUpdateIdFromBundleName(String BundleName) {
+        return this.a.getUpdateIdFromBundleName(BundleName);
     }
 
     @Override // com.jingdong.jdsdk.auraSetting.d

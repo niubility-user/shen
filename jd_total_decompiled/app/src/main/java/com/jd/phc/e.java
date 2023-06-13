@@ -151,11 +151,11 @@ public class e {
                 JSONObject jSONObject = new JSONObject();
                 com.jd.phc.i.b.a("PHCEngine", "brian cipher type is :" + bVar.value());
                 if (bVar.value() == b.MODIFIED_BASE64.value()) {
-                    for (String str2 : map.keySet()) {
-                        String str3 = map.get(str2);
-                        String b2 = d.b(str3.getBytes());
-                        com.jd.phc.i.b.a("PHCEngine", "brian Encoded str of " + str3 + " is :" + b2);
-                        jSONObject.put(str2, b2);
+                    for (String key : map.keySet()) {
+                        String value = map.get(key);
+                        String encryptedValue = d.b(value.getBytes()); // 加密函数{@link com.jd.phc.d.b}
+                        com.jd.phc.i.b.a("PHCEngine", "brian Encoded str of " + value + " is :" + encryptedValue);
+                        jSONObject.put(key, encryptedValue);
                     }
                 } else {
                     byte[] c2 = PHCNativeLoader.f().c(bArr, str, this.b, order.array());
@@ -167,7 +167,7 @@ public class e {
                 jSONObject2.put("hdid", str);
                 jSONObject2.put("ts", currentTimeMillis);
                 jSONObject2.put("ridx", i2);
-                jSONObject2.put("cipher", jSONObject); // 加密函数
+                jSONObject2.put("cipher", jSONObject); // 加密字段
                 jSONObject2.put("ciphertype", bVar.value());
                 jSONObject2.put("version", com.jd.phc.c.a());
                 jSONObject2.put("appname", this.b);
